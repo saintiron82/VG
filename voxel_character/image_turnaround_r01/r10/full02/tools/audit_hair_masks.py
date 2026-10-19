@@ -1,0 +1,8 @@
+from pipeline import *
+
+def run():
+ m,a,src=load();out={};im=Image.new('RGB',(1536,690),'white');d=ImageDraw.Draw(im);d.text((10,10),'Actual hair masks | purple observed hair / orange enclosed nonhair pixels / white external gaps | no repair',fill='black')
+ for j,(name,v) in enumerate(C['views'].items()):
+  mask=a[name+'_hair_eligible'];cc,n=ndi.label(mask);inverse=~mask;seed=np.zeros_like(mask);seed[0]=inverse[0];seed[-1]=inverse[-1];seed[:,0]=inverse[:,0];seed[:,-1]=inverse[:,-1];external=ndi.binary_propagation(seed,mask=inverse);holes=inverse&~external;hc,hn=ndi.label(holes);x0,y0,x1,y1=v['crop'];rgb=src[y0:y1,x0:x1].astype(float);rgb[mask]=rgb[mask]*.45+[70,30,115];rgb[holes]=rgb[holes]*.4+[145,75,10];pic=Image.fromarray(rgb.clip(0,255).astype('uint8'));pic.thumbnail((500,624));im.paste(pic,(j*512,40));d.text((j*512+10,665),name,fill='black');out[name]={'hair_pixels':int(mask.sum()),'four_connected_components':int(n),'component_sizes':sorted(np.bincount(cc.ravel())[1:].tolist(),reverse=True),'enclosed_nonhair_pixels':int(holes.sum()),'enclosed_nonhair_components':int(hn),'enclosed_component_sizes':sorted(np.bincount(hc.ravel())[1:].tolist(),reverse=True),'color_based_mask_is_not_semantic_solid':'Internal omitted pixels include actual face/ornaments/background gaps and color/shading threshold misses; no automatic hole filling permitted.'}
+ im.save(BASE/'generated/hair_mask_diagnostic.jpg',quality=87);write(BASE/'evidence/hair_mask_audit.json',out);print(json.dumps({k:{kk:vv for kk,vv in q.items()if not kk.endswith('sizes')}for k,q in out.items()}))
+if __name__=='__main__':run()

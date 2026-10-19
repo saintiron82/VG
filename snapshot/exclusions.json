@@ -1,0 +1,93 @@
+{
+  "schema": "vg.public-source-exclusions.v1",
+  "scope": "Public source preservation only. This is an explicit filtered export, not a full game release.",
+  "private_inputs": {
+    "included": false,
+    "patterns": [
+      "world_city/reference/** except selected source scripts",
+      "voxel_character/**/reference/**",
+      "voxel_character/reference_turnarounds_r01/**",
+      "voxel_character/three_head_reference_r01/**",
+      "image-dependent annotations, prompts, photographs, source images and generated image outputs"
+    ],
+    "retained_separately": "Measurement, registration, reconstruction and validation source is preserved where safe. Its original reference inputs are deliberately unavailable."
+  },
+  "generated_or_large_outputs": {
+    "included": false,
+    "categories": [
+      "voxel meshes and compiled cell caches",
+      "render caches, packed scenes and generated game payloads",
+      "full runtime city scenes and frozen baseline scene dependencies",
+      "evidence, benchmark logs and screenshot galleries",
+      "archives, checkpoints, delivery copies and migration backups",
+      "engine executables, imported Godot caches and OS/runtime homes"
+    ]
+  },
+  "metadata": {
+    "included": false,
+    "categories": [
+      "original recovery and delivery manifests",
+      "private service references and identifiers",
+      "conversational attribution and user quotations",
+      "private credentials or authentication data"
+    ]
+  },
+  "bounded_data_policy": "Selected procedural JSON design inputs, schemas, fixtures, and bounded canonical dependencies are included. Other JSON and oversized dependencies are omitted. The source manifest is authoritative for what is present.",
+  "privacy_transformations": [
+    {
+      "path": "voxel_character/image_turnaround_r01/r10/continuous06/tools/prepare_closure.py",
+      "source_sha256": "bfa90dc60f47f3ed3e8c228f3b637b920afcd6bc1a858fd1556d1241b730f7d1",
+      "sha256": "cc068f71c77ea477ad753b4c7de63903bb53d38d2411f611961825b51efe9719",
+      "preservation": "sanitized_source_metadata"
+    },
+    {
+      "path": "voxel_character/image_turnaround_r01/r11_chroma/tools/validate_local_edit.py",
+      "source_sha256": "71c14cbc2a882fc8fb5d12f739e7410a293fa515df7213e3d1a26d00f762bd95",
+      "sha256": "92f4fdc819c2a800872592c5f5c3785d223de13bb8141e79ea9d7870fed71ba2",
+      "preservation": "sanitized_source_metadata"
+    },
+    {
+      "path": "voxel_character/image_turnaround_r01/r11_chroma/tools/validate_single.py",
+      "source_sha256": "ab1316dbf16ca691b98f49481e73a88b43a6fbc65ab76407e1812025bd1f7bba",
+      "sha256": "e6609ff96f619104355fa6e6e067613b026932426b9ea9a240a52d1c35184343",
+      "preservation": "sanitized_source_metadata"
+    },
+    {
+      "path": "world_city/city_history.json",
+      "source_sha256": "376d1b6c9456e74174e202739de9131225782fce3bd95ca93b29ef6ddc44395d",
+      "sha256": "2c8dfa56b54d682c1c231be7f6e03be3e7360780e6f5b94d4a827d2f888e5cdb",
+      "preservation": "sanitized_metadata"
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/coverage_r5_draft_01/audit_ordinary_sizes.py",
+      "source_sha256": "02b37254df1c0dcb4fbe2405e7041051720753d0a0e28c3b5860dabd6958574c",
+      "sha256": "e7ef424707fa00c89b52a47708e0d990f9e7733da92649bb52fe39c6c994a46f",
+      "preservation": "sanitized_source_metadata"
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/waterworks/registered_bridge/drawbridge_candidate/author.py",
+      "source_sha256": "ffc799fd1957e5aa2af2e4aa04a54b72ad9cea5059a73d5b2daa99597f9961a5",
+      "sha256": "4774e7b9b1302a896a87de942f3f7a5224d43ec9d733b0b51b0db45a7358f13a",
+      "preservation": "sanitized_source_metadata"
+    },
+    {
+      "path": "world_city/reference/house_quality_photos_20261019/six_views_r01/make_template.py",
+      "source_sha256": "bc74ea70f7d2eb882fabca81ad3e758f1f42046e8dba8bd72c14beccb5d470e8",
+      "sha256": "e6a2fa3ff73153e76823cad0b92f69163770594f7ce5122255647e247c80ac86",
+      "preservation": "sanitized_source_metadata"
+    },
+    {
+      "path": "world_city/runtime_city/revisions/r2/author_history.py",
+      "source_sha256": "5054f9254f196cb023a945a38557544ee94763cab2672d38e9ea179e23a39253",
+      "sha256": "d0fed62e4ead09a3762d6f0dd170a639b560809622073a2cd844741b1e354b15",
+      "preservation": "sanitized_source_metadata"
+    }
+  ],
+  "build_limitations": [
+    "No full runtime/build/physics closure is asserted.",
+    "Some historical procedural scripts need omitted generated baselines or evidence inputs.",
+    "Image-dependent experiment sources cannot reproduce their results without unavailable original inputs.",
+    "Metadata sanitation changes source/data hashes; old provenance hashes can intentionally fail closed.",
+    "No historical restore, deployment, archive or end-to-end game command was validated for this export."
+  ]
+}

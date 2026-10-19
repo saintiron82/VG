@@ -1,0 +1,419 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_abbey_orchard_pedestrian_guard_r01",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "timber": "654631",
+    "timber_light": "896143",
+    "timber_dark": "493729",
+    "iron": "394648",
+    "iron_light": "68736c",
+    "slate": "646f73",
+    "slate_light": "748085",
+    "slate_dark": "4a565c",
+    "slate_worn": "879096"
+  },
+  "coordinate_planes": [],
+  "components": [
+    {
+      "id": "timber_guard",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "runtime_animation": "not_integrated"
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "embedded_post_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              -1,
+              -3.0
+            ],
+            "max": [
+              0.1,
+              0.9,
+              -2.8
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "embedded_post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              -1,
+              -1.1
+            ],
+            "max": [
+              0.1,
+              0.9,
+              -0.9
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "embedded_post_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              -1,
+              0.9
+            ],
+            "max": [
+              0.1,
+              0.9,
+              1.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "embedded_post_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              -1,
+              2.8
+            ],
+            "max": [
+              0.1,
+              0.9,
+              3.0
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "continuous_rail_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              0.1,
+              -3
+            ],
+            "max": [
+              0.1,
+              0.25,
+              3
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "continuous_rail_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              0.4,
+              -3
+            ],
+            "max": [
+              0.1,
+              0.55,
+              3
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "continuous_rail_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              0.75,
+              -3
+            ],
+            "max": [
+              0.1,
+              0.9,
+              3
+            ]
+          },
+          "material": "timber"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "timber_guard",
+      "component": "timber_guard"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "part_present",
+      "kind": "nonempty",
+      "selector": {}
+    },
+    {
+      "id": "timber_guard_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "timber_guard"
+      }
+    }
+  ],
+  "provenance": {
+    "author": {
+      "path": "world_city/runtime_city/parts/author.py",
+      "sha256": "e64ff087cc0b6231c95043bf82839adc706ff00201ba622961a122ef161397ab"
+    },
+    "source_files": [
+      {
+        "path": "voxel_character/common/assets/house/master.json",
+        "sha256": "8c46e2372049a7f991af4aeda70e19cceaab775a96af3bdaf3662d65885305c3"
+      },
+      {
+        "path": "voxel_character/common/assets/fountain/master.json",
+        "sha256": "49d9288b70dd1ae36a9d3af2fefb5f6130caf9a8384bdbf11f677d558846d593"
+      },
+      {
+        "path": "world_city/runtime_city/revisions/r2/city_history.r2.candidate.json",
+        "sha256": "46f4ad745219f4b52a20150b4d926a91a47d839b746d4a25f539108e6e920699"
+      },
+      {
+        "path": "world_city/reference/revision_02/city_terrain_concept.png",
+        "sha256": "7f86e8e7b28058cc70227e098e4cc65edd3aa3f94ba541683482540187cc53f1"
+      },
+      {
+        "path": "world_city/reference/revision_02/prompt.txt",
+        "sha256": "c641d75651c42156f933a166653676d51cde13029c08f86f56d9f02d59fd0114"
+      }
+    ],
+    "observed": "Existing common schema, palette roles, landmark/infrastructure/topography source interfaces.",
+    "inferred": "All new part geometry, dimensions, sockets, support zones and mechanical proportions.",
+    "image_basis": "Revision 02 whole-city concept inspected for facility families only; exact part dimensions are source/design inferences, not measured from pixels.",
+    "evidence": "fictional_game_design_inference_not_historical_reconstruction",
+    "material_policy": "Original house warm stone/timber roles; canonical r2 gray slate for roof roles. Old masters remain unchanged.",
+    "new_engine": false,
+    "addon_author": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r04/abbey_guard_r01/build_guard.py",
+      "sha256": "08ac9a58beaf1d0d20b65fbddf547713f1518110fc68cdb960e0e5d1a1f95eaa"
+    },
+    "fixed_edge_request": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r04/access_r02/abbey_shoulder_request.json",
+      "sha256": "b584c521b2d71899dc2a26aa370bb2ed0f25f6603af120679dd0ffb975cf20a4"
+    },
+    "revision02_prompt_status": "Explicit reconstruction notice; original prompt unavailable."
+  },
+  "extensions": {
+    "part_kind": "abbey_orchard_pedestrian_guard",
+    "status": "staged_prototype_needs_art_review",
+    "local_bounds_m": {
+      "min": [
+        -0.1,
+        -1,
+        -3
+      ],
+      "max": [
+        0.1,
+        0.9,
+        3
+      ]
+    },
+    "footprint_xz_m": [
+      [
+        -0.1,
+        -3
+      ],
+      [
+        0.1,
+        -3
+      ],
+      [
+        0.1,
+        3
+      ],
+      [
+        -0.1,
+        3
+      ]
+    ],
+    "sockets": [],
+    "supports": [
+      {
+        "id": "post_0",
+        "contact_region_m": {
+          "kind": "box",
+          "min": [
+            -0.1,
+            -1,
+            -3.0
+          ],
+          "max": [
+            0.1,
+            -0.8,
+            -2.8
+          ]
+        },
+        "requires": "Inherited shoulder; terrain remains under these embedded post feet.",
+        "status": "geometric_interface_only_not_structural_engineering"
+      },
+      {
+        "id": "post_1",
+        "contact_region_m": {
+          "kind": "box",
+          "min": [
+            -0.1,
+            -1,
+            -1.1
+          ],
+          "max": [
+            0.1,
+            -0.8,
+            -0.9
+          ]
+        },
+        "requires": "Inherited shoulder; terrain remains under these embedded post feet.",
+        "status": "geometric_interface_only_not_structural_engineering"
+      },
+      {
+        "id": "post_2",
+        "contact_region_m": {
+          "kind": "box",
+          "min": [
+            -0.1,
+            -1,
+            0.9
+          ],
+          "max": [
+            0.1,
+            -0.8,
+            1.1
+          ]
+        },
+        "requires": "Inherited shoulder; terrain remains under these embedded post feet.",
+        "status": "geometric_interface_only_not_structural_engineering"
+      },
+      {
+        "id": "post_3",
+        "contact_region_m": {
+          "kind": "box",
+          "min": [
+            -0.1,
+            -1,
+            2.8
+          ],
+          "max": [
+            0.1,
+            -0.8,
+            3.0
+          ]
+        },
+        "requires": "Inherited shoulder; terrain remains under these embedded post feet.",
+        "status": "geometric_interface_only_not_structural_engineering"
+      }
+    ],
+    "clearances": [
+      {
+        "id": "full_pedestrian_strip",
+        "region_m": {
+          "kind": "box",
+          "min": [
+            -2.0,
+            -0.02,
+            -3
+          ],
+          "max": [
+            -0.15,
+            2,
+            3
+          ]
+        },
+        "purpose": "Keep the declared 1.8 m travel ribbon west of the rail empty; tested against cached footprint.",
+        "placement_must_reserve": true,
+        "source_empty_constraint": false
+      }
+    ],
+    "functional_connections": [],
+    "animation_hooks": [],
+    "lod": {
+      "policy": "Every pitch is compiled independently from this single continuous master.",
+      "source_geometry_changes_by_lod": false,
+      "output_cell_edits_allowed": false,
+      "collision_changes_by_lod": false,
+      "collision_status": "not_integrated",
+      "candidate_visual_pitches_m": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "coarse_functional_guarantee": false,
+      "thin_rope_policy": "Existing common tube minimum_radius_cells=0.75 preserves crane/hoist visual lines; no physics shape or output cells are changed.",
+      "coarse_action": "Reject a functional use if sampled clearance or support checks fail."
+    },
+    "smoke_pitch_m": 0.1,
+    "design_notes": [],
+    "city_placement": null,
+    "terrain_placement": null,
+    "visual_review": "not_run",
+    "whole_city_complete": false,
+    "release_gate": "New concept review, material/silhouette review, placement/support checks, traversal and runtime integration remain open.",
+    "placement_origin_m": [
+      -149.45,
+      8,
+      224.5
+    ],
+    "exposed_retained_edge": {
+      "x_m": -149.6,
+      "z_range_m": [
+        222.167089675,
+        226.969529341
+      ],
+      "floor_y_m": 8
+    },
+    "finished_guard_top_y_m": 8.9,
+    "travel_width_m": 1.8,
+    "structural_certification": false,
+    "actual_placed": false,
+    "actual_viewed": false
+  }
+}

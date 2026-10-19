@@ -1,0 +1,1233 @@
+{
+  "schema": "riverstone.precinct_native_support.resolved.v1",
+  "source_pack_sha256": "a351eb3dfed14c2218a7f7c39720f09c578952de3ccb9db1ce4de1175f5df83a",
+  "asset_key": "registered_abbey_bearing_support_r14",
+  "source": {
+    "path": "world_city/concept_city_v3/registered_topography/revisions/r14_precinct_merchant/support/abbey_support.master.json",
+    "sha256": "5a4c2726f6956145abd8d5ab8fe9a47f296fd192c30c6885f5f06ab4645d66cd"
+  },
+  "cache": {
+    "path": "world_city/concept_city_v3/registered_topography/revisions/r14_precinct_merchant/support/abbey_support.render.json",
+    "sha256": "016993a1e3c82ed7279e4c7e9bd85fa559a6bed7f18a2b5b5f152ea785adbe8c"
+  },
+  "position_m": [
+    -330,
+    0,
+    240
+  ],
+  "yaw_rad": 0,
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "pitch_m": 0.5,
+  "cell_count": 2266,
+  "quad_count": 252,
+  "candidate_cells": 2266,
+  "elapsed_s": 0.048918147000222234,
+  "bounds": {
+    "min": [
+      -4.0,
+      2.0,
+      7.0
+    ],
+    "max": [
+      85.0,
+      7.5,
+      28.0
+    ]
+  },
+  "bearing_contract": [
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1613",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -333.0,
+          247.0
+        ],
+        [
+          -333.0,
+          247.5
+        ],
+        [
+          -334.0,
+          247.5
+        ],
+        [
+          -334.0,
+          247.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1614",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -332.0,
+          247.5
+        ],
+        [
+          -332.0,
+          248.0
+        ],
+        [
+          -333.0,
+          248.0
+        ],
+        [
+          -333.0,
+          247.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1615",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -330.5,
+          248.0
+        ],
+        [
+          -330.5,
+          248.5
+        ],
+        [
+          -332.0,
+          248.5
+        ],
+        [
+          -332.0,
+          248.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1616",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -329.5,
+          248.5
+        ],
+        [
+          -329.5,
+          249.0
+        ],
+        [
+          -331.0,
+          249.0
+        ],
+        [
+          -331.0,
+          248.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1617",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -328.5,
+          249.0
+        ],
+        [
+          -328.5,
+          249.5
+        ],
+        [
+          -330.0,
+          249.5
+        ],
+        [
+          -330.0,
+          249.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1618",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -327.5,
+          249.5
+        ],
+        [
+          -327.5,
+          250.0
+        ],
+        [
+          -329.0,
+          250.0
+        ],
+        [
+          -329.0,
+          249.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1619",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -326.5,
+          250.0
+        ],
+        [
+          -326.5,
+          250.5
+        ],
+        [
+          -328.0,
+          250.5
+        ],
+        [
+          -328.0,
+          250.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1620",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -325.5,
+          250.5
+        ],
+        [
+          -325.5,
+          251.0
+        ],
+        [
+          -327.0,
+          251.0
+        ],
+        [
+          -327.0,
+          250.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1621",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -324.5,
+          251.0
+        ],
+        [
+          -324.5,
+          251.5
+        ],
+        [
+          -326.0,
+          251.5
+        ],
+        [
+          -326.0,
+          251.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1622",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -323.5,
+          251.5
+        ],
+        [
+          -323.5,
+          252.0
+        ],
+        [
+          -325.0,
+          252.0
+        ],
+        [
+          -325.0,
+          251.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1623",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -322.5,
+          252.0
+        ],
+        [
+          -322.5,
+          252.5
+        ],
+        [
+          -324.0,
+          252.5
+        ],
+        [
+          -324.0,
+          252.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1625",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -321.5,
+          252.5
+        ],
+        [
+          -321.5,
+          253.0
+        ],
+        [
+          -322.5,
+          253.0
+        ],
+        [
+          -322.5,
+          252.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1626",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -320.5,
+          253.0
+        ],
+        [
+          -320.5,
+          253.5
+        ],
+        [
+          -321.5,
+          253.5
+        ],
+        [
+          -321.5,
+          253.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1627",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -319.5,
+          253.5
+        ],
+        [
+          -319.5,
+          254.0
+        ],
+        [
+          -320.5,
+          254.0
+        ],
+        [
+          -320.5,
+          253.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1628",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -318.0,
+          254.0
+        ],
+        [
+          -318.0,
+          254.5
+        ],
+        [
+          -319.5,
+          254.5
+        ],
+        [
+          -319.5,
+          254.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1629",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -317.0,
+          254.5
+        ],
+        [
+          -317.0,
+          255.0
+        ],
+        [
+          -318.5,
+          255.0
+        ],
+        [
+          -318.5,
+          254.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1630",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -316.0,
+          255.0
+        ],
+        [
+          -316.0,
+          255.5
+        ],
+        [
+          -317.5,
+          255.5
+        ],
+        [
+          -317.5,
+          255.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1631",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -315.0,
+          255.5
+        ],
+        [
+          -315.0,
+          256.0
+        ],
+        [
+          -316.5,
+          256.0
+        ],
+        [
+          -316.5,
+          255.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1632",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -314.0,
+          256.0
+        ],
+        [
+          -314.0,
+          256.5
+        ],
+        [
+          -315.5,
+          256.5
+        ],
+        [
+          -315.5,
+          256.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1633",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -313.0,
+          256.5
+        ],
+        [
+          -313.0,
+          257.0
+        ],
+        [
+          -314.5,
+          257.0
+        ],
+        [
+          -314.5,
+          256.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1634",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -312.0,
+          257.0
+        ],
+        [
+          -312.0,
+          257.5
+        ],
+        [
+          -313.5,
+          257.5
+        ],
+        [
+          -313.5,
+          257.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1635",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -311.0,
+          257.5
+        ],
+        [
+          -311.0,
+          258.0
+        ],
+        [
+          -312.5,
+          258.0
+        ],
+        [
+          -312.5,
+          257.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1636",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -310.0,
+          258.0
+        ],
+        [
+          -310.0,
+          258.5
+        ],
+        [
+          -311.5,
+          258.5
+        ],
+        [
+          -311.5,
+          258.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1637",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -309.0,
+          258.5
+        ],
+        [
+          -309.0,
+          259.0
+        ],
+        [
+          -310.0,
+          259.0
+        ],
+        [
+          -310.0,
+          258.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1638",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -308.0,
+          259.0
+        ],
+        [
+          -308.0,
+          259.5
+        ],
+        [
+          -309.0,
+          259.5
+        ],
+        [
+          -309.0,
+          259.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1639",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -306.5,
+          259.5
+        ],
+        [
+          -306.5,
+          260.0
+        ],
+        [
+          -308.0,
+          260.0
+        ],
+        [
+          -308.0,
+          259.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1640",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -305.5,
+          260.0
+        ],
+        [
+          -305.5,
+          260.5
+        ],
+        [
+          -307.0,
+          260.5
+        ],
+        [
+          -307.0,
+          260.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1641",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -304.5,
+          260.5
+        ],
+        [
+          -304.5,
+          261.0
+        ],
+        [
+          -306.0,
+          261.0
+        ],
+        [
+          -306.0,
+          260.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1642",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -303.5,
+          261.0
+        ],
+        [
+          -303.5,
+          261.5
+        ],
+        [
+          -305.0,
+          261.5
+        ],
+        [
+          -305.0,
+          261.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1643",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -302.5,
+          261.5
+        ],
+        [
+          -302.5,
+          262.0
+        ],
+        [
+          -304.0,
+          262.0
+        ],
+        [
+          -304.0,
+          261.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1644",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -301.5,
+          262.0
+        ],
+        [
+          -301.5,
+          262.5
+        ],
+        [
+          -303.0,
+          262.5
+        ],
+        [
+          -303.0,
+          262.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1645",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -300.5,
+          262.5
+        ],
+        [
+          -300.5,
+          263.0
+        ],
+        [
+          -302.0,
+          263.0
+        ],
+        [
+          -302.0,
+          262.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1646",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -299.5,
+          263.0
+        ],
+        [
+          -299.5,
+          263.5
+        ],
+        [
+          -301.0,
+          263.5
+        ],
+        [
+          -301.0,
+          263.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1647",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -298.5,
+          263.5
+        ],
+        [
+          -298.5,
+          264.0
+        ],
+        [
+          -300.0,
+          264.0
+        ],
+        [
+          -300.0,
+          263.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1648",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -297.5,
+          264.0
+        ],
+        [
+          -297.5,
+          264.5
+        ],
+        [
+          -298.5,
+          264.5
+        ],
+        [
+          -298.5,
+          264.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1649",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -296.5,
+          264.5
+        ],
+        [
+          -296.5,
+          265.0
+        ],
+        [
+          -297.5,
+          265.0
+        ],
+        [
+          -297.5,
+          264.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1650",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -295.5,
+          265.0
+        ],
+        [
+          -295.5,
+          265.5
+        ],
+        [
+          -296.5,
+          265.5
+        ],
+        [
+          -296.5,
+          265.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1651",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -294.0,
+          265.5
+        ],
+        [
+          -294.0,
+          266.0
+        ],
+        [
+          -295.5,
+          266.0
+        ],
+        [
+          -295.5,
+          265.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1652",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -293.0,
+          266.0
+        ],
+        [
+          -293.0,
+          266.5
+        ],
+        [
+          -294.5,
+          266.5
+        ],
+        [
+          -294.5,
+          266.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1653",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -292.0,
+          266.5
+        ],
+        [
+          -292.0,
+          267.0
+        ],
+        [
+          -293.5,
+          267.0
+        ],
+        [
+          -293.5,
+          266.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1654",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -291.0,
+          267.0
+        ],
+        [
+          -291.0,
+          267.5
+        ],
+        [
+          -292.5,
+          267.5
+        ],
+        [
+          -292.5,
+          267.0
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    },
+    {
+      "id": "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1655",
+      "placement_id": "ABBEY_SOUTH_GARDEN_SERVICE",
+      "polygon_xz_m": [
+        [
+          -245.0,
+          267.5
+        ],
+        [
+          -245.0,
+          268.0
+        ],
+        [
+          -291.5,
+          268.0
+        ],
+        [
+          -291.5,
+          267.5
+        ]
+      ],
+      "bottom_y_m": 7.5,
+      "finished_floor_y_m": 8,
+      "sampled_land_min_m": 2.2,
+      "sampled_land_max_m": 8,
+      "maximum_vertex_gap_m": 5.3,
+      "ownership_policy": "Full actual opaque bearing footprint; support/retaining fill must reach the existing finite land field. This is separate from upward walkable floor masks."
+    }
+  ],
+  "status": "bounded native support candidate; exact occupied-column coverage and top contact tests pass",
+  "audit": {
+    "tests": 4,
+    "native_columns": 206,
+    "native_cells": 2266,
+    "top_contact_y_m": 7.5,
+    "minimum_soil_burial_m": 0.2,
+    "source_area_m2": 51.5,
+    "actual_upward_area_m2": 51.5,
+    "public_traffic_overlap_m2": 0,
+    "water_overlap_m2": 0,
+    "cross_mesh_contact_faces": "Native support top and original footing bottom coincide as buried contact faces; no cross-mesh hidden-face removal implemented.",
+    "traversal_claim": false
+  }
+}

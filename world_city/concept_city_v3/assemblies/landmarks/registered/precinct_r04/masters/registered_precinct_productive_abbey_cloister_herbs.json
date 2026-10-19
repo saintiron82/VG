@@ -1,0 +1,1053 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_precinct_productive_abbey_cloister_herbs",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "timber": "654631",
+    "timber_light": "896143",
+    "timber_dark": "493729",
+    "iron": "394648",
+    "iron_light": "68736c",
+    "slate": "646f73",
+    "slate_light": "748085",
+    "slate_dark": "4a565c",
+    "slate_worn": "879096",
+    "productive_ground": "77765a"
+  },
+  "coordinate_planes": [],
+  "components": [
+    {
+      "id": "ground",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "runtime_animation": "not_integrated"
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "owned_court_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -20.375009716744273,
+                2.4205328013843257
+              ],
+              [
+                1.0112790850257056,
+                20.49334805765494
+              ],
+              [
+                20.375009716744245,
+                -2.4205328013843257
+              ],
+              [
+                -1.0112790850257056,
+                -20.49334805765494
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 0
+          },
+          "material": "productive_ground",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "boundary",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "runtime_animation": "not_integrated"
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "boundary_0_0_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -20.375009716744273,
+                2.4205328013843257
+              ],
+              [
+                -15.028437516301778,
+                6.93873661545198
+              ],
+              [
+                -14.641162903667407,
+                6.480458998271196
+              ],
+              [
+                -19.987735104109902,
+                1.962255184203542
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_0_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -15.028437516301778,
+                6.93873661545198
+              ],
+              [
+                -9.681865315859284,
+                11.456940429519634
+              ],
+              [
+                -9.294590703224912,
+                10.99866281233885
+              ],
+              [
+                -14.641162903667407,
+                6.480458998271196
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_0_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -9.681865315859284,
+                11.456940429519634
+              ],
+              [
+                -4.335293115416789,
+                15.975144243587287
+              ],
+              [
+                -3.9480185027824177,
+                15.516866626406504
+              ],
+              [
+                -9.294590703224912,
+                10.99866281233885
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_0_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -4.335293115416789,
+                15.975144243587287
+              ],
+              [
+                1.0112790850257056,
+                20.49334805765494
+              ],
+              [
+                1.398553697660077,
+                20.035070440474158
+              ],
+              [
+                -3.9480185027824177,
+                15.516866626406504
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_1_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                1.0112790850257056,
+                20.49334805765494
+              ],
+              [
+                4.5612963675074525,
+                16.292469900164406
+              ],
+              [
+                4.103018750326669,
+                15.905195287530034
+              ],
+              [
+                0.553001467844922,
+                20.10607344502057
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_1_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                7.1431271184032425,
+                13.237285785625843
+              ],
+              [
+                11.553754651183567,
+                8.01801292328912
+              ],
+              [
+                11.095477034002784,
+                7.630738310654749
+              ],
+              [
+                6.684849501222459,
+                12.850011172991472
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_1_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                11.553754651183567,
+                8.01801292328912
+              ],
+              [
+                15.96438218396392,
+                2.7987400609523974
+              ],
+              [
+                15.506104566783137,
+                2.411465448318026
+              ],
+              [
+                11.095477034002784,
+                7.630738310654749
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_1_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                15.96438218396392,
+                2.7987400609523974
+              ],
+              [
+                20.375009716744245,
+                -2.4205328013843257
+              ],
+              [
+                19.91673209956346,
+                -2.807807414018697
+              ],
+              [
+                15.506104566783137,
+                2.411465448318026
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_2_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                20.375009716744245,
+                -2.4205328013843257
+              ],
+              [
+                15.02843751630175,
+                -6.9387366154519725
+              ],
+              [
+                14.641162903667379,
+                -6.480458998271189
+              ],
+              [
+                19.987735104109873,
+                -1.962255184203542
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_2_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                15.02843751630175,
+                -6.9387366154519725
+              ],
+              [
+                9.681865315859284,
+                -11.456940429519634
+              ],
+              [
+                9.294590703224912,
+                -10.99866281233885
+              ],
+              [
+                14.641162903667379,
+                -6.480458998271189
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_2_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                9.681865315859284,
+                -11.456940429519634
+              ],
+              [
+                4.335293115416789,
+                -15.975144243587295
+              ],
+              [
+                3.9480185027824177,
+                -15.516866626406511
+              ],
+              [
+                9.294590703224912,
+                -10.99866281233885
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_2_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                4.335293115416789,
+                -15.975144243587295
+              ],
+              [
+                -1.0112790850257056,
+                -20.49334805765494
+              ],
+              [
+                -1.398553697660077,
+                -20.035070440474158
+              ],
+              [
+                3.9480185027824177,
+                -15.516866626406511
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_3_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -1.0112790850257056,
+                -20.49334805765494
+              ],
+              [
+                -5.852211742955319,
+                -14.764877842895118
+              ],
+              [
+                -5.3939341257745355,
+                -14.377603230260746
+              ],
+              [
+                -0.553001467844922,
+                -20.10607344502057
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_3_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -5.852211742955319,
+                -14.764877842895118
+              ],
+              [
+                -10.69314440088499,
+                -9.036407628135308
+              ],
+              [
+                -10.234866783704206,
+                -8.649133015500936
+              ],
+              [
+                -5.3939341257745355,
+                -14.377603230260746
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_3_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -10.69314440088499,
+                -9.036407628135308
+              ],
+              [
+                -15.53407705881466,
+                -3.307937413375484
+              ],
+              [
+                -15.075799441633876,
+                -2.9206628007411126
+              ],
+              [
+                -10.234866783704206,
+                -8.649133015500936
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "boundary_0_3_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -15.53407705881466,
+                -3.307937413375484
+              ],
+              [
+                -20.375009716744273,
+                2.4205328013843257
+              ],
+              [
+                -19.91673209956349,
+                2.807807414018697
+              ],
+              [
+                -15.075799441633876,
+                -2.9206628007411126
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 2.0
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "ground",
+      "component": "ground"
+    },
+    {
+      "id": "boundary",
+      "component": "boundary"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "part_present",
+      "kind": "nonempty",
+      "selector": {}
+    },
+    {
+      "id": "ground_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "ground"
+      }
+    },
+    {
+      "id": "boundary_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "boundary"
+      }
+    }
+  ],
+  "provenance": {
+    "author": {
+      "path": "world_city/runtime_city/parts/author.py",
+      "sha256": "e64ff087cc0b6231c95043bf82839adc706ff00201ba622961a122ef161397ab"
+    },
+    "source_files": [
+      {
+        "path": "voxel_character/common/assets/house/master.json",
+        "sha256": "8c46e2372049a7f991af4aeda70e19cceaab775a96af3bdaf3662d65885305c3"
+      },
+      {
+        "path": "voxel_character/common/assets/fountain/master.json",
+        "sha256": "49d9288b70dd1ae36a9d3af2fefb5f6130caf9a8384bdbf11f677d558846d593"
+      },
+      {
+        "path": "world_city/runtime_city/revisions/r2/city_history.r2.candidate.json",
+        "sha256": "46f4ad745219f4b52a20150b4d926a91a47d839b746d4a25f539108e6e920699"
+      },
+      {
+        "path": "world_city/reference/revision_02/city_terrain_concept.png",
+        "sha256": "7f86e8e7b28058cc70227e098e4cc65edd3aa3f94ba541683482540187cc53f1"
+      },
+      {
+        "path": "world_city/reference/revision_02/prompt.txt",
+        "sha256": "c641d75651c42156f933a166653676d51cde13029c08f86f56d9f02d59fd0114"
+      }
+    ],
+    "observed": "Existing common schema, palette roles, landmark/infrastructure/topography source interfaces.",
+    "inferred": "All new part geometry, dimensions, sockets, support zones and mechanical proportions.",
+    "image_basis": "Revision 02 whole-city concept inspected for facility families only; exact part dimensions are source/design inferences, not measured from pixels.",
+    "evidence": "fictional_game_design_inference_not_historical_reconstruction",
+    "material_policy": "Original house warm stone/timber roles; canonical r2 gray slate for roof roles. Old masters remain unchanged.",
+    "new_engine": false,
+    "recovery_author": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r04/author_grounds.py",
+      "sha256": "747b3f2bd3f5a3beb411e4cc969c732d9ad56b540e72909404b4773c5e196d97"
+    },
+    "revision02_prompt_status": "Explicit reconstruction notice; original bytes unavailable."
+  },
+  "extensions": {
+    "part_kind": "precinct_ground_ABBEY_CLOISTER_HERBS",
+    "status": "staged_prototype_needs_art_review",
+    "local_bounds_m": {
+      "min": [
+        -100,
+        -0.5,
+        -100
+      ],
+      "max": [
+        100,
+        2.5,
+        100
+      ]
+    },
+    "footprint_xz_m": [
+      [
+        -100,
+        -100
+      ],
+      [
+        100,
+        -100
+      ],
+      [
+        100,
+        100
+      ],
+      [
+        -100,
+        100
+      ]
+    ],
+    "sockets": [],
+    "supports": [],
+    "clearances": [],
+    "functional_connections": [],
+    "animation_hooks": [],
+    "lod": {
+      "policy": "Every pitch is compiled independently from this single continuous master.",
+      "source_geometry_changes_by_lod": false,
+      "output_cell_edits_allowed": false,
+      "collision_changes_by_lod": false,
+      "collision_status": "not_integrated",
+      "candidate_visual_pitches_m": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "coarse_functional_guarantee": false,
+      "thin_rope_policy": "Existing common tube minimum_radius_cells=0.75 preserves crane/hoist visual lines; no physics shape or output cells are changed.",
+      "coarse_action": "Reject a functional use if sampled clearance or support checks fail."
+    },
+    "smoke_pitch_m": 0.2,
+    "design_notes": [],
+    "city_placement": null,
+    "terrain_placement": null,
+    "visual_review": "not_run",
+    "whole_city_complete": false,
+    "release_gate": "New concept review, material/silhouette review, placement/support checks, traversal and runtime integration remain open.",
+    "real_gate": {
+      "id": "ABBEY_CLOISTER_HERBS:main_gate",
+      "loop_index": 0,
+      "edge_index": 1,
+      "edge_t": 0.25,
+      "center_xz_m": [
+        -263.1477882570447,
+        55.235122157104875
+      ],
+      "inward_xz": [
+        -0.7637960286346419,
+        0.645457687723951
+      ],
+      "inside_xz_m": [
+        -265.4391763429486,
+        57.171495220276725
+      ],
+      "outside_xz_m": [
+        -261.6201961997754,
+        53.94420678165697
+      ],
+      "clear_width_m": 4,
+      "floor_y_m": 8,
+      "public_target_id": "MARKET_CONTOUR",
+      "public_target_xz_m": [
+        -244.1610283180769,
+        -5.446513979944332
+      ],
+      "exterior_status": "target only; exact exterior path and grade pending"
+    },
+    "world_anchor_xz_m": [
+      -269,
+      70
+    ],
+    "host_bench_y_m": 8,
+    "productive_function": "cloister_herbs"
+  }
+}

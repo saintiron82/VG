@@ -1,0 +1,7398 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "working_r01_bank_joinery",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "plaster": "d8c6a2",
+    "plaster_light": "e4d4b4",
+    "plaster_dark": "c7b58f",
+    "timber": "654631",
+    "timber_light": "896143",
+    "timber_dark": "493729",
+    "endgrain": "9c7850",
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "slate": "45676a",
+    "slate_light": "658284",
+    "slate_dark": "355157",
+    "slate_worn": "7b8f8a",
+    "iron": "394648",
+    "iron_light": "68736c",
+    "glass": "314d55",
+    "glass_light": "54716e",
+    "door": "946b45",
+    "door_dark": "6f4e34"
+  },
+  "components": [
+    {
+      "id": "N00_foundation",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "continuous_stone_plinth",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "plinth",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.5,
+              0,
+              -4.5
+            ],
+            "max": [
+              4.5,
+              0.5,
+              3.6
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "threshold",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5700000000000003,
+              0,
+              3.5
+            ],
+            "max": [
+              -1.4700000000000004,
+              0.5,
+              5.0
+            ]
+          },
+          "material": "stone_light"
+        }
+      ]
+    },
+    {
+      "id": "N00_floor_0",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "structural_floor",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "floor_slab",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.5,
+              0.45,
+              -4.5
+            ],
+            "max": [
+              4.5,
+              0.9,
+              3.6
+            ]
+          },
+          "material": "timber_dark"
+        }
+      ]
+    },
+    {
+      "id": "N00_wall_0_front",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "wall_bay_assembly",
+            "dynamic": false
+          }
+        },
+        {
+          "id": "door",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "door_frame",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "windows",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_panel",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.5,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.5,
+              3.25,
+              0
+            ]
+          },
+          "material": "plaster"
+        },
+        {
+          "id": "era_stone_dado",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.5,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.5,
+              0.4,
+              0.02
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "beam_sill",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.5,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.5,
+              0.35,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "beam_head",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.5,
+              2.9,
+              -0.5
+            ],
+            "max": [
+              4.5,
+              3.25,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.48,
+              0,
+              -0.5
+            ],
+            "max": [
+              -4.08,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              4.08,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.48,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.18,
+              0,
+              -0.5
+            ],
+            "max": [
+              -1.78,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.78,
+              0,
+              -0.5
+            ],
+            "max": [
+              2.18,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.3699999999999999,
+              0,
+              -0.5
+            ],
+            "max": [
+              -0.97,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "door_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.1950000000000003,
+              0,
+              -0.65
+            ],
+            "max": [
+              -1.8450000000000004,
+              2.15,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "closed_door_leaf",
+          "part": "door",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.1950000000000003,
+              0,
+              -0.52
+            ],
+            "max": [
+              -1.8450000000000004,
+              2.15,
+              0.04
+            ]
+          },
+          "material": "door"
+        },
+        {
+          "id": "door_frame_left",
+          "part": "door_frame",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.3950000000000005,
+              0,
+              -0.55
+            ],
+            "max": [
+              -3.1450000000000005,
+              2.4,
+              0.2
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "door_frame_right",
+          "part": "door_frame",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.8950000000000005,
+              0,
+              -0.55
+            ],
+            "max": [
+              -1.6450000000000005,
+              2.4,
+              0.2
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "door_frame_head",
+          "part": "door_frame",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.3950000000000005,
+              2.1,
+              -0.55
+            ],
+            "max": [
+              -1.6450000000000005,
+              2.4,
+              0.2
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "door_iron_strap_0",
+          "part": "door",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.1450000000000005,
+              0.4475,
+              -0.02
+            ],
+            "max": [
+              -1.8950000000000005,
+              0.6275,
+              0.16
+            ]
+          },
+          "material": "iron"
+        },
+        {
+          "id": "door_iron_strap_1",
+          "part": "door",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.1450000000000005,
+              1.4794999999999998,
+              -0.02
+            ],
+            "max": [
+              -1.8950000000000005,
+              1.6595,
+              0.16
+            ]
+          },
+          "material": "iron"
+        },
+        {
+          "id": "work_bay_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.55,
+              0.7,
+              -0.65
+            ],
+            "max": [
+              3.05,
+              2.3499999999999996,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "work_bay_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.55,
+              0.7,
+              -0.5
+            ],
+            "max": [
+              3.05,
+              2.3499999999999996,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "work_bay_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.33000000000000007,
+              0.48,
+              -0.5
+            ],
+            "max": [
+              0.77,
+              2.57,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "work_bay_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.8299999999999996,
+              0.48,
+              -0.5
+            ],
+            "max": [
+              3.27,
+              2.57,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "work_bay_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.33000000000000007,
+              0.48,
+              -0.5
+            ],
+            "max": [
+              3.27,
+              0.9199999999999999,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "work_bay_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.33000000000000007,
+              2.1299999999999994,
+              -0.5
+            ],
+            "max": [
+              3.27,
+              2.57,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "work_bay_mullion",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.6800000000000002,
+              0.7,
+              -0.5
+            ],
+            "max": [
+              1.92,
+              2.3499999999999996,
+              0.15
+            ]
+          },
+          "material": "timber"
+        }
+      ]
+    },
+    {
+      "id": "N00_wall_0_back",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "wall_bay_assembly",
+            "dynamic": false
+          }
+        },
+        {
+          "id": "windows",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_panel",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.5,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.5,
+              3.25,
+              0
+            ]
+          },
+          "material": "plaster"
+        },
+        {
+          "id": "era_stone_dado",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.5,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.5,
+              0.4,
+              0.02
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "beam_sill",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.5,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.5,
+              0.35,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "beam_head",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.5,
+              2.9,
+              -0.5
+            ],
+            "max": [
+              4.5,
+              3.25,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.48,
+              0,
+              -0.5
+            ],
+            "max": [
+              -4.08,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              4.08,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.48,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.18,
+              0,
+              -0.5
+            ],
+            "max": [
+              -1.78,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.78,
+              0,
+              -0.5
+            ],
+            "max": [
+              2.18,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.3699999999999999,
+              0,
+              -0.5
+            ],
+            "max": [
+              -0.97,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "window_0_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.225,
+              1.105,
+              -0.65
+            ],
+            "max": [
+              -0.775,
+              2.455,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_0_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.225,
+              1.105,
+              -0.5
+            ],
+            "max": [
+              -0.775,
+              2.455,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_0_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -2.005,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.995,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              1.325,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              2.235,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.775,
+              1.105,
+              -0.65
+            ],
+            "max": [
+              2.225,
+              2.455,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_1_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.775,
+              1.105,
+              -0.5
+            ],
+            "max": [
+              2.225,
+              2.455,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_1_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              0.995,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.005,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              1.325,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              2.235,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        }
+      ]
+    },
+    {
+      "id": "N00_wall_0_right",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "wall_bay_assembly",
+            "dynamic": false
+          }
+        },
+        {
+          "id": "windows",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_panel",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              3.25,
+              0
+            ]
+          },
+          "material": "plaster"
+        },
+        {
+          "id": "era_stone_dado",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              0.4,
+              0.02
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "beam_sill",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              0.35,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "beam_head",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              2.9,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              3.25,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.029999999999999,
+              0,
+              -0.5
+            ],
+            "max": [
+              -3.6299999999999994,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              3.6299999999999994,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.029999999999999,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.982,
+              0,
+              -0.5
+            ],
+            "max": [
+              -1.582,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.582,
+              0,
+              -0.5
+            ],
+            "max": [
+              1.982,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.253,
+              0,
+              -0.5
+            ],
+            "max": [
+              -0.853,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "window_0_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.225,
+              1.105,
+              -0.65
+            ],
+            "max": [
+              -0.775,
+              2.455,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_0_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.225,
+              1.105,
+              -0.5
+            ],
+            "max": [
+              -0.775,
+              2.455,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_0_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -2.005,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.995,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              1.325,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              2.235,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.775,
+              1.105,
+              -0.65
+            ],
+            "max": [
+              2.225,
+              2.455,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_1_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.775,
+              1.105,
+              -0.5
+            ],
+            "max": [
+              2.225,
+              2.455,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_1_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              0.995,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.005,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              1.325,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              2.235,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        }
+      ]
+    },
+    {
+      "id": "N00_wall_0_left",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "wall_bay_assembly",
+            "dynamic": false
+          }
+        },
+        {
+          "id": "windows",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_panel",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              3.25,
+              0
+            ]
+          },
+          "material": "plaster"
+        },
+        {
+          "id": "era_stone_dado",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              0.4,
+              0.02
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "beam_sill",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              0.35,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "beam_head",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              2.9,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              3.25,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.029999999999999,
+              0,
+              -0.5
+            ],
+            "max": [
+              -3.6299999999999994,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              3.6299999999999994,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.029999999999999,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.982,
+              0,
+              -0.5
+            ],
+            "max": [
+              -1.582,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.582,
+              0,
+              -0.5
+            ],
+            "max": [
+              1.982,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.253,
+              0,
+              -0.5
+            ],
+            "max": [
+              -0.853,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "window_0_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.225,
+              1.105,
+              -0.65
+            ],
+            "max": [
+              -0.775,
+              2.455,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_0_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.225,
+              1.105,
+              -0.5
+            ],
+            "max": [
+              -0.775,
+              2.455,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_0_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -2.005,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.995,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              1.325,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              2.235,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.775,
+              1.105,
+              -0.65
+            ],
+            "max": [
+              2.225,
+              2.455,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_1_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.775,
+              1.105,
+              -0.5
+            ],
+            "max": [
+              2.225,
+              2.455,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_1_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              0.995,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.005,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              1.325,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              2.235,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        }
+      ]
+    },
+    {
+      "id": "N00_attic_support",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "roof_support",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "ceiling",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.5,
+              3.45,
+              -4.5
+            ],
+            "max": [
+              4.5,
+              3.75,
+              3.6
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "gable_0_front",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -4.5,
+                3.65
+              ],
+              [
+                4.5,
+                3.65
+              ],
+              [
+                0.0,
+                6.832712640026805
+              ]
+            ],
+            "z_min": 3.1,
+            "z_max": 3.6
+          },
+          "material": "plaster"
+        },
+        {
+          "id": "gable_0_back",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -4.5,
+                3.65
+              ],
+              [
+                4.5,
+                3.65
+              ],
+              [
+                0.0,
+                6.832712640026805
+              ]
+            ],
+            "z_min": -4.5,
+            "z_max": -4.0
+          },
+          "material": "plaster"
+        }
+      ]
+    },
+    {
+      "id": "N00_roof",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "uniform_material_pitched_roof",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "roof_plane_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -5.0,
+                3.2
+              ],
+              [
+                0,
+                6.832712640026805
+              ],
+              [
+                0,
+                7.382712640026805
+              ],
+              [
+                -5.0,
+                3.75
+              ]
+            ],
+            "z_min": -5.0,
+            "z_max": 4.7
+          },
+          "material": "slate"
+        },
+        {
+          "id": "roof_plane_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                0,
+                6.832712640026805
+              ],
+              [
+                5.0,
+                3.2
+              ],
+              [
+                5.0,
+                3.75
+              ],
+              [
+                0,
+                7.382712640026805
+              ]
+            ],
+            "z_min": -5.0,
+            "z_max": 4.7
+          },
+          "material": "slate"
+        },
+        {
+          "id": "subtle_ridge",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.22,
+              7.032712640026805,
+              -5.0
+            ],
+            "max": [
+              0.22,
+              7.382712640026805,
+              4.7
+            ]
+          },
+          "material": "slate_dark"
+        }
+      ]
+    },
+    {
+      "id": "N00_shop_canopy",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "shopfront_canopy",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "awning",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                3.6,
+                2.9
+              ],
+              [
+                4.9,
+                2.65
+              ],
+              [
+                4.9,
+                3.0
+              ],
+              [
+                3.6,
+                3.25
+              ]
+            ],
+            "z_min": -4.25,
+            "z_max": 1.6200000000000006
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "N00_chimney",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "masonry_flue",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "shaft",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.0,
+              3.35,
+              -0.6
+            ],
+            "max": [
+              0.9,
+              7.632712640026805,
+              0.30000000000000004
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "cap",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              7.532712640026805,
+              -0.7
+            ],
+            "max": [
+              1.0,
+              7.882712640026805,
+              0.4
+            ]
+          },
+          "material": "stone_dark"
+        }
+      ]
+    },
+    {
+      "id": "N00_eave_rail",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "roof_eave",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "operation_0000",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0,
+              -0.12,
+              -0.12
+            ],
+            "max": [
+              1.5,
+              0.12,
+              0.12
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber"
+        }
+      ]
+    },
+    {
+      "id": "N01_foundation",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "continuous_stone_plinth",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "plinth",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              -4.5
+            ],
+            "max": [
+              5.0,
+              0.5,
+              4.0
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "threshold",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.05,
+              0,
+              3.9
+            ],
+            "max": [
+              1.05,
+              0.5,
+              5.0
+            ]
+          },
+          "material": "stone_light"
+        }
+      ]
+    },
+    {
+      "id": "N01_floor_0",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "structural_floor",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "floor_slab",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0.45,
+              -4.5
+            ],
+            "max": [
+              5.0,
+              0.9,
+              4.0
+            ]
+          },
+          "material": "timber_dark"
+        }
+      ]
+    },
+    {
+      "id": "N01_wall_0_front",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "wall_bay_assembly",
+            "dynamic": false
+          }
+        },
+        {
+          "id": "door",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "door_frame",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_panel",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              3.25,
+              0
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "beam_sill",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              0.35,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "beam_head",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              2.9,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              3.25,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.98,
+              0,
+              -0.5
+            ],
+            "max": [
+              -4.58,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              4.58,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.98,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4000000000000004,
+              0,
+              -0.5
+            ],
+            "max": [
+              -2.0,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              2.4000000000000004,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.5,
+              0,
+              -0.5
+            ],
+            "max": [
+              -1.1,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "door_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.4,
+              0,
+              -0.65
+            ],
+            "max": [
+              1.4,
+              2.65,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "closed_left_leaf",
+          "part": "door",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.4,
+              0,
+              -0.52
+            ],
+            "max": [
+              0,
+              2.65,
+              0.04
+            ]
+          },
+          "material": "door"
+        },
+        {
+          "id": "closed_right_leaf",
+          "part": "door",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0,
+              0,
+              -0.52
+            ],
+            "max": [
+              1.4,
+              2.65,
+              0.04
+            ]
+          },
+          "material": "door_dark"
+        },
+        {
+          "id": "door_frame_left",
+          "part": "door_frame",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.5999999999999999,
+              0,
+              -0.55
+            ],
+            "max": [
+              -1.3499999999999999,
+              2.9,
+              0.2
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "door_frame_right",
+          "part": "door_frame",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.3499999999999999,
+              0,
+              -0.55
+            ],
+            "max": [
+              1.5999999999999999,
+              2.9,
+              0.2
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "door_frame_head",
+          "part": "door_frame",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.5999999999999999,
+              2.6,
+              -0.55
+            ],
+            "max": [
+              1.5999999999999999,
+              2.9,
+              0.2
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "door_iron_strap_0",
+          "part": "door",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.3499999999999999,
+              0.5725,
+              -0.02
+            ],
+            "max": [
+              1.3499999999999999,
+              0.7525,
+              0.16
+            ]
+          },
+          "material": "iron"
+        },
+        {
+          "id": "door_iron_strap_1",
+          "part": "door",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.3499999999999999,
+              1.8444999999999998,
+              -0.02
+            ],
+            "max": [
+              1.3499999999999999,
+              2.0244999999999997,
+              0.16
+            ]
+          },
+          "material": "iron"
+        }
+      ]
+    },
+    {
+      "id": "N01_wall_0_back",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "wall_bay_assembly",
+            "dynamic": false
+          }
+        },
+        {
+          "id": "windows",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_panel",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              3.25,
+              0
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "beam_sill",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              0.35,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "beam_head",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              2.9,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              3.25,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.98,
+              0,
+              -0.5
+            ],
+            "max": [
+              -4.58,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              4.58,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.98,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4000000000000004,
+              0,
+              -0.5
+            ],
+            "max": [
+              -2.0,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              2.4000000000000004,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.5,
+              0,
+              -0.5
+            ],
+            "max": [
+              -1.1,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "window_0_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.725,
+              1.7875,
+              -0.65
+            ],
+            "max": [
+              0.725,
+              2.7375,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_0_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.725,
+              1.7875,
+              -0.5
+            ],
+            "max": [
+              0.725,
+              2.7375,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_0_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.945,
+              1.5675000000000001,
+              -0.5
+            ],
+            "max": [
+              -0.505,
+              2.9575,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.505,
+              1.5675000000000001,
+              -0.5
+            ],
+            "max": [
+              0.945,
+              2.9575,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.945,
+              1.5675000000000001,
+              -0.5
+            ],
+            "max": [
+              0.945,
+              2.0075000000000003,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.945,
+              2.5174999999999996,
+              -0.5
+            ],
+            "max": [
+              0.945,
+              2.9575,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        }
+      ]
+    },
+    {
+      "id": "N01_wall_0_right",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "wall_bay_assembly",
+            "dynamic": false
+          }
+        },
+        {
+          "id": "windows",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_panel",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.25,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.25,
+              3.25,
+              0
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "beam_sill",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.25,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.25,
+              0.35,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "beam_head",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.25,
+              2.9,
+              -0.5
+            ],
+            "max": [
+              4.25,
+              3.25,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.23,
+              0,
+              -0.5
+            ],
+            "max": [
+              -3.83,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              3.83,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.23,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.0700000000000003,
+              0,
+              -0.5
+            ],
+            "max": [
+              -1.6700000000000002,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.6700000000000002,
+              0,
+              -0.5
+            ],
+            "max": [
+              2.0700000000000003,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.305,
+              0,
+              -0.5
+            ],
+            "max": [
+              -0.905,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "window_0_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.725,
+              1.7875,
+              -0.65
+            ],
+            "max": [
+              0.725,
+              2.7375,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_0_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.725,
+              1.7875,
+              -0.5
+            ],
+            "max": [
+              0.725,
+              2.7375,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_0_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.945,
+              1.5675000000000001,
+              -0.5
+            ],
+            "max": [
+              -0.505,
+              2.9575,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.505,
+              1.5675000000000001,
+              -0.5
+            ],
+            "max": [
+              0.945,
+              2.9575,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.945,
+              1.5675000000000001,
+              -0.5
+            ],
+            "max": [
+              0.945,
+              2.0075000000000003,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.945,
+              2.5174999999999996,
+              -0.5
+            ],
+            "max": [
+              0.945,
+              2.9575,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        }
+      ]
+    },
+    {
+      "id": "N01_wall_0_left",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "wall_bay_assembly",
+            "dynamic": false
+          }
+        },
+        {
+          "id": "windows",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_panel",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.25,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.25,
+              3.25,
+              0
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "beam_sill",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.25,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.25,
+              0.35,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "beam_head",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.25,
+              2.9,
+              -0.5
+            ],
+            "max": [
+              4.25,
+              3.25,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.23,
+              0,
+              -0.5
+            ],
+            "max": [
+              -3.83,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              3.83,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.23,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.0700000000000003,
+              0,
+              -0.5
+            ],
+            "max": [
+              -1.6700000000000002,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.6700000000000002,
+              0,
+              -0.5
+            ],
+            "max": [
+              2.0700000000000003,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.305,
+              0,
+              -0.5
+            ],
+            "max": [
+              -0.905,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "window_0_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.725,
+              1.7875,
+              -0.65
+            ],
+            "max": [
+              0.725,
+              2.7375,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_0_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.725,
+              1.7875,
+              -0.5
+            ],
+            "max": [
+              0.725,
+              2.7375,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_0_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.945,
+              1.5675000000000001,
+              -0.5
+            ],
+            "max": [
+              -0.505,
+              2.9575,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.505,
+              1.5675000000000001,
+              -0.5
+            ],
+            "max": [
+              0.945,
+              2.9575,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.945,
+              1.5675000000000001,
+              -0.5
+            ],
+            "max": [
+              0.945,
+              2.0075000000000003,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.945,
+              2.5174999999999996,
+              -0.5
+            ],
+            "max": [
+              0.945,
+              2.9575,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        }
+      ]
+    },
+    {
+      "id": "N01_attic_support",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "roof_support",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "ceiling",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              3.45,
+              -4.5
+            ],
+            "max": [
+              5.0,
+              3.75,
+              4.0
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "gable_0_front",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -5.0,
+                3.65
+              ],
+              [
+                5.0,
+                3.65
+              ],
+              [
+                5.0,
+                6.563037496045264
+              ]
+            ],
+            "z_min": 3.5,
+            "z_max": 4.0
+          },
+          "material": "plaster"
+        },
+        {
+          "id": "gable_0_back",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -5.0,
+                3.65
+              ],
+              [
+                5.0,
+                3.65
+              ],
+              [
+                5.0,
+                6.563037496045264
+              ]
+            ],
+            "z_min": -4.5,
+            "z_max": -4.0
+          },
+          "material": "plaster"
+        }
+      ]
+    },
+    {
+      "id": "N01_roof",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "uniform_material_pitched_roof",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "roof_plane_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -5.5,
+                3.2
+              ],
+              [
+                5.5,
+                6.563037496045264
+              ],
+              [
+                5.5,
+                7.113037496045264
+              ],
+              [
+                -5.5,
+                3.75
+              ]
+            ],
+            "z_min": -5.0,
+            "z_max": 4.7
+          },
+          "material": "slate"
+        }
+      ]
+    },
+    {
+      "id": "N01_chimney",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "masonry_flue",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "shaft",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.125,
+              3.35,
+              -0.475
+            ],
+            "max": [
+              0.775,
+              7.363037496045264,
+              0.17500000000000002
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "cap",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.024999999999999994,
+              7.263037496045264,
+              -0.575
+            ],
+            "max": [
+              0.875,
+              7.613037496045264,
+              0.275
+            ]
+          },
+          "material": "stone_dark"
+        }
+      ]
+    },
+    {
+      "id": "N01_eave_rail",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "roof_eave",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "operation_0000",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0,
+              -0.12,
+              -0.12
+            ],
+            "max": [
+              1.5,
+              0.12,
+              0.12
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber"
+        }
+      ]
+    },
+    {
+      "id": "N02_foundation",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "continuous_stone_plinth",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "plinth",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              -4.5
+            ],
+            "max": [
+              5.0,
+              0.5,
+              3.6
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "threshold",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.8500000000000005,
+              0,
+              3.5
+            ],
+            "max": [
+              -1.7500000000000002,
+              0.5,
+              5.0
+            ]
+          },
+          "material": "stone_light"
+        }
+      ]
+    },
+    {
+      "id": "N02_floor_0",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "structural_floor",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "floor_slab",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0.45,
+              -4.5
+            ],
+            "max": [
+              5.0,
+              0.9,
+              3.6
+            ]
+          },
+          "material": "timber_dark"
+        }
+      ]
+    },
+    {
+      "id": "N02_wall_0_front",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "wall_bay_assembly",
+            "dynamic": false
+          }
+        },
+        {
+          "id": "door",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "door_frame",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "windows",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_panel",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              3.25,
+              0
+            ]
+          },
+          "material": "plaster"
+        },
+        {
+          "id": "era_stone_dado",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              0.7,
+              0.02
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "beam_sill",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              0.35,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "beam_head",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              2.9,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              3.25,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.98,
+              0,
+              -0.5
+            ],
+            "max": [
+              -4.58,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              4.58,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.98,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4000000000000004,
+              0,
+              -0.5
+            ],
+            "max": [
+              -2.0,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              2.4000000000000004,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "door_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.4750000000000005,
+              0,
+              -0.65
+            ],
+            "max": [
+              -2.125,
+              2.15,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "closed_door_leaf",
+          "part": "door",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.4750000000000005,
+              0,
+              -0.52
+            ],
+            "max": [
+              -2.125,
+              2.15,
+              0.04
+            ]
+          },
+          "material": "door"
+        },
+        {
+          "id": "door_frame_left",
+          "part": "door_frame",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.6750000000000007,
+              0,
+              -0.55
+            ],
+            "max": [
+              -3.4250000000000007,
+              2.4,
+              0.2
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "door_frame_right",
+          "part": "door_frame",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.175,
+              0,
+              -0.55
+            ],
+            "max": [
+              -1.925,
+              2.4,
+              0.2
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "door_frame_head",
+          "part": "door_frame",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.6750000000000007,
+              2.1,
+              -0.55
+            ],
+            "max": [
+              -1.925,
+              2.4,
+              0.2
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "door_iron_strap_0",
+          "part": "door",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.4250000000000007,
+              0.4475,
+              -0.02
+            ],
+            "max": [
+              -2.175,
+              0.6275,
+              0.16
+            ]
+          },
+          "material": "iron"
+        },
+        {
+          "id": "door_iron_strap_1",
+          "part": "door",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.4250000000000007,
+              1.4794999999999998,
+              -0.02
+            ],
+            "max": [
+              -2.175,
+              1.6595,
+              0.16
+            ]
+          },
+          "material": "iron"
+        },
+        {
+          "id": "work_bay_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.75,
+              0.7,
+              -0.65
+            ],
+            "max": [
+              3.25,
+              2.3499999999999996,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "work_bay_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.75,
+              0.7,
+              -0.5
+            ],
+            "max": [
+              3.25,
+              2.3499999999999996,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "work_bay_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.53,
+              0.48,
+              -0.5
+            ],
+            "max": [
+              0.97,
+              2.57,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "work_bay_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              3.03,
+              0.48,
+              -0.5
+            ],
+            "max": [
+              3.47,
+              2.57,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "work_bay_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.53,
+              0.48,
+              -0.5
+            ],
+            "max": [
+              3.47,
+              0.9199999999999999,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "work_bay_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.53,
+              2.1299999999999994,
+              -0.5
+            ],
+            "max": [
+              3.47,
+              2.57,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "work_bay_mullion",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.88,
+              0.7,
+              -0.5
+            ],
+            "max": [
+              2.12,
+              2.3499999999999996,
+              0.15
+            ]
+          },
+          "material": "timber"
+        }
+      ]
+    },
+    {
+      "id": "N02_wall_0_back",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "wall_bay_assembly",
+            "dynamic": false
+          }
+        },
+        {
+          "id": "windows",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_panel",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              3.25,
+              0
+            ]
+          },
+          "material": "plaster"
+        },
+        {
+          "id": "era_stone_dado",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              0.7,
+              0.02
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "beam_sill",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              0.35,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "beam_head",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              2.9,
+              -0.5
+            ],
+            "max": [
+              5.0,
+              3.25,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.98,
+              0,
+              -0.5
+            ],
+            "max": [
+              -4.58,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              4.58,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.98,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4000000000000004,
+              0,
+              -0.5
+            ],
+            "max": [
+              -2.0,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.0,
+              0,
+              -0.5
+            ],
+            "max": [
+              2.4000000000000004,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "window_0_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5821428571428573,
+              1.105,
+              -0.65
+            ],
+            "max": [
+              -2.132142857142857,
+              2.455,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_0_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5821428571428573,
+              1.105,
+              -0.5
+            ],
+            "max": [
+              -2.132142857142857,
+              2.455,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_0_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.8021428571428575,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -3.362142857142857,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.3521428571428573,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -1.9121428571428571,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.8021428571428575,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -1.9121428571428571,
+              1.325,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.8021428571428575,
+              2.235,
+              -0.5
+            ],
+            "max": [
+              -1.9121428571428571,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.725,
+              1.105,
+              -0.65
+            ],
+            "max": [
+              0.725,
+              2.455,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_1_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.725,
+              1.105,
+              -0.5
+            ],
+            "max": [
+              0.725,
+              2.455,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_1_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.945,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -0.505,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.505,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              0.945,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.945,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              0.945,
+              1.325,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.945,
+              2.235,
+              -0.5
+            ],
+            "max": [
+              0.945,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_2_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.132142857142857,
+              1.105,
+              -0.65
+            ],
+            "max": [
+              3.5821428571428573,
+              2.455,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_2_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.132142857142857,
+              1.105,
+              -0.5
+            ],
+            "max": [
+              3.5821428571428573,
+              2.455,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_2_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.9121428571428571,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              2.3521428571428573,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_2_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              3.362142857142857,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              3.8021428571428575,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_2_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.9121428571428571,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              3.8021428571428575,
+              1.325,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_2_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.9121428571428571,
+              2.235,
+              -0.5
+            ],
+            "max": [
+              3.8021428571428575,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        }
+      ]
+    },
+    {
+      "id": "N02_wall_0_right",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "wall_bay_assembly",
+            "dynamic": false
+          }
+        },
+        {
+          "id": "windows",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_panel",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              3.25,
+              0
+            ]
+          },
+          "material": "plaster"
+        },
+        {
+          "id": "era_stone_dado",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              0.7,
+              0.02
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "beam_sill",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              0.35,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "beam_head",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              2.9,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              3.25,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.029999999999999,
+              0,
+              -0.5
+            ],
+            "max": [
+              -3.6299999999999994,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              3.6299999999999994,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.029999999999999,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.982,
+              0,
+              -0.5
+            ],
+            "max": [
+              -1.582,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.582,
+              0,
+              -0.5
+            ],
+            "max": [
+              1.982,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "window_0_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.225,
+              1.105,
+              -0.65
+            ],
+            "max": [
+              -0.775,
+              2.455,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_0_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.225,
+              1.105,
+              -0.5
+            ],
+            "max": [
+              -0.775,
+              2.455,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_0_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -2.005,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.995,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              1.325,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              2.235,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.775,
+              1.105,
+              -0.65
+            ],
+            "max": [
+              2.225,
+              2.455,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_1_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.775,
+              1.105,
+              -0.5
+            ],
+            "max": [
+              2.225,
+              2.455,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_1_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              0.995,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.005,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              1.325,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              2.235,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        }
+      ]
+    },
+    {
+      "id": "N02_wall_0_left",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "wall_bay_assembly",
+            "dynamic": false
+          }
+        },
+        {
+          "id": "windows",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_panel",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              3.25,
+              0
+            ]
+          },
+          "material": "plaster"
+        },
+        {
+          "id": "era_stone_dado",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              0.7,
+              0.02
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "beam_sill",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              0.35,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "beam_head",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.05,
+              2.9,
+              -0.5
+            ],
+            "max": [
+              4.05,
+              3.25,
+              0.1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.029999999999999,
+              0,
+              -0.5
+            ],
+            "max": [
+              -3.6299999999999994,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              3.6299999999999994,
+              0,
+              -0.5
+            ],
+            "max": [
+              4.029999999999999,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.982,
+              0,
+              -0.5
+            ],
+            "max": [
+              -1.582,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "post_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.582,
+              0,
+              -0.5
+            ],
+            "max": [
+              1.982,
+              3.25,
+              0.12
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "window_0_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.225,
+              1.105,
+              -0.65
+            ],
+            "max": [
+              -0.775,
+              2.455,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_0_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.225,
+              1.105,
+              -0.5
+            ],
+            "max": [
+              -0.775,
+              2.455,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_0_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -2.005,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.995,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              1.325,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_0_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.4450000000000003,
+              2.235,
+              -0.5
+            ],
+            "max": [
+              -0.555,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_aperture",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.775,
+              1.105,
+              -0.65
+            ],
+            "max": [
+              2.225,
+              2.455,
+              0.25
+            ]
+          }
+        },
+        {
+          "id": "window_1_glass",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.775,
+              1.105,
+              -0.5
+            ],
+            "max": [
+              2.225,
+              2.455,
+              0.02
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "window_1_left",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              0.995,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_right",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.005,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_sill",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              0.885,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              1.325,
+              0.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "window_1_lintel",
+          "part": "windows",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.555,
+              2.235,
+              -0.5
+            ],
+            "max": [
+              2.4450000000000003,
+              2.6750000000000003,
+              0.14
+            ]
+          },
+          "material": "timber_light"
+        }
+      ]
+    },
+    {
+      "id": "N02_attic_support",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "roof_support",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "ceiling",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              3.45,
+              -4.5
+            ],
+            "max": [
+              5.0,
+              3.75,
+              3.6
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "gable_0_front",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -5.0,
+                3.65
+              ],
+              [
+                5.0,
+                3.65
+              ],
+              [
+                0.0,
+                6.636781435501301
+              ]
+            ],
+            "z_min": 3.1,
+            "z_max": 3.6
+          },
+          "material": "plaster"
+        },
+        {
+          "id": "gable_0_back",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -5.0,
+                3.65
+              ],
+              [
+                5.0,
+                3.65
+              ],
+              [
+                0.0,
+                6.636781435501301
+              ]
+            ],
+            "z_min": -4.5,
+            "z_max": -4.0
+          },
+          "material": "plaster"
+        }
+      ]
+    },
+    {
+      "id": "N02_roof",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "uniform_material_pitched_roof",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "roof_plane_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -5.5,
+                3.2
+              ],
+              [
+                0,
+                6.636781435501301
+              ],
+              [
+                0,
+                7.186781435501301
+              ],
+              [
+                -5.5,
+                3.75
+              ]
+            ],
+            "z_min": -5.0,
+            "z_max": 4.7
+          },
+          "material": "slate"
+        },
+        {
+          "id": "roof_plane_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                0,
+                6.636781435501301
+              ],
+              [
+                5.5,
+                3.2
+              ],
+              [
+                5.5,
+                3.75
+              ],
+              [
+                0,
+                7.186781435501301
+              ]
+            ],
+            "z_min": -5.0,
+            "z_max": 4.7
+          },
+          "material": "slate"
+        },
+        {
+          "id": "subtle_ridge",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.22,
+              6.836781435501301,
+              -5.0
+            ],
+            "max": [
+              0.22,
+              7.186781435501301,
+              4.7
+            ]
+          },
+          "material": "slate_dark"
+        }
+      ]
+    },
+    {
+      "id": "N02_shop_canopy",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "shopfront_canopy",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "awning",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                3.6,
+                2.9
+              ],
+              [
+                4.9,
+                2.65
+              ],
+              [
+                4.9,
+                3.0
+              ],
+              [
+                3.6,
+                3.25
+              ]
+            ],
+            "z_min": -4.75,
+            "z_max": 1.9000000000000004
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "N02_chimney",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "masonry_flue",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "shaft",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.0,
+              3.35,
+              -0.6
+            ],
+            "max": [
+              0.9,
+              7.436781435501301,
+              0.30000000000000004
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "cap",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              7.336781435501301,
+              -0.7
+            ],
+            "max": [
+              1.0,
+              7.686781435501301,
+              0.4
+            ]
+          },
+          "material": "stone_dark"
+        }
+      ]
+    },
+    {
+      "id": "N02_eave_rail",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "roof_eave",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "operation_0000",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0,
+              -0.12,
+              -0.12
+            ],
+            "max": [
+              1.5,
+              0.12,
+              0.12
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "N00_foundation",
+      "component": "N00_foundation",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -10.0,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N00_floor_0",
+      "component": "N00_floor_0",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -10.0,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N00_wall_0_front",
+      "component": "N00_wall_0_front",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -10.0,
+          0.5,
+          3.6
+        ]
+      }
+    },
+    {
+      "id": "N00_wall_0_back",
+      "component": "N00_wall_0_back",
+      "transform": {
+        "basis": [
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        ],
+        "translation": [
+          -10.0,
+          0.5,
+          -4.5
+        ]
+      }
+    },
+    {
+      "id": "N00_wall_0_right",
+      "component": "N00_wall_0_right",
+      "transform": {
+        "basis": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "translation": [
+          -5.5,
+          0.5,
+          -0.44999999999999996
+        ]
+      }
+    },
+    {
+      "id": "N00_wall_0_left",
+      "component": "N00_wall_0_left",
+      "transform": {
+        "basis": [
+          [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "translation": [
+          -14.5,
+          0.5,
+          -0.44999999999999996
+        ]
+      }
+    },
+    {
+      "id": "N00_attic_support",
+      "component": "N00_attic_support",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -10.0,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N00_roof",
+      "component": "N00_roof",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -10.0,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N00_shop_canopy",
+      "component": "N00_shop_canopy",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -10.0,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N00_chimney",
+      "component": "N00_chimney",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -10.0,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N00_entry_source_eave_rail",
+      "component": "N00_eave_rail",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -13.27,
+          3.07,
+          3.72
+        ]
+      }
+    },
+    {
+      "id": "N01_foundation",
+      "component": "N01_foundation",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -0.5,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N01_floor_0",
+      "component": "N01_floor_0",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -0.5,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N01_wall_0_front",
+      "component": "N01_wall_0_front",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -0.5,
+          0.5,
+          4.0
+        ]
+      }
+    },
+    {
+      "id": "N01_wall_0_back",
+      "component": "N01_wall_0_back",
+      "transform": {
+        "basis": [
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        ],
+        "translation": [
+          -0.5,
+          0.5,
+          -4.5
+        ]
+      }
+    },
+    {
+      "id": "N01_wall_0_right",
+      "component": "N01_wall_0_right",
+      "transform": {
+        "basis": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "translation": [
+          4.5,
+          0.5,
+          -0.25
+        ]
+      }
+    },
+    {
+      "id": "N01_wall_0_left",
+      "component": "N01_wall_0_left",
+      "transform": {
+        "basis": [
+          [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "translation": [
+          -5.5,
+          0.5,
+          -0.25
+        ]
+      }
+    },
+    {
+      "id": "N01_attic_support",
+      "component": "N01_attic_support",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -0.5,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N01_roof",
+      "component": "N01_roof",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -0.5,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N01_chimney",
+      "component": "N01_chimney",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -0.5,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N01_entry_source_eave_rail",
+      "component": "N01_eave_rail",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          -1.25,
+          3.07,
+          4.12
+        ]
+      }
+    },
+    {
+      "id": "N02_foundation",
+      "component": "N02_foundation",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          9.5,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N02_floor_0",
+      "component": "N02_floor_0",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          9.5,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N02_wall_0_front",
+      "component": "N02_wall_0_front",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          9.5,
+          0.5,
+          3.6
+        ]
+      }
+    },
+    {
+      "id": "N02_wall_0_back",
+      "component": "N02_wall_0_back",
+      "transform": {
+        "basis": [
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        ],
+        "translation": [
+          9.5,
+          0.5,
+          -4.5
+        ]
+      }
+    },
+    {
+      "id": "N02_wall_0_right",
+      "component": "N02_wall_0_right",
+      "transform": {
+        "basis": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "translation": [
+          14.5,
+          0.5,
+          -0.44999999999999996
+        ]
+      }
+    },
+    {
+      "id": "N02_wall_0_left",
+      "component": "N02_wall_0_left",
+      "transform": {
+        "basis": [
+          [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "translation": [
+          4.5,
+          0.5,
+          -0.44999999999999996
+        ]
+      }
+    },
+    {
+      "id": "N02_attic_support",
+      "component": "N02_attic_support",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          9.5,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N02_roof",
+      "component": "N02_roof",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          9.5,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N02_shop_canopy",
+      "component": "N02_shop_canopy",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          9.5,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N02_chimney",
+      "component": "N02_chimney",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          9.5,
+          0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "N02_entry_source_eave_rail",
+      "component": "N02_eave_rail",
+      "transform": {
+        "basis": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          5.949999999999999,
+          3.07,
+          3.72
+        ]
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "id": "nonempty",
+      "kind": "nonempty",
+      "selector": {}
+    },
+    {
+      "id": "N00_foundation_present",
+      "kind": "nonempty",
+      "selector": {
+        "instance": "N00_foundation"
+      }
+    },
+    {
+      "id": "N00_roof_present",
+      "kind": "nonempty",
+      "selector": {
+        "instance": [
+          "N00_roof"
+        ]
+      }
+    },
+    {
+      "id": "N00_closed_door_present",
+      "kind": "nonempty",
+      "selector": {
+        "part": "door"
+      }
+    },
+    {
+      "id": "N00_structural_floor_present",
+      "kind": "nonempty",
+      "selector": {
+        "instance": "N00_floor_0"
+      }
+    },
+    {
+      "id": "N01_foundation_present",
+      "kind": "nonempty",
+      "selector": {
+        "instance": "N01_foundation"
+      }
+    },
+    {
+      "id": "N01_roof_present",
+      "kind": "nonempty",
+      "selector": {
+        "instance": [
+          "N01_roof"
+        ]
+      }
+    },
+    {
+      "id": "N01_closed_door_present",
+      "kind": "nonempty",
+      "selector": {
+        "part": "door"
+      }
+    },
+    {
+      "id": "N01_structural_floor_present",
+      "kind": "nonempty",
+      "selector": {
+        "instance": "N01_floor_0"
+      }
+    },
+    {
+      "id": "N02_foundation_present",
+      "kind": "nonempty",
+      "selector": {
+        "instance": "N02_foundation"
+      }
+    },
+    {
+      "id": "N02_roof_present",
+      "kind": "nonempty",
+      "selector": {
+        "instance": [
+          "N02_roof"
+        ]
+      }
+    },
+    {
+      "id": "N02_closed_door_present",
+      "kind": "nonempty",
+      "selector": {
+        "part": "door"
+      }
+    },
+    {
+      "id": "N02_structural_floor_present",
+      "kind": "nonempty",
+      "selector": {
+        "instance": "N02_floor_0"
+      }
+    },
+    {
+      "id": "joined_native_foundations",
+      "kind": "connected",
+      "selector": {
+        "instance": [
+          "N00_foundation",
+          "N01_foundation",
+          "N02_foundation"
+        ]
+      }
+    }
+  ],
+  "provenance": {
+    "eligibility": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/remaining_land_r01/remaining_land_plan.json",
+      "sha256": "b222a9e927ac640bf264d0bfacebd4b86d3d8e4c9f4be30dc9adc613fb31d49c"
+    },
+    "policy": "Rigid unchanged native common modules, normalized at a shared local anchor. No scaling, cell edits or new mesher.",
+    "native_sources": [
+      {
+        "path": "world_city/concept_city_v3/assemblies/ordinary/registered/working_ranges_r01/masters/modules/working_r01_bank_joinery_joinery_bay.json",
+        "sha256": "479c373d5473a5edc3a86624939b07727fe9c03ce891e9b902b14f64dd9c8e5a"
+      },
+      {
+        "path": "world_city/concept_city_v3/assemblies/ordinary/registered/working_ranges_r01/masters/modules/working_r01_bank_joinery_low_dry_store.json",
+        "sha256": "60fc9b2e527231929235549314146585ed3d87b05dab8738e0847f401c2bc2fa"
+      },
+      {
+        "path": "world_city/concept_city_v3/assemblies/ordinary/registered/working_ranges_r01/masters/modules/working_r01_bank_joinery_repair_bay.json",
+        "sha256": "9846d9a7364e6d939b35a947d64b229ba33e1c7a49780a6f0b694aa82a0be49c"
+      }
+    ],
+    "author": {
+      "path": "world_city/concept_city_v3/assemblies/ordinary/registered/working_ranges_r01/design.py",
+      "sha256": "03f9b5bc71da4d0bfff47e98b2700aa721701d180f914e323cd471bbe6a852ee"
+    },
+    "approved_concept": {
+      "path": "world_city/reference/revision_03/city_social_water_concept.png",
+      "sha256": "b5a103353b901efe871bc048eadd200883f64ee762f5ff267b71f5e903d30a8e"
+    },
+    "social_geography": "Lower market poorer households and dry canal-related work fronts; exact trade names are inferred.",
+    "scope": "New attached source union only; not scene activation."
+  },
+  "metadata": {
+    "assembly_class": "lower_city_attached_working_range",
+    "native_modules": [
+      {
+        "asset_key": "working_r01_bank_joinery_joinery_bay",
+        "translation": [
+          -10.0,
+          0,
+          0
+        ],
+        "yaw_rad": 0
+      },
+      {
+        "asset_key": "working_r01_bank_joinery_low_dry_store",
+        "translation": [
+          -0.5,
+          0,
+          0
+        ],
+        "yaw_rad": 0
+      },
+      {
+        "asset_key": "working_r01_bank_joinery_repair_bay",
+        "translation": [
+          9.5,
+          0,
+          0
+        ],
+        "yaw_rad": 0
+      }
+    ],
+    "floor_local_y_m": 0.5,
+    "reusable": true,
+    "family": "bank_joinery",
+    "role": "Older joinery/repair range with low dry store and working fronts",
+    "modules": [
+      {
+        "id": "joinery_bay",
+        "asset_key": "working_r01_bank_joinery_joinery_bay",
+        "translation_m": [
+          -10.0,
+          0,
+          0
+        ],
+        "params": {
+          "width_m": 10,
+          "depth_m": 10,
+          "assembly_class": "regular_house",
+          "style": "artisan",
+          "floors": 1,
+          "floor_height_m": 3.25,
+          "roof_pitch_degrees": 36,
+          "construction_era": "early",
+          "roof_form": "gable",
+          "attached_units": 1,
+          "asset_id": "working_r01_bank_joinery_joinery_bay"
+        },
+        "metadata": {
+          "assembly_class": "regular_house",
+          "width_m": 10.0,
+          "depth_m": 10.0,
+          "floors": 1,
+          "floor_height_m": 3.25,
+          "roof_form": "gable",
+          "roof_pitch_degrees": 36.0,
+          "roof_run_m": 5.0,
+          "roof_rise_m": 3.6327126400268046,
+          "eave_height_m": 3.75,
+          "roof_peak_height_m": 7.382712640026805,
+          "height_m": 7.882712640026805,
+          "construction_era": "early",
+          "geometry_era": "early",
+          "row_units": 1,
+          "style": "artisan",
+          "envelope": {
+            "min": [
+              -5.0,
+              0,
+              -5.0
+            ],
+            "max": [
+              5.0,
+              7.882712640026805,
+              5.0
+            ]
+          },
+          "body_bounds": {
+            "min": [
+              -4.5,
+              0.5,
+              -4.5
+            ],
+            "max": [
+              4.5,
+              3.75,
+              3.6
+            ]
+          },
+          "entrance": {
+            "front": "+Z",
+            "closed": true,
+            "position": [
+              -2.5200000000000005,
+              0.5,
+              3.6
+            ],
+            "all_positions": [
+              [
+                -2.5200000000000005,
+                0.5,
+                3.6
+              ]
+            ],
+            "threshold_bounds": {
+              "min": [
+                -3.5700000000000003,
+                0.5,
+                4.0
+              ],
+              "max": [
+                -1.4700000000000004,
+                2.2,
+                5.0
+              ]
+            }
+          },
+          "roof_geometry": "Exact roof run multiplied by tan(explicit pitch); no height-driven flattening.",
+          "palette_policy": "Uniform slate semantic slots; per-property red clay/brown wood/gray slate runtime mapping is external.",
+          "lod": "One continuous source; independently sample at each pitch.",
+          "authoring": "Dimension-authored modular livelihood assembly; no whole-building scaling.",
+          "compound_scope": "Main residence building; enclosing property walls, gardens and service buildings are separate measured land-use assemblies."
+        },
+        "source": {
+          "path": "world_city/concept_city_v3/assemblies/ordinary/registered/working_ranges_r01/masters/modules/working_r01_bank_joinery_joinery_bay.json",
+          "sha256": "479c373d5473a5edc3a86624939b07727fe9c03ce891e9b902b14f64dd9c8e5a"
+        }
+      },
+      {
+        "id": "low_dry_store",
+        "asset_key": "working_r01_bank_joinery_low_dry_store",
+        "translation_m": [
+          -0.5,
+          0,
+          0
+        ],
+        "params": {
+          "width_m": 11,
+          "depth_m": 10,
+          "assembly_class": "regular_house",
+          "style": "port",
+          "floors": 1,
+          "floor_height_m": 3.25,
+          "roof_pitch_degrees": 17,
+          "construction_era": "early",
+          "roof_form": "shed",
+          "attached_units": 1,
+          "asset_id": "working_r01_bank_joinery_low_dry_store"
+        },
+        "metadata": {
+          "assembly_class": "regular_house",
+          "width_m": 11.0,
+          "depth_m": 10.0,
+          "floors": 1,
+          "floor_height_m": 3.25,
+          "roof_form": "shed",
+          "roof_pitch_degrees": 17.0,
+          "roof_run_m": 11.0,
+          "roof_rise_m": 3.3630374960452643,
+          "eave_height_m": 3.75,
+          "roof_peak_height_m": 7.113037496045264,
+          "height_m": 7.613037496045264,
+          "construction_era": "early",
+          "geometry_era": "early",
+          "row_units": 1,
+          "style": "port",
+          "envelope": {
+            "min": [
+              -5.5,
+              0,
+              -5.0
+            ],
+            "max": [
+              5.5,
+              7.613037496045264,
+              5.0
+            ]
+          },
+          "body_bounds": {
+            "min": [
+              -5.0,
+              0.5,
+              -4.5
+            ],
+            "max": [
+              5.0,
+              3.75,
+              4.0
+            ]
+          },
+          "entrance": {
+            "front": "+Z",
+            "closed": true,
+            "position": [
+              0,
+              0.5,
+              4.0
+            ],
+            "all_positions": [
+              [
+                0,
+                0.5,
+                4.0
+              ]
+            ],
+            "threshold_bounds": {
+              "min": [
+                -1.05,
+                0.5,
+                4.4
+              ],
+              "max": [
+                1.05,
+                2.2,
+                5.0
+              ]
+            }
+          },
+          "roof_geometry": "Exact roof run multiplied by tan(explicit pitch); no height-driven flattening.",
+          "palette_policy": "Uniform slate semantic slots; per-property red clay/brown wood/gray slate runtime mapping is external.",
+          "lod": "One continuous source; independently sample at each pitch.",
+          "authoring": "Dimension-authored modular livelihood assembly; no whole-building scaling.",
+          "compound_scope": "Main residence building; enclosing property walls, gardens and service buildings are separate measured land-use assemblies."
+        },
+        "source": {
+          "path": "world_city/concept_city_v3/assemblies/ordinary/registered/working_ranges_r01/masters/modules/working_r01_bank_joinery_low_dry_store.json",
+          "sha256": "60fc9b2e527231929235549314146585ed3d87b05dab8738e0847f401c2bc2fa"
+        }
+      },
+      {
+        "id": "repair_bay",
+        "asset_key": "working_r01_bank_joinery_repair_bay",
+        "translation_m": [
+          9.5,
+          0,
+          0
+        ],
+        "params": {
+          "width_m": 11,
+          "depth_m": 10,
+          "assembly_class": "regular_house",
+          "style": "artisan",
+          "floors": 1,
+          "floor_height_m": 3.25,
+          "roof_pitch_degrees": 32,
+          "construction_era": "rebuilt",
+          "roof_form": "gable",
+          "attached_units": 1,
+          "asset_id": "working_r01_bank_joinery_repair_bay"
+        },
+        "metadata": {
+          "assembly_class": "regular_house",
+          "width_m": 11.0,
+          "depth_m": 10.0,
+          "floors": 1,
+          "floor_height_m": 3.25,
+          "roof_form": "gable",
+          "roof_pitch_degrees": 32.0,
+          "roof_run_m": 5.5,
+          "roof_rise_m": 3.436781435501301,
+          "eave_height_m": 3.75,
+          "roof_peak_height_m": 7.186781435501301,
+          "height_m": 7.686781435501301,
+          "construction_era": "rebuilt",
+          "geometry_era": "rebuilt",
+          "row_units": 1,
+          "style": "artisan",
+          "envelope": {
+            "min": [
+              -5.5,
+              0,
+              -5.0
+            ],
+            "max": [
+              5.5,
+              7.686781435501301,
+              5.0
+            ]
+          },
+          "body_bounds": {
+            "min": [
+              -5.0,
+              0.5,
+              -4.5
+            ],
+            "max": [
+              5.0,
+              3.75,
+              3.6
+            ]
+          },
+          "entrance": {
+            "front": "+Z",
+            "closed": true,
+            "position": [
+              -2.8000000000000003,
+              0.5,
+              3.6
+            ],
+            "all_positions": [
+              [
+                -2.8000000000000003,
+                0.5,
+                3.6
+              ]
+            ],
+            "threshold_bounds": {
+              "min": [
+                -3.8500000000000005,
+                0.5,
+                4.0
+              ],
+              "max": [
+                -1.7500000000000002,
+                2.2,
+                5.0
+              ]
+            }
+          },
+          "roof_geometry": "Exact roof run multiplied by tan(explicit pitch); no height-driven flattening.",
+          "palette_policy": "Uniform slate semantic slots; per-property red clay/brown wood/gray slate runtime mapping is external.",
+          "lod": "One continuous source; independently sample at each pitch.",
+          "authoring": "Dimension-authored modular livelihood assembly; no whole-building scaling.",
+          "compound_scope": "Main residence building; enclosing property walls, gardens and service buildings are separate measured land-use assemblies."
+        },
+        "source": {
+          "path": "world_city/concept_city_v3/assemblies/ordinary/registered/working_ranges_r01/masters/modules/working_r01_bank_joinery_repair_bay.json",
+          "sha256": "9846d9a7364e6d939b35a947d64b229ba33e1c7a49780a6f0b694aa82a0be49c"
+        }
+      }
+    ],
+    "palette": "wood_brown",
+    "native_dimensions_m": [
+      30,
+      10
+    ],
+    "physical_entrances_only": true
+  }
+}

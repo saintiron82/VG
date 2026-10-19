@@ -1,0 +1,3417 @@
+{
+  "schema": "riverstone.registered_market_fixtures.v2",
+  "status": "resolved_native_candidate_requires_bypass_owner_then_actual_view",
+  "source_plan_sha256": "685592393dd5b3bffa189d497db8bff14ba4d893d5d81089a66427bd5a6b588c",
+  "source_proxy_group": "market_stalls",
+  "replace_landmark_groups": [
+    "market_stalls"
+  ],
+  "access_overlay": {
+    "replace_roads": [
+      {
+        "control_pixel_xy": [
+          [
+            930,
+            530
+          ],
+          [
+            935,
+            485
+          ],
+          [
+            941,
+            453
+          ]
+        ],
+        "endpoint_repair": null,
+        "frontage_control_polyline_xz_m": [
+          [
+            97.36957813563573,
+            78.20197532570691
+          ],
+          [
+            99.49824170185559,
+            27.277954785201842
+          ],
+          [
+            102.51014920959473,
+            -8.96224445535969
+          ]
+        ],
+        "id": "MARKET_PROCESSION",
+        "kind": "registered_trace_road",
+        "levels_m": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "maximum_vertex_grade": 0,
+        "observed_vs_inferred": "Explicit local functional bypass of observed fountain anchor; unchanged road endpoints and7m width. Original trace preserved in this pack.",
+        "original_trace_pixel_xy": [
+          [
+            930,
+            530
+          ],
+          [
+            935,
+            485
+          ],
+          [
+            941,
+            453
+          ]
+        ],
+        "polyline_xz_m": [
+          [
+            97.36957813563573,
+            78.20197532570691
+          ],
+          [
+            98.41505784216918,
+            48.75638652919374
+          ],
+          [
+            91.41505784216918,
+            34.75638652919374
+          ],
+          [
+            89.41505784216918,
+            22.75638652919374
+          ],
+          [
+            91.41505784216918,
+            10.75638652919374
+          ],
+          [
+            102.51014920959473,
+            -8.96224445535969
+          ]
+        ],
+        "registration_control_id": null,
+        "resolved_world_xyz_m": [
+          [
+            97.36957813563573,
+            4,
+            78.20197532570691
+          ],
+          [
+            98.41505784216918,
+            4,
+            48.75638652919374
+          ],
+          [
+            91.41505784216918,
+            4,
+            34.75638652919374
+          ],
+          [
+            89.41505784216918,
+            4,
+            22.75638652919374
+          ],
+          [
+            91.41505784216918,
+            4,
+            10.75638652919374
+          ],
+          [
+            102.51014920959473,
+            4,
+            -8.96224445535969
+          ]
+        ],
+        "trace_pixel_xy": [
+          [
+            930.0,
+            530.0
+          ],
+          [
+            930.8333333333334,
+            522.5
+          ],
+          [
+            931.6666666666666,
+            515.0
+          ],
+          [
+            932.5,
+            507.5
+          ],
+          [
+            933.3333333333334,
+            500.0
+          ],
+          [
+            934.1666666666666,
+            492.5
+          ],
+          [
+            935.0,
+            485.0
+          ],
+          [
+            936.2,
+            478.6
+          ],
+          [
+            937.4,
+            472.2
+          ],
+          [
+            938.6,
+            465.8
+          ],
+          [
+            939.8,
+            459.4
+          ],
+          [
+            941,
+            453
+          ]
+        ],
+        "width_m": 7
+      }
+    ],
+    "original_roads": [
+      {
+        "control_pixel_xy": [
+          [
+            930,
+            530
+          ],
+          [
+            935,
+            485
+          ],
+          [
+            941,
+            453
+          ]
+        ],
+        "endpoint_repair": null,
+        "frontage_control_polyline_xz_m": [
+          [
+            97.36957813563573,
+            78.20197532570691
+          ],
+          [
+            99.49824170185559,
+            27.277954785201842
+          ],
+          [
+            102.51014920959473,
+            -8.96224445535969
+          ]
+        ],
+        "id": "MARKET_PROCESSION",
+        "kind": "registered_trace_road",
+        "levels_m": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ],
+        "maximum_vertex_grade": 0.0,
+        "observed_vs_inferred": "Civic procession corridor across the square; stall placement must exclude it.; inverse repeated at resolved grade",
+        "original_trace_pixel_xy": [
+          [
+            930,
+            530
+          ],
+          [
+            935,
+            485
+          ],
+          [
+            941,
+            453
+          ]
+        ],
+        "polyline_xz_m": [
+          [
+            97.36957813563573,
+            78.20197532570691
+          ],
+          [
+            97.72435539667241,
+            69.71463856895606
+          ],
+          [
+            98.079132657709,
+            61.227301812205226
+          ],
+          [
+            98.43390991874567,
+            52.73996505545437
+          ],
+          [
+            98.78868717978233,
+            44.252628298703534
+          ],
+          [
+            99.14346444081893,
+            35.765291541952685
+          ],
+          [
+            99.49824170185559,
+            27.277954785201842
+          ],
+          [
+            100.10062320340344,
+            20.02991493708956
+          ],
+          [
+            100.70300470495124,
+            12.781875088977218
+          ],
+          [
+            101.30538620649908,
+            5.533835240864936
+          ],
+          [
+            101.90776770804688,
+            -1.714204607247409
+          ],
+          [
+            102.51014920959473,
+            -8.96224445535969
+          ]
+        ],
+        "registration_control_id": null,
+        "resolved_world_xyz_m": [
+          [
+            97.36957813563573,
+            4.0,
+            78.20197532570691
+          ],
+          [
+            97.72435539667241,
+            4.0,
+            69.71463856895606
+          ],
+          [
+            98.079132657709,
+            4.0,
+            61.227301812205226
+          ],
+          [
+            98.43390991874567,
+            4.0,
+            52.73996505545437
+          ],
+          [
+            98.78868717978233,
+            4.0,
+            44.252628298703534
+          ],
+          [
+            99.14346444081893,
+            4.0,
+            35.765291541952685
+          ],
+          [
+            99.49824170185559,
+            4.0,
+            27.277954785201842
+          ],
+          [
+            100.10062320340344,
+            4.0,
+            20.02991493708956
+          ],
+          [
+            100.70300470495124,
+            4.0,
+            12.781875088977218
+          ],
+          [
+            101.30538620649908,
+            4.0,
+            5.533835240864936
+          ],
+          [
+            101.90776770804688,
+            4.0,
+            -1.714204607247409
+          ],
+          [
+            102.51014920959473,
+            4.0,
+            -8.96224445535969
+          ]
+        ],
+        "trace_pixel_xy": [
+          [
+            930.0,
+            530.0
+          ],
+          [
+            930.8333333333334,
+            522.5
+          ],
+          [
+            931.6666666666666,
+            515.0
+          ],
+          [
+            932.5,
+            507.5
+          ],
+          [
+            933.3333333333334,
+            500.0
+          ],
+          [
+            934.1666666666666,
+            492.5
+          ],
+          [
+            935.0,
+            485.0
+          ],
+          [
+            936.2,
+            478.6
+          ],
+          [
+            937.4,
+            472.2
+          ],
+          [
+            938.6,
+            465.8
+          ],
+          [
+            939.8,
+            459.4
+          ],
+          [
+            941,
+            453
+          ]
+        ],
+        "width_m": 7
+      }
+    ],
+    "reason": "Observed fountain center must be an island, not occupy active procession traffic."
+  },
+  "placements": [
+    {
+      "id": "MARKET_FOUNTAIN",
+      "asset_key": "fountain",
+      "position_m": [
+        99.41505784216918,
+        4,
+        22.75638652919374
+      ],
+      "yaw_rad": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "original_fountain",
+      "palette_override": {},
+      "function": "public_drawpoint_and_market_marker",
+      "registration": {
+        "pixel_xy": [
+          935,
+          481
+        ],
+        "height_m": 4,
+        "interpretation": "visible center anchor; original4.8m common asset kept at native scale"
+      },
+      "support_samples": {
+        "y_m": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ],
+        "ground_range_m": 0.0,
+        "native_bottom_y_m": 4.0
+      }
+    },
+    {
+      "id": "MARKET_stall_0_0",
+      "source_proxy_id": "stall_0_0",
+      "asset_key": "timber",
+      "position_m": [
+        38,
+        4,
+        8
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          35.86024154447371,
+          6.707160585376618
+        ],
+        [
+          39.84025820558581,
+          6.3078269187893055
+        ],
+        [
+          40.13975845552629,
+          9.292839414623383
+        ],
+        [
+          36.15974179441419,
+          9.692173081210695
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_0_1",
+      "source_proxy_id": "stall_0_1",
+      "asset_key": "cloth",
+      "position_m": [
+        38,
+        4,
+        20
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_1",
+      "palette_override": {
+        "plaster_light": "b87352"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          35.86024154447371,
+          18.707160585376617
+        ],
+        [
+          39.84025820558581,
+          18.307826918789306
+        ],
+        [
+          40.13975845552629,
+          21.292839414623383
+        ],
+        [
+          36.15974179441419,
+          21.692173081210694
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_0_2",
+      "source_proxy_id": "stall_0_2",
+      "asset_key": "cloth",
+      "position_m": [
+        38,
+        4,
+        32
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_2",
+      "palette_override": {
+        "plaster_light": "e2d4b5"
+      },
+      "function": "cloth",
+      "footprint_xz_m": [
+        [
+          35.86024154447371,
+          30.707160585376617
+        ],
+        [
+          39.84025820558581,
+          30.307826918789306
+        ],
+        [
+          40.13975845552629,
+          33.29283941462339
+        ],
+        [
+          36.15974179441419,
+          33.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_0_3",
+      "source_proxy_id": "stall_0_3",
+      "asset_key": "cloth",
+      "position_m": [
+        38,
+        4,
+        44
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          35.86024154447371,
+          42.70716058537661
+        ],
+        [
+          39.84025820558581,
+          42.3078269187893
+        ],
+        [
+          40.13975845552629,
+          45.29283941462339
+        ],
+        [
+          36.15974179441419,
+          45.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_1_0",
+      "source_proxy_id": "stall_1_0",
+      "asset_key": "timber",
+      "position_m": [
+        50,
+        4,
+        8
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          47.86024154447371,
+          6.707160585376618
+        ],
+        [
+          51.84025820558581,
+          6.3078269187893055
+        ],
+        [
+          52.13975845552629,
+          9.292839414623383
+        ],
+        [
+          48.15974179441419,
+          9.692173081210695
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_1_1",
+      "source_proxy_id": "stall_1_1",
+      "asset_key": "cloth",
+      "position_m": [
+        50,
+        4,
+        20
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_2",
+      "palette_override": {
+        "plaster_light": "e2d4b5"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          47.86024154447371,
+          18.707160585376617
+        ],
+        [
+          51.84025820558581,
+          18.307826918789306
+        ],
+        [
+          52.13975845552629,
+          21.292839414623383
+        ],
+        [
+          48.15974179441419,
+          21.692173081210694
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_1_2",
+      "source_proxy_id": "stall_1_2",
+      "asset_key": "cloth",
+      "position_m": [
+        50,
+        4,
+        32
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "cloth",
+      "footprint_xz_m": [
+        [
+          47.86024154447371,
+          30.707160585376617
+        ],
+        [
+          51.84025820558581,
+          30.307826918789306
+        ],
+        [
+          52.13975845552629,
+          33.29283941462339
+        ],
+        [
+          48.15974179441419,
+          33.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_1_3",
+      "source_proxy_id": "stall_1_3",
+      "asset_key": "cloth",
+      "position_m": [
+        50,
+        4,
+        44
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_1",
+      "palette_override": {
+        "plaster_light": "b87352"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          47.86024154447371,
+          42.70716058537661
+        ],
+        [
+          51.84025820558581,
+          42.3078269187893
+        ],
+        [
+          52.13975845552629,
+          45.29283941462339
+        ],
+        [
+          48.15974179441419,
+          45.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_1_4",
+      "source_proxy_id": "stall_1_4",
+      "asset_key": "timber",
+      "position_m": [
+        50,
+        4,
+        56
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          47.86024154447371,
+          54.70716058537661
+        ],
+        [
+          51.84025820558581,
+          54.3078269187893
+        ],
+        [
+          52.13975845552629,
+          57.29283941462339
+        ],
+        [
+          48.15974179441419,
+          57.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_1_5",
+      "source_proxy_id": "stall_1_5",
+      "asset_key": "cloth",
+      "position_m": [
+        50,
+        4,
+        68
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          47.86024154447371,
+          66.70716058537663
+        ],
+        [
+          51.84025820558581,
+          66.3078269187893
+        ],
+        [
+          52.13975845552629,
+          69.29283941462337
+        ],
+        [
+          48.15974179441419,
+          69.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_2_0",
+      "source_proxy_id": "stall_2_0",
+      "asset_key": "cloth",
+      "position_m": [
+        62,
+        4,
+        8
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_1",
+      "palette_override": {
+        "plaster_light": "b87352"
+      },
+      "function": "cloth",
+      "footprint_xz_m": [
+        [
+          59.86024154447371,
+          6.707160585376618
+        ],
+        [
+          63.84025820558581,
+          6.3078269187893055
+        ],
+        [
+          64.13975845552629,
+          9.292839414623383
+        ],
+        [
+          60.15974179441419,
+          9.692173081210695
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_2_1",
+      "source_proxy_id": "stall_2_1",
+      "asset_key": "cloth",
+      "position_m": [
+        62,
+        4,
+        20
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_2",
+      "palette_override": {
+        "plaster_light": "e2d4b5"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          59.86024154447371,
+          18.707160585376617
+        ],
+        [
+          63.84025820558581,
+          18.307826918789306
+        ],
+        [
+          64.13975845552629,
+          21.292839414623383
+        ],
+        [
+          60.15974179441419,
+          21.692173081210694
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_2_2",
+      "source_proxy_id": "stall_2_2",
+      "asset_key": "timber",
+      "position_m": [
+        62,
+        4,
+        32
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          59.86024154447371,
+          30.707160585376617
+        ],
+        [
+          63.84025820558581,
+          30.307826918789306
+        ],
+        [
+          64.13975845552629,
+          33.29283941462339
+        ],
+        [
+          60.15974179441419,
+          33.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_2_3",
+      "source_proxy_id": "stall_2_3",
+      "asset_key": "cloth",
+      "position_m": [
+        62,
+        4,
+        44
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_1",
+      "palette_override": {
+        "plaster_light": "b87352"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          59.86024154447371,
+          42.70716058537661
+        ],
+        [
+          63.84025820558581,
+          42.3078269187893
+        ],
+        [
+          64.13975845552629,
+          45.29283941462339
+        ],
+        [
+          60.15974179441419,
+          45.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_2_4",
+      "source_proxy_id": "stall_2_4",
+      "asset_key": "cloth",
+      "position_m": [
+        62,
+        4,
+        56
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_2",
+      "palette_override": {
+        "plaster_light": "e2d4b5"
+      },
+      "function": "cloth",
+      "footprint_xz_m": [
+        [
+          59.86024154447371,
+          54.70716058537661
+        ],
+        [
+          63.84025820558581,
+          54.3078269187893
+        ],
+        [
+          64.13975845552629,
+          57.29283941462339
+        ],
+        [
+          60.15974179441419,
+          57.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_2_5",
+      "source_proxy_id": "stall_2_5",
+      "asset_key": "cloth",
+      "position_m": [
+        62,
+        4,
+        68
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          59.86024154447371,
+          66.70716058537663
+        ],
+        [
+          63.84025820558581,
+          66.3078269187893
+        ],
+        [
+          64.13975845552629,
+          69.29283941462337
+        ],
+        [
+          60.15974179441419,
+          69.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_2_6",
+      "source_proxy_id": "stall_2_6",
+      "asset_key": "timber",
+      "position_m": [
+        62,
+        4,
+        80
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          59.86024154447371,
+          78.70716058537663
+        ],
+        [
+          63.84025820558581,
+          78.3078269187893
+        ],
+        [
+          64.13975845552629,
+          81.29283941462337
+        ],
+        [
+          60.15974179441419,
+          81.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_3_0",
+      "source_proxy_id": "stall_3_0",
+      "asset_key": "cloth",
+      "position_m": [
+        74,
+        4,
+        8
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_2",
+      "palette_override": {
+        "plaster_light": "e2d4b5"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          71.86024154447371,
+          6.707160585376618
+        ],
+        [
+          75.84025820558581,
+          6.3078269187893055
+        ],
+        [
+          76.13975845552629,
+          9.292839414623383
+        ],
+        [
+          72.15974179441419,
+          9.692173081210695
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_3_1",
+      "source_proxy_id": "stall_3_1",
+      "asset_key": "cloth",
+      "position_m": [
+        74,
+        4,
+        20
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "cloth",
+      "footprint_xz_m": [
+        [
+          71.86024154447371,
+          18.707160585376617
+        ],
+        [
+          75.84025820558581,
+          18.307826918789306
+        ],
+        [
+          76.13975845552629,
+          21.292839414623383
+        ],
+        [
+          72.15974179441419,
+          21.692173081210694
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_3_2",
+      "source_proxy_id": "stall_3_2",
+      "asset_key": "cloth",
+      "position_m": [
+        74,
+        4,
+        32
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_1",
+      "palette_override": {
+        "plaster_light": "b87352"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          71.86024154447371,
+          30.707160585376617
+        ],
+        [
+          75.84025820558581,
+          30.307826918789306
+        ],
+        [
+          76.13975845552629,
+          33.29283941462339
+        ],
+        [
+          72.15974179441419,
+          33.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_3_3",
+      "source_proxy_id": "stall_3_3",
+      "asset_key": "timber",
+      "position_m": [
+        74,
+        4,
+        44
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          71.86024154447371,
+          42.70716058537661
+        ],
+        [
+          75.84025820558581,
+          42.3078269187893
+        ],
+        [
+          76.13975845552629,
+          45.29283941462339
+        ],
+        [
+          72.15974179441419,
+          45.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_3_4",
+      "source_proxy_id": "stall_3_4",
+      "asset_key": "cloth",
+      "position_m": [
+        74,
+        4,
+        56
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          71.86024154447371,
+          54.70716058537661
+        ],
+        [
+          75.84025820558581,
+          54.3078269187893
+        ],
+        [
+          76.13975845552629,
+          57.29283941462339
+        ],
+        [
+          72.15974179441419,
+          57.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_3_5",
+      "source_proxy_id": "stall_3_5",
+      "asset_key": "cloth",
+      "position_m": [
+        74,
+        4,
+        68
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_1",
+      "palette_override": {
+        "plaster_light": "b87352"
+      },
+      "function": "cloth",
+      "footprint_xz_m": [
+        [
+          71.86024154447371,
+          66.70716058537663
+        ],
+        [
+          75.84025820558581,
+          66.3078269187893
+        ],
+        [
+          76.13975845552629,
+          69.29283941462337
+        ],
+        [
+          72.15974179441419,
+          69.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_3_6",
+      "source_proxy_id": "stall_3_6",
+      "asset_key": "cloth",
+      "position_m": [
+        74,
+        4,
+        80
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_2",
+      "palette_override": {
+        "plaster_light": "e2d4b5"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          71.86024154447371,
+          78.70716058537663
+        ],
+        [
+          75.84025820558581,
+          78.3078269187893
+        ],
+        [
+          76.13975845552629,
+          81.29283941462337
+        ],
+        [
+          72.15974179441419,
+          81.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_4_0",
+      "source_proxy_id": "stall_4_0",
+      "asset_key": "timber",
+      "position_m": [
+        86,
+        4,
+        8
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          83.86024154447371,
+          6.707160585376618
+        ],
+        [
+          87.84025820558581,
+          6.3078269187893055
+        ],
+        [
+          88.13975845552629,
+          9.292839414623383
+        ],
+        [
+          84.15974179441419,
+          9.692173081210695
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_4_3",
+      "source_proxy_id": "stall_4_3",
+      "asset_key": "cloth",
+      "position_m": [
+        86,
+        4,
+        44
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          83.86024154447371,
+          42.70716058537661
+        ],
+        [
+          87.84025820558581,
+          42.3078269187893
+        ],
+        [
+          88.13975845552629,
+          45.29283941462339
+        ],
+        [
+          84.15974179441419,
+          45.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_4_4",
+      "source_proxy_id": "stall_4_4",
+      "asset_key": "timber",
+      "position_m": [
+        86,
+        4,
+        56
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          83.86024154447371,
+          54.70716058537661
+        ],
+        [
+          87.84025820558581,
+          54.3078269187893
+        ],
+        [
+          88.13975845552629,
+          57.29283941462339
+        ],
+        [
+          84.15974179441419,
+          57.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_4_5",
+      "source_proxy_id": "stall_4_5",
+      "asset_key": "cloth",
+      "position_m": [
+        86,
+        4,
+        68
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_2",
+      "palette_override": {
+        "plaster_light": "e2d4b5"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          83.86024154447371,
+          66.70716058537663
+        ],
+        [
+          87.84025820558581,
+          66.3078269187893
+        ],
+        [
+          88.13975845552629,
+          69.29283941462337
+        ],
+        [
+          84.15974179441419,
+          69.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_4_6",
+      "source_proxy_id": "stall_4_6",
+      "asset_key": "cloth",
+      "position_m": [
+        86,
+        4,
+        80
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "cloth",
+      "footprint_xz_m": [
+        [
+          83.86024154447371,
+          78.70716058537663
+        ],
+        [
+          87.84025820558581,
+          78.3078269187893
+        ],
+        [
+          88.13975845552629,
+          81.29283941462337
+        ],
+        [
+          84.15974179441419,
+          81.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_6_0",
+      "source_proxy_id": "stall_6_0",
+      "asset_key": "cloth",
+      "position_m": [
+        110,
+        4,
+        8
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_1",
+      "palette_override": {
+        "plaster_light": "b87352"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          107.86024154447371,
+          6.707160585376618
+        ],
+        [
+          111.84025820558581,
+          6.3078269187893055
+        ],
+        [
+          112.13975845552629,
+          9.292839414623383
+        ],
+        [
+          108.15974179441419,
+          9.692173081210695
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_6_1",
+      "source_proxy_id": "stall_6_1",
+      "asset_key": "timber",
+      "position_m": [
+        110,
+        4,
+        20
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          107.86024154447371,
+          18.707160585376617
+        ],
+        [
+          111.84025820558581,
+          18.307826918789306
+        ],
+        [
+          112.13975845552629,
+          21.292839414623383
+        ],
+        [
+          108.15974179441419,
+          21.692173081210694
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_6_2",
+      "source_proxy_id": "stall_6_2",
+      "asset_key": "cloth",
+      "position_m": [
+        110,
+        4,
+        32
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          107.86024154447371,
+          30.707160585376617
+        ],
+        [
+          111.84025820558581,
+          30.307826918789306
+        ],
+        [
+          112.13975845552629,
+          33.29283941462339
+        ],
+        [
+          108.15974179441419,
+          33.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_6_3",
+      "source_proxy_id": "stall_6_3",
+      "asset_key": "cloth",
+      "position_m": [
+        110,
+        4,
+        44
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_1",
+      "palette_override": {
+        "plaster_light": "b87352"
+      },
+      "function": "cloth",
+      "footprint_xz_m": [
+        [
+          107.86024154447371,
+          42.70716058537661
+        ],
+        [
+          111.84025820558581,
+          42.3078269187893
+        ],
+        [
+          112.13975845552629,
+          45.29283941462339
+        ],
+        [
+          108.15974179441419,
+          45.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_6_4",
+      "source_proxy_id": "stall_6_4",
+      "asset_key": "cloth",
+      "position_m": [
+        110,
+        4,
+        56
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_2",
+      "palette_override": {
+        "plaster_light": "e2d4b5"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          107.86024154447371,
+          54.70716058537661
+        ],
+        [
+          111.84025820558581,
+          54.3078269187893
+        ],
+        [
+          112.13975845552629,
+          57.29283941462339
+        ],
+        [
+          108.15974179441419,
+          57.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_6_5",
+      "source_proxy_id": "stall_6_5",
+      "asset_key": "timber",
+      "position_m": [
+        110,
+        4,
+        68
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          107.86024154447371,
+          66.70716058537663
+        ],
+        [
+          111.84025820558581,
+          66.3078269187893
+        ],
+        [
+          112.13975845552629,
+          69.29283941462337
+        ],
+        [
+          108.15974179441419,
+          69.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_6_6",
+      "source_proxy_id": "stall_6_6",
+      "asset_key": "cloth",
+      "position_m": [
+        110,
+        4,
+        80
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_1",
+      "palette_override": {
+        "plaster_light": "b87352"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          107.86024154447371,
+          78.70716058537663
+        ],
+        [
+          111.84025820558581,
+          78.3078269187893
+        ],
+        [
+          112.13975845552629,
+          81.29283941462337
+        ],
+        [
+          108.15974179441419,
+          81.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_7_0",
+      "source_proxy_id": "stall_7_0",
+      "asset_key": "cloth",
+      "position_m": [
+        122,
+        4,
+        8
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_2",
+      "palette_override": {
+        "plaster_light": "e2d4b5"
+      },
+      "function": "cloth",
+      "footprint_xz_m": [
+        [
+          119.86024154447371,
+          6.707160585376618
+        ],
+        [
+          123.84025820558581,
+          6.3078269187893055
+        ],
+        [
+          124.13975845552629,
+          9.292839414623383
+        ],
+        [
+          120.15974179441419,
+          9.692173081210695
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_7_1",
+      "source_proxy_id": "stall_7_1",
+      "asset_key": "cloth",
+      "position_m": [
+        122,
+        4,
+        20
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          119.86024154447371,
+          18.707160585376617
+        ],
+        [
+          123.84025820558581,
+          18.307826918789306
+        ],
+        [
+          124.13975845552629,
+          21.292839414623383
+        ],
+        [
+          120.15974179441419,
+          21.692173081210694
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_7_2",
+      "source_proxy_id": "stall_7_2",
+      "asset_key": "timber",
+      "position_m": [
+        122,
+        4,
+        32
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          119.86024154447371,
+          30.707160585376617
+        ],
+        [
+          123.84025820558581,
+          30.307826918789306
+        ],
+        [
+          124.13975845552629,
+          33.29283941462339
+        ],
+        [
+          120.15974179441419,
+          33.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_7_3",
+      "source_proxy_id": "stall_7_3",
+      "asset_key": "cloth",
+      "position_m": [
+        122,
+        4,
+        44
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_2",
+      "palette_override": {
+        "plaster_light": "e2d4b5"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          119.86024154447371,
+          42.70716058537661
+        ],
+        [
+          123.84025820558581,
+          42.3078269187893
+        ],
+        [
+          124.13975845552629,
+          45.29283941462339
+        ],
+        [
+          120.15974179441419,
+          45.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_7_4",
+      "source_proxy_id": "stall_7_4",
+      "asset_key": "cloth",
+      "position_m": [
+        122,
+        4,
+        56
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "cloth",
+      "footprint_xz_m": [
+        [
+          119.86024154447371,
+          54.70716058537661
+        ],
+        [
+          123.84025820558581,
+          54.3078269187893
+        ],
+        [
+          124.13975845552629,
+          57.29283941462339
+        ],
+        [
+          120.15974179441419,
+          57.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_7_5",
+      "source_proxy_id": "stall_7_5",
+      "asset_key": "cloth",
+      "position_m": [
+        122,
+        4,
+        68
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_1",
+      "palette_override": {
+        "plaster_light": "b87352"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          119.86024154447371,
+          66.70716058537663
+        ],
+        [
+          123.84025820558581,
+          66.3078269187893
+        ],
+        [
+          124.13975845552629,
+          69.29283941462337
+        ],
+        [
+          120.15974179441419,
+          69.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_7_6",
+      "source_proxy_id": "stall_7_6",
+      "asset_key": "timber",
+      "position_m": [
+        122,
+        4,
+        80
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          119.86024154447371,
+          78.70716058537663
+        ],
+        [
+          123.84025820558581,
+          78.3078269187893
+        ],
+        [
+          124.13975845552629,
+          81.29283941462337
+        ],
+        [
+          120.15974179441419,
+          81.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_8_1",
+      "source_proxy_id": "stall_8_1",
+      "asset_key": "cloth",
+      "position_m": [
+        134,
+        4,
+        20
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          131.8602415444737,
+          18.707160585376617
+        ],
+        [
+          135.84025820558583,
+          18.307826918789306
+        ],
+        [
+          136.1397584555263,
+          21.292839414623383
+        ],
+        [
+          132.15974179441417,
+          21.692173081210694
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_8_2",
+      "source_proxy_id": "stall_8_2",
+      "asset_key": "cloth",
+      "position_m": [
+        134,
+        4,
+        32
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_1",
+      "palette_override": {
+        "plaster_light": "b87352"
+      },
+      "function": "cloth",
+      "footprint_xz_m": [
+        [
+          131.8602415444737,
+          30.707160585376617
+        ],
+        [
+          135.84025820558583,
+          30.307826918789306
+        ],
+        [
+          136.1397584555263,
+          33.29283941462339
+        ],
+        [
+          132.15974179441417,
+          33.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_8_3",
+      "source_proxy_id": "stall_8_3",
+      "asset_key": "cloth",
+      "position_m": [
+        134,
+        4,
+        44
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_2",
+      "palette_override": {
+        "plaster_light": "e2d4b5"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          131.8602415444737,
+          42.70716058537661
+        ],
+        [
+          135.84025820558583,
+          42.3078269187893
+        ],
+        [
+          136.1397584555263,
+          45.29283941462339
+        ],
+        [
+          132.15974179441417,
+          45.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_8_4",
+      "source_proxy_id": "stall_8_4",
+      "asset_key": "timber",
+      "position_m": [
+        134,
+        4,
+        56
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          131.8602415444737,
+          54.70716058537661
+        ],
+        [
+          135.84025820558583,
+          54.3078269187893
+        ],
+        [
+          136.1397584555263,
+          57.29283941462339
+        ],
+        [
+          132.15974179441417,
+          57.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_8_5",
+      "source_proxy_id": "stall_8_5",
+      "asset_key": "cloth",
+      "position_m": [
+        134,
+        4,
+        68
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_1",
+      "palette_override": {
+        "plaster_light": "b87352"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          131.8602415444737,
+          66.70716058537663
+        ],
+        [
+          135.84025820558583,
+          66.3078269187893
+        ],
+        [
+          136.1397584555263,
+          69.29283941462337
+        ],
+        [
+          132.15974179441417,
+          69.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_8_6",
+      "source_proxy_id": "stall_8_6",
+      "asset_key": "cloth",
+      "position_m": [
+        134,
+        4,
+        80
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_2",
+      "palette_override": {
+        "plaster_light": "e2d4b5"
+      },
+      "function": "cloth",
+      "footprint_xz_m": [
+        [
+          131.8602415444737,
+          78.70716058537663
+        ],
+        [
+          135.84025820558583,
+          78.3078269187893
+        ],
+        [
+          136.1397584555263,
+          81.29283941462337
+        ],
+        [
+          132.15974179441417,
+          81.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_9_1",
+      "source_proxy_id": "stall_9_1",
+      "asset_key": "cloth",
+      "position_m": [
+        146,
+        4,
+        20
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          143.8602415444737,
+          18.707160585376617
+        ],
+        [
+          147.84025820558583,
+          18.307826918789306
+        ],
+        [
+          148.1397584555263,
+          21.292839414623383
+        ],
+        [
+          144.15974179441417,
+          21.692173081210694
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4.0,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_9_2",
+      "source_proxy_id": "stall_9_2",
+      "asset_key": "timber",
+      "position_m": [
+        146,
+        4,
+        32
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          143.8602415444737,
+          30.707160585376617
+        ],
+        [
+          147.84025820558583,
+          30.307826918789306
+        ],
+        [
+          148.1397584555263,
+          33.29283941462339
+        ],
+        [
+          144.15974179441417,
+          33.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_9_3",
+      "source_proxy_id": "stall_9_3",
+      "asset_key": "cloth",
+      "position_m": [
+        146,
+        4,
+        44
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_2",
+      "palette_override": {
+        "plaster_light": "e2d4b5"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          143.8602415444737,
+          42.70716058537661
+        ],
+        [
+          147.84025820558583,
+          42.3078269187893
+        ],
+        [
+          148.1397584555263,
+          45.29283941462339
+        ],
+        [
+          144.15974179441417,
+          45.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_9_4",
+      "source_proxy_id": "stall_9_4",
+      "asset_key": "cloth",
+      "position_m": [
+        146,
+        4,
+        56
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "cloth",
+      "footprint_xz_m": [
+        [
+          143.8602415444737,
+          54.70716058537661
+        ],
+        [
+          147.84025820558583,
+          54.3078269187893
+        ],
+        [
+          148.1397584555263,
+          57.29283941462339
+        ],
+        [
+          144.15974179441417,
+          57.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_9_5",
+      "source_proxy_id": "stall_9_5",
+      "asset_key": "cloth",
+      "position_m": [
+        146,
+        4,
+        68
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_1",
+      "palette_override": {
+        "plaster_light": "b87352"
+      },
+      "function": "household_goods",
+      "footprint_xz_m": [
+        [
+          143.8602415444737,
+          66.70716058537663
+        ],
+        [
+          147.84025820558583,
+          66.3078269187893
+        ],
+        [
+          148.1397584555263,
+          69.29283941462337
+        ],
+        [
+          144.15974179441417,
+          69.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_10_3",
+      "source_proxy_id": "stall_10_3",
+      "asset_key": "timber",
+      "position_m": [
+        158,
+        4,
+        44
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_timber",
+      "palette_override": {},
+      "function": "grain",
+      "footprint_xz_m": [
+        [
+          155.8602415444737,
+          42.70716058537661
+        ],
+        [
+          159.84025820558583,
+          42.3078269187893
+        ],
+        [
+          160.1397584555263,
+          45.29283941462339
+        ],
+        [
+          156.15974179441417,
+          45.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    },
+    {
+      "id": "MARKET_stall_10_4",
+      "source_proxy_id": "stall_10_4",
+      "asset_key": "cloth",
+      "position_m": [
+        158,
+        4,
+        56
+      ],
+      "yaw_rad": 0.10000000000000002,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "canvas_0",
+      "palette_override": {
+        "plaster_light": "d4c5a2"
+      },
+      "function": "produce",
+      "footprint_xz_m": [
+        [
+          155.8602415444737,
+          54.70716058537661
+        ],
+        [
+          159.84025820558583,
+          54.3078269187893
+        ],
+        [
+          160.1397584555263,
+          57.29283941462339
+        ],
+        [
+          156.15974179441417,
+          57.6921730812107
+        ]
+      ],
+      "standing_frontage_width_m": 4,
+      "source_floor_y_m": 4,
+      "support_samples": {
+        "y_m": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "ground_range_m": 0,
+        "native_bottom_y_m": 3.5
+      }
+    }
+  ],
+  "assets": {
+    "cloth": {
+      "master_path": "world_city/runtime_city/generated/r2/fabric_masters/uf_market_stall_b7bbb02d2f9be2.json",
+      "master_sha256": "e45dcfbb98ffeb89077386c8743bbba888cedddd0c58ae9c4217b53999f0e2f7",
+      "render_path": "world_city/runtime_city/generated/r2/fabric_renders/uf_market_stall_b7bbb02d2f9be2.json",
+      "render_sha256": "6bd34bb49acfc8b8751984788a659f6891a5bb2c1fafb0032fd2ca7c4d7e50e3",
+      "bounds": {
+        "max": [
+          2.0,
+          3.0,
+          1.5
+        ],
+        "min": [
+          -2.0,
+          -0.5,
+          -1.5
+        ]
+      },
+      "quad_count": 56,
+      "pitch_m": 0.25
+    },
+    "timber": {
+      "master_path": "world_city/runtime_city/generated/r2/fabric_masters/uf_market_stall_c33d20b8743e94.json",
+      "master_sha256": "ff4ff6280417fb8799f573789da05d4583ffef29ba3b0e084292c2e34b03c6b4",
+      "render_path": "world_city/runtime_city/generated/r2/fabric_renders/uf_market_stall_c33d20b8743e94.json",
+      "render_sha256": "5b987d8d47a26450011db1d73bff994e99b0a1e057c566ca7262b42d02f1970e",
+      "bounds": {
+        "max": [
+          2.0,
+          3.0,
+          1.5
+        ],
+        "min": [
+          -2.0,
+          -0.5,
+          -1.5
+        ]
+      },
+      "quad_count": 56,
+      "pitch_m": 0.25
+    },
+    "fountain": {
+      "master_path": "voxel_character/common/assets/fountain/master.json",
+      "master_sha256": "49d9288b70dd1ae36a9d3af2fefb5f6130caf9a8384bdbf11f677d558846d593",
+      "render_path": "world_city/runtime_city/generated/r1/infrastructure_renders/fountain.json",
+      "render_sha256": "cea11b2de8fe90e04c3a1a06f67268bc308349d437d36cff577ede818fafb450",
+      "bounds": {
+        "max": [
+          2.4000000000000004,
+          3.0,
+          2.4000000000000004
+        ],
+        "min": [
+          -2.4000000000000004,
+          0.0,
+          -2.4000000000000004
+        ]
+      },
+      "quad_count": 2576,
+      "pitch_m": 0.1
+    }
+  },
+  "rejections": [
+    {
+      "source_proxy_id": "stall_4_1",
+      "reason": "public traffic reservation"
+    },
+    {
+      "source_proxy_id": "stall_4_2",
+      "reason": "public traffic reservation"
+    }
+  ],
+  "summary": {
+    "stalls": 56,
+    "fountains": 1,
+    "unique_assets": 3,
+    "new_compiles": 0,
+    "scaled_instances": 0,
+    "new_ground_planes": 0
+  },
+  "limits": [
+    "Stall locations derive from the registered functional clusters, not exact individual objects in the painting.",
+    "Fountain uses original cached static exterior and colors. Water supply link and runtime flow remain separate staged work.",
+    "Walkspace/source support checks do not certify character, cart, NPC or trading gameplay.",
+    "Terrain and physics must consume the explicit7m procession bypass before this pack is activated."
+  ]
+}

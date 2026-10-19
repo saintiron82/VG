@@ -1,0 +1,10 @@
+config_version=5
+
+[application]
+config/name="Read-only material alias contract tests"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+
+[debug]
+gdscript/warnings/untyped_declaration=0

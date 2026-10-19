@@ -1,0 +1,411 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_curtain16_h14_road_face_r02",
+  "revision": 2,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "earth": "77765a",
+    "grass": "6f7959",
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "water": "427a83",
+    "timber": "654631",
+    "timber_light": "896143"
+  },
+  "coordinate_planes": [],
+  "components": [
+    {
+      "id": "module",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "op_0000",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -8.0,
+              0,
+              -1.5
+            ],
+            "max": [
+              8.0,
+              14.0,
+              1.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "op_0001",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -8.0,
+              2,
+              -1.5
+            ],
+            "max": [
+              8.0,
+              2.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0002",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -8.0,
+              4,
+              -1.5
+            ],
+            "max": [
+              8.0,
+              4.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0003",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -8.0,
+              6,
+              -1.5
+            ],
+            "max": [
+              8.0,
+              6.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0004",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -8.0,
+              8,
+              -1.5
+            ],
+            "max": [
+              8.0,
+              8.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0005",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -8.0,
+              10,
+              -1.5
+            ],
+            "max": [
+              8.0,
+              10.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0006",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -8.0,
+              12,
+              -1.5
+            ],
+            "max": [
+              8.0,
+              12.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0007",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -7.5,
+              14.0,
+              -1.5
+            ],
+            "max": [
+              -6.5,
+              15.0,
+              -0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "op_0008",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.5,
+              14.0,
+              -1.5
+            ],
+            "max": [
+              -4.5,
+              15.0,
+              -0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "op_0009",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              14.0,
+              -1.5
+            ],
+            "max": [
+              -2.5,
+              15.0,
+              -0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "op_0010",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.5,
+              14.0,
+              -1.5
+            ],
+            "max": [
+              -0.5,
+              15.0,
+              -0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "op_0011",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.5,
+              14.0,
+              -1.5
+            ],
+            "max": [
+              1.5,
+              15.0,
+              -0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "op_0012",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.5,
+              14.0,
+              -1.5
+            ],
+            "max": [
+              3.5,
+              15.0,
+              -0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "op_0013",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              4.5,
+              14.0,
+              -1.5
+            ],
+            "max": [
+              5.5,
+              15.0,
+              -0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "op_0014",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              6.5,
+              14.0,
+              -1.5
+            ],
+            "max": [
+              7.5,
+              15.0,
+              -0.75
+            ]
+          },
+          "material": "stone_light"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "module_0",
+      "component": "module"
+    }
+  ],
+  "metadata": {
+    "authoring": "bounded_common_master_only",
+    "spec": {
+      "kind": "wall_panel",
+      "width_m": 16,
+      "depth_m": 3,
+      "height_m": 14,
+      "battlements": true,
+      "battlement_height_m": 1,
+      "battlement_spacing_m": 2
+    },
+    "datum": "walking surfaces Y=0; river surface Y=-2; candidate terrain elevations not realized"
+  },
+  "provenance": {
+    "fortification_author": {
+      "path": "world_city/concept_city_v3/assemblies/fortifications/registered/author_fixtures.py",
+      "sha256": "e6bf0e968002f86a050f37ef72f45f82e5bece368b13bc668d343edade12eda4"
+    },
+    "registered_preflight": {
+      "path": "world_city/concept_city_v3/assemblies/fortifications/registered/preflight.json",
+      "sha256": "c8655b9d68fd8161153a7a63491d19a3b3aad747d62592c09e1c03bf707c89e9"
+    },
+    "road_face_repair_author": {
+      "path": "world_city/concept_city_v3/assemblies/fortifications/registered/repair_road_faces.py",
+      "sha256": "4459a0163a3010637c00ded15f2ddcf82bd4d26595f905cd1887788dd868a805"
+    },
+    "road_face_repair_parent": {
+      "path": "world_city/concept_city_v3/assemblies/fortifications/registered/masters/registered_curtain16_h14.json",
+      "sha256": "483d115a2443a8d207949cb6f545bf7743908ea597ef030ee725839254b51eb5"
+    },
+    "reason": "Clear the existing registered road without moving the street, opening another gate, or changing the outer curtain line."
+  },
+  "extensions": {
+    "city_placement": null,
+    "actual_scene_loaded": false,
+    "actual_visual_review": false,
+    "local_bounds_m": {
+      "min": [
+        -8.0,
+        0.0,
+        -1.5
+      ],
+      "max": [
+        8.0,
+        15.0,
+        1.5
+      ]
+    },
+    "status": "reusable_native_fixture_height_assignment_pending",
+    "road_face_repair": {
+      "mode": "north_face",
+      "source_boundary_unchanged": true,
+      "new_gate": false,
+      "outer_wall_continuous": true,
+      "minimum_retained_body_thickness_m": 1.5
+    }
+  },
+  "assembly_cuts": [
+    {
+      "id": "retain_continuous_outer_curtain_clear_inner_road",
+      "selector": {},
+      "shape": {
+        "kind": "box",
+        "min": [
+          -8.0,
+          0.0,
+          0
+        ],
+        "max": [
+          8.0,
+          15.0,
+          1.5
+        ]
+      }
+    }
+  ]
+}

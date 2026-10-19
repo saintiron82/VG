@@ -1,0 +1,10 @@
+import pathlib,json,hashlib,shutil,copy
+H=pathlib.Path(__file__).resolve().parent;ROOT=next(p for p in H.parents if(p/'voxel_character').is_dir());OLD=H.parent/'port_bridge_candidate_r04';SRC=ROOT/'world_city/concept_city_v3/assemblies/waterworks/registered_bridge/port_guard_opening_r01';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();ref=lambda p:dict(path=str(p),sha256=sha(p))
+def write(p,v):
+ with p.open('x')as f:json.dump(v,f,separators=(',',':'));f.write('\n')
+def main():
+ d=json.loads((OLD/'prepared_runtime.json').read_bytes());before=copy.deepcopy(d);pack=json.loads((SRC/'resolved_placements.json').read_bytes());ass=pack['assets'][0];po=pack['placements'][0];old=d['placements'][po['id']];assert po['position_m']==old['position_m']and po['yaw_rad']==old['yaw_rad'];d['assets'][ass['id']]=dict(render_path=ass['cache']['path'],render_sha256=ass['cache']['sha256']);d['placements'][po['id']]=dict(old,asset_key=ass['id']);d['sources'].update(port_guard_native_pack=ref(SRC/'resolved_placements.json'),port_guard_source_cells=ref(SRC/'source_cell_ledger.json'),predecessor_port_replay=ref(OLD/'prepared_runtime.json'));assert d['routes']==before['routes'];assert all(v==before['assets'][k]for k,v in d['assets'].items()if k!=ass['id']);assert all(v==before['placements'][k]for k,v in d['placements'].items()if k!=po['id']);(H/'evidence').mkdir()
+ for n in ['Traversal.gd','RenderData.gd','Traversal.tscn','project.godot','run_batch.py']:shutil.copyfile(OLD/n,H/n)
+ for p in [H/'prepare.py']+[H/n for n in ['Traversal.gd','RenderData.gd','Traversal.tscn','project.godot','run_batch.py']]:d['implementation_hashes'][str(p.relative_to(ROOT))]=sha(p)
+ write(H/'prepared_runtime.json',d);write(H/'evidence/guard_replacement_parity.json',dict(predecessor=ref(OLD/'prepared_runtime.json'),native_pack=ref(SRC/'resolved_placements.json'),routes_unchanged=True,all_other_assets_and_poses_unchanged=True,source_cell_ledger=ref(SRC/'source_cell_ledger.json')))
+if __name__=='__main__':main()

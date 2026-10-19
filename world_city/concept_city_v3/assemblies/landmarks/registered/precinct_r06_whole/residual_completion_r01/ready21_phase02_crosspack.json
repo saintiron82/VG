@@ -1,0 +1,22 @@
+{
+  "sources": {
+    "ready21": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/resolved_connected_placements.json",
+      "sha256": "904cbd3d7ee5ededccbf7a65c691e23c49f2eb4dd397bcb2f7bd56ae13627f70"
+    },
+    "phase02": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r05_ground/phase02/resolved_placements.json",
+      "sha256": "499bec66a33e14e1f78fe35a7bfdc03fa1e0c9aaaf56ba9a225448e48bc94aed"
+    }
+  },
+  "phase02_native_placements_tested": 23,
+  "phase02_exact_native_polygons": 1065,
+  "ready_native_placements_tested": 121,
+  "ready_full_width_routes_tested": 21,
+  "domain_contacts": [],
+  "native_contacts": [],
+  "route_native_contacts": [],
+  "walking_region_crossings": [],
+  "method": "Actual phase02 and ready21 cached native horizontal face unions at native pitch and rigid transforms, plus all exact route ribbons and source holding parts. No R7-only index assumption. Full native projections are conservative for overhead geometry.",
+  "status": "PASS"
+}

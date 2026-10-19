@@ -1,0 +1,116 @@
+[
+  {
+    "id": "review_00",
+    "body_frame": "slender",
+    "face": "soft",
+    "hair_style": "braided",
+    "outfit": "traveller_tunic",
+    "accessories": {
+      "cape": true,
+      "satchel": true
+    },
+    "palette_choices": {
+      "cloth_palettes": "woad",
+      "hair_palettes": "copper",
+      "iris_palettes": "teal",
+      "leather_palettes": "oxblood",
+      "linen_palettes": "cream",
+      "skin_palettes": "rose"
+    }
+  },
+  {
+    "id": "review_01",
+    "body_frame": "standard",
+    "face": "angular",
+    "hair_style": "cropped",
+    "outfit": "work_tunic",
+    "accessories": {
+      "cape": false,
+      "satchel": false
+    },
+    "palette_choices": {
+      "cloth_palettes": "ochre",
+      "hair_palettes": "raven",
+      "iris_palettes": "grey",
+      "leather_palettes": "brown",
+      "linen_palettes": "cream",
+      "skin_palettes": "umber"
+    }
+  },
+  {
+    "id": "review_02",
+    "body_frame": "broad",
+    "face": "soft",
+    "hair_style": "loose",
+    "outfit": "guard_tabard",
+    "accessories": {
+      "cape": false,
+      "satchel": true
+    },
+    "palette_choices": {
+      "cloth_palettes": "undyed",
+      "hair_palettes": "chestnut",
+      "iris_palettes": "brown",
+      "leather_palettes": "tan",
+      "linen_palettes": "grey",
+      "skin_palettes": "bronze"
+    }
+  },
+  {
+    "id": "review_03",
+    "body_frame": "slender",
+    "face": "angular",
+    "hair_style": "loose",
+    "outfit": "work_tunic",
+    "accessories": {
+      "cape": true,
+      "satchel": false
+    },
+    "palette_choices": {
+      "cloth_palettes": "plum",
+      "hair_palettes": "silver",
+      "iris_palettes": "green",
+      "leather_palettes": "tan",
+      "linen_palettes": "cream",
+      "skin_palettes": "olive"
+    }
+  },
+  {
+    "id": "review_04",
+    "body_frame": "standard",
+    "face": "soft",
+    "hair_style": "braided",
+    "outfit": "guard_tabard",
+    "accessories": {
+      "cape": false,
+      "satchel": true
+    },
+    "palette_choices": {
+      "cloth_palettes": "plum",
+      "hair_palettes": "copper",
+      "iris_palettes": "blue",
+      "leather_palettes": "dark",
+      "linen_palettes": "grey",
+      "skin_palettes": "deep"
+    }
+  },
+  {
+    "id": "review_05",
+    "body_frame": "broad",
+    "face": "angular",
+    "hair_style": "cropped",
+    "outfit": "traveller_tunic",
+    "accessories": {
+      "cape": false,
+      "satchel": false
+    },
+    "palette_choices": {
+      "cloth_palettes": "moss",
+      "hair_palettes": "copper",
+      "iris_palettes": "blue",
+      "leather_palettes": "oxblood",
+      "linen_palettes": "oat",
+      "skin_palettes": "olive"
+    }
+  }
+]

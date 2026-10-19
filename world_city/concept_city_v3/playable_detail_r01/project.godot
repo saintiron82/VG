@@ -1,0 +1,16 @@
+config_version=5
+[application]
+config/name="Riverstone · Lily in the city"
+run/main_scene="res://Main.tscn"
+[display]
+window/size/viewport_width=1152
+window/size/viewport_height=768
+window/size/window_width_override=1152
+window/size/window_height_override=768
+[physics]
+common/physics_ticks_per_second=60
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+lights_and_shadows/directional_shadow/size=2048

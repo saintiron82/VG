@@ -1,0 +1,1553 @@
+{
+  "schema_version": "1.0.0",
+  "fictional_design": true,
+  "city": {
+    "working_name": "중세 핵심 도시(가칭)",
+    "snapshot_year": 1435,
+    "inspiration": "Fictional southern-German-inspired medieval city, visual horizon 1400–1450; dates and events below are authored worldbuilding, not claims about a real city.",
+    "source_city_id": "world_city_01",
+    "fictional_snapshot_note": "1435 is an authored storytelling snapshot inside the existing 1400–1450 art-direction range, not a dated survey."
+  },
+  "integration_status": {
+    "source_repo_inspected": true,
+    "source": "world_city/data/city_brief.v2.json",
+    "source_sha256": "2a848ee765c035892cfe9eab20f96cd4fe6334e1043cfc0e54caab611fb1e8ae",
+    "district_bindings_complete": true,
+    "safe_to_generate_without_reconciliation": false,
+    "remaining_reconciliation": [
+      "resolve_semantic_r4_palette_aliases",
+      "restore_or_explicitly_reconstruct_protected_D03_detail"
+    ],
+    "source_recovery_note": "Recovered v2 layout is verified. Later authored quarter geometry was not present in this recovered archive; do not claim it is preserved until source recovery or explicitly labeled reconstruction is verified."
+  },
+  "precedence": [
+    "existing_authored_building_and_r4_material",
+    "existing_footprint_road_water_courtyard_and_landmark",
+    "explicit_verified_district_binding",
+    "district_archetype",
+    "city_default"
+  ],
+  "preservation": {
+    "existing_footprints": true,
+    "existing_ids": true,
+    "existing_road_and_water_geometry": true,
+    "existing_landmarks": true,
+    "authored_D03_buildings": {
+      "count_expected": 7,
+      "ids": [
+        "D03-B016",
+        "D03-B017",
+        "D03-B022",
+        "D03-B023",
+        "D03-B024",
+        "D03-B025",
+        "D03-B026"
+      ],
+      "status": "protected_design_record_original_geometry_unavailable",
+      "policy": "Use recorded dimensions floor counts roof topology and r4 palette assignments as highest-priority overrides. Reconstructed geometry must be labeled reconstruction, never byte-identical preservation.",
+      "records": {
+        "D03-B016": {
+          "width_m": 9.6,
+          "depth_m": 15.6,
+          "floors": 1,
+          "roof_topology": "single_z",
+          "roof_palette": "approved_teal",
+          "masonry_palette": "warm_gray"
+        },
+        "D03-B017": {
+          "width_m": 12.8,
+          "depth_m": 20.8,
+          "floors": 2,
+          "roof_topology": "twin_z",
+          "roof_palette": "slate_blue",
+          "masonry_palette": "warm_gray"
+        },
+        "D03-B022": {
+          "width_m": 12.8,
+          "depth_m": 15.6,
+          "floors": 2,
+          "roof_topology": "twin_x",
+          "roof_palette": "dark_slate",
+          "masonry_palette": "gray_brown"
+        },
+        "D03-B023": {
+          "width_m": 6.4,
+          "depth_m": 26,
+          "floors": 1,
+          "roof_topology": "single_z",
+          "roof_palette": "weathered_teal",
+          "masonry_palette": "approved_gray"
+        },
+        "D03-B024": {
+          "width_m": 6.4,
+          "depth_m": 26,
+          "floors": 3,
+          "roof_topology": "single_z",
+          "roof_palette": "slate_blue",
+          "masonry_palette": "gray_brown"
+        },
+        "D03-B025": {
+          "width_m": 9.6,
+          "depth_m": 15.6,
+          "floors": 2,
+          "roof_topology": "single_z",
+          "roof_palette": "approved_teal",
+          "masonry_palette": "gray_brown"
+        },
+        "D03-B026": {
+          "width_m": 9.6,
+          "depth_m": 15.6,
+          "floors": 1,
+          "roof_topology": "twin_x",
+          "roof_palette": "dark_slate",
+          "masonry_palette": "warm_gray"
+        }
+      },
+      "provenance": "Masterplan worker recovered prior approved design record; exact later generated meshes not in v2 archive."
+    },
+    "protected_site_feature_ids": [
+      "F_MARKET_FOUNTAIN",
+      "F_MARKET_OPEN",
+      "F_CASTLE_CLOSE",
+      "F_CATHEDRAL_CLOSE",
+      "F_WATER_GATE_west",
+      "F_WATER_GATE_east",
+      "F_GARDEN_0",
+      "F_GARDEN_1",
+      "F_PIER_0",
+      "F_PIER_1",
+      "F_PIER_2",
+      "F_WELL_01",
+      "F_WELL_02",
+      "F_WELL_03",
+      "F_WELL_04",
+      "F_WELL_05",
+      "F_WELL_06",
+      "F_WELL_07",
+      "F_WELL_08"
+    ]
+  },
+  "chronology": [
+    {
+      "id": "crossing_fort",
+      "start_year": 1080,
+      "end_year": 1160,
+      "cause_and_effect": "A guarded river crossing creates a toll settlement and a defensible upper precinct.",
+      "primary_archetype": "castle",
+      "visible_evidence": [
+        "irregular_inner_lane",
+        "thick_reused_foundation"
+      ]
+    },
+    {
+      "id": "religious_precinct",
+      "start_year": 1161,
+      "end_year": 1240,
+      "cause_and_effect": "An endowed church precinct attracts services and lodging between the crossing and the upper settlement. Parish housing consolidates in D07; a separate charitable religious holding seeds D10.",
+      "primary_archetype": "cathedral",
+      "visible_evidence": [
+        "precinct_boundary",
+        "processional_approach"
+      ]
+    },
+    {
+      "id": "chartered_market",
+      "start_year": 1241,
+      "end_year": 1310,
+      "cause_and_effect": "A market charter consolidates roadside trading into a public square; long burgage plots extend behind narrow shop fronts. Merchant plots in D04 connect the civic center with the crossing rather than merging every institution into one plaza.",
+      "primary_archetype": "market",
+      "visible_evidence": [
+        "narrow_frontage_deep_plot",
+        "market_to_crossing_route"
+      ]
+    },
+    {
+      "id": "river_trade",
+      "start_year": 1311,
+      "end_year": 1377,
+      "cause_and_effect": "Trade expands storage by the landing and work yards beyond the crowded core; the earlier defensive line becomes an internal boundary. The outer defensive belt D09 encloses productive gardens in D08; old plots and institutional precincts remain legible inside it.",
+      "primary_archetype": "port",
+      "visible_evidence": [
+        "warehouse_loading_front",
+        "old_wall_boundary",
+        "craft_yards"
+      ]
+    },
+    {
+      "id": "market_rebuilding",
+      "start_year": 1378,
+      "end_year": 1400,
+      "cause_and_effect": "A localized market fire prompts mixed masonry rebuilding on surviving plots; rear lanes and unaffected streets retain older fabric.",
+      "primary_archetype": "market",
+      "visible_evidence": [
+        "masonry_party_wall",
+        "reused_shop_cellar",
+        "rear_lane_kink"
+      ]
+    },
+    {
+      "id": "outer_infill",
+      "start_year": 1401,
+      "end_year": 1435,
+      "cause_and_effect": "New households occupy existing approach roads and former field edges while the established center is repaired rather than replaced. S01 grows along the gate approach, while D08 remains cultivated land instead of becoming a uniformly filled suburb.",
+      "primary_archetype": "residential",
+      "visible_evidence": [
+        "garden_plot",
+        "field_edge_lane",
+        "patched_old_facade"
+      ]
+    }
+  ],
+  "district_rules": {
+    "D01": {
+      "era_mix": {
+        "crossing_fort": 0.55,
+        "religious_precinct": 0.15,
+        "river_trade": 0.15,
+        "outer_infill": 0.15
+      },
+      "wealth": "institutional",
+      "function": [
+        "defense",
+        "administration",
+        "service"
+      ],
+      "floors": [
+        1,
+        3
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "hipped"
+        ],
+        "pitch_degrees": [
+          45,
+          58
+        ],
+        "ridge_rule": "follow_long_axis_within_existing_precinct",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "small_deep_opening",
+        "stone_arch",
+        "plain_service_door"
+      ],
+      "plot": "retain_irregular_precinct_and_service_courts",
+      "density": "low_inside_precinct",
+      "exceptions": [
+        "existing_keep",
+        "existing_gatehouse"
+      ],
+      "evidence": [
+        "thick_reused_foundation",
+        "irregular_inner_lane"
+      ],
+      "palette_family": "gray_stone_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win",
+      "archetype": "castle",
+      "name": "북서 성채",
+      "binding_status": "verified_city_brief_v2",
+      "existing_footprint_count": 6
+    },
+    "D02": {
+      "era_mix": {
+        "religious_precinct": 0.5,
+        "chartered_market": 0.2,
+        "market_rebuilding": 0.1,
+        "outer_infill": 0.2
+      },
+      "wealth": "institutional_and_comfortable",
+      "function": [
+        "religious",
+        "school",
+        "lodging",
+        "clerical_residence"
+      ],
+      "floors": [
+        2,
+        3
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "hipped"
+        ],
+        "pitch_degrees": [
+          48,
+          60
+        ],
+        "ridge_rule": "respect_precinct_edges_and_courtyard_wings",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "restrained_tall_window",
+        "stone_door_surround",
+        "plain_plaster_bay"
+      ],
+      "plot": "preserve_church_forecourt_cloister_and_access",
+      "density": "moderate_with_large_protected_voids",
+      "exceptions": [
+        "existing_cathedral",
+        "existing_bell_tower"
+      ],
+      "evidence": [
+        "precinct_boundary",
+        "processional_approach"
+      ],
+      "palette_family": "cream_plaster_gray_stone_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win",
+      "archetype": "cathedral",
+      "name": "대성당 고지",
+      "binding_status": "verified_city_brief_v2",
+      "existing_footprint_count": 20
+    },
+    "D03": {
+      "era_mix": {
+        "chartered_market": 0.2,
+        "river_trade": 0.1,
+        "market_rebuilding": 0.6,
+        "outer_infill": 0.1
+      },
+      "wealth": "merchant_frontage_mixed_rear",
+      "function": [
+        "shop_house",
+        "inn",
+        "guild_commerce"
+      ],
+      "floors": [
+        2,
+        4
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "half_hip"
+        ],
+        "pitch_degrees": [
+          48,
+          60
+        ],
+        "ridge_rule": "gable_to_primary_frontage_on_deep_narrow_plots; follow_long_axis_on_wide_corner_plots",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "shop_opening",
+        "projecting_timber_upper",
+        "masonry_party_wall",
+        "restrained_merchant_bay"
+      ],
+      "plot": "narrow_deep_plots_with_rear_access; preserve_square",
+      "density": "high_at_frontage_lower_in_rear_yards",
+      "exceptions": [
+        "D03-B016",
+        "D03-B017",
+        "D03-B022",
+        "D03-B023",
+        "D03-B024",
+        "D03-B025",
+        "D03-B026",
+        "existing_city_hall"
+      ],
+      "evidence": [
+        "narrow_frontage_deep_plot",
+        "masonry_party_wall",
+        "reused_shop_cellar",
+        "rear_lane_kink"
+      ],
+      "palette_family": "cream_plaster_warm_wood_gray_stone_base_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win",
+      "archetype": "market",
+      "name": "큰 시장·시청",
+      "binding_status": "verified_city_brief_v2",
+      "existing_footprint_count": 31,
+      "protected_building_ids": [
+        "D03-B016",
+        "D03-B017",
+        "D03-B022",
+        "D03-B023",
+        "D03-B024",
+        "D03-B025",
+        "D03-B026"
+      ]
+    },
+    "D04": {
+      "era_mix": {
+        "chartered_market": 0.3,
+        "river_trade": 0.5,
+        "market_rebuilding": 0.1,
+        "outer_infill": 0.1
+      },
+      "wealth": "wealthy_frontage_mixed_backlands",
+      "function": [
+        "merchant_house",
+        "shop_house",
+        "inn",
+        "textile_store"
+      ],
+      "floors": [
+        2,
+        4
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "half_hip"
+        ],
+        "pitch_degrees": [
+          48,
+          60
+        ],
+        "ridge_rule": "gable_to_primary_frontage_on_deep_narrow_plots; follow_long_axis_on_wide_corner_plots",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "stone_merchant_front",
+        "loading_door",
+        "hoist_gable",
+        "restrained_timber_upper"
+      ],
+      "plot": "narrow_deep_plots_with_rear_access; preserve_square",
+      "density": "high_at_frontage_lower_in_rear_yards",
+      "exceptions": [],
+      "evidence": [
+        "narrow_frontage_deep_plot",
+        "warehouse_loading_front"
+      ],
+      "palette_family": "cream_plaster_warm_wood_gray_stone_base_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win",
+      "archetype": "merchant",
+      "name": "상인 거리",
+      "binding_status": "verified_city_brief_v2",
+      "existing_footprint_count": 234
+    },
+    "D05": {
+      "era_mix": {
+        "chartered_market": 0.1,
+        "river_trade": 0.65,
+        "market_rebuilding": 0.1,
+        "outer_infill": 0.15
+      },
+      "wealth": "working_and_merchant_storage",
+      "function": [
+        "warehouse",
+        "merchant_store",
+        "boat_service"
+      ],
+      "floors": [
+        1,
+        3
+      ],
+      "roof": {
+        "forms": [
+          "gable"
+        ],
+        "pitch_degrees": [
+          43,
+          55
+        ],
+        "ridge_rule": "follow_warehouse_long_axis; loading_gable_faces_accessible_quay_or_cart_lane",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "stacked_loading_door",
+        "small_store_window",
+        "hoist_gable"
+      ],
+      "plot": "retain_loading_aprons_cart_access_and_quay_clearance",
+      "density": "moderate_with_larger_utility_footprints",
+      "exceptions": [
+        "existing_harbor_landmark"
+      ],
+      "evidence": [
+        "warehouse_loading_front",
+        "raised_threshold",
+        "quay_drain"
+      ],
+      "palette_family": "gray_stone_base_cream_plaster_warm_wood_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win",
+      "archetype": "port",
+      "name": "다리·부두",
+      "binding_status": "verified_city_brief_v2",
+      "existing_footprint_count": 53
+    },
+    "D06": {
+      "era_mix": {
+        "chartered_market": 0.1,
+        "river_trade": 0.6,
+        "market_rebuilding": 0.1,
+        "outer_infill": 0.2
+      },
+      "wealth": "working_mixed",
+      "function": [
+        "workshop_house",
+        "store",
+        "shared_work_yard"
+      ],
+      "floors": [
+        1,
+        3
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "lean_to_annex"
+        ],
+        "pitch_degrees": [
+          42,
+          55
+        ],
+        "ridge_rule": "main_roof_follows_plot; annex_drains_into_private_yard_not_neighbor",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "wide_workshop_door",
+        "small_upper_window",
+        "plain_timber_bay"
+      ],
+      "plot": "retain_work_yards_fire_separation_and_service_access",
+      "density": "moderate_irregular_compounds",
+      "exceptions": [
+        "existing_guild_hall"
+      ],
+      "evidence": [
+        "craft_yards",
+        "patched_old_facade",
+        "surface_drain"
+      ],
+      "palette_family": "cream_plaster_warm_wood_gray_stone_base_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win",
+      "archetype": "craft",
+      "name": "하류 장인 지구",
+      "binding_status": "verified_city_brief_v2",
+      "existing_footprint_count": 158
+    },
+    "D07": {
+      "era_mix": {
+        "crossing_fort": 0.1,
+        "religious_precinct": 0.25,
+        "chartered_market": 0.35,
+        "river_trade": 0.2,
+        "outer_infill": 0.1
+      },
+      "wealth": "modest_with_occasional_comfortable_house",
+      "function": [
+        "house",
+        "lodging",
+        "parish_service",
+        "small_shop"
+      ],
+      "floors": [
+        2,
+        3
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "half_hip"
+        ],
+        "pitch_degrees": [
+          43,
+          56
+        ],
+        "ridge_rule": "follow_existing_plot_and_approach_road; avoid_global_uniform_rotation",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "simple_door",
+        "shuttered_small_window",
+        "restrained_timber_upper"
+      ],
+      "plot": "preserve_irregular_deep_plots_and_covered_passages",
+      "density": "high_street_edge_with_preserved_inner_courts",
+      "exceptions": [
+        "existing_parish_church"
+      ],
+      "evidence": [
+        "irregular_inner_lane",
+        "patched_old_facade",
+        "rear_lane_kink"
+      ],
+      "palette_family": "cream_plaster_warm_wood_gray_stone_base_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win",
+      "archetype": "old_residential",
+      "name": "오래된 주거·교구",
+      "binding_status": "verified_city_brief_v2",
+      "existing_footprint_count": 507
+    },
+    "D08": {
+      "era_mix": {
+        "chartered_market": 0.15,
+        "river_trade": 0.3,
+        "outer_infill": 0.55
+      },
+      "wealth": "modest_with_occasional_comfortable_house",
+      "function": [
+        "gardener_house",
+        "domestic_store",
+        "produce_store"
+      ],
+      "floors": [
+        1,
+        2
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "half_hip"
+        ],
+        "pitch_degrees": [
+          43,
+          56
+        ],
+        "ridge_rule": "follow_existing_plot_and_approach_road; avoid_global_uniform_rotation",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "simple_door",
+        "shuttered_small_window",
+        "restrained_timber_upper"
+      ],
+      "plot": "preserve_long_cultivation_strips_and_low_boundaries",
+      "density": "low_with_productive_open_land",
+      "exceptions": [],
+      "evidence": [
+        "garden_plot",
+        "field_edge_lane"
+      ],
+      "palette_family": "cream_plaster_warm_wood_gray_stone_base_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win",
+      "archetype": "garden_residential",
+      "name": "정원·경작 주거",
+      "binding_status": "verified_city_brief_v2",
+      "existing_footprint_count": 58
+    },
+    "D09": {
+      "era_mix": {
+        "river_trade": 0.7,
+        "market_rebuilding": 0.15,
+        "outer_infill": 0.15
+      },
+      "wealth": "institutional",
+      "function": [
+        "guard_room",
+        "gate_service",
+        "repair_store"
+      ],
+      "floors": [
+        1,
+        2
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "hipped"
+        ],
+        "pitch_degrees": [
+          45,
+          58
+        ],
+        "ridge_rule": "follow_existing_wall_or_gate_service_footprint",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "small_deep_opening",
+        "stone_arch",
+        "plain_service_door"
+      ],
+      "plot": "preserve_wall_walk_gate_throats_and_guard_access",
+      "density": "sparse_service_buildings_between_existing_defenses",
+      "exceptions": [
+        "all_existing_wall_towers",
+        "all_existing_gates"
+      ],
+      "evidence": [
+        "repair_seam",
+        "gate_bottleneck"
+      ],
+      "palette_family": "gray_stone_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win",
+      "archetype": "defensive_belt",
+      "name": "성벽·성문 띠",
+      "binding_status": "verified_city_brief_v2",
+      "existing_footprint_count": 36
+    },
+    "D10": {
+      "era_mix": {
+        "religious_precinct": 0.2,
+        "chartered_market": 0.25,
+        "river_trade": 0.35,
+        "outer_infill": 0.2
+      },
+      "wealth": "modest_institutional",
+      "function": [
+        "hospital",
+        "monastery",
+        "guest_lodging",
+        "shared_kitchen",
+        "chapel"
+      ],
+      "floors": [
+        1,
+        3
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "hipped"
+        ],
+        "pitch_degrees": [
+          48,
+          60
+        ],
+        "ridge_rule": "respect_precinct_edges_and_courtyard_wings",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "plain_repeated_window",
+        "sheltered_court_door",
+        "stone_door_surround"
+      ],
+      "plot": "preserve_enclosed_court_herb_garden_and_visitor_approach",
+      "density": "moderate_with_large_protected_voids",
+      "exceptions": [
+        "existing_chapel"
+      ],
+      "evidence": [
+        "precinct_boundary",
+        "garden_plot",
+        "repurposed_guest_wing"
+      ],
+      "palette_family": "cream_plaster_gray_stone_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win",
+      "archetype": "hospital_monastery",
+      "name": "구호원·수도원",
+      "binding_status": "verified_city_brief_v2",
+      "existing_footprint_count": 28
+    },
+    "S01": {
+      "era_mix": {
+        "river_trade": 0.2,
+        "market_rebuilding": 0.1,
+        "outer_infill": 0.7
+      },
+      "wealth": "modest_with_occasional_comfortable_house",
+      "function": [
+        "inn",
+        "cart_store",
+        "house",
+        "fuel_store",
+        "workshop"
+      ],
+      "floors": [
+        1,
+        2
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "half_hip"
+        ],
+        "pitch_degrees": [
+          40,
+          52
+        ],
+        "ridge_rule": "follow_existing_plot_and_approach_road; avoid_global_uniform_rotation",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "simple_door",
+        "shuttered_small_window",
+        "restrained_timber_upper"
+      ],
+      "plot": "preserve_cart_waiting_yards_and_loose_roadside_plots",
+      "density": "low_mixed_compounds",
+      "exceptions": [],
+      "evidence": [
+        "field_edge_lane",
+        "cart_yard",
+        "garden_plot"
+      ],
+      "palette_family": "cream_plaster_warm_wood_gray_stone_base_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win",
+      "archetype": "outer_settlement",
+      "name": "문밖 취락",
+      "binding_status": "verified_city_brief_v2",
+      "existing_footprint_count": 177
+    }
+  },
+  "unbound_archetypes": [],
+  "district_archetypes": {
+    "castle": {
+      "era_mix": {
+        "crossing_fort": 0.55,
+        "religious_precinct": 0.15,
+        "river_trade": 0.15,
+        "outer_infill": 0.15
+      },
+      "wealth": "institutional",
+      "function": [
+        "defense",
+        "administration",
+        "service"
+      ],
+      "floors": [
+        1,
+        3
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "hipped"
+        ],
+        "pitch_degrees": [
+          45,
+          58
+        ],
+        "ridge_rule": "follow_long_axis_within_existing_precinct",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "small_deep_opening",
+        "stone_arch",
+        "plain_service_door"
+      ],
+      "plot": "retain_irregular_precinct_and_service_courts",
+      "density": "low_inside_precinct",
+      "exceptions": [
+        "existing_keep",
+        "existing_gatehouse"
+      ],
+      "evidence": [
+        "thick_reused_foundation",
+        "irregular_inner_lane"
+      ],
+      "palette_family": "gray_stone_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win"
+    },
+    "cathedral": {
+      "era_mix": {
+        "religious_precinct": 0.5,
+        "chartered_market": 0.2,
+        "market_rebuilding": 0.1,
+        "outer_infill": 0.2
+      },
+      "wealth": "institutional_and_comfortable",
+      "function": [
+        "religious",
+        "school",
+        "lodging",
+        "clerical_residence"
+      ],
+      "floors": [
+        2,
+        3
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "hipped"
+        ],
+        "pitch_degrees": [
+          48,
+          60
+        ],
+        "ridge_rule": "respect_precinct_edges_and_courtyard_wings",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "restrained_tall_window",
+        "stone_door_surround",
+        "plain_plaster_bay"
+      ],
+      "plot": "preserve_church_forecourt_cloister_and_access",
+      "density": "moderate_with_large_protected_voids",
+      "exceptions": [
+        "existing_cathedral",
+        "existing_bell_tower"
+      ],
+      "evidence": [
+        "precinct_boundary",
+        "processional_approach"
+      ],
+      "palette_family": "cream_plaster_gray_stone_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win"
+    },
+    "market": {
+      "era_mix": {
+        "chartered_market": 0.2,
+        "river_trade": 0.1,
+        "market_rebuilding": 0.6,
+        "outer_infill": 0.1
+      },
+      "wealth": "merchant_frontage_mixed_rear",
+      "function": [
+        "shop_house",
+        "inn",
+        "guild_commerce"
+      ],
+      "floors": [
+        2,
+        4
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "half_hip"
+        ],
+        "pitch_degrees": [
+          48,
+          60
+        ],
+        "ridge_rule": "gable_to_primary_frontage_on_deep_narrow_plots; follow_long_axis_on_wide_corner_plots",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "shop_opening",
+        "projecting_timber_upper",
+        "masonry_party_wall",
+        "restrained_merchant_bay"
+      ],
+      "plot": "narrow_deep_plots_with_rear_access; preserve_square",
+      "density": "high_at_frontage_lower_in_rear_yards",
+      "exceptions": [
+        "all_existing_authored_D03_buildings"
+      ],
+      "evidence": [
+        "narrow_frontage_deep_plot",
+        "masonry_party_wall",
+        "reused_shop_cellar",
+        "rear_lane_kink"
+      ],
+      "palette_family": "cream_plaster_warm_wood_gray_stone_base_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win"
+    },
+    "port": {
+      "era_mix": {
+        "chartered_market": 0.1,
+        "river_trade": 0.65,
+        "market_rebuilding": 0.1,
+        "outer_infill": 0.15
+      },
+      "wealth": "working_and_merchant_storage",
+      "function": [
+        "warehouse",
+        "merchant_store",
+        "boat_service"
+      ],
+      "floors": [
+        1,
+        3
+      ],
+      "roof": {
+        "forms": [
+          "gable"
+        ],
+        "pitch_degrees": [
+          43,
+          55
+        ],
+        "ridge_rule": "follow_warehouse_long_axis; loading_gable_faces_accessible_quay_or_cart_lane",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "stacked_loading_door",
+        "small_store_window",
+        "hoist_gable"
+      ],
+      "plot": "retain_loading_aprons_cart_access_and_quay_clearance",
+      "density": "moderate_with_larger_utility_footprints",
+      "exceptions": [
+        "existing_harbor_landmark"
+      ],
+      "evidence": [
+        "warehouse_loading_front",
+        "raised_threshold",
+        "quay_drain"
+      ],
+      "palette_family": "gray_stone_base_cream_plaster_warm_wood_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win"
+    },
+    "craft": {
+      "era_mix": {
+        "chartered_market": 0.1,
+        "river_trade": 0.6,
+        "market_rebuilding": 0.1,
+        "outer_infill": 0.2
+      },
+      "wealth": "working_mixed",
+      "function": [
+        "workshop_house",
+        "store",
+        "shared_work_yard"
+      ],
+      "floors": [
+        1,
+        3
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "lean_to_annex"
+        ],
+        "pitch_degrees": [
+          42,
+          55
+        ],
+        "ridge_rule": "main_roof_follows_plot; annex_drains_into_private_yard_not_neighbor",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "wide_workshop_door",
+        "small_upper_window",
+        "plain_timber_bay"
+      ],
+      "plot": "retain_work_yards_fire_separation_and_service_access",
+      "density": "moderate_irregular_compounds",
+      "exceptions": [
+        "existing_guild_hall"
+      ],
+      "evidence": [
+        "craft_yards",
+        "patched_old_facade",
+        "surface_drain"
+      ],
+      "palette_family": "cream_plaster_warm_wood_gray_stone_base_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win"
+    },
+    "residential": {
+      "era_mix": {
+        "chartered_market": 0.1,
+        "river_trade": 0.15,
+        "market_rebuilding": 0.05,
+        "outer_infill": 0.7
+      },
+      "wealth": "modest_with_occasional_comfortable_house",
+      "function": [
+        "house",
+        "garden",
+        "domestic_store"
+      ],
+      "floors": [
+        1,
+        3
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "half_hip"
+        ],
+        "pitch_degrees": [
+          43,
+          56
+        ],
+        "ridge_rule": "follow_existing_plot_and_approach_road; avoid_global_uniform_rotation",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "simple_door",
+        "shuttered_small_window",
+        "restrained_timber_upper"
+      ],
+      "plot": "retain_gardens_outbuildings_and_field_edge_boundaries",
+      "density": "lower_toward_outer_edge",
+      "exceptions": [],
+      "evidence": [
+        "garden_plot",
+        "field_edge_lane",
+        "patched_old_facade"
+      ],
+      "palette_family": "cream_plaster_warm_wood_gray_stone_base_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win"
+    },
+    "merchant": {
+      "era_mix": {
+        "chartered_market": 0.3,
+        "river_trade": 0.5,
+        "market_rebuilding": 0.1,
+        "outer_infill": 0.1
+      },
+      "wealth": "wealthy_frontage_mixed_backlands",
+      "function": [
+        "merchant_house",
+        "shop_house",
+        "inn",
+        "textile_store"
+      ],
+      "floors": [
+        2,
+        4
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "half_hip"
+        ],
+        "pitch_degrees": [
+          48,
+          60
+        ],
+        "ridge_rule": "gable_to_primary_frontage_on_deep_narrow_plots; follow_long_axis_on_wide_corner_plots",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "stone_merchant_front",
+        "loading_door",
+        "hoist_gable",
+        "restrained_timber_upper"
+      ],
+      "plot": "narrow_deep_plots_with_rear_access; preserve_square",
+      "density": "high_at_frontage_lower_in_rear_yards",
+      "exceptions": [],
+      "evidence": [
+        "narrow_frontage_deep_plot",
+        "warehouse_loading_front"
+      ],
+      "palette_family": "cream_plaster_warm_wood_gray_stone_base_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win"
+    },
+    "old_residential": {
+      "era_mix": {
+        "crossing_fort": 0.1,
+        "religious_precinct": 0.25,
+        "chartered_market": 0.35,
+        "river_trade": 0.2,
+        "outer_infill": 0.1
+      },
+      "wealth": "modest_with_occasional_comfortable_house",
+      "function": [
+        "house",
+        "lodging",
+        "parish_service",
+        "small_shop"
+      ],
+      "floors": [
+        2,
+        3
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "half_hip"
+        ],
+        "pitch_degrees": [
+          43,
+          56
+        ],
+        "ridge_rule": "follow_existing_plot_and_approach_road; avoid_global_uniform_rotation",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "simple_door",
+        "shuttered_small_window",
+        "restrained_timber_upper"
+      ],
+      "plot": "preserve_irregular_deep_plots_and_covered_passages",
+      "density": "high_street_edge_with_preserved_inner_courts",
+      "exceptions": [
+        "existing_parish_church"
+      ],
+      "evidence": [
+        "irregular_inner_lane",
+        "patched_old_facade",
+        "rear_lane_kink"
+      ],
+      "palette_family": "cream_plaster_warm_wood_gray_stone_base_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win"
+    },
+    "garden_residential": {
+      "era_mix": {
+        "chartered_market": 0.15,
+        "river_trade": 0.3,
+        "outer_infill": 0.55
+      },
+      "wealth": "modest_with_occasional_comfortable_house",
+      "function": [
+        "gardener_house",
+        "domestic_store",
+        "produce_store"
+      ],
+      "floors": [
+        1,
+        2
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "half_hip"
+        ],
+        "pitch_degrees": [
+          43,
+          56
+        ],
+        "ridge_rule": "follow_existing_plot_and_approach_road; avoid_global_uniform_rotation",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "simple_door",
+        "shuttered_small_window",
+        "restrained_timber_upper"
+      ],
+      "plot": "preserve_long_cultivation_strips_and_low_boundaries",
+      "density": "low_with_productive_open_land",
+      "exceptions": [],
+      "evidence": [
+        "garden_plot",
+        "field_edge_lane"
+      ],
+      "palette_family": "cream_plaster_warm_wood_gray_stone_base_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win"
+    },
+    "defensive_belt": {
+      "era_mix": {
+        "river_trade": 0.7,
+        "market_rebuilding": 0.15,
+        "outer_infill": 0.15
+      },
+      "wealth": "institutional",
+      "function": [
+        "guard_room",
+        "gate_service",
+        "repair_store"
+      ],
+      "floors": [
+        1,
+        2
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "hipped"
+        ],
+        "pitch_degrees": [
+          45,
+          58
+        ],
+        "ridge_rule": "follow_existing_wall_or_gate_service_footprint",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "small_deep_opening",
+        "stone_arch",
+        "plain_service_door"
+      ],
+      "plot": "preserve_wall_walk_gate_throats_and_guard_access",
+      "density": "sparse_service_buildings_between_existing_defenses",
+      "exceptions": [
+        "all_existing_wall_towers",
+        "all_existing_gates"
+      ],
+      "evidence": [
+        "repair_seam",
+        "gate_bottleneck"
+      ],
+      "palette_family": "gray_stone_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win"
+    },
+    "hospital_monastery": {
+      "era_mix": {
+        "religious_precinct": 0.2,
+        "chartered_market": 0.25,
+        "river_trade": 0.35,
+        "outer_infill": 0.2
+      },
+      "wealth": "modest_institutional",
+      "function": [
+        "hospital",
+        "monastery",
+        "guest_lodging",
+        "shared_kitchen",
+        "chapel"
+      ],
+      "floors": [
+        1,
+        3
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "hipped"
+        ],
+        "pitch_degrees": [
+          48,
+          60
+        ],
+        "ridge_rule": "respect_precinct_edges_and_courtyard_wings",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "plain_repeated_window",
+        "sheltered_court_door",
+        "stone_door_surround"
+      ],
+      "plot": "preserve_enclosed_court_herb_garden_and_visitor_approach",
+      "density": "moderate_with_large_protected_voids",
+      "exceptions": [
+        "existing_chapel"
+      ],
+      "evidence": [
+        "precinct_boundary",
+        "garden_plot",
+        "repurposed_guest_wing"
+      ],
+      "palette_family": "cream_plaster_gray_stone_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win"
+    },
+    "outer_settlement": {
+      "era_mix": {
+        "river_trade": 0.2,
+        "market_rebuilding": 0.1,
+        "outer_infill": 0.7
+      },
+      "wealth": "modest_with_occasional_comfortable_house",
+      "function": [
+        "inn",
+        "cart_store",
+        "house",
+        "fuel_store",
+        "workshop"
+      ],
+      "floors": [
+        1,
+        2
+      ],
+      "roof": {
+        "forms": [
+          "gable",
+          "half_hip"
+        ],
+        "pitch_degrees": [
+          40,
+          52
+        ],
+        "ridge_rule": "follow_existing_plot_and_approach_road; avoid_global_uniform_rotation",
+        "palette_family": "muted_teal_r4"
+      },
+      "facades": [
+        "simple_door",
+        "shuttered_small_window",
+        "restrained_timber_upper"
+      ],
+      "plot": "preserve_cart_waiting_yards_and_loose_roadside_plots",
+      "density": "low_mixed_compounds",
+      "exceptions": [],
+      "evidence": [
+        "field_edge_lane",
+        "cart_yard",
+        "garden_plot"
+      ],
+      "palette_family": "cream_plaster_warm_wood_gray_stone_base_r4",
+      "courtyard_policy": "preserve_existing_voids; do_not_fill_to_meet_density",
+      "facade_variation": "coherent_per_building; deterministic_by_stable_footprint_id; neighboring_buildings_share_era_cues",
+      "floors_scope": "ordinary_buildings_only; existing_landmark_dimensions_win"
+    }
+  },
+  "city_defaults": {
+    "roof_palette_family": "muted_teal_slate_r4_family",
+    "wall_palette_family": "cream_plaster_r4",
+    "timber_palette_family": "warm_wood_r4",
+    "stone_palette_family": "gray_stone_r4",
+    "palette_reference_policy": "semantic aliases; resolve existing r4 materials, do not invent replacement hex values",
+    "era_assignment": "sample declared era_mix using stable footprint ID; spatially cluster surviving/rebuilt fabric where verified features permit",
+    "floor_policy": "honor supplied footprint height when present; use archetype range only for new ordinary massing",
+    "style_transition": "blend through age wealth and function at district edges; no abrupt palette change",
+    "street_rule": "existing road geometry is authoritative; history explains bends, never straightens them",
+    "fire_scope": "localized_market_frontage; not citywide_destruction; do not mark every market plot rebuilt",
+    "roof_weathering": "subtle_shared_palette_variation_with_age_and_exposure; never random_rainbow",
+    "roof_material_note": "Muted teal is an intentional art-direction palette, not a historical claim that all roofs were copper.",
+    "utility_constraint": "Respect source U_MILL_POWER: D06-B052 is inland animal/manual milling, not an invented watermill. U_DRAINAGE gradients and drinking-water quality remain unverified.",
+    "guild_constraint": "Commercial and craft communal functions need not imply autonomous guild government; do not add separate guild fortresses.",
+    "procedural_variation_contract": {
+      "seed_source": "city_brief.seed + stable_building_id",
+      "era_mix_scope": "weighted_design_priors_not_historical_statistics",
+      "floor_counts_exclude": "attic_and_roof",
+      "roof_pitch_scope": "design_ranges_for_new_ordinary_roofs_only",
+      "discrete_cache_key": [
+        "archetype",
+        "era_id",
+        "floor_count",
+        "roof_form",
+        "facade_module",
+        "palette_alias"
+      ],
+      "orientation": "instance_transform_from_existing_plot_and_access_edge",
+      "no_unique_mesh_per_building": true
+    },
+    "palette_binding_note": "Protected records include approved_teal, weathered_teal, slate_blue and dark_slate. Reuse resolved existing materials; do not recolor every roof teal."
+  },
+  "historical_features": [
+    {
+      "id": "old_wall_boundary",
+      "phase": "river_trade",
+      "placement": "only on a verified existing internal defensive trace or explicit reviewed addition",
+      "render": "short reused gray-stone boundary and blocked opening, not a complete invented ring",
+      "affects": [
+        "plot_alignment",
+        "reused_foundation"
+      ],
+      "status": "proposed_not_implemented",
+      "geometry_ids": []
+    },
+    {
+      "id": "repurposed_toll_store",
+      "phase": "river_trade",
+      "placement": "one suitable non-landmark building near verified old crossing route",
+      "render": "older stone lower wall plus later timber/plaster store upper floor",
+      "affects": [
+        "facade_age_mix"
+      ],
+      "status": "proposed_not_implemented",
+      "geometry_ids": []
+    },
+    {
+      "id": "rear_lane_kink",
+      "phase": "market_rebuilding",
+      "placement": "existing market rear-lane bend",
+      "render": "preserve kink and let rebuilt front wall meet older rear alignment",
+      "affects": [
+        "plot_continuity"
+      ],
+      "status": "proposed_not_implemented",
+      "geometry_ids": []
+    },
+    {
+      "id": "market_rebuilding_seam",
+      "phase": "market_rebuilding",
+      "placement": "limited connected non-protected market frontage",
+      "render": "stone party wall or repair seam next to surviving timber frontage",
+      "affects": [
+        "localized_era_assignment"
+      ],
+      "status": "proposed_not_implemented",
+      "geometry_ids": []
+    },
+    {
+      "id": "surface_drain",
+      "phase": "outer_infill",
+      "placement": "verified downhill road edge or courtyard outlet",
+      "render": "shallow stone-lined drain with unobstructed fall and outlet; no uphill decorative channels",
+      "affects": [
+        "access",
+        "drainage"
+      ],
+      "status": "proposed_not_implemented",
+      "geometry_ids": []
+    },
+    {
+      "id": "field_edge_lane",
+      "phase": "outer_infill",
+      "placement": "existing outer residential approach/plot boundary",
+      "render": "retain offset facades garden strips and staggered eaves along inherited lane",
+      "affects": [
+        "outer_density"
+      ],
+      "status": "proposed_not_implemented",
+      "geometry_ids": []
+    }
+  ],
+  "consistency_checks": [
+    {
+      "id": "district_binding",
+      "severity": "error",
+      "rule": "Every source district ID resolves explicitly; unknown IDs halt generation instead of defaulting silently."
+    },
+    {
+      "id": "preserved_authored_set",
+      "severity": "error",
+      "rule": "All seven protected D03 design records retain IDs, recorded dimensions, floor counts, roof topology and r4 palette assignments. Verify reconstruction against records; do not claim original geometry identity while source meshes are absent."
+    },
+    {
+      "id": "era_weights",
+      "severity": "error",
+      "rule": "Each era_mix sums to 1 and references chronology IDs; all years end at or before snapshot_year."
+    },
+    {
+      "id": "palette_aliases",
+      "severity": "error",
+      "rule": "All semantic palette aliases resolve to existing r4 materials before generation."
+    },
+    {
+      "id": "protected_voids",
+      "severity": "error",
+      "rule": "No generated building or annex intersects road, river, quay access, church forecourt, market square or protected courtyard."
+    },
+    {
+      "id": "landmark_hierarchy",
+      "severity": "error",
+      "rule": "Ordinary floor rules never replace authored landmark massing or create competing generic towers."
+    },
+    {
+      "id": "historical_feature_support",
+      "severity": "warning",
+      "rule": "Do not claim a visible history feature is implemented without a geometry ID and placement verification."
+    },
+    {
+      "id": "functional_frontage",
+      "severity": "warning",
+      "rule": "Shop doors face accessible streets; warehouse loading doors face usable aprons; workshop doors face lane or yard."
+    },
+    {
+      "id": "drainage",
+      "severity": "warning",
+      "rule": "Only add drainage when outlet and falling route can be verified from terrain; otherwise omit and record omission."
+    },
+    {
+      "id": "nonuniform_identity",
+      "severity": "warning",
+      "rule": "Every ordinary district expresses at least two functional/era cues beyond color, without changing protected footprints."
+    },
+    {
+      "id": "known_layout_count",
+      "severity": "error",
+      "rule": "The history layer does not alter the 1308 source footprints or substitute planning budgets for measured counts."
+    }
+  ],
+  "narrative_governance": {
+    "fictional": true,
+    "description": "Castle administration, cathedral precinct and a civic council share the city unevenly. Trade supports civic rebuilding while land boundaries and older rights constrain it. No real-city constitution is asserted."
+  }
+}

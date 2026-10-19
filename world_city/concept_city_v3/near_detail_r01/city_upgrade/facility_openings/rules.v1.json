@@ -1,0 +1,48 @@
+{
+  "schema": "riverstone.facility_openings.rules.v1",
+  "source_audit": "world_city/concept_city_v3/near_detail_r01/city_upgrade/house_extensions/facility_opening_audit/asset_audit.json",
+  "source_windows": "world_city/concept_city_v3/near_detail_r01/city_upgrade/house_extensions/facility_opening_audit/window_faces.jsonl.gz",
+  "assets": [
+    {
+      "asset_key": "registered_cathedral_nave_aisles_transept",
+      "probe_windows": [
+        "clerestory_-1_0_pane",
+        "aisle_window_1_0_pane"
+      ]
+    },
+    {
+      "asset_key": "registered_port_long_loading_shed",
+      "probe_windows": [
+        "front_upper_0_pane",
+        "front_upper_1_pane"
+      ]
+    }
+  ],
+  "fine_pitch_m": 0.05,
+  "glass_recess_m": 0.2,
+  "glass_thickness_m": 0.05,
+  "cavity_depth_m": 0.3,
+  "mullion_width_m": 0.1,
+  "mullion_front_recess_m": 0.05,
+  "sill_height_m": 0.1,
+  "sill_front_recess_m": 0.0,
+  "wall_semantic_slots": [
+    "stone",
+    "stone_light",
+    "stone_dark",
+    "mortar"
+  ],
+  "wall_component_ids": [
+    "masonry"
+  ],
+  "patch_tangent_margin_m": 0.2,
+  "patch_inward_depth_m": 0.8,
+  "patch_outward_depth_m": 0.3,
+  "max_roi_candidates": 500000,
+  "max_roi_cells": 300000,
+  "source_shape_crop_allowed": false,
+  "new_outward_protrusion_m": 0,
+  "new_shutters": false,
+  "new_transoms": false,
+  "runtime_activation": false
+}

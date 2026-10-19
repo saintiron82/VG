@@ -1,0 +1,356 @@
+{
+  "schema": "riverstone.city_upgrade.surface_candidate_rules.v1",
+  "status": "CANDIDATE_RULES_AND_MEASURED_EXISTING_MODULE_COSTS_NOT_RUNTIME_BENCHMARK",
+  "source_refs": {
+    "safe_modules_manifest": {
+      "path": "world_city/concept_city_v3/near_detail_r01/city_upgrade/surface_modules/generated_safe/manifest.json",
+      "sha256": "25462d32ecd07bcf6ab3a56c32a2779a2cb8dd0cf6559405ba4e9f6512e63ddd"
+    },
+    "safe_module_rules": {
+      "path": "world_city/concept_city_v3/near_detail_r01/city_upgrade/surface_modules/inputs/safe_offset_rules.v1.json",
+      "sha256": "45d25d6b6aa5182bd2504f1d033774648a3f1af61d1647f72a95e8143c47c30e"
+    },
+    "placement_contract": {
+      "path": "world_city/concept_city_v3/near_detail_r01/city_upgrade/surface_modules/placement_contract.json",
+      "sha256": "794e1277a7f76480b4cbb73643f05e9856f81405d6a45256536c9089bb98ff96"
+    }
+  },
+  "runtime_priority": "Existing exterior axis-aligned quads, vertical only, complete 1m by 1m patches. No UV/normal-map/shader substitution for geometric authoring.",
+  "candidate_face_contract": {
+    "coordinate_frame": "Source asset local frame; apply rigid instance transform after source-local eligibility. Roof inclinations must not be treated as vertical because of a stair-step riser.",
+    "normal_axes": [
+      "+X",
+      "-X",
+      "+Z",
+      "-Z"
+    ],
+    "minimum_edge_lengths_m": [
+      1,
+      1
+    ],
+    "minimum_area_m2": 1,
+    "maximum_patch_area_m2": 1,
+    "maximum_source_quad_area_m2": null,
+    "axis_alignment_tolerance": 1e-06,
+    "finite_coordinates_required": true,
+    "skip_degenerate_nonaxis_and_nan": true,
+    "proper_rotation_only": true,
+    "allow_reflection_shear_scale": false,
+    "patch_support": "All patch corners and edges must remain inside the same exact source quad. No bridging across adjacent faces, missing faces, apertures or holes.",
+    "edge_margin_m": 0,
+    "edge_margin_meaning": "Zero permits an exact 1m source quad. Module shape itself must stay inside its square; partial borders are left pending.",
+    "support_plane": "Use support_front_max_local_z_m from the selected module placement contract. Safe modules occupy local z=-0.0375..0.0; placing behind an unchanged face hides relief. Do not guess offset or remove source faces without a separately verified owner-face replacement contract.",
+    "no_stacking": "Do not apply this baseline mapping a second time to already detailed house adapter replacement faces.",
+    "mixed_slot_action": "Conditional runtime candidates need per-face filters and visible review; group-level material classification cannot prove each face belongs to a wall."
+  },
+  "class_profiles": {
+    "ashlar": {
+      "shallow_vertical_wall_eligible": true,
+      "candidate_normal_axes": [
+        "+X",
+        "-X",
+        "+Z",
+        "-Z"
+      ],
+      "minimum_source_face_area_m2": 1,
+      "minimum_source_face_dimensions_m": [
+        1,
+        1
+      ],
+      "maximum_single_patch_area_m2": 1,
+      "source_face_area_upper_limit_m2": null,
+      "large_face_policy": "Partition into fully contained 1 m squares; record uncovered border/feature strips rather than stretch or claim full coverage.",
+      "existing_shared_module_count": 3,
+      "existing_module_ids": [
+        "surface_safe_offset_r01_ashlar_s41873",
+        "surface_safe_offset_r01_ashlar_s41879",
+        "surface_safe_offset_r01_ashlar_s41887"
+      ],
+      "max_module_quads": 332,
+      "max_module_triangles": 664,
+      "maximum_density_modules_per_m2": 1,
+      "max_sampled_cells_per_module": 16444,
+      "extra_collision_shapes": 0,
+      "silhouette_upgrade_claim_allowed": false,
+      "semantic_caveat": "Source stone/masonry IDs support a masonry substrate; ashlar bond is a proposed finish and still needs visual acceptance."
+    },
+    "rubble": {
+      "shallow_vertical_wall_eligible": true,
+      "candidate_normal_axes": [
+        "+X",
+        "-X",
+        "+Z",
+        "-Z"
+      ],
+      "minimum_source_face_area_m2": 1,
+      "minimum_source_face_dimensions_m": [
+        1,
+        1
+      ],
+      "maximum_single_patch_area_m2": 1,
+      "source_face_area_upper_limit_m2": null,
+      "large_face_policy": "Partition into fully contained 1 m squares; record uncovered border/feature strips rather than stretch or claim full coverage.",
+      "existing_shared_module_count": 3,
+      "existing_module_ids": [
+        "surface_safe_offset_r01_rubble_s41873",
+        "surface_safe_offset_r01_rubble_s41879",
+        "surface_safe_offset_r01_rubble_s41887"
+      ],
+      "max_module_quads": 793,
+      "max_module_triangles": 1586,
+      "maximum_density_modules_per_m2": 1,
+      "max_sampled_cells_per_module": 15887,
+      "extra_collision_shapes": 0,
+      "silhouette_upgrade_claim_allowed": false,
+      "semantic_caveat": "No used native slot was found with explicit rubble role evidence. Do not use a dark color or poor-district identity to invent rubble semantics."
+    },
+    "planks": {
+      "shallow_vertical_wall_eligible": true,
+      "candidate_normal_axes": [
+        "+X",
+        "-X",
+        "+Z",
+        "-Z"
+      ],
+      "minimum_source_face_area_m2": 1,
+      "minimum_source_face_dimensions_m": [
+        1,
+        1
+      ],
+      "maximum_single_patch_area_m2": 1,
+      "source_face_area_upper_limit_m2": null,
+      "large_face_policy": "Partition into fully contained 1 m squares; record uncovered border/feature strips rather than stretch or claim full coverage.",
+      "existing_shared_module_count": 3,
+      "existing_module_ids": [
+        "surface_safe_offset_r01_planks_s41873",
+        "surface_safe_offset_r01_planks_s41879",
+        "surface_safe_offset_r01_planks_s41887"
+      ],
+      "max_module_quads": 58,
+      "max_module_triangles": 116,
+      "maximum_density_modules_per_m2": 1,
+      "max_sampled_cells_per_module": 17320,
+      "extra_collision_shapes": 0,
+      "silhouette_upgrade_claim_allowed": false,
+      "semantic_caveat": "Class includes timber substrate, structural beams, doors and window joinery. Only source-contained broad faces may use panel seams; narrow joinery is excluded. Bark is pending_unknown."
+    },
+    "paving": {
+      "shallow_vertical_wall_eligible": false,
+      "candidate_normal_axes": [
+        "+Y"
+      ],
+      "minimum_source_face_area_m2": 1,
+      "minimum_source_face_dimensions_m": [
+        1,
+        1
+      ],
+      "maximum_single_patch_area_m2": 1,
+      "source_face_area_upper_limit_m2": null,
+      "large_face_policy": "Partition into fully contained 1 m squares; record uncovered border/feature strips rather than stretch or claim full coverage.",
+      "existing_shared_module_count": 3,
+      "existing_module_ids": [
+        "surface_safe_offset_r01_paving_s41873",
+        "surface_safe_offset_r01_paving_s41879",
+        "surface_safe_offset_r01_paving_s41887"
+      ],
+      "max_module_quads": 791,
+      "max_module_triangles": 1582,
+      "maximum_density_modules_per_m2": 1,
+      "max_sampled_cells_per_module": 15887,
+      "extra_collision_shapes": 0,
+      "silhouette_upgrade_claim_allowed": false,
+      "semantic_caveat": "Separate ground/access pass only. Preserve finite collision heights, stair risers, walk clearances and water boundaries; horizontal native tops alone are not all terrain."
+    },
+    "roof_tile": {
+      "shallow_vertical_wall_eligible": false,
+      "candidate_normal_axes": [],
+      "minimum_source_face_area_m2": null,
+      "minimum_source_face_dimensions_m": null,
+      "maximum_single_patch_area_m2": null,
+      "source_face_area_upper_limit_m2": null,
+      "large_face_policy": "Specialist authoring pending",
+      "existing_shared_module_count": 0,
+      "existing_module_ids": [],
+      "max_module_quads": 0,
+      "max_module_triangles": 0,
+      "maximum_density_modules_per_m2": 0,
+      "max_sampled_cells_per_module": 0,
+      "extra_collision_shapes": 0,
+      "silhouette_upgrade_claim_allowed": false,
+      "semantic_caveat": "Semantic covering includes red-clay and gray-slate roof families. Wood-brown palette variants need timber shingle treatment. Shallow modules on coarse risers do not author roof slope, eaves, ridges or silhouette."
+    },
+    "plaster": {
+      "shallow_vertical_wall_eligible": false,
+      "candidate_normal_axes": [],
+      "minimum_source_face_area_m2": null,
+      "minimum_source_face_dimensions_m": null,
+      "maximum_single_patch_area_m2": null,
+      "source_face_area_upper_limit_m2": null,
+      "large_face_policy": "Specialist authoring pending",
+      "existing_shared_module_count": 0,
+      "existing_module_ids": [],
+      "max_module_quads": 0,
+      "max_module_triangles": 0,
+      "maximum_density_modules_per_m2": 0,
+      "max_sampled_cells_per_module": 0,
+      "extra_collision_shapes": 0,
+      "silhouette_upgrade_claim_allowed": false,
+      "semantic_caveat": "No supplied plaster module exists in generated_safe. Keep existing plaster and mark dedicated plaster treatment pending; never substitute masonry."
+    },
+    "glass": {
+      "shallow_vertical_wall_eligible": false,
+      "candidate_normal_axes": [],
+      "minimum_source_face_area_m2": null,
+      "minimum_source_face_dimensions_m": null,
+      "maximum_single_patch_area_m2": null,
+      "source_face_area_upper_limit_m2": null,
+      "large_face_policy": "Specialist authoring pending",
+      "existing_shared_module_count": 0,
+      "existing_module_ids": [],
+      "max_module_quads": 0,
+      "max_module_triangles": 0,
+      "maximum_density_modules_per_m2": 0,
+      "max_sampled_cells_per_module": 0,
+      "extra_collision_shapes": 0,
+      "silhouette_upgrade_claim_allowed": false
+    },
+    "metal": {
+      "shallow_vertical_wall_eligible": false,
+      "candidate_normal_axes": [],
+      "minimum_source_face_area_m2": null,
+      "minimum_source_face_dimensions_m": null,
+      "maximum_single_patch_area_m2": null,
+      "source_face_area_upper_limit_m2": null,
+      "large_face_policy": "Specialist authoring pending",
+      "existing_shared_module_count": 0,
+      "existing_module_ids": [],
+      "max_module_quads": 0,
+      "max_module_triangles": 0,
+      "maximum_density_modules_per_m2": 0,
+      "max_sampled_cells_per_module": 0,
+      "extra_collision_shapes": 0,
+      "silhouette_upgrade_claim_allowed": false
+    },
+    "foliage": {
+      "shallow_vertical_wall_eligible": false,
+      "candidate_normal_axes": [],
+      "minimum_source_face_area_m2": null,
+      "minimum_source_face_dimensions_m": null,
+      "maximum_single_patch_area_m2": null,
+      "source_face_area_upper_limit_m2": null,
+      "large_face_policy": "Specialist authoring pending",
+      "existing_shared_module_count": 0,
+      "existing_module_ids": [],
+      "max_module_quads": 0,
+      "max_module_triangles": 0,
+      "maximum_density_modules_per_m2": 0,
+      "max_sampled_cells_per_module": 0,
+      "extra_collision_shapes": 0,
+      "silhouette_upgrade_claim_allowed": false
+    },
+    "water": {
+      "shallow_vertical_wall_eligible": false,
+      "candidate_normal_axes": [],
+      "minimum_source_face_area_m2": null,
+      "minimum_source_face_dimensions_m": null,
+      "maximum_single_patch_area_m2": null,
+      "source_face_area_upper_limit_m2": null,
+      "large_face_policy": "Specialist authoring pending",
+      "existing_shared_module_count": 0,
+      "existing_module_ids": [],
+      "max_module_quads": 0,
+      "max_module_triangles": 0,
+      "maximum_density_modules_per_m2": 0,
+      "max_sampled_cells_per_module": 0,
+      "extra_collision_shapes": 0,
+      "silhouette_upgrade_claim_allowed": false
+    },
+    "cloth": {
+      "shallow_vertical_wall_eligible": false,
+      "candidate_normal_axes": [],
+      "minimum_source_face_area_m2": null,
+      "minimum_source_face_dimensions_m": null,
+      "maximum_single_patch_area_m2": null,
+      "source_face_area_upper_limit_m2": null,
+      "large_face_policy": "Specialist authoring pending",
+      "existing_shared_module_count": 0,
+      "existing_module_ids": [],
+      "max_module_quads": 0,
+      "max_module_triangles": 0,
+      "maximum_density_modules_per_m2": 0,
+      "max_sampled_cells_per_module": 0,
+      "extra_collision_shapes": 0,
+      "silhouette_upgrade_claim_allowed": false
+    },
+    "pending_unknown": {
+      "shallow_vertical_wall_eligible": false,
+      "candidate_normal_axes": [],
+      "minimum_source_face_area_m2": null,
+      "minimum_source_face_dimensions_m": null,
+      "maximum_single_patch_area_m2": null,
+      "source_face_area_upper_limit_m2": null,
+      "large_face_policy": "Specialist authoring pending",
+      "existing_shared_module_count": 0,
+      "existing_module_ids": [],
+      "max_module_quads": 0,
+      "max_module_triangles": 0,
+      "maximum_density_modules_per_m2": 0,
+      "max_sampled_cells_per_module": 0,
+      "extra_collision_shapes": 0,
+      "silhouette_upgrade_claim_allowed": false
+    }
+  },
+  "proposed_runtime_limits": {
+    "status": "CONSERVATIVE_STARTING_CAPS_REQUIRING_ACTUAL_BENCHMARK",
+    "max_new_patch_instances_per_source_asset": 512,
+    "max_new_visible_patch_instances": 2048,
+    "max_new_visible_triangles": 1500000,
+    "select_priority": "Distance to camera, then visible area; do not use material color.",
+    "when_cap_reached": "Record budget_deferred face/area counts and keep baseline rendering. Never count omitted surfaces as upgraded.",
+    "resource_reuse": "Cache each (module kind, seed, material semantic variant); share mesh resources. Do not bake one copy of vertices per city placement.",
+    "max_seed_variants_per_kind": 3,
+    "full_city_eager_detail": false
+  },
+  "exceptions": {
+    "windows_and_doors": {
+      "glass": "No wall modules on glass, panes, apertures or the dark opening behind them.",
+      "frames": "Window/door frame material slots can mix with larger panels. A >=1m vertical face rule filters many small trims but does not prove that all remaining faces are broad walls. Keep exact original opening limits and classify joinery as conditional.",
+      "doors": "Keep closed leaf geometry and pivots; no filling apertures or connecting neighboring leaves. Hinges/straps remain metal."
+    },
+    "gates": {
+      "rule": "Keep passage, arch, portcullis, leaf and lateral clearance. Static masonry jambs may use source-contained squares only. Moving leaf/hardware needs its own parent/pivot, not a world-fixed shared facade."
+    },
+    "water": {
+      "rule": "No ashlar/rubble/plank fill on water or foam. Preserve thin flow surfaces, basin outlets, canal widths and existing exclusion from terrain collision."
+    },
+    "foliage": {
+      "rule": "Do not resurface crowns, hedge lobes or ground vegetation with stone/planks. Bark slots are explicit unknown because requested classes contain no bark; preserve them pending a foliage/bark authoring pass."
+    },
+    "cloth": {
+      "rule": "Canvas/sails/awnings require a separate thin-shell treatment; retain hang, seams, gaps and front/back visibility. Do not tile cloth with rigid wall blocks."
+    },
+    "metal": {
+      "rule": "No wall module on chains, braces, fittings, nails, bronze outlets or handles; preserve apertures and mechanism connectivity."
+    },
+    "moving_drawbridge": {
+      "rule": "Exclude all drawbridge_state_components from this static wall layer. Current ROAD_OPEN is a static state and motion_enabled=false, not proof of functioning animation. Later detail must follow state-local parent/pivot transforms and clearance through every mechanism state.",
+      "current_static_state_placements": 148,
+      "chain_link_instances": 136,
+      "baseline_motion_enabled": false
+    },
+    "terrain": {
+      "rule": "This native asset map does not cover 1,397,505 terrain triangle records or 90,901 collision-contract triangles. They need a separate ownership/material surface workflow. Do not claim native wall coverage as city surface completion."
+    },
+    "roofs": {
+      "rule": "All roof-bearing source assets remain pending silhouette and feature authoring/review. No surface overlay can establish replacement of original 0.5m or 1m stair-step silhouettes."
+    }
+  },
+  "release_gates": [
+    "All 300 used keys are present and all source hashes still match.",
+    "Every applied, skipped, unsupported and budget-deferred slot/face has explicit evidence counts.",
+    "Mixed-role slots inspected for opening, threshold, gate and trim preservation.",
+    "Dedicated roof, paving/terrain, plaster, water, foliage, cloth and mechanism authoring paths have review evidence.",
+    "In-engine near and far visual review plus traversal/performance evidence exists.",
+    "No map/overlay status is promoted to whole-city completion."
+  ]
+}

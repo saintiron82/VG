@@ -1,0 +1,10 @@
+config_version=5
+[application]
+config/name="Source roof LOD generic validation"
+[rendering]
+renderer/rendering_method="gl_compatibility"
+
+[threading]
+worker_pool/max_threads=1
+[audio]
+driver/driver="Dummy"

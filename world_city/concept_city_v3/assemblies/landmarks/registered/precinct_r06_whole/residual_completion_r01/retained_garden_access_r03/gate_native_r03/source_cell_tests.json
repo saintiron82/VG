@@ -1,0 +1,4544 @@
+{
+  "status": "PASS",
+  "owners": [
+    {
+      "site_id": "MONASTERY_ORCHARD",
+      "tests": {
+        "original_cache_exact": true,
+        "new_cache_exact": true,
+        "only_finite_above_floor_cells_removed": true,
+        "no_added_or_changed_cells": true,
+        "source_operations_preserved": true,
+        "native_pose_exact": true
+      },
+      "removed_cell_count": 185,
+      "removed_cells": [
+        {
+          "source_cell": [
+            29,
+            0,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.625,
+            8.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            29,
+            1,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.625,
+            8.375,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            29,
+            2,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.625,
+            8.625,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            29,
+            3,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.625,
+            8.875,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            29,
+            4,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.625,
+            9.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            30,
+            0,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.375,
+            8.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            30,
+            1,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.375,
+            8.375,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            30,
+            2,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.375,
+            8.625,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            30,
+            3,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.375,
+            8.875,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            30,
+            4,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.375,
+            9.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            31,
+            0,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.125,
+            8.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            31,
+            1,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.125,
+            8.375,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            31,
+            2,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.125,
+            8.625,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            31,
+            3,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.125,
+            8.875,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            31,
+            4,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -364.125,
+            9.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            32,
+            0,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.875,
+            8.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            32,
+            1,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.875,
+            8.375,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            32,
+            2,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.875,
+            8.625,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            32,
+            3,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.875,
+            8.875,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            32,
+            4,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.875,
+            9.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            33,
+            0,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.625,
+            8.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            33,
+            1,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.625,
+            8.375,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            33,
+            2,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.625,
+            8.625,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            33,
+            3,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.625,
+            8.875,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            33,
+            4,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.625,
+            9.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            34,
+            0,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.375,
+            8.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            34,
+            1,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.375,
+            8.375,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            34,
+            2,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.375,
+            8.625,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            34,
+            3,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.375,
+            8.875,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            34,
+            4,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.375,
+            9.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            35,
+            0,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.125,
+            8.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            35,
+            1,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.125,
+            8.375,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            35,
+            2,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.125,
+            8.625,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            35,
+            3,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.125,
+            8.875,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            35,
+            4,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -363.125,
+            9.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            36,
+            0,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -362.875,
+            8.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            36,
+            1,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -362.875,
+            8.375,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            36,
+            2,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -362.875,
+            8.625,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            36,
+            3,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -362.875,
+            8.875,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            36,
+            4,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -362.875,
+            9.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            0,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            8.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            0,
+            204,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_338_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            8.125,
+            75.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            0,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            8.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            1,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            8.375,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            1,
+            204,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_338_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            8.375,
+            75.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            1,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            8.375,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            2,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            8.625,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            2,
+            204,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_338_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            8.625,
+            75.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            2,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            8.625,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            3,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            8.875,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            3,
+            204,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_338_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            8.875,
+            75.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            3,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            8.875,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            4,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            9.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            4,
+            204,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_338_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            9.125,
+            75.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            37,
+            4,
+            205,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_339_0"
+          ],
+          "world_center_xyz_m": [
+            -362.625,
+            9.125,
+            75.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            38,
+            0,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.375,
+            8.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            38,
+            1,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.375,
+            8.375,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            38,
+            2,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.375,
+            8.625,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            38,
+            3,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.375,
+            8.875,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            38,
+            4,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.375,
+            9.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            39,
+            0,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.125,
+            8.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            39,
+            1,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.125,
+            8.375,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            39,
+            2,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.125,
+            8.625,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            39,
+            3,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.125,
+            8.875,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            39,
+            4,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -362.125,
+            9.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            40,
+            0,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.875,
+            8.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            40,
+            1,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.875,
+            8.375,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            40,
+            2,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.875,
+            8.625,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            40,
+            3,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.875,
+            8.875,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            40,
+            4,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.875,
+            9.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            41,
+            0,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.625,
+            8.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            41,
+            1,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.625,
+            8.375,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            41,
+            2,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.625,
+            8.625,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            41,
+            3,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.625,
+            8.875,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            41,
+            4,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.625,
+            9.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            42,
+            0,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.375,
+            8.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            42,
+            1,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.375,
+            8.375,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            42,
+            2,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.375,
+            8.625,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            42,
+            3,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.375,
+            8.875,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            42,
+            4,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.375,
+            9.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            43,
+            0,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.125,
+            8.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            43,
+            1,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.125,
+            8.375,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            43,
+            2,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.125,
+            8.625,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            43,
+            3,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.125,
+            8.875,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            43,
+            4,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -361.125,
+            9.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            44,
+            0,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -360.875,
+            8.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            44,
+            1,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -360.875,
+            8.375,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            44,
+            2,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -360.875,
+            8.625,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            44,
+            3,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -360.875,
+            8.875,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            44,
+            4,
+            203,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_337_0"
+          ],
+          "world_center_xyz_m": [
+            -360.875,
+            9.125,
+            74.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            124,
+            0,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.875,
+            8.125,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            124,
+            1,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.875,
+            8.375,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            124,
+            2,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.875,
+            8.625,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            124,
+            3,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.875,
+            8.875,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            124,
+            4,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.875,
+            9.125,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            125,
+            0,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.625,
+            8.125,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            125,
+            1,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.625,
+            8.375,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            125,
+            2,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.625,
+            8.625,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            125,
+            3,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.625,
+            8.875,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            125,
+            4,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.625,
+            9.125,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            126,
+            0,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.375,
+            8.125,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            126,
+            1,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.375,
+            8.375,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            126,
+            2,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.375,
+            8.625,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            126,
+            3,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.375,
+            8.875,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            126,
+            4,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.375,
+            9.125,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            0,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            8.125,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            0,
+            188,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_318_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            8.125,
+            71.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            0,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            8.125,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            1,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            8.375,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            1,
+            188,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_318_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            8.375,
+            71.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            1,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            8.375,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            2,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            8.625,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            2,
+            188,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_318_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            8.625,
+            71.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            2,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            8.625,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            3,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            8.875,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            3,
+            188,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_318_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            8.875,
+            71.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            3,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            8.875,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            4,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            9.125,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            4,
+            188,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_318_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            9.125,
+            71.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            127,
+            4,
+            189,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_319_0"
+          ],
+          "world_center_xyz_m": [
+            -340.125,
+            9.125,
+            71.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            128,
+            0,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.875,
+            8.125,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            128,
+            1,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.875,
+            8.375,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            128,
+            2,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.875,
+            8.625,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            128,
+            3,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.875,
+            8.875,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            128,
+            4,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.875,
+            9.125,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            129,
+            0,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.625,
+            8.125,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            129,
+            1,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.625,
+            8.375,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            129,
+            2,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.625,
+            8.625,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            129,
+            3,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.625,
+            8.875,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            129,
+            4,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.625,
+            9.125,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            130,
+            0,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.375,
+            8.125,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            130,
+            1,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.375,
+            8.375,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            130,
+            2,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.375,
+            8.625,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            130,
+            3,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.375,
+            8.875,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            130,
+            4,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.375,
+            9.125,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            0,
+            178,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.125,
+            68.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            0,
+            179,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.125,
+            68.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            0,
+            180,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.125,
+            69.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            0,
+            181,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.125,
+            69.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            0,
+            182,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.125,
+            69.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            0,
+            183,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.125,
+            69.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            0,
+            184,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.125,
+            70.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            0,
+            185,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.125,
+            70.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            0,
+            186,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.125,
+            70.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            0,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.125,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            1,
+            178,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.375,
+            68.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            1,
+            179,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.375,
+            68.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            1,
+            180,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.375,
+            69.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            1,
+            181,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.375,
+            69.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            1,
+            182,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.375,
+            69.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            1,
+            183,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.375,
+            69.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            1,
+            184,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.375,
+            70.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            1,
+            185,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.375,
+            70.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            1,
+            186,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.375,
+            70.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            1,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.375,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            2,
+            178,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.625,
+            68.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            2,
+            179,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.625,
+            68.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            2,
+            180,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.625,
+            69.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            2,
+            181,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.625,
+            69.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            2,
+            182,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.625,
+            69.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            2,
+            183,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.625,
+            69.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            2,
+            184,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.625,
+            70.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            2,
+            185,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.625,
+            70.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            2,
+            186,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.625,
+            70.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            2,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.625,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            3,
+            178,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.875,
+            68.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            3,
+            179,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.875,
+            68.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            3,
+            180,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.875,
+            69.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            3,
+            181,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.875,
+            69.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            3,
+            182,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.875,
+            69.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            3,
+            183,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.875,
+            69.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            3,
+            184,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.875,
+            70.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            3,
+            185,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.875,
+            70.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            3,
+            186,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.875,
+            70.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            3,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            8.875,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            4,
+            178,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            9.125,
+            68.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            4,
+            179,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            9.125,
+            68.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            4,
+            180,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_2"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            9.125,
+            69.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            4,
+            181,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            9.125,
+            69.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            4,
+            182,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            9.125,
+            69.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            4,
+            183,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            9.125,
+            69.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            4,
+            184,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            9.125,
+            70.125
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            4,
+            185,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            9.125,
+            70.375
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            4,
+            186,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_315_3"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            9.125,
+            70.625
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            131,
+            4,
+            187,
+            "boundary",
+            "solid",
+            "stone",
+            "boundary_317_0"
+          ],
+          "world_center_xyz_m": [
+            -339.125,
+            9.125,
+            70.875
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        }
+      ],
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r05_ground/phase01/masters/registered_productive_boundary_a_west_boundary_1.json",
+        "sha256": "1b35f8927481807d3df40351ee2555238c9d6e8df8d4065e6a3efa1c7801cf47"
+      },
+      "new_source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/retained_garden_access_r03/gate_native_r03/masters/registered_precinct_abbey_gate_r05_orchard.json",
+        "sha256": "36b6f3cabc1d99ae1ef88b30de57bcc6416c2c50768fbff0fc0bfc2000849087"
+      },
+      "new_cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/retained_garden_access_r03/gate_native_r03/cache/registered_precinct_abbey_gate_r05_orchard.render.json",
+        "sha256": "84f751daeb18c7e7aeef7bc8df9a9521cfec9de544f2ec70233179be6a365a2e"
+      }
+    },
+    {
+      "site_id": "MONASTERY_HERB_GARDEN",
+      "tests": {
+        "original_cache_exact": true,
+        "new_cache_exact": true,
+        "only_finite_above_floor_cells_removed": true,
+        "no_added_or_changed_cells": true,
+        "source_operations_preserved": true,
+        "native_pose_exact": true
+      },
+      "removed_cell_count": 64,
+      "removed_cells": [
+        {
+          "source_cell": [
+            -30,
+            0,
+            22,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_179_0"
+          ],
+          "world_center_xyz_m": [
+            -318.75,
+            8.25,
+            6.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -30,
+            0,
+            29,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_1_8_0"
+          ],
+          "world_center_xyz_m": [
+            -318.75,
+            8.25,
+            9.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -30,
+            1,
+            22,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_179_0"
+          ],
+          "world_center_xyz_m": [
+            -318.75,
+            8.75,
+            6.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -30,
+            1,
+            29,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_1_8_0"
+          ],
+          "world_center_xyz_m": [
+            -318.75,
+            8.75,
+            9.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -30,
+            2,
+            22,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_179_0"
+          ],
+          "world_center_xyz_m": [
+            -318.75,
+            9.25,
+            6.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -30,
+            2,
+            29,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_1_8_0"
+          ],
+          "world_center_xyz_m": [
+            -318.75,
+            9.25,
+            9.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -30,
+            3,
+            22,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_179_0"
+          ],
+          "world_center_xyz_m": [
+            -318.75,
+            9.75,
+            6.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -30,
+            3,
+            29,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_1_8_0"
+          ],
+          "world_center_xyz_m": [
+            -318.75,
+            9.75,
+            9.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -29,
+            0,
+            22,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_179_0"
+          ],
+          "world_center_xyz_m": [
+            -318.25,
+            8.25,
+            6.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -29,
+            0,
+            29,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_1_1_0"
+          ],
+          "world_center_xyz_m": [
+            -318.25,
+            8.25,
+            9.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -29,
+            1,
+            22,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_179_0"
+          ],
+          "world_center_xyz_m": [
+            -318.25,
+            8.75,
+            6.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -29,
+            1,
+            29,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_1_1_0"
+          ],
+          "world_center_xyz_m": [
+            -318.25,
+            8.75,
+            9.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -29,
+            2,
+            22,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_179_0"
+          ],
+          "world_center_xyz_m": [
+            -318.25,
+            9.25,
+            6.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -29,
+            2,
+            29,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_1_1_0"
+          ],
+          "world_center_xyz_m": [
+            -318.25,
+            9.25,
+            9.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -29,
+            3,
+            22,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_179_0"
+          ],
+          "world_center_xyz_m": [
+            -318.25,
+            9.75,
+            6.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -29,
+            3,
+            29,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_1_1_0"
+          ],
+          "world_center_xyz_m": [
+            -318.25,
+            9.75,
+            9.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -27,
+            0,
+            23,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_3_0"
+          ],
+          "world_center_xyz_m": [
+            -317.25,
+            8.25,
+            6.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -27,
+            1,
+            23,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_3_0"
+          ],
+          "world_center_xyz_m": [
+            -317.25,
+            8.75,
+            6.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -27,
+            2,
+            23,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_3_0"
+          ],
+          "world_center_xyz_m": [
+            -317.25,
+            9.25,
+            6.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -27,
+            3,
+            23,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_3_0"
+          ],
+          "world_center_xyz_m": [
+            -317.25,
+            9.75,
+            6.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -26,
+            0,
+            24,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -316.75,
+            8.25,
+            7.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -26,
+            1,
+            24,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -316.75,
+            8.75,
+            7.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -26,
+            2,
+            24,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -316.75,
+            9.25,
+            7.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -26,
+            3,
+            24,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -316.75,
+            9.75,
+            7.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -25,
+            0,
+            24,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -316.25,
+            8.25,
+            7.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -25,
+            0,
+            25,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -316.25,
+            8.25,
+            7.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -25,
+            1,
+            24,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -316.25,
+            8.75,
+            7.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -25,
+            1,
+            25,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -316.25,
+            8.75,
+            7.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -25,
+            2,
+            24,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -316.25,
+            9.25,
+            7.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -25,
+            2,
+            25,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -316.25,
+            9.25,
+            7.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -25,
+            3,
+            24,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -316.25,
+            9.75,
+            7.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -25,
+            3,
+            25,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -316.25,
+            9.75,
+            7.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -24,
+            0,
+            25,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.75,
+            8.25,
+            7.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -24,
+            0,
+            26,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.75,
+            8.25,
+            8.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -24,
+            1,
+            25,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.75,
+            8.75,
+            7.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -24,
+            1,
+            26,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.75,
+            8.75,
+            8.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -24,
+            2,
+            25,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.75,
+            9.25,
+            7.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -24,
+            2,
+            26,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.75,
+            9.25,
+            8.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -24,
+            3,
+            25,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.75,
+            9.75,
+            7.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -24,
+            3,
+            26,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.75,
+            9.75,
+            8.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -23,
+            0,
+            26,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.25,
+            8.25,
+            8.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -23,
+            0,
+            27,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.25,
+            8.25,
+            8.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -23,
+            1,
+            26,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.25,
+            8.75,
+            8.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -23,
+            1,
+            27,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.25,
+            8.75,
+            8.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -23,
+            2,
+            26,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.25,
+            9.25,
+            8.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -23,
+            2,
+            27,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.25,
+            9.25,
+            8.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -23,
+            3,
+            26,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.25,
+            9.75,
+            8.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -23,
+            3,
+            27,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -315.25,
+            9.75,
+            8.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -22,
+            0,
+            27,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.75,
+            8.25,
+            8.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -22,
+            0,
+            28,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.75,
+            8.25,
+            9.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -22,
+            1,
+            27,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.75,
+            8.75,
+            8.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -22,
+            1,
+            28,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.75,
+            8.75,
+            9.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -22,
+            2,
+            27,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.75,
+            9.25,
+            8.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -22,
+            2,
+            28,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.75,
+            9.25,
+            9.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -22,
+            3,
+            27,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.75,
+            9.75,
+            8.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -22,
+            3,
+            28,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.75,
+            9.75,
+            9.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -21,
+            0,
+            28,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.25,
+            8.25,
+            9.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -21,
+            0,
+            29,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.25,
+            8.25,
+            9.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -21,
+            1,
+            28,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.25,
+            8.75,
+            9.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -21,
+            1,
+            29,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.25,
+            8.75,
+            9.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -21,
+            2,
+            28,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.25,
+            9.25,
+            9.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -21,
+            2,
+            29,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.25,
+            9.25,
+            9.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -21,
+            3,
+            28,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.25,
+            9.75,
+            9.25
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        },
+        {
+          "source_cell": [
+            -21,
+            3,
+            29,
+            "court_and_boundary__boundary",
+            "solid",
+            "rgb_9e9b88",
+            "court_and_boundary__boundary_0_8_0"
+          ],
+          "world_center_xyz_m": [
+            -314.25,
+            9.75,
+            9.75
+          ],
+          "inside_finite_opening": true,
+          "above_retained_floor": true
+        }
+      ],
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r04/contact_repair_r01/masters/registered_precinct_union_abbey_north_work_edge_repair_r01.json",
+        "sha256": "e1148a846b49d694d70d32b30a9af8ff3a2a9c7a3284a17b8b28a183075ed2f0"
+      },
+      "new_source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/retained_garden_access_r03/gate_native_r03/masters/registered_precinct_abbey_gate_r05_herb.json",
+        "sha256": "15a2b88d100227e94a256b4f00bd24f2150c75589521bbd3ab6d924159bf3470"
+      },
+      "new_cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/retained_garden_access_r03/gate_native_r03/cache/registered_precinct_abbey_gate_r05_herb.render.json",
+        "sha256": "96b2f0eaa2eb05e01b95d99d3e1c936b36a3582c5c40b8bd7b98d83071752c47"
+      }
+    }
+  ],
+  "native_pack": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/retained_garden_access_r03/gate_native_r03/resolved_native_candidate.json",
+    "sha256": "766f2e52aa6deb22acbaddd16deebe3d95792b8fdad69f53ea241add2368ac91"
+  },
+  "runtime_ready": false
+}

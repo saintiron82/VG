@@ -1,0 +1,82 @@
+{
+  "schema": "riverstone.voxel.transform_animation.v1",
+  "id": "entry_open_close",
+  "source_id": "timber_plaster_house_01",
+  "master_hash": "b34d81081d323e3149be28a183705bf8a7ef60751644fd81832f194b26c62f41",
+  "duration": 6.0,
+  "loop": true,
+  "tracks": [
+    {
+      "id": "hinged_leaf",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "front_door_leaf",
+        "part": "solid"
+      },
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 0.6,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 2.4,
+          "rotation_degrees": 105,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 3.4,
+          "rotation_degrees": 105,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 5.2,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 6,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Visual transform only. Preserve master pivot and geometry; no rigid-body physics or collision response."
+}

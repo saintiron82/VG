@@ -1,0 +1,28 @@
+{
+  "schema": "riverstone.lane.rules.v1",
+  "id": "near_detail_stone_lane_r01",
+  "revision": 1,
+  "seed": 12067,
+  "bounds": {"rect": [-5.0, 7.0, 5.0, 12.0]},
+  "holes": [],
+  "pitch": 0.0125,
+  "joint_width": 0.025,
+  "joint_depth": 0.025,
+  "stone_lengths": [0.30, 0.35, 0.40, 0.45, 0.50, 0.55],
+  "stone_widths": [0.25, 0.30, 0.35],
+  "bevel_inset": 0.0125,
+  "corner_clip": 0.025,
+  "top_y": 0.0,
+  "support_pitch": 1.0,
+  "support_thickness": 1.0,
+  "walking_corridor": {"rect": [-1.0, 7.0, 1.0, 12.0]},
+  "materials": {
+    "stone_warm": "8e8a7e",
+    "stone_cool": "7f8582",
+    "stone_light": "a09b8d",
+    "stone_dark": "76796f",
+    "joint": "575c53",
+    "support": "676b60"
+  },
+  "budgets": {"max_candidate_cells": 1500000, "max_output_cells": 950000, "max_artifact_bytes": 20000000}
+}

@@ -1,0 +1,146 @@
+{
+  "schema": "riverstone.city_history.v3",
+  "fictional_design": true,
+  "snapshot_year": 1450,
+  "source_history_path": "world_city/city_history.json",
+  "source_history_sha256": "376d1b6c9456e74174e202739de9131225782fce3bd95ca93b29ef6ddc44395d",
+  "chronology": [
+    {
+      "id": "crossing_fort",
+      "start_year": 1080,
+      "end_year": 1160,
+      "cause_and_effect": "A guarded river crossing creates a toll settlement and a defensible upper precinct.",
+      "primary_archetype": "castle",
+      "visible_evidence": [
+        "irregular_inner_lane",
+        "thick_reused_foundation"
+      ]
+    },
+    {
+      "id": "religious_precinct",
+      "start_year": 1161,
+      "end_year": 1240,
+      "cause_and_effect": "An endowed church precinct attracts services and lodging between the crossing and the upper settlement. Parish housing consolidates in D07; a separate charitable religious holding seeds D10.",
+      "primary_archetype": "cathedral",
+      "visible_evidence": [
+        "precinct_boundary",
+        "processional_approach"
+      ]
+    },
+    {
+      "id": "chartered_market",
+      "start_year": 1241,
+      "end_year": 1310,
+      "cause_and_effect": "A market charter consolidates roadside trading into a public square; long burgage plots extend behind narrow shop fronts. Merchant plots in D04 connect the civic center with the crossing rather than merging every institution into one plaza.",
+      "primary_archetype": "market",
+      "visible_evidence": [
+        "narrow_frontage_deep_plot",
+        "market_to_crossing_route"
+      ]
+    },
+    {
+      "id": "river_trade",
+      "start_year": 1311,
+      "end_year": 1377,
+      "cause_and_effect": "Trade expands storage by the landing and work yards beyond the crowded core; the earlier defensive line becomes an internal boundary. The outer defensive belt D09 encloses productive gardens in D08; old plots and institutional precincts remain legible inside it.",
+      "primary_archetype": "port",
+      "visible_evidence": [
+        "warehouse_loading_front",
+        "old_wall_boundary",
+        "craft_yards"
+      ]
+    },
+    {
+      "id": "market_rebuilding",
+      "start_year": 1378,
+      "end_year": 1400,
+      "cause_and_effect": "A localized market fire prompts mixed masonry rebuilding on surviving plots; rear lanes and unaffected streets retain older fabric.",
+      "primary_archetype": "market",
+      "visible_evidence": [
+        "masonry_party_wall",
+        "reused_shop_cellar",
+        "rear_lane_kink"
+      ]
+    },
+    {
+      "id": "outer_infill",
+      "start_year": 1401,
+      "end_year": 1450,
+      "cause_and_effect": "New households occupy existing approach roads and former field edges while the established center is repaired rather than replaced. S01 grows along the gate approach, while D08 remains cultivated land instead of becoming a uniformly filled suburb.",
+      "primary_archetype": "residential",
+      "visible_evidence": [
+        "garden_plot",
+        "field_edge_lane",
+        "patched_old_facade"
+      ]
+    }
+  ],
+  "district_provenance": {
+    "D_CASTLE": [
+      "D01"
+    ],
+    "D_WATER": [
+      "D08"
+    ],
+    "D_CATHEDRAL": [
+      "D02"
+    ],
+    "D_NOBLE": [
+      "D04",
+      "D08"
+    ],
+    "D_MERCHANT_N": [
+      "D03",
+      "D04"
+    ],
+    "D_CIVIC": [
+      "D03"
+    ],
+    "D_MERCHANT_E": [
+      "D04"
+    ],
+    "D_CRAFT_N": [
+      "D06"
+    ],
+    "D_MONASTERY": [
+      "D10"
+    ],
+    "D_OLD": [
+      "D07"
+    ],
+    "D_POOR": [
+      "D07"
+    ],
+    "D_CRAFT_S": [
+      "D06"
+    ],
+    "D_PORT": [
+      "D05"
+    ]
+  },
+  "geometry_status": "required historical features must be linked to actual placements before marked visible",
+  "principles": [
+    "Landholding and density differ materially by household and livelihood.",
+    "Large estates include servants, stables, gates and productive/private gardens.",
+    "Old road and plot kinks survive localized market rebuilding.",
+    "Poor and craft districts have shared courts and facilities, not isolated uniform huts.",
+    "Red clay, brown wood and gray slate follow class/function/era; teal is rare and protected seven-house palettes remain source records."
+  ],
+  "water_design": {
+    "clean": "authored northern headwater, reservoir and protected conduits; water quality unverified",
+    "service": "new upstream river intake, lower mill/craft canal, downstream outfall",
+    "storm_and_waste": "separate drainage and contained/manual waste collection; no universal1450 historical claim"
+  },
+  "primary_references": [
+    {
+      "url": "https://whc.unesco.org/en/list/1580/",
+      "title": "Water Management System of Augsburg",
+      "scope": "medieval canal precedent; do not backdate documented1545 separation to universal1450"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/624/",
+      "title": "Town of Bamberg",
+      "scope": "episcopal hill and urban market gardens as comparative precedent"
+    }
+  ]
+}

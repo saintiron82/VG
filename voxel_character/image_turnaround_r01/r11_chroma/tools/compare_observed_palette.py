@@ -1,0 +1,14 @@
+"""Observed-patch palette and sRGB/D65 Lab diagnostic, not albedo recovery."""
+from pathlib import Path
+from PIL import Image
+import numpy as np,json,hashlib
+B=Path(__file__).resolve().parents[1];R=B.parents[2]
+def lab(rgb):
+ c=np.array(rgb,float)/255;lin=np.where(c<=.04045,c/12.92,((c+.055)/1.055)**2.4);xyz=np.array([[.4124564,.3575761,.1804375],[.2126729,.7151522,.0721750],[.0193339,.1191920,.9503041]])@lin;v=xyz/np.array([.95047,1.,1.08883]);d=6/29;t=np.where(v>d**3,np.cbrt(v),v/(3*d*d)+4/29);return np.array([116*t[1]-16,500*(t[0]-t[1]),200*(t[1]-t[2])])
+ref=R/'voxel_character/three_head_reference_r01/violet_costume_skin_candidate_r06.png';im=Image.open(ref);a=np.array(im.convert('RGB'));boxes={'face':[375,211,384,219],'upper_arm':[429,277,437,287],'thigh':[408,423,416,432]};palette={}
+for name,box in boxes.items():
+ x,y,x1,y1=box;p=a[y:y1,x:x1].reshape(-1,3);med=np.median(p,0);palette[name]={'source_roi_xyxy':box,'median_observed_srgb':med.tolist(),'observed_rgb_p10':np.percentile(p,10,axis=0).tolist(),'observed_rgb_p90':np.percentile(p,90,axis=0).tolist(),'assumed_D65_Lab_of_median':lab(med).tolist(),'shader_albedo':None}
+single=json.load(open(B/'evidence/single_validation_r01.json'));comp={}
+for n,v in single['skin_regions'].items():
+ new=np.array(v['median_rgb']);old=np.array(palette[n]['median_observed_srgb']);dl=lab(new)-lab(old);comp[n]={'generated_roi_xyxy':v['manual_semantic_roi_xyxy'],'generated_observed_rgb':new.tolist(),'approved_observed_rgb':old.tolist(),'delta_rgb':(new-old).tolist(),'delta_Lab':dl.tolist(),'deltaE76_diagnostic':float(np.linalg.norm(dl)),'color_pass':None}
+out={'schema':'riverstone.observed_palette_not_albedo.v1','approved_source_sha256':hashlib.sha256(ref.read_bytes()).hexdigest(),'script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'standard_palette_for_this_project':palette,'single_view_comparison':comp,'color_space_assumption':'Decode as8bit sRGB and apply sRGB EOTF/XYZ D65/Lab. Image has no verified scene-linear albedo calibration. Embedded ICC presence: '+str('icc_profile'in im.info),'comparison_limit':'DeltaE76 here measures apparent patch difference under unmatched illustrated lighting and viewpoint. Not a calibrated perceptual pass/fail threshold; do not approve from red-channel error alone.','source_shader_albedo_policy':'Observed RGB remains measurement. Intrinsic albedo unknown; any future flat-lit basecolor seed must be explicit inferred parameter and re-rendered with separate shading. No material or shader authored in this revision.','regional_material_exclusion':['white gloves','white stockings','neck shadow','specular highlights','cloth reflections'],'approve_skin_from_metrics_only':False};(B/'evidence/observed_palette_comparison.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(comp))

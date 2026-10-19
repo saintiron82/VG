@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://../near_detail_r01/city_upgrade/native_access_detail_r01/validation/reviewer_r01/AccessCityValidation.gd" id="1"]
+[node name="AccessCityValidation" type="Node3D"]
+script=ExtResource("1")

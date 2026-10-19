@@ -1,0 +1,4367 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_castle_rear_residence",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "slate": "a16b51",
+    "slate_dark": "80523f",
+    "timber": "654631",
+    "timber_dark": "493729",
+    "glass": "314d55",
+    "glass_light": "54716e",
+    "iron": "394648",
+    "door": "946b45"
+  },
+  "components": [
+    {
+      "id": "masonry",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "masonry",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "range_west",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -28.5,
+              0,
+              -10.0
+            ],
+            "max": [
+              -27.75,
+              27,
+              10.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "range_east",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              27.75,
+              0,
+              -10.0
+            ],
+            "max": [
+              28.5,
+              27,
+              10.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "range_rear",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -27.75,
+              0,
+              -10.0
+            ],
+            "max": [
+              27.75,
+              27,
+              -9.25
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "range_front",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -27.75,
+              0,
+              9.25
+            ],
+            "max": [
+              27.75,
+              27,
+              10.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "range_gable_rear",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -10.0,
+                26.4
+              ],
+              [
+                10.0,
+                26.4
+              ],
+              [
+                0.0,
+                37.4
+              ]
+            ],
+            "z_min": -28.5,
+            "z_max": -28.0
+          },
+          "material": "stone_dark",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "range_gable_front",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -10.0,
+                26.4
+              ],
+              [
+                10.0,
+                26.4
+              ],
+              [
+                0.0,
+                37.4
+              ]
+            ],
+            "z_min": 28.0,
+            "z_max": 28.5
+          },
+          "material": "stone_dark",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "roof",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "roof",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "range_left_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -10.0,
+                27.0
+              ],
+              [
+                -8.0,
+                29.2
+              ],
+              [
+                -8.0,
+                28.599999999999998
+              ],
+              [
+                -10.0,
+                26.4
+              ]
+            ],
+            "z_min": -28.5,
+            "z_max": 28.5
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "range_left_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -8.0,
+                29.2
+              ],
+              [
+                -6.0,
+                31.4
+              ],
+              [
+                -6.0,
+                30.799999999999997
+              ],
+              [
+                -8.0,
+                28.599999999999998
+              ]
+            ],
+            "z_min": -28.5,
+            "z_max": 28.5
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "range_left_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -6.0,
+                31.4
+              ],
+              [
+                -4.0,
+                33.6
+              ],
+              [
+                -4.0,
+                33.0
+              ],
+              [
+                -6.0,
+                30.799999999999997
+              ]
+            ],
+            "z_min": -28.5,
+            "z_max": 28.5
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "range_left_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -4.0,
+                33.6
+              ],
+              [
+                -2.0,
+                35.8
+              ],
+              [
+                -2.0,
+                35.199999999999996
+              ],
+              [
+                -4.0,
+                33.0
+              ]
+            ],
+            "z_min": -28.5,
+            "z_max": 28.5
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "range_left_4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -2.0,
+                35.8
+              ],
+              [
+                0.0,
+                38.0
+              ],
+              [
+                0.0,
+                37.4
+              ],
+              [
+                -2.0,
+                35.199999999999996
+              ]
+            ],
+            "z_min": -28.5,
+            "z_max": 28.5
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "range_right_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                0.0,
+                38.0
+              ],
+              [
+                2.0,
+                35.8
+              ],
+              [
+                2.0,
+                35.199999999999996
+              ],
+              [
+                0.0,
+                37.4
+              ]
+            ],
+            "z_min": -28.5,
+            "z_max": 28.5
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "range_right_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                2.0,
+                35.8
+              ],
+              [
+                4.0,
+                33.6
+              ],
+              [
+                4.0,
+                33.0
+              ],
+              [
+                2.0,
+                35.199999999999996
+              ]
+            ],
+            "z_min": -28.5,
+            "z_max": 28.5
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "range_right_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                4.0,
+                33.6
+              ],
+              [
+                6.0,
+                31.4
+              ],
+              [
+                6.0,
+                30.799999999999997
+              ],
+              [
+                4.0,
+                33.0
+              ]
+            ],
+            "z_min": -28.5,
+            "z_max": 28.5
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "range_right_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                6.0,
+                31.4
+              ],
+              [
+                8.0,
+                29.2
+              ],
+              [
+                8.0,
+                28.599999999999998
+              ],
+              [
+                6.0,
+                30.799999999999997
+              ]
+            ],
+            "z_min": -28.5,
+            "z_max": 28.5
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "range_right_4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                8.0,
+                29.2
+              ],
+              [
+                10.0,
+                27.0
+              ],
+              [
+                10.0,
+                26.4
+              ],
+              [
+                8.0,
+                28.599999999999998
+              ]
+            ],
+            "z_min": -28.5,
+            "z_max": 28.5
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "range_ridge",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.18,
+              37.4,
+              -28.5
+            ],
+            "max": [
+              0.18,
+              38,
+              28.5
+            ]
+          },
+          "material": "slate_dark",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "windows",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "windows",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "front_upper_0_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              -25.333333333333332,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_0_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "translation": [
+              -25.333333333333332,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_0_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              -25.333333333333332,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_1_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              -19.0,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_1_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "translation": [
+              -19.0,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_1_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              -19.0,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_2_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              -12.666666666666666,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_2_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "translation": [
+              -12.666666666666666,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_2_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              -12.666666666666666,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_3_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              -6.333333333333332,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_3_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "translation": [
+              -6.333333333333332,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_3_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              -6.333333333333332,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_4_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              0.0,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_4_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "translation": [
+              0.0,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_4_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              0.0,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_5_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              6.333333333333336,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_5_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "translation": [
+              6.333333333333336,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_5_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              6.333333333333336,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_6_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              12.666666666666664,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_6_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "translation": [
+              12.666666666666664,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_6_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              12.666666666666664,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_7_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              19.0,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_7_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "translation": [
+              19.0,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_7_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              19.0,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_8_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              25.333333333333336,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_8_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "translation": [
+              25.333333333333336,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "front_upper_8_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              25.333333333333336,
+              0,
+              10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_0_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              -25.333333333333332,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_0_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              -25.333333333333332,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_0_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              -25.333333333333332,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_1_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              -19.0,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_1_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              -19.0,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_1_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              -19.0,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_2_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              -12.666666666666666,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_2_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              -12.666666666666666,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_2_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              -12.666666666666666,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_3_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              -6.333333333333332,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_3_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              -6.333333333333332,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_3_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              -6.333333333333332,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_4_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              0.0,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_4_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              0.0,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_4_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              0.0,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_5_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              6.333333333333336,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_5_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              6.333333333333336,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_5_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              6.333333333333336,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_6_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              12.666666666666664,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_6_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              12.666666666666664,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_6_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              12.666666666666664,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_7_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              19.0,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_7_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              19.0,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_7_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              19.0,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_8_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              25.333333333333336,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_8_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              25.333333333333336,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "rear_upper_8_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                -1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ]
+            ],
+            "translation": [
+              25.333333333333336,
+              0,
+              -10.0
+            ]
+          }
+        },
+        {
+          "id": "east_upper_0_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              28.5,
+              0,
+              -6.666666666666666
+            ]
+          }
+        },
+        {
+          "id": "east_upper_0_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              28.5,
+              0,
+              -6.666666666666666
+            ]
+          }
+        },
+        {
+          "id": "east_upper_0_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              28.5,
+              0,
+              -6.666666666666666
+            ]
+          }
+        },
+        {
+          "id": "east_upper_1_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              28.5,
+              0,
+              0.0
+            ]
+          }
+        },
+        {
+          "id": "east_upper_1_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              28.5,
+              0,
+              0.0
+            ]
+          }
+        },
+        {
+          "id": "east_upper_1_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              28.5,
+              0,
+              0.0
+            ]
+          }
+        },
+        {
+          "id": "east_upper_2_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              28.5,
+              0,
+              6.666666666666668
+            ]
+          }
+        },
+        {
+          "id": "east_upper_2_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              28.5,
+              0,
+              6.666666666666668
+            ]
+          }
+        },
+        {
+          "id": "east_upper_2_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              28.5,
+              0,
+              6.666666666666668
+            ]
+          }
+        },
+        {
+          "id": "west_upper_0_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              -28.5,
+              0,
+              -6.666666666666666
+            ]
+          }
+        },
+        {
+          "id": "west_upper_0_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              -28.5,
+              0,
+              -6.666666666666666
+            ]
+          }
+        },
+        {
+          "id": "west_upper_0_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              -28.5,
+              0,
+              -6.666666666666666
+            ]
+          }
+        },
+        {
+          "id": "west_upper_1_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              -28.5,
+              0,
+              0.0
+            ]
+          }
+        },
+        {
+          "id": "west_upper_1_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              -28.5,
+              0,
+              0.0
+            ]
+          }
+        },
+        {
+          "id": "west_upper_1_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              -28.5,
+              0,
+              0.0
+            ]
+          }
+        },
+        {
+          "id": "west_upper_2_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                12.959999999999999
+              ],
+              [
+                0.9,
+                15.84
+              ],
+              [
+                0,
+                16.96
+              ],
+              [
+                -0.9,
+                15.84
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              -28.5,
+              0,
+              6.666666666666668
+            ]
+          }
+        },
+        {
+          "id": "west_upper_2_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                13.209999999999999
+              ],
+              [
+                0.65,
+                15.59
+              ],
+              [
+                0.0,
+                16.71
+              ],
+              [
+                -0.65,
+                15.59
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              -28.5,
+              0,
+              6.666666666666668
+            ]
+          }
+        },
+        {
+          "id": "west_upper_2_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              13.209999999999999,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              16.71,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              -28.5,
+              0,
+              6.666666666666668
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "owned_floor",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "owned_floor",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "bearing_floor",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -28.5,
+              -0.5,
+              -10.0
+            ],
+            "max": [
+              28.5,
+              0,
+              10.0
+            ]
+          },
+          "material": "stone_dark"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "masonry",
+      "component": "masonry"
+    },
+    {
+      "id": "roof",
+      "component": "roof"
+    },
+    {
+      "id": "windows",
+      "component": "windows"
+    },
+    {
+      "id": "owned_floor",
+      "component": "owned_floor"
+    }
+  ],
+  "assembly_cuts": [
+    {
+      "id": "functional_entry",
+      "selector": {},
+      "shape": {
+        "kind": "box",
+        "min": [
+          -1.5,
+          0,
+          9.1
+        ],
+        "max": [
+          1.5,
+          4,
+          10.9
+        ]
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "id": "landmark_present",
+      "kind": "nonempty",
+      "selector": {}
+    },
+    {
+      "id": "masonry_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "masonry"
+      }
+    },
+    {
+      "id": "roof_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "roof"
+      }
+    },
+    {
+      "id": "windows_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "windows"
+      }
+    },
+    {
+      "id": "owned_floor_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "owned_floor"
+      }
+    },
+    {
+      "id": "entry_clearance",
+      "kind": "empty_region",
+      "selector": {},
+      "shape": {
+        "kind": "box",
+        "min": [
+          -1.5,
+          0.1,
+          9.1
+        ],
+        "max": [
+          1.5,
+          4,
+          10.9
+        ]
+      }
+    }
+  ],
+  "provenance": {
+    "source_files": [
+      {
+        "path": "world_city/data/city_brief.v2.json",
+        "sha256": "2a848ee765c035892cfe9eab20f96cd4fe6334e1043cfc0e54caab611fb1e8ae"
+      },
+      {
+        "path": "voxel_character/common/assets/house/master.json",
+        "sha256": "8c46e2372049a7f991af4aeda70e19cceaab775a96af3bdaf3662d65885305c3"
+      }
+    ],
+    "author": "world_city/runtime_city/landmarks/author.py",
+    "author_sha256": "d8011564264f85ec3d0725b0af5290d1e1727a52143fe50da69019dbc8f2a1e1",
+    "evidence": "design_inference_not_historical_reconstruction",
+    "observed_source": "Layout roles, total planning dimensions and common house material grammar.",
+    "inferred": "All architectural silhouettes, bays, shell thicknesses, roofs, towers, openings and decorative proportions.",
+    "source_of_geometry": "This continuous standard common master; compile independently at each requested pitch.",
+    "new_engine": false,
+    "registered_author": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/author_assemblies.py",
+      "sha256": "5d496439bcdc74dd2717cabdec909fe92313b3c80f293914f5440e48b097af9b"
+    }
+  },
+  "extensions": {
+    "landmark_kind": "monastery",
+    "total_envelope_m": {
+      "min": [
+        -28.5,
+        0,
+        -10.0
+      ],
+      "max": [
+        28.5,
+        38.0,
+        10.0
+      ]
+    },
+    "dimensions_m": {
+      "width": 57.0,
+      "depth": 20.0,
+      "height": 38.0
+    },
+    "exterior_features": [],
+    "entrances": [
+      {
+        "id": "main_entry",
+        "threshold_local_m": [
+          0,
+          0,
+          10.0
+        ],
+        "forward_into_asset": [
+          0,
+          0,
+          -1
+        ],
+        "clear_width_m": 3,
+        "clear_height_m": 4,
+        "through_passage": false,
+        "interior_status": "shell_floor_only"
+      }
+    ],
+    "secondary_openings": [],
+    "secondary_opening_support": {
+      "rear_half_ground_shell_retained": false,
+      "status": "geometric_ground_support_only_not_structural_engineering",
+      "clearance_is_game_design_inference": true
+    },
+    "scope": {
+      "exterior": "authored",
+      "interior": "not_authored",
+      "physics": "not_authored",
+      "visual_review": "not_run",
+      "historical_reconstruction": false
+    },
+    "construction": "Thin shell walls, bounded roof slope strips, supported cornices; no dense building fill.",
+    "sampling_policy": "Unmodified common coordinate_planes/core and render_data; no alternate LOD master or output-cell repair.",
+    "registered_module_kind": "roofed_range",
+    "local_bounds_m": {
+      "min": [
+        -28.5,
+        -0.5,
+        -10.0
+      ],
+      "max": [
+        28.5,
+        38.0,
+        10.0
+      ]
+    },
+    "owned_floor_depth_m": 0.5,
+    "status": "registered_common_module_candidate",
+    "actual_scene_loaded": false,
+    "actual_visual_review": false
+  }
+}

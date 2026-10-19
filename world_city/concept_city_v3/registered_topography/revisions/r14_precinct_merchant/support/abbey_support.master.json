@@ -1,0 +1,2118 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_abbey_bearing_support_r14",
+  "revision": 14,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "stone": "7e8075"
+  },
+  "components": [
+    {
+      "id": "bearing_union",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "exact_native_bearing_0",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -3.0,
+                -7.0
+              ],
+              [
+                -3.0,
+                -7.5
+              ],
+              [
+                -4.0,
+                -7.5
+              ],
+              [
+                -4.0,
+                -7.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_1",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -2.0,
+                -7.5
+              ],
+              [
+                -2.0,
+                -8.0
+              ],
+              [
+                -3.0,
+                -8.0
+              ],
+              [
+                -3.0,
+                -7.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_2",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.5,
+                -8.0
+              ],
+              [
+                -0.5,
+                -8.5
+              ],
+              [
+                -2.0,
+                -8.5
+              ],
+              [
+                -2.0,
+                -8.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_3",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                0.5,
+                -8.5
+              ],
+              [
+                0.5,
+                -9.0
+              ],
+              [
+                -1.0,
+                -9.0
+              ],
+              [
+                -1.0,
+                -8.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_4",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                1.5,
+                -9.0
+              ],
+              [
+                1.5,
+                -9.5
+              ],
+              [
+                0.0,
+                -9.5
+              ],
+              [
+                0.0,
+                -9.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_5",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                2.5,
+                -9.5
+              ],
+              [
+                2.5,
+                -10.0
+              ],
+              [
+                1.0,
+                -10.0
+              ],
+              [
+                1.0,
+                -9.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_6",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                3.5,
+                -10.0
+              ],
+              [
+                3.5,
+                -10.5
+              ],
+              [
+                2.0,
+                -10.5
+              ],
+              [
+                2.0,
+                -10.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_7",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                4.5,
+                -10.5
+              ],
+              [
+                4.5,
+                -11.0
+              ],
+              [
+                3.0,
+                -11.0
+              ],
+              [
+                3.0,
+                -10.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_8",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                5.5,
+                -11.0
+              ],
+              [
+                5.5,
+                -11.5
+              ],
+              [
+                4.0,
+                -11.5
+              ],
+              [
+                4.0,
+                -11.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_9",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                6.5,
+                -11.5
+              ],
+              [
+                6.5,
+                -12.0
+              ],
+              [
+                5.0,
+                -12.0
+              ],
+              [
+                5.0,
+                -11.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_10",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                7.5,
+                -12.0
+              ],
+              [
+                7.5,
+                -12.5
+              ],
+              [
+                6.0,
+                -12.5
+              ],
+              [
+                6.0,
+                -12.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_11",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                8.5,
+                -12.5
+              ],
+              [
+                8.5,
+                -13.0
+              ],
+              [
+                7.5,
+                -13.0
+              ],
+              [
+                7.5,
+                -12.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_12",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                9.5,
+                -13.0
+              ],
+              [
+                9.5,
+                -13.5
+              ],
+              [
+                8.5,
+                -13.5
+              ],
+              [
+                8.5,
+                -13.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_13",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                10.5,
+                -13.5
+              ],
+              [
+                10.5,
+                -14.0
+              ],
+              [
+                9.5,
+                -14.0
+              ],
+              [
+                9.5,
+                -13.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_14",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                12.0,
+                -14.0
+              ],
+              [
+                12.0,
+                -14.5
+              ],
+              [
+                10.5,
+                -14.5
+              ],
+              [
+                10.5,
+                -14.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_15",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                13.0,
+                -14.5
+              ],
+              [
+                13.0,
+                -15.0
+              ],
+              [
+                11.5,
+                -15.0
+              ],
+              [
+                11.5,
+                -14.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_16",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                14.0,
+                -15.0
+              ],
+              [
+                14.0,
+                -15.5
+              ],
+              [
+                12.5,
+                -15.5
+              ],
+              [
+                12.5,
+                -15.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_17",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                15.0,
+                -15.5
+              ],
+              [
+                15.0,
+                -16.0
+              ],
+              [
+                13.5,
+                -16.0
+              ],
+              [
+                13.5,
+                -15.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_18",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                16.0,
+                -16.0
+              ],
+              [
+                16.0,
+                -16.5
+              ],
+              [
+                14.5,
+                -16.5
+              ],
+              [
+                14.5,
+                -16.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_19",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                17.0,
+                -16.5
+              ],
+              [
+                17.0,
+                -17.0
+              ],
+              [
+                15.5,
+                -17.0
+              ],
+              [
+                15.5,
+                -16.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_20",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                18.0,
+                -17.0
+              ],
+              [
+                18.0,
+                -17.5
+              ],
+              [
+                16.5,
+                -17.5
+              ],
+              [
+                16.5,
+                -17.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_21",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                19.0,
+                -17.5
+              ],
+              [
+                19.0,
+                -18.0
+              ],
+              [
+                17.5,
+                -18.0
+              ],
+              [
+                17.5,
+                -17.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_22",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                20.0,
+                -18.0
+              ],
+              [
+                20.0,
+                -18.5
+              ],
+              [
+                18.5,
+                -18.5
+              ],
+              [
+                18.5,
+                -18.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_23",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                21.0,
+                -18.5
+              ],
+              [
+                21.0,
+                -19.0
+              ],
+              [
+                20.0,
+                -19.0
+              ],
+              [
+                20.0,
+                -18.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_24",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                22.0,
+                -19.0
+              ],
+              [
+                22.0,
+                -19.5
+              ],
+              [
+                21.0,
+                -19.5
+              ],
+              [
+                21.0,
+                -19.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_25",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                23.5,
+                -19.5
+              ],
+              [
+                23.5,
+                -20.0
+              ],
+              [
+                22.0,
+                -20.0
+              ],
+              [
+                22.0,
+                -19.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_26",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                24.5,
+                -20.0
+              ],
+              [
+                24.5,
+                -20.5
+              ],
+              [
+                23.0,
+                -20.5
+              ],
+              [
+                23.0,
+                -20.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_27",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                25.5,
+                -20.5
+              ],
+              [
+                25.5,
+                -21.0
+              ],
+              [
+                24.0,
+                -21.0
+              ],
+              [
+                24.0,
+                -20.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_28",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                26.5,
+                -21.0
+              ],
+              [
+                26.5,
+                -21.5
+              ],
+              [
+                25.0,
+                -21.5
+              ],
+              [
+                25.0,
+                -21.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_29",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                27.5,
+                -21.5
+              ],
+              [
+                27.5,
+                -22.0
+              ],
+              [
+                26.0,
+                -22.0
+              ],
+              [
+                26.0,
+                -21.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_30",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                28.5,
+                -22.0
+              ],
+              [
+                28.5,
+                -22.5
+              ],
+              [
+                27.0,
+                -22.5
+              ],
+              [
+                27.0,
+                -22.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_31",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                29.5,
+                -22.5
+              ],
+              [
+                29.5,
+                -23.0
+              ],
+              [
+                28.0,
+                -23.0
+              ],
+              [
+                28.0,
+                -22.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_32",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                30.5,
+                -23.0
+              ],
+              [
+                30.5,
+                -23.5
+              ],
+              [
+                29.0,
+                -23.5
+              ],
+              [
+                29.0,
+                -23.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_33",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                31.5,
+                -23.5
+              ],
+              [
+                31.5,
+                -24.0
+              ],
+              [
+                30.0,
+                -24.0
+              ],
+              [
+                30.0,
+                -23.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_34",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                32.5,
+                -24.0
+              ],
+              [
+                32.5,
+                -24.5
+              ],
+              [
+                31.5,
+                -24.5
+              ],
+              [
+                31.5,
+                -24.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_35",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                33.5,
+                -24.5
+              ],
+              [
+                33.5,
+                -25.0
+              ],
+              [
+                32.5,
+                -25.0
+              ],
+              [
+                32.5,
+                -24.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_36",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                34.5,
+                -25.0
+              ],
+              [
+                34.5,
+                -25.5
+              ],
+              [
+                33.5,
+                -25.5
+              ],
+              [
+                33.5,
+                -25.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_37",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                36.0,
+                -25.5
+              ],
+              [
+                36.0,
+                -26.0
+              ],
+              [
+                34.5,
+                -26.0
+              ],
+              [
+                34.5,
+                -25.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_38",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                37.0,
+                -26.0
+              ],
+              [
+                37.0,
+                -26.5
+              ],
+              [
+                35.5,
+                -26.5
+              ],
+              [
+                35.5,
+                -26.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_39",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                38.0,
+                -26.5
+              ],
+              [
+                38.0,
+                -27.0
+              ],
+              [
+                36.5,
+                -27.0
+              ],
+              [
+                36.5,
+                -26.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_40",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                39.0,
+                -27.0
+              ],
+              [
+                39.0,
+                -27.5
+              ],
+              [
+                37.5,
+                -27.5
+              ],
+              [
+                37.5,
+                -27.0
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exact_native_bearing_41",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                85.0,
+                -27.5
+              ],
+              [
+                85.0,
+                -28.0
+              ],
+              [
+                38.5,
+                -28.0
+              ],
+              [
+                38.5,
+                -27.5
+              ]
+            ],
+            "z_min": 2.0,
+            "z_max": 7.5
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "bearing_union",
+      "component": "bearing_union"
+    }
+  ],
+  "metadata": {
+    "source_pack_sha256": "a351eb3dfed14c2218a7f7c39720f09c578952de3ccb9db1ce4de1175f5df83a",
+    "world_origin_m": [
+      -330,
+      0,
+      240
+    ],
+    "world_grid_origin_m": [
+      0,
+      0,
+      0
+    ],
+    "pitch_m": 0.5,
+    "owned_bearing_ids": [
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1613",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1614",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1615",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1616",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1617",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1618",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1619",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1620",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1621",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1622",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1623",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1625",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1626",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1627",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1628",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1629",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1630",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1631",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1632",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1633",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1634",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1635",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1636",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1637",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1638",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1639",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1640",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1641",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1642",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1643",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1644",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1645",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1646",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1647",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1648",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1649",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1650",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1651",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1652",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1653",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1654",
+      "ABBEY_SOUTH_GARDEN_SERVICE:actual_footing:1655"
+    ],
+    "top_y_m": 7.5,
+    "bottom_y_m": 2.0,
+    "policy": "Exact native half-metre bearing footprints only. Union removes internal support faces. Native precinct contact faces remain buried at the unchanged floor; no cross-mesh hidden-face removal claim."
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Riverstone city planning draft, not a playable world",
+  "type": "object",
+  "required": [
+    "schema",
+    "id",
+    "revision",
+    "status",
+    "display_name",
+    "all_quantities_are_planning_values",
+    "evidence_policy",
+    "seed",
+    "source_references",
+    "coordinate_system",
+    "budget",
+    "terrain_hierarchy",
+    "districts",
+    "wall_outline_xz_m",
+    "wall_measured_area_ha",
+    "river_reservation",
+    "road_nodes",
+    "roads",
+    "building_plans",
+    "site_features",
+    "functional_links",
+    "first_section",
+    "asset_placements",
+    "terrain_patches",
+    "implementation_policy",
+    "limitations",
+    "infrastructure_networks",
+    "layout_targets_not_constraints",
+    "street_routes",
+    "plots",
+    "counts_report"
+  ],
+  "properties": {
+    "schema": {
+      "const": "riverstone.city.plan.v2"
+    },
+    "id": {
+      "type": "string"
+    },
+    "revision": {
+      "type": "integer"
+    },
+    "status": {
+      "enum": [
+        "draft_layout_v2_visual_review_pending",
+        "draft_layout_v2_reviewed_2d"
+      ]
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "all_quantities_are_planning_values": {
+      "const": true
+    },
+    "evidence_policy": {
+      "type": "string"
+    },
+    "seed": {
+      "type": "integer"
+    },
+    "source_references": {
+      "type": "object"
+    },
+    "coordinate_system": {
+      "type": "object"
+    },
+    "budget": {
+      "type": "object"
+    },
+    "terrain_hierarchy": {
+      "type": "object"
+    },
+    "districts": {
+      "type": "array"
+    },
+    "wall_outline_xz_m": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "minItems": 3
+    },
+    "wall_measured_area_ha": {
+      "type": "number"
+    },
+    "river_reservation": {
+      "type": "object"
+    },
+    "road_nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "position_m"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "position_m": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "number"
+              },
+              {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              {
+                "type": "number"
+              }
+            ],
+            "items": false,
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "elevation_status": {
+            "const": "unresolved_profile"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "roads": {
+      "type": "array"
+    },
+    "building_plans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "district_id",
+          "name",
+          "functional_role",
+          "evidence",
+          "status",
+          "footprint_xz_m",
+          "entrance",
+          "road_access",
+          "implementation_tier",
+          "asset_ref",
+          "assembly_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(D[0-9]{2}|S01)-B[0-9]{3}$"
+          },
+          "district_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "functional_role": {
+            "type": "string"
+          },
+          "evidence": {
+            "const": "design_inference"
+          },
+          "status": {
+            "const": "planned_not_built"
+          },
+          "footprint_xz_m": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "entrance": {
+            "type": "object",
+            "required": [
+              "position_xz_m",
+              "status"
+            ],
+            "properties": {
+              "position_xz_m": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "ground_y_candidate_m": {
+                "type": "number"
+              },
+              "status": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "road_access": {
+            "type": "object",
+            "required": [
+              "road_id",
+              "connection_xz_m",
+              "mode",
+              "status"
+            ],
+            "properties": {
+              "road_id": {
+                "type": "string"
+              },
+              "connection_xz_m": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "mode": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              },
+              "passage_via_building": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "implementation_tier": {
+            "enum": [
+              "active_gameplay",
+              "exterior_only",
+              "interior_selected"
+            ]
+          },
+          "asset_ref": {
+            "type": "object",
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "id": {
+                "type": "string"
+              },
+              "revision": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "review": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "assembly_status": {
+            "const": "new_assembly_required"
+          },
+          "assembly_note": {
+            "type": "string"
+          },
+          "source_kind": {
+            "type": "string"
+          },
+          "ground_y_candidate_m": {
+            "type": "number"
+          },
+          "height_candidate_m": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "dimensions_xz_m": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "opening_required_m": {
+            "type": "object"
+          },
+          "inside_wall": {
+            "type": "boolean"
+          },
+          "plot_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "parent_building_id": {
+            "type": "string"
+          },
+          "required_passage_width_m": {
+            "type": "number"
+          },
+          "asset_usage": {
+            "const": "palette_and_component_grammar_reference"
+          },
+          "wall_relation": {
+            "enum": [
+              "inside",
+              "outside",
+              "on_wall"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "site_features": {
+      "type": "array"
+    },
+    "functional_links": {
+      "type": "array"
+    },
+    "first_section": {
+      "type": "object"
+    },
+    "asset_placements": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "terrain_patches": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "implementation_policy": {
+      "type": "object"
+    },
+    "limitations": {
+      "type": "array"
+    },
+    "infrastructure_networks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "status",
+          "implementation"
+        ]
+      }
+    },
+    "layout_targets_not_constraints": {
+      "type": "boolean"
+    },
+    "street_routes": {
+      "type": "array"
+    },
+    "plots": {
+      "type": "array"
+    },
+    "counts_report": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

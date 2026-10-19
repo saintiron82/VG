@@ -1,0 +1,23 @@
+{
+  "schema": "riverstone.house_detail.layer_rules.v1",
+  "fine_pitch_m": 0.05,
+  "core_pitch_m": 0.1,
+  "chunk_edge_fine_cells": 60,
+  "halo_fine_cells": 2,
+  "max_chunk_output_cells": 600000,
+  "max_chunk_candidate_cells": 5000000,
+  "memory_limit_bytes": 1500000000,
+  "total_output_budget_bytes": 180000000,
+  "protected_parts": [
+    "windows",
+    "door",
+    "door_frame"
+  ],
+  "protected_feature_regex": ".*(__near|threshold).*",
+  "core_admission": "All eight fine cells equal the actual common .1m cell's instance/part/material/feature; all six fine-neighbors occupied; no protected detail part or feature.",
+  "vertex_decimal_places": 8,
+  "vertex_grid_tolerance": 1e-06,
+  "unsupported_policy": "Emit pending; no coarse fallback.",
+  "wall_time_limit_seconds": 1800,
+  "approval_scope": "Parent-approved priority cathedral roof after exact paint-AABB empty chunk elimination; same memory, pitch, geometry and output budget."
+}

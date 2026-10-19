@@ -1,0 +1,393 @@
+{
+  "schema": "riverstone.precinct.finite_pedestrian_shoulder_request.v1",
+  "source_proposal": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r04/access_r02/exterior_access_proposal.json",
+    "sha256": "44e8fcbc15629e5dfa940bddf7c69a9818dc11bb85bab59f8d3ca269753a692f"
+  },
+  "source_native_pack": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r04/resolved_placements.json",
+    "sha256": "a351eb3dfed14c2218a7f7c39720f09c578952de3ccb9db1ce4de1175f5df83a"
+  },
+  "source_terrain_module": {
+    "path": "world_city/concept_city_v3/registered_topography/revisions/r13_precinct_interfaces/materials.py",
+    "sha256": "2a6f3b53079292dd5c4527679013c27ef7adba3bddb19ef943d1ed998fa72f54"
+  },
+  "route_id": "ABBEY_EAST_ORCHARD:main_gate:exterior_candidate",
+  "requested_finished_y_m": 8,
+  "ribbon_piece_index": 2,
+  "ribbon_polygon_xz_m": [
+    [
+      -149.6,
+      229.5
+    ],
+    [
+      -149.6,
+      180.5
+    ],
+    [
+      -151.4,
+      180.5
+    ],
+    [
+      -151.4,
+      229.5
+    ]
+  ],
+  "exact_shoulder_intersections": [
+    {
+      "source_owner_id": "LOWER_CONTOUR:SHOULDER",
+      "polygon_xz_m": [
+        [
+          -149.74263519844732,
+          226.7322530381991
+        ],
+        [
+          -149.6978160565794,
+          226.8231372672765
+        ],
+        [
+          -149.6,
+          226.96952934123448
+        ],
+        [
+          -149.6,
+          226.744732001083
+        ]
+      ],
+      "source_kind": "road_shoulder",
+      "source_vertex_y_m": [
+        7.549583690209005,
+        7.5490344481942815,
+        7.549842996659661,
+        7.561421717967805
+      ],
+      "finished_y_m": 8,
+      "area_m2": 0.017196391492742394,
+      "maximum_vertex_fill_m": 0.4509655518057185
+    },
+    {
+      "source_owner_id": "LOWER_CONTOUR:SHOULDER",
+      "polygon_xz_m": [
+        [
+          -150.05355093170772,
+          226.0147118815188
+        ],
+        [
+          -149.9587182474681,
+          226.2940799606147
+        ],
+        [
+          -149.74263519844732,
+          226.7322530381991
+        ],
+        [
+          -149.6,
+          226.744732001083
+        ],
+        [
+          -149.6,
+          226.13624048739626
+        ]
+      ],
+      "source_kind": "road_shoulder",
+      "source_vertex_y_m": [
+        7.549999999966039,
+        7.549034448180204,
+        7.549583690209005,
+        7.561421717967805,
+        7.58821506054516
+      ],
+      "finished_y_m": 8,
+      "area_m2": 0.19663109478598853,
+      "maximum_vertex_fill_m": 0.45096555181979614
+    },
+    {
+      "source_owner_id": "LOWER_CONTOUR:SHOULDER",
+      "polygon_xz_m": [
+        [
+          -150.1907841289093,
+          225.52207573503776
+        ],
+        [
+          -149.83017529971295,
+          225.44388069653385
+        ],
+        [
+          -150.24479596353888,
+          225.25053990576254
+        ]
+      ],
+      "source_kind": "road_shoulder",
+      "source_vertex_y_m": [
+        7.549933533849891,
+        7.586832475805047,
+        7.549557949700614
+      ],
+      "finished_y_m": 8,
+      "area_m2": 0.051070837484163835,
+      "maximum_vertex_fill_m": 0.4504420502993858
+    },
+    {
+      "source_owner_id": "LOWER_CONTOUR:SHOULDER",
+      "polygon_xz_m": [
+        [
+          -149.83017529971292,
+          225.44388069653385
+        ],
+        [
+          -150.1907841289093,
+          225.52207573503776
+        ],
+        [
+          -150.14833254824117,
+          225.73549424303394
+        ],
+        [
+          -150.05355093170772,
+          226.0147118815188
+        ],
+        [
+          -149.6,
+          226.13624048739626
+        ],
+        [
+          -149.6,
+          225.55121320150812
+        ]
+      ],
+      "source_kind": "road_shoulder",
+      "source_vertex_y_m": [
+        7.58683247580505,
+        7.549933533849891,
+        7.549034448165381,
+        7.549999999966039,
+        7.58821506054516,
+        7.606752294957889
+      ],
+      "finished_y_m": 8,
+      "area_m2": 0.30873059801704167,
+      "maximum_vertex_fill_m": 0.45096555183461895
+    },
+    {
+      "source_owner_id": "LOWER_CONTOUR:SHOULDER",
+      "polygon_xz_m": [
+        [
+          -150.29536773465423,
+          224.4671918858417
+        ],
+        [
+          -150.30199533375952,
+          224.56830950796015
+        ],
+        [
+          -150.26341460564126,
+          225.1569376710315
+        ],
+        [
+          -150.24479596353888,
+          225.2505399057625
+        ],
+        [
+          -149.83017529971292,
+          225.44388069653385
+        ],
+        [
+          -149.6,
+          225.39396908881253
+        ],
+        [
+          -149.6,
+          224.95409361547442
+        ]
+      ],
+      "source_kind": "road_shoulder",
+      "source_vertex_y_m": [
+        7.5495836901489355,
+        7.549034448134529,
+        7.549034448150067,
+        7.549557949700615,
+        7.58683247580505,
+        7.610384935800401,
+        7.617284629779138
+      ],
+      "finished_y_m": 8,
+      "area_m2": 0.4432858359479744,
+      "maximum_vertex_fill_m": 0.4509655518654707
+    },
+    {
+      "source_owner_id": "LOWER_CONTOUR:SHOULDER",
+      "polygon_xz_m": [
+        [
+          -149.83017529971295,
+          225.44388069653385
+        ],
+        [
+          -149.6,
+          225.55121320150812
+        ],
+        [
+          -149.6,
+          225.39396908881253
+        ]
+      ],
+      "source_kind": "road_shoulder",
+      "source_vertex_y_m": [
+        7.586832475805047,
+        7.606752294957889,
+        7.610384935800401
+      ],
+      "finished_y_m": 8,
+      "area_m2": 0.018096855383902898,
+      "maximum_vertex_fill_m": 0.41316752419495284
+    },
+    {
+      "source_owner_id": "LOWER_CONTOUR:SHOULDER",
+      "polygon_xz_m": [
+        [
+          -150.20585807975388,
+          223.69032514926562
+        ],
+        [
+          -150.26341460564126,
+          223.97968134488872
+        ],
+        [
+          -150.29536773465423,
+          224.4671918858417
+        ],
+        [
+          -149.6,
+          224.95409361547442
+        ],
+        [
+          -149.6,
+          224.2961832290195
+        ]
+      ],
+      "source_kind": "road_shoulder",
+      "source_vertex_y_m": [
+        7.549999999904542,
+        7.549034448119024,
+        7.5495836901489355,
+        7.617284629779138,
+        7.6182628024940025
+      ],
+      "finished_y_m": 8,
+      "area_m2": 0.5006021845699686,
+      "maximum_vertex_fill_m": 0.45096555188097565
+    },
+    {
+      "source_owner_id": "LOWER_CONTOUR:SHOULDER",
+      "polygon_xz_m": [
+        [
+          -150.20585807975388,
+          223.69032514926562
+        ],
+        [
+          -149.6,
+          224.2961832290195
+        ],
+        [
+          -149.6,
+          223.48902419363472
+        ],
+        [
+          -149.98939514778903,
+          222.93291028948477
+        ],
+        [
+          -150.14833254824117,
+          223.40112477288616
+        ]
+      ],
+      "source_kind": "road_shoulder",
+      "source_vertex_y_m": [
+        7.549999999904542,
+        7.6182628024940025,
+        7.604233239446245,
+        7.549557949639555,
+        7.549034448103823
+      ],
+      "finished_y_m": 8,
+      "area_m2": 0.4616830048534193,
+      "maximum_vertex_fill_m": 0.4509655518961768
+    },
+    {
+      "source_owner_id": "LOWER_CONTOUR:SHOULDER",
+      "polygon_xz_m": [
+        [
+          -149.98939514778903,
+          222.9329102894848
+        ],
+        [
+          -149.6,
+          223.48902419363472
+        ],
+        [
+          -149.6,
+          222.31825984843152
+        ],
+        [
+          -149.64151757632888,
+          222.22922511867145
+        ],
+        [
+          -149.69781605657943,
+          222.3134817486437
+        ],
+        [
+          -149.9587182474681,
+          222.84253905530542
+        ]
+      ],
+      "source_kind": "road_shoulder",
+      "source_vertex_y_m": [
+        7.5495579496395555,
+        7.604233239446245,
+        7.557721811985578,
+        7.549583690090169,
+        7.549034448075364,
+        7.549034448089187
+      ],
+      "finished_y_m": 8,
+      "area_m2": 0.2668660360947461,
+      "maximum_vertex_fill_m": 0.45096555192463583
+    },
+    {
+      "source_owner_id": "LOWER_CONTOUR:SHOULDER",
+      "polygon_xz_m": [
+        [
+          -149.64151757632888,
+          222.22922511867145
+        ],
+        [
+          -149.6,
+          222.31825984843152
+        ],
+        [
+          -149.6,
+          222.16708967468574
+        ]
+      ],
+      "source_kind": "road_shoulder",
+      "source_vertex_y_m": [
+        7.549583690090169,
+        7.557721811985578,
+        7.5498429965327984
+      ],
+      "finished_y_m": 8,
+      "area_m2": 0.0031381096135707264,
+      "maximum_vertex_fill_m": 0.45041630990983084
+    }
+  ],
+  "total_projected_area_m2": 2.2673009482435185,
+  "actual_traffic_intersections": [],
+  "minimum_ribbon_to_lower_contour_traffic_edge_m": 1.2981105910149608,
+  "policy": [
+    "Keep frozen orchard gate and native boundary.",
+    "Only these finite unoccupied shoulder pieces may become the +8 pedestrian route owner.",
+    "Actual LOWER_CONTOUR traffic profile and width remain unchanged.",
+    "Provide support to existing terrain and explicit retained/guarded edge where a 12% blend cannot fit.",
+    "This request does not constitute terrain activation or controller acceptance."
+  ]
+}

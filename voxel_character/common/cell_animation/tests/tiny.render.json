@@ -1,0 +1,247 @@
+{
+  "schema": "riverstone.voxel.render.v1",
+  "source_id": "generic_tiny_cells",
+  "master_hash": "tiny-master",
+  "pitch": 0.1,
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "bounds": {
+    "min": [
+      -1,
+      -0.1,
+      -1
+    ],
+    "max": [
+      1,
+      2,
+      1
+    ]
+  },
+  "materials": {
+    "neutral": "#808080"
+  },
+  "groups": [
+    {
+      "material": "neutral",
+      "quads": [
+        [
+          [
+            -1,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            -1
+          ]
+        ]
+      ]
+    }
+  ],
+  "cell_animation": {
+    "source_id": "generic_tiny_cells",
+    "master_hash": "tiny-master",
+    "clip_hash": "tiny-clip",
+    "duration": 2,
+    "loop": true,
+    "update_hz": 10,
+    "seed": 0,
+    "bounds": {
+      "min": [
+        -1,
+        -0.1,
+        -1
+      ],
+      "max": [
+        1,
+        2,
+        1
+      ]
+    },
+    "pools": [
+      {
+        "id": "bands",
+        "cell_size": 0.1,
+        "positions": [
+          [
+            -0.5,
+            0.25,
+            0
+          ],
+          [
+            -0.5,
+            0.75,
+            0
+          ]
+        ],
+        "palette": [
+          "#117aad",
+          "#e3ffff"
+        ],
+        "color_indices": [
+          0,
+          1
+        ],
+        "banded_color": {
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "band_size": 0.5,
+          "speed": 0.5,
+          "step_rate": 1,
+          "cycle": 4,
+          "bright_bands": 1,
+          "base_index": 0,
+          "highlight_index": 1
+        }
+      },
+      {
+        "id": "ordered",
+        "cell_size": 0.1,
+        "positions": [
+          [
+            0,
+            0.25,
+            0
+          ],
+          [
+            0,
+            0.5,
+            0
+          ],
+          [
+            0,
+            0.75,
+            0
+          ]
+        ],
+        "palette": [
+          "#117aad"
+        ],
+        "color_indices": [
+          0,
+          0,
+          0
+        ],
+        "threshold_visibility": {
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "keys": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1,
+              0.75
+            ],
+            [
+              2,
+              0.25
+            ]
+          ],
+          "interpolation": "linear"
+        }
+      },
+      {
+        "id": "travel",
+        "cell_size": 0.1,
+        "positions": [
+          [
+            0.3,
+            0.25,
+            0
+          ],
+          [
+            0.5,
+            0.25,
+            0
+          ],
+          [
+            0.7,
+            0.25,
+            0
+          ]
+        ],
+        "palette": [
+          "#ff0000",
+          "#00ff00",
+          "#0000ff"
+        ],
+        "color_indices": [
+          0,
+          1,
+          2
+        ],
+        "ballistic": {
+          "period": 1,
+          "acceleration": [
+            0,
+            -2,
+            0
+          ],
+          "up_axis": [
+            0,
+            1,
+            0
+          ],
+          "minimum_up_offset": 0,
+          "velocities": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "phases": [
+            0,
+            0.5,
+            0
+          ],
+          "lifetimes": [
+            0.4,
+            0.4,
+            0.4
+          ],
+          "quantize": {
+            "pitch": 0.1,
+            "origin": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

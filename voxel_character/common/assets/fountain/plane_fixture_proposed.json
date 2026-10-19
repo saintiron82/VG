@@ -1,0 +1,158 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "shared_layer_fixture",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "support": "#999999",
+    "fill": "#1188aa"
+  },
+  "components": [
+    {
+      "id": "layer_stack",
+      "parts": [
+        {
+          "id": "support",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "fill",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "bottom_layer",
+          "action": "paint",
+          "part": "support",
+          "material": "support",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0,
+              {
+                "plane": "bottom"
+              },
+              0
+            ],
+            "max": [
+              0.5,
+              {
+                "plane": "interface"
+              },
+              0.3
+            ],
+            "minimum_cells": [
+              0,
+              1,
+              0
+            ],
+            "anchors": [
+              "center",
+              "max",
+              "center"
+            ]
+          }
+        },
+        {
+          "id": "top_layer",
+          "action": "paint",
+          "part": "fill",
+          "material": "fill",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0,
+              {
+                "plane": "interface"
+              },
+              0
+            ],
+            "max": [
+              0.5,
+              {
+                "plane": "surface"
+              },
+              0.3
+            ],
+            "minimum_cells": [
+              0,
+              1,
+              0
+            ],
+            "anchors": [
+              "center",
+              "max",
+              "center"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "stack",
+      "component": "layer_stack"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "bottom_survives",
+      "kind": "nonempty",
+      "selector": {
+        "feature": "bottom_layer"
+      }
+    },
+    {
+      "id": "layers_touch",
+      "kind": "touch",
+      "a": {
+        "feature": "bottom_layer"
+      },
+      "b": {
+        "feature": "top_layer"
+      }
+    }
+  ],
+  "coordinate_planes": [
+    {
+      "id": "surface",
+      "axis": 1,
+      "value": 1.45,
+      "snap": "nearest"
+    },
+    {
+      "id": "interface",
+      "axis": 1,
+      "relative_to": "surface",
+      "offset": -0.08,
+      "minimum_offset_cells": 1,
+      "offset_quantization": "ceil_cells"
+    },
+    {
+      "id": "bottom",
+      "axis": 1,
+      "relative_to": "interface",
+      "offset": -0.08,
+      "minimum_offset_cells": 1
+    }
+  ]
+}

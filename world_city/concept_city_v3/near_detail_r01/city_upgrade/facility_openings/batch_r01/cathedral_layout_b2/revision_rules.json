@@ -1,0 +1,260 @@
+{
+  "asset_key": "registered_cathedral_nave_aisles_transept",
+  "axis": 2,
+  "candidate": "B2_all_exposed_bay_layout",
+  "change_kind": "window_bay_relocation",
+  "detail_component": "opening_details",
+  "expected_changed_windows": 16,
+  "expected_pair_frame_gap_m": 0.1,
+  "expected_source_operation_changes": 48,
+  "expected_window_count": 33,
+  "inputs": {
+    "approved_proposal": {
+      "path": "world_city/concept_city_v3/near_detail_r01/city_upgrade/facility_openings/batch_r01/aperture_rules/cathedral_independent_check/window_vs_buttress_candidates.json",
+      "sha256": "e4c0b3557fcf8b993cfa3c6b60ef14b78ba22e857ff7b75e51d7014e2c85c305"
+    },
+    "canonical_master": {
+      "path": "world_city/concept_city_v3/near_detail_r01/city_upgrade/facility_openings/composed_runtime/cathedral_authored_interfaces_r01/canonical.authored.master.json.gz",
+      "sha256": "78e5b96265eace9ec7cf3472bb60adc60c4f04d6e33837055511b60cd8c982c7"
+    },
+    "city_index": {
+      "path": "world_city/concept_city_v3/playable_r01/generated/tile_r01/index.json",
+      "sha256": "516274141c86f58ccab9210b2458d846f644bb4212005368776ad0c6c06b8a98"
+    },
+    "frozen_author": {
+      "path": "world_city/concept_city_v3/near_detail_r01/city_upgrade/facility_openings/author.py",
+      "sha256": "3eb0b9b3336ff4bc2000666b21a5691cd604a3f04bde717024e97640a424291a"
+    },
+    "frozen_core": {
+      "path": "voxel_character/common/core.py",
+      "sha256": "2a64ed2cdf43c9adb27a821170192f69fef0153c7be98cc85c903e34ff2a407b"
+    },
+    "frozen_rules": {
+      "path": "world_city/concept_city_v3/near_detail_r01/city_upgrade/facility_openings/rules.v1.json",
+      "sha256": "c40d9c42dc75b50c54f3f6f377bcbb4a642625d0d2cf40d3bf36634e38a3c113"
+    },
+    "original_master": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/assembly_r01/masters/registered_cathedral_nave_aisles_transept.json",
+      "sha256": "4fec6575239a12fa633e6a661995ffa9626268bfe37b02a82b14e0e070386196"
+    },
+    "window_contract": {
+      "path": "world_city/concept_city_v3/near_detail_r01/city_upgrade/facility_openings/generated/registered_cathedral_nave_aisles_transept.replacement.json.gz",
+      "sha256": "8338796b2980ef51d8ab1befa1f750f6450fe6a3836e7e23c7e8bc8d2a357c6e"
+    },
+    "window_master": {
+      "path": "world_city/concept_city_v3/near_detail_r01/city_upgrade/facility_openings/generated/registered_cathedral_nave_aisles_transept.master.json.gz",
+      "sha256": "3e4df85fd6a0da91860641dbea41d89aef15fc9a39e7a8072482b57dd8ec444b"
+    }
+  },
+  "new_centers_m": [
+    -24.6,
+    -19.757142857142856,
+    -14.87142857142857,
+    -0.1,
+    4.671428571428569,
+    9.557142857142853,
+    13.55,
+    15.65
+  ],
+  "pair_indices": [
+    6,
+    7
+  ],
+  "preserved_components": [
+    "masonry",
+    "roof",
+    "buttresses",
+    "owned_floor",
+    "cathedral_eave_support_r01"
+  ],
+  "preserved_support_instance": "cathedral_eave_support_r01",
+  "relocations": [
+    {
+      "axis_index": 0,
+      "patch_id": "opening_001",
+      "side": -1,
+      "source_operation_ids": [
+        "aisle_window_-1_0_surround",
+        "aisle_window_-1_0_pane",
+        "aisle_window_-1_0_mullion"
+      ],
+      "window": "aisle_window_-1_0"
+    },
+    {
+      "axis_index": 0,
+      "patch_id": "opening_003",
+      "side": 1,
+      "source_operation_ids": [
+        "aisle_window_1_0_surround",
+        "aisle_window_1_0_pane",
+        "aisle_window_1_0_mullion"
+      ],
+      "window": "aisle_window_1_0"
+    },
+    {
+      "axis_index": 1,
+      "patch_id": "opening_005",
+      "side": -1,
+      "source_operation_ids": [
+        "aisle_window_-1_1_surround",
+        "aisle_window_-1_1_pane",
+        "aisle_window_-1_1_mullion"
+      ],
+      "window": "aisle_window_-1_1"
+    },
+    {
+      "axis_index": 1,
+      "patch_id": "opening_007",
+      "side": 1,
+      "source_operation_ids": [
+        "aisle_window_1_1_surround",
+        "aisle_window_1_1_pane",
+        "aisle_window_1_1_mullion"
+      ],
+      "window": "aisle_window_1_1"
+    },
+    {
+      "axis_index": 2,
+      "patch_id": "opening_009",
+      "side": -1,
+      "source_operation_ids": [
+        "aisle_window_-1_2_surround",
+        "aisle_window_-1_2_pane",
+        "aisle_window_-1_2_mullion"
+      ],
+      "window": "aisle_window_-1_2"
+    },
+    {
+      "axis_index": 2,
+      "patch_id": "opening_011",
+      "side": 1,
+      "source_operation_ids": [
+        "aisle_window_1_2_surround",
+        "aisle_window_1_2_pane",
+        "aisle_window_1_2_mullion"
+      ],
+      "window": "aisle_window_1_2"
+    },
+    {
+      "axis_index": 3,
+      "patch_id": "opening_013",
+      "side": -1,
+      "source_operation_ids": [
+        "aisle_window_-1_3_surround",
+        "aisle_window_-1_3_pane",
+        "aisle_window_-1_3_mullion"
+      ],
+      "window": "aisle_window_-1_3"
+    },
+    {
+      "axis_index": 3,
+      "patch_id": "opening_015",
+      "side": 1,
+      "source_operation_ids": [
+        "aisle_window_1_3_surround",
+        "aisle_window_1_3_pane",
+        "aisle_window_1_3_mullion"
+      ],
+      "window": "aisle_window_1_3"
+    },
+    {
+      "axis_index": 4,
+      "patch_id": "opening_017",
+      "side": -1,
+      "source_operation_ids": [
+        "aisle_window_-1_4_surround",
+        "aisle_window_-1_4_pane",
+        "aisle_window_-1_4_mullion"
+      ],
+      "window": "aisle_window_-1_4"
+    },
+    {
+      "axis_index": 4,
+      "patch_id": "opening_019",
+      "side": 1,
+      "source_operation_ids": [
+        "aisle_window_1_4_surround",
+        "aisle_window_1_4_pane",
+        "aisle_window_1_4_mullion"
+      ],
+      "window": "aisle_window_1_4"
+    },
+    {
+      "axis_index": 5,
+      "patch_id": "opening_021",
+      "side": -1,
+      "source_operation_ids": [
+        "aisle_window_-1_5_surround",
+        "aisle_window_-1_5_pane",
+        "aisle_window_-1_5_mullion"
+      ],
+      "window": "aisle_window_-1_5"
+    },
+    {
+      "axis_index": 5,
+      "patch_id": "opening_023",
+      "side": 1,
+      "source_operation_ids": [
+        "aisle_window_1_5_surround",
+        "aisle_window_1_5_pane",
+        "aisle_window_1_5_mullion"
+      ],
+      "window": "aisle_window_1_5"
+    },
+    {
+      "axis_index": 6,
+      "patch_id": "opening_025",
+      "side": -1,
+      "source_operation_ids": [
+        "aisle_window_-1_6_surround",
+        "aisle_window_-1_6_pane",
+        "aisle_window_-1_6_mullion"
+      ],
+      "window": "aisle_window_-1_6"
+    },
+    {
+      "axis_index": 6,
+      "patch_id": "opening_027",
+      "side": 1,
+      "source_operation_ids": [
+        "aisle_window_1_6_surround",
+        "aisle_window_1_6_pane",
+        "aisle_window_1_6_mullion"
+      ],
+      "window": "aisle_window_1_6"
+    },
+    {
+      "axis_index": 7,
+      "patch_id": "opening_029",
+      "side": -1,
+      "source_operation_ids": [
+        "aisle_window_-1_7_surround",
+        "aisle_window_-1_7_pane",
+        "aisle_window_-1_7_mullion"
+      ],
+      "window": "aisle_window_-1_7"
+    },
+    {
+      "axis_index": 7,
+      "patch_id": "opening_031",
+      "side": 1,
+      "source_operation_ids": [
+        "aisle_window_1_7_surround",
+        "aisle_window_1_7_pane",
+        "aisle_window_1_7_mullion"
+      ],
+      "window": "aisle_window_1_7"
+    }
+  ],
+  "schema": "riverstone.window_bay_relocation.rules.v1",
+  "semantic_limits": {
+    "compile_authorized": false,
+    "max_output_bytes": 3145728,
+    "max_rss_kib": 196608,
+    "new_empty_space_fill_boxes": false,
+    "runtime_activation_authorized": false,
+    "source_shapes_changed": false,
+    "source_transform_translation_only": true
+  },
+  "window_component": "windows"
+}

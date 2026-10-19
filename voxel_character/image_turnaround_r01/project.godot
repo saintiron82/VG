@@ -1,0 +1,5 @@
+config_version=5
+[application]
+config/name="Multi-view Curved Voxel Character Prototype"
+[rendering]
+renderer/rendering_method="gl_compatibility"

@@ -1,0 +1,616 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_port_pier_7x26",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0.0
+  ],
+  "materials": {
+    "earth": "77765a",
+    "grass": "6f7959",
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "water": "427a83",
+    "timber": "654631",
+    "timber_light": "896143"
+  },
+  "coordinate_planes": [
+    {
+      "id": "walk_grade",
+      "axis": 1,
+      "value": 0,
+      "snap": "none"
+    },
+    {
+      "id": "paving_base",
+      "axis": 1,
+      "relative_to": "walk_grade",
+      "offset": -0.5
+    },
+    {
+      "id": "deck_start",
+      "axis": 2,
+      "value": -13.0,
+      "snap": "none"
+    },
+    {
+      "id": "deck_end",
+      "axis": 2,
+      "value": 13.0,
+      "snap": "none"
+    }
+  ],
+  "components": [
+    {
+      "id": "module",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "op_0000",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              {
+                "plane": "paving_base"
+              },
+              {
+                "plane": "deck_start"
+              }
+            ],
+            "max": [
+              3.5,
+              {
+                "plane": "walk_grade"
+              },
+              {
+                "plane": "deck_end"
+              }
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "op_0001",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.25,
+              -13.0
+            ],
+            "max": [
+              0.5,
+              0,
+              -12.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0002",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -0.25,
+              -12.0
+            ],
+            "max": [
+              -2.5,
+              0,
+              -11.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0003",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.25,
+              -11.0
+            ],
+            "max": [
+              0.5,
+              0,
+              -10.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0004",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -0.25,
+              -10.0
+            ],
+            "max": [
+              -2.5,
+              0,
+              -9.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0005",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.25,
+              -9.0
+            ],
+            "max": [
+              0.5,
+              0,
+              -8.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0006",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -0.25,
+              -8.0
+            ],
+            "max": [
+              -2.5,
+              0,
+              -7.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0007",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.25,
+              -7.0
+            ],
+            "max": [
+              0.5,
+              0,
+              -6.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0008",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -0.25,
+              -6.0
+            ],
+            "max": [
+              -2.5,
+              0,
+              -5.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0009",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.25,
+              -5.0
+            ],
+            "max": [
+              0.5,
+              0,
+              -4.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0010",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -0.25,
+              -4.0
+            ],
+            "max": [
+              -2.5,
+              0,
+              -3.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0011",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.25,
+              -3.0
+            ],
+            "max": [
+              0.5,
+              0,
+              -2.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0012",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -0.25,
+              -2.0
+            ],
+            "max": [
+              -2.5,
+              0,
+              -1.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0013",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.25,
+              -1.0
+            ],
+            "max": [
+              0.5,
+              0,
+              -0.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0014",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -0.25,
+              0.0
+            ],
+            "max": [
+              -2.5,
+              0,
+              0.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0015",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.25,
+              1.0
+            ],
+            "max": [
+              0.5,
+              0,
+              1.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0016",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -0.25,
+              2.0
+            ],
+            "max": [
+              -2.5,
+              0,
+              2.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0017",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.25,
+              3.0
+            ],
+            "max": [
+              0.5,
+              0,
+              3.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0018",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -0.25,
+              4.0
+            ],
+            "max": [
+              -2.5,
+              0,
+              4.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0019",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.25,
+              5.0
+            ],
+            "max": [
+              0.5,
+              0,
+              5.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0020",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -0.25,
+              6.0
+            ],
+            "max": [
+              -2.5,
+              0,
+              6.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0021",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.25,
+              7.0
+            ],
+            "max": [
+              0.5,
+              0,
+              7.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0022",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -0.25,
+              8.0
+            ],
+            "max": [
+              -2.5,
+              0,
+              8.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0023",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.25,
+              9.0
+            ],
+            "max": [
+              0.5,
+              0,
+              9.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0024",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -0.25,
+              10.0
+            ],
+            "max": [
+              -2.5,
+              0,
+              10.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0025",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.25,
+              11.0
+            ],
+            "max": [
+              0.5,
+              0,
+              11.5
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_0026",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -0.25,
+              12.0
+            ],
+            "max": [
+              -2.5,
+              0,
+              12.5
+            ]
+          },
+          "material": "timber_light"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "module_0",
+      "component": "module"
+    }
+  ],
+  "metadata": {
+    "authoring": "bounded_common_master_only",
+    "spec": {
+      "kind": "dock",
+      "width_m": 7,
+      "length_m": 26,
+      "thickness_m": 0.5,
+      "detail": true,
+      "start_snap": "none",
+      "end_snap": "none"
+    },
+    "datum": "walking surfaces Y=0; river surface Y=-2; candidate terrain elevations not realized"
+  },
+  "provenance": {
+    "registered_port_author": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/author_port_modules.py",
+      "sha256": "3e330adf2146d2f4ace3a8f6c0c9770ed2788123d5a7a1d9a5652f53476916a6"
+    },
+    "palette_override": "Role-mapped approved old-house warm stone and timber; source factory preserved."
+  }
+}

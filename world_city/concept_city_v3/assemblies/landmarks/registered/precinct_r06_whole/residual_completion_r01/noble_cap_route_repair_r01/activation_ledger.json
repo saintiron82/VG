@@ -1,0 +1,132 @@
+{
+  "status": "PASS_EXACT_ATOMIC_REBIND",
+  "source_binding": {
+    "path": "world_city/concept_city_v3/registered_topography/revisions/public_corridors_r18/runtime_local_remnants_r02/activation_binding.json",
+    "sha256": "677fbfccc0c28f59880525792949a47c159fcd7319406639c61a4f5976f8d6c0"
+  },
+  "replacement_binding": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_cap_route_repair_r01/activation_binding.json",
+    "sha256": "663b251d9bb21f79cc34edd6cec419e262b3b57ce3894abc83054003c601a768"
+  },
+  "producer_changes": [
+    {
+      "binding_patch_index": 11,
+      "source_patch": {
+        "path": "world_city/concept_city_v3/registered_topography/revisions/public_corridors_r18/runtime_local_remnants_r02/producer_11.json",
+        "sha256": "21864cfe6f7da318dd6c9e09375ff6365bf226a32d4bde3595636236790266f9"
+      },
+      "replacement_patch": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_cap_route_repair_r01/producer_11.json",
+        "sha256": "27c8d8794103367451d2c63a59c7e3d6ef8f1e13aafc437f87690fab4ecec3d6"
+      },
+      "source_id": "R17_READY_23_TOPS",
+      "geometry_changed": false,
+      "original_requires_patch_canonical_sha256": {
+        "R8_JOINT_61_BOUNDARY_NORTH_EXACT_REBOUND_FINAL_R01": "8e169e0dd3fe837e1eabbd416d34871f4200bf072a7fd34c3b3bb97571511b2d"
+      },
+      "rebound_requires_patch_canonical_sha256": {
+        "R8_JOINT_61_BOUNDARY_NORTH_EXACT_REBOUND_FINAL_R01": "635bdc148e6025145919d4e5bd09eca11bf1bc340ab65f6d49fb8ea8afc0f866"
+      }
+    },
+    {
+      "binding_patch_index": 14,
+      "source_patch": {
+        "path": "world_city/concept_city_v3/registered_topography/revisions/public_corridors_r18/runtime_local_remnants_r02/producer_14.json",
+        "sha256": "344f71876bcd383cae9ceeda19d4dd82701cd305a1770c372864cea2523540d5"
+      },
+      "replacement_patch": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_cap_route_repair_r01/producer_14.json",
+        "sha256": "72e7bff25e505ca005334d696a378243886ec98c466db2651a20eabe4b4ed2e7"
+      },
+      "source_id": "R8_NOBLE_SEVEN_FINE_ENTRY_R01",
+      "geometry_changed": false,
+      "original_requires_patch_canonical_sha256": {
+        "R17_READY_23_TOPS": "dc709b7522af43ea04ecec0a3c4df08a35e54278471bbb73346bf3296dbb9c6b",
+        "R8_JOINT_61_BOUNDARY_NORTH_EXACT_REBOUND_FINAL_R01": "8e169e0dd3fe837e1eabbd416d34871f4200bf072a7fd34c3b3bb97571511b2d",
+        "R8_SAME_PLANE_FUNCTIONAL_BACKLANDS": "0f50e15c3dcc398ba81bcc73fae54023001221b940a3276b316c950c72f116bc",
+        "productive_ground_phase02_frozen_r6": "583936bea8f514c39b0150b30948bbd9566e9253d1c07c076dc087f90e76d21b"
+      },
+      "rebound_requires_patch_canonical_sha256": {
+        "R17_READY_23_TOPS": "b2455a1b007aa8f09b2aedfd080780f5679a55711f53dc2a3d5a5d133a07e1df",
+        "R8_JOINT_61_BOUNDARY_NORTH_EXACT_REBOUND_FINAL_R01": "635bdc148e6025145919d4e5bd09eca11bf1bc340ab65f6d49fb8ea8afc0f866",
+        "R8_SAME_PLANE_FUNCTIONAL_BACKLANDS": "0f50e15c3dcc398ba81bcc73fae54023001221b940a3276b316c950c72f116bc",
+        "productive_ground_phase02_frozen_r6": "583936bea8f514c39b0150b30948bbd9566e9253d1c07c076dc087f90e76d21b"
+      }
+    },
+    {
+      "binding_patch_index": 15,
+      "source_patch": {
+        "path": "world_city/concept_city_v3/registered_topography/revisions/public_corridors_r18/runtime_local_remnants_r02/producer_15.json",
+        "sha256": "769a0625310ed3136fc7045260a02fe1860c43767a0acef4fa9f2e69abcb537b"
+      },
+      "replacement_patch": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_cap_route_repair_r01/producer_15.json",
+        "sha256": "abaa871b7128cbaa99fa1791633bd0a4b0352dba9970b0c505e5e225700490c9"
+      },
+      "source_id": "R18_NATIVE_BOUND_PUBLIC_TOPS_R03",
+      "geometry_changed": true,
+      "original_requires_patch_canonical_sha256": {
+        "R8_JOINT_61_BOUNDARY_NORTH_EXACT_REBOUND_FINAL_R01": "8e169e0dd3fe837e1eabbd416d34871f4200bf072a7fd34c3b3bb97571511b2d"
+      },
+      "rebound_requires_patch_canonical_sha256": {
+        "R8_JOINT_61_BOUNDARY_NORTH_EXACT_REBOUND_FINAL_R01": "635bdc148e6025145919d4e5bd09eca11bf1bc340ab65f6d49fb8ea8afc0f866"
+      }
+    },
+    {
+      "binding_patch_index": 16,
+      "source_patch": {
+        "path": "world_city/concept_city_v3/registered_topography/revisions/public_corridors_r18/runtime_local_remnants_r02/producer_16.json",
+        "sha256": "8ff9c775606f49e01d2ddc957155ff72bdbca3b12ee6e070ef3ec816886df79f"
+      },
+      "replacement_patch": {
+        "path": "world_city/concept_city_v3/registered_topography/revisions/public_corridors_r18/shared_noble_cap_r03/producer_16.json",
+        "sha256": "1ae311aa8696b19710e45defb87d9dc255a8bfad6cf54a61eb682f4de85dafc5"
+      },
+      "source_id": "R8_JOINT_61_BOUNDARY_NORTH_EXACT_REBOUND_FINAL_R01",
+      "geometry_changed": true,
+      "original_requires_patch_canonical_sha256": {},
+      "rebound_requires_patch_canonical_sha256": {}
+    },
+    {
+      "binding_patch_index": 22,
+      "source_patch": {
+        "path": "world_city/concept_city_v3/registered_topography/revisions/public_corridors_r18/runtime_local_remnants_r02/producer_22.json",
+        "sha256": "1dcd108a8ab7d7c675b170b54005b799e1471de806c6462592d2dc1971ca2ce2"
+      },
+      "replacement_patch": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_cap_route_repair_r01/producer_22.json",
+        "sha256": "64cdc74a1378f55ae1db6c1a8acf0ab194744703db30549980beb03511738b4b"
+      },
+      "source_id": "R8_NOBLE_R02_EXACT_CAP_REMAINDER_SIDE_CLOSURE",
+      "geometry_changed": true,
+      "original_requires_patch_canonical_sha256": {
+        "R8_NOBLE_SEVEN_FINE_ENTRY_R01": "a459f377262c44fb917c073b1d875e7127918c0a5d85650872fe0c8970632c58",
+        "R8_JOINT_61_BOUNDARY_NORTH_EXACT_REBOUND_FINAL_R01": "8e169e0dd3fe837e1eabbd416d34871f4200bf072a7fd34c3b3bb97571511b2d"
+      },
+      "rebound_requires_patch_canonical_sha256": {
+        "R8_NOBLE_SEVEN_FINE_ENTRY_R01": "bc23c706b3b3da1b10796f98dc8b61d91b629d3706cea85b4a5f376e8446608b",
+        "R8_JOINT_61_BOUNDARY_NORTH_EXACT_REBOUND_FINAL_R01": "635bdc148e6025145919d4e5bd09eca11bf1bc340ab65f6d49fb8ea8afc0f866"
+      }
+    }
+  ],
+  "top_source_rows": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_cap_route_repair_r01/top_retirement_request.json",
+    "sha256": "1e24dfc0c8f5485b78bbb930dbcdc7866da0a258bb59ccbe598dc69d3d58c183"
+  },
+  "side_source_rows": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_cap_route_repair_r01/side_retirement_requests.json",
+    "sha256": "ab8c6b9dd9ab6ba8aff4e260a22866d214d6a828bee9e24c51e916f24390b2b4"
+  },
+  "new_nonwalking_triangles": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_cap_route_repair_r01/finite_surface_patch_bound.json",
+    "sha256": "1fad45b5e1e0c1ab167bc6c2963724fcf949659f1935e584666fd7e542fb5ac9"
+  },
+  "shared_joint_authority": {
+    "path": "world_city/concept_city_v3/registered_topography/revisions/public_corridors_r18/shared_noble_cap_r03/freeze_manifest.json",
+    "sha256": "25ae11598d648b61b80617354e0bfc59ebcd0942470c1fd6a0c285f1bd2d9bdd"
+  },
+  "unchanged_native_packs": true,
+  "unchanged_collision_contracts": true,
+  "all_public_road_arrays_unchanged": true,
+  "all_original_surface_edit_rows_unchanged": true
+}

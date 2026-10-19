@@ -1,0 +1,18 @@
+"""Independent pixel/color/projection limitations, no source or image mutation."""
+import json,time,hashlib
+from pathlib import Path
+import numpy as np
+from PIL import Image
+import reconstruct as r
+start=time.monotonic();a=np.load(r.HERE/'image_derived_arrays.npz');occ=a['occupancy'];mats=a['materials'];hull=a['hull'];pal=a['palette'];reports={}
+for name in ('front','back','right','left'):
+ target=a[name+'_rgb'];mask=a[name+'_silhouette'];axis=2 if name in ('front','back') else 1;positive=name in ('front','right');visible=occ.any(axis=axis);index=(occ.shape[axis]-1-np.argmax(np.flip(occ,axis=axis),axis=axis)) if positive else np.argmax(occ,axis=axis)
+ if axis==2:yy,xx=np.indices(visible.shape);ids=mats[yy,xx,index]
+ else:yy,zz=np.indices(visible.shape);ids=mats[yy,index,zz]
+ valid=visible&mask
+ if name in ('right','left'):valid[76:]=False
+ error=pal[ids[valid]].astype(float)-target[valid];reports[name]={'compared_visible_pixels':int(valid.sum()),'rgb_mae_0_255':float(np.abs(error).mean()),'rgb_rmse_0_255':float(np.sqrt((error**2).mean())),'scope':'Nearest actual occupied-cell material projected into the same fixed4x4 input blocks. Shaded input RGB comparison, not lighting-independent albedo correctness.','roof_excluded':name in ('right','left')}
+image=np.asarray(Image.open(r.P/'generated_candidate_r03.png').convert('RGB')).astype(float);rr,gg,bb=image[:,:,0],image[:,:,1],image[:,:,2];lum=image.mean(axis=2);fg=((rr-bb>12)&(rr>=gg*.95)&(lum<248))|(lum<110)|((gg-rr>12)&(gg-bb>12)&(lum<205));clipping={}
+for name,panel in [('front',[0,48,512,496]),('back',[1024,48,1536,496]),('right',[512,48,1024,496]),('left',[0,560,512,1008])]:
+ x0,y0,x1,y1=r.ROIS[name];p0,q0,p1,q1=panel;left=fg[y0:y1,p0:x0];right=fg[y0:y1,x1:p1];clipping[name]={'foreground_pixels_left_of_allowed_grid':int(left.sum()),'foreground_pixels_right_of_allowed_grid':int(right.sum()),'method':'Same raw color predicate in horizontal panel gutters, before largest-component filtering; includes edge foliage, shadow and grid/text contamination. These pixels were not reconstructed.','allowed_roi_px':r.ROIS[name]}
+extra=np.argwhere(occ&~hull);report={'schema':'riverstone.image_reconstruction.reprojection_limits.v1','source_image':r.ref(r.P/'generated_candidate_r03.png'),'arrays':r.ref(r.HERE/'image_derived_arrays.npz'),'script':r.ref(__file__),'four_view_rgb_error':reports,'unrepresented_horizontal_grid_gutters':clipping,'semantic_depth_cells_outside_initial_visual_hull':{'count':len(extra),'coordinates_world_cell':[ [int(xx-48),int(yy),int(zz-40)] for yy,xx,zz in extra[:20]],'cause':'The explicit2-cell pane-depth prior can place a pane behind a very thin source silhouette. This diagnostic does not clip that authored change away or call it image-supported.'},'foundation_minimum_y_m':.375,'foundation_cause':'Intersection of conflicting view silhouettes and raw foreground segmentation; not a deliberate floating-foundation design.','unresolved_depth_failures':['Without accepted TOP or upper SIDE constraints, the roof and chimney visual hull may stretch across the planned10m depth. A chimney blade or overlong ridge feature is a known diagnostic ambiguity.','Outer silhouette hole fill does not determine windows/open doors. Semantic glass and gallery priors resolve only specifically described classes.','The visual hull is silhouette-consistent only to the reported errors, and is not a unique3D reconstruction.','Foreground near the12x14m view grid boundaries can be clipped by the allowed diagnostic domain. Gutter counts above disclose it.'],'seconds':time.monotonic()-start};r.write('reprojection_limits.json',report);print(json.dumps(report),flush=True)

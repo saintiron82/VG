@@ -1,0 +1,16 @@
+{
+  "derive_source": {
+    "path": "world_city/concept_city_v3/assemblies/waterworks/registered_bridge/north_approach_r03/collision_r04/derive.py",
+    "sha256": "d1df098667a29c5dc9546900cd298ea7b65600f4aaa8fd196aeb98434efd7237"
+  },
+  "old_contract": {
+    "path": "world_city/concept_city_v3/assemblies/waterworks/registered_bridge/north_approach_r03/collision_contract.json",
+    "sha256": "fd4ead790c15cda4617592bb09f90d880198855f25d9ad3aa28d00b064aef697"
+  },
+  "new_contract": {
+    "path": "world_city/concept_city_v3/assemblies/waterworks/registered_bridge/north_approach_r03/collision_r04/collision_contract.json",
+    "sha256": "517298e2cf55e67ab0a0db199c99fc3955033e7f873c4a6f2b4c448517ea2e5d"
+  },
+  "only_change": "b/c reversal for 74 direct-Godot road collision triangles; explicit convention and representation metadata",
+  "visible_geometry_changed": false
+}

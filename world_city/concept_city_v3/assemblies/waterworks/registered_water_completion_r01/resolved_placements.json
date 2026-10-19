@@ -1,0 +1,146 @@
+{
+  "schema": "riverstone.r8.registered_water_completion.v1",
+  "base_scene": {
+    "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+    "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+  },
+  "assets": [
+    {
+      "id": "registered_water_crossing_market_north",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/waterworks/registered_water_completion_r01/masters/market_north.json",
+        "sha256": "a0734952fd1a7c337c496d50587aaebc2cabcd952f5f1f6e27469a20dab078af"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/waterworks/registered_water_completion_r01/cache/market_north.render.json",
+        "sha256": "f27b05cb1f7323c1621332ec00f5743895f9b61e8a33b409dd87e031539aa0ee"
+      },
+      "pitch_m": 0.2,
+      "candidate_cells": 26920,
+      "output_cells": 5704,
+      "quad_count": 152
+    },
+    {
+      "id": "registered_water_crossing_north_back_lane",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/waterworks/registered_water_completion_r01/masters/north_back_lane.json",
+        "sha256": "9560d2d06503298e8048c9e0849d4975bde4dd562eb8bc52b37985ec73eb78c6"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/waterworks/registered_water_completion_r01/cache/north_back_lane.render.json",
+        "sha256": "c1780ab862bfd08c59e2ff166d4824c06b1f519aacb36bac29b3d218b350a76f"
+      },
+      "pitch_m": 0.2,
+      "candidate_cells": 16400,
+      "output_cells": 3864,
+      "quad_count": 152
+    },
+    {
+      "id": "registered_water_crossing_east_radial",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/waterworks/registered_water_completion_r01/masters/east_radial.json",
+        "sha256": "ae002d0b35bd05a9054dcbf9f0393755eb3bdcce4386ce8daea489efd3d27fe8"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/waterworks/registered_water_completion_r01/cache/east_radial.render.json",
+        "sha256": "99420820f9135b5f8dff5149712640883426428198f8a217e2273311620a80f3"
+      },
+      "pitch_m": 0.2,
+      "candidate_cells": 44140,
+      "output_cells": 8576,
+      "quad_count": 252
+    },
+    {
+      "id": "registered_water_crossing_east_wall_service",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/waterworks/registered_water_completion_r01/masters/east_wall_service.json",
+        "sha256": "f27f2242272c27cdafbeaccf32ca2afab88197990b41cd6b39d90eaf6676b8a4"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/waterworks/registered_water_completion_r01/cache/east_wall_service.render.json",
+        "sha256": "e8db80be56df7afb8e246cddd2244e5448a8ca93aa3be20efd0029154d692b8f"
+      },
+      "pitch_m": 0.2,
+      "candidate_cells": 18440,
+      "output_cells": 4224,
+      "quad_count": 152
+    }
+  ],
+  "placements": [
+    {
+      "id": "REGISTERED_WATER_CROSSING:MARKET_NORTH",
+      "asset_key": "registered_water_crossing_market_north",
+      "position_m": [
+        67.24785868398699,
+        15.6,
+        -289.65045115958833
+      ],
+      "yaw_rad": 0.9979342854870827,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_water_crossing"
+    },
+    {
+      "id": "REGISTERED_WATER_CROSSING:NORTH_BACK_LANE",
+      "asset_key": "registered_water_crossing_north_back_lane",
+      "position_m": [
+        59.48380141390875,
+        15.6,
+        -308.54509826671193
+      ],
+      "yaw_rad": -0.296463381373249,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_water_crossing"
+    },
+    {
+      "id": "REGISTERED_WATER_CROSSING:EAST_RADIAL",
+      "asset_key": "registered_water_crossing_east_radial",
+      "position_m": [
+        316.7947168995908,
+        2.5,
+        311.56888795236574
+      ],
+      "yaw_rad": -1.4324908515859383,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_water_crossing"
+    },
+    {
+      "id": "REGISTERED_WATER_CROSSING:EAST_WALL_SERVICE",
+      "asset_key": "registered_water_crossing_east_wall_service",
+      "position_m": [
+        326.00642487463074,
+        2.5,
+        317.52637866809766
+      ],
+      "yaw_rad": -2.4058846157013707,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "palette_id": "native_water_crossing"
+    }
+  ],
+  "replaced_placement_ids": [],
+  "source_refs": [
+    {
+      "path": "world_city/concept_city_v3/assemblies/waterworks/registered_water_completion_r01/crossing_interfaces.json",
+      "sha256": "25f784227e24089c21254114f606936240ac9c4842b829268cf28a518733513c"
+    }
+  ],
+  "limits": [
+    "Activation needs the canonical public road patch and independent integrated clearance checks.",
+    "These four public crossings have no automatic bridge movement or hydraulic simulation."
+  ]
+}

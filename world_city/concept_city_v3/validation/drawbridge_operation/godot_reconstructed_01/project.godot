@@ -1,0 +1,5 @@
+config_version=5
+[application]
+config/name="Drawbridge guarded operation reconstructed"
+[rendering]
+renderer/rendering_method="gl_compatibility"

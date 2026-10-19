@@ -1,0 +1,248 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "r15_native_support_60384b7dc9ce",
+  "revision": 15,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "stone": "7e8075"
+  },
+  "components": [
+    {
+      "id": "support",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "foundation_0",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -3.5,
+                5.5
+              ],
+              [
+                3.0,
+                5.5
+              ],
+              [
+                3.0,
+                1.0
+              ],
+              [
+                -3.5,
+                1.0
+              ]
+            ],
+            "z_min": -1.5,
+            "z_max": 0.0
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "foundation_1",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -3.5,
+                1.0
+              ],
+              [
+                4.0,
+                1.0
+              ],
+              [
+                4.0,
+                -1.0
+              ],
+              [
+                -3.5,
+                -1.0
+              ]
+            ],
+            "z_min": -1.5,
+            "z_max": 0.0
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "foundation_2",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -3.5,
+                -1.0
+              ],
+              [
+                3.0,
+                -1.0
+              ],
+              [
+                3.0,
+                -5.5
+              ],
+              [
+                -3.5,
+                -5.5
+              ]
+            ],
+            "z_min": -1.5,
+            "z_max": 0.0
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "foundation_3",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -3.5,
+                -5.5
+              ],
+              [
+                16.5,
+                -5.5
+              ],
+              [
+                16.5,
+                -17.5
+              ],
+              [
+                -3.5,
+                -17.5
+              ]
+            ],
+            "z_min": -1.5,
+            "z_max": 0.0
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "support",
+      "component": "support"
+    }
+  ],
+  "metadata": {
+    "source_contract_sha256": "f4cc65e37809887ee616369b5d9a3a86bd346e28e77ad2d0c641f498dc9a1cdf",
+    "owner_id": "MF02_015_BLOCK_015:ALLEY_1_75_+1_deep_older_workyard:front",
+    "native_render_sha256": "529053d84fc4162bf02d1994753274e71a27c8446127e3a2238207cd0aff58a0",
+    "position_m": [
+      210.93667736826427,
+      2.0,
+      329.25275328224853
+    ],
+    "yaw_rad": 2.2369238034144856,
+    "support_top_local_y_m": 0.0,
+    "support_top_world_y_m": 2.0,
+    "native_plinth_bottom_world_y_m": 2.0,
+    "policy": "Exact native half-metre sampled columns only. No platform fill, native edits, floor edits, or scene activation."
+  }
+}

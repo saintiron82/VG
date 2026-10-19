@@ -1,0 +1,37 @@
+{
+  "schema": "riverstone.frozen_scene_patch.v1",
+  "id": "WATER_COMPLETION_NORTH_SLIVER_RETIREMENT_R03",
+  "status": "FINITE_SOURCE_ACCEPTED_PENDING_COMPOSED_REPLAY",
+  "base_scene_sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1",
+  "source_surface_hashes": {
+    "road": "cdf81b15ff7591a5eda097d787b2938f0a6102edf29f68a3dd56948b28c063e8"
+  },
+  "surface_edits": [
+    {
+      "material": "road",
+      "triangle_index": 1931,
+      "source_triangle_sha256": "c3641993c843a25ba3839b2c7a358a92fa9e50bd6dc6a55749d250fe1a7e6850",
+      "replacement_triangles_xyz_m": []
+    },
+    {
+      "material": "road",
+      "triangle_index": 1968,
+      "source_triangle_sha256": "f0bdb657b009eccd72fc9af27fc814333f5bdc490b962d277b89242ddc88a40c",
+      "replacement_triangles_xyz_m": []
+    },
+    {
+      "material": "road",
+      "triangle_index": 1989,
+      "source_triangle_sha256": "182338aca748521df4db4c56bb5df82d3f0e29a20a7cebceb14903d53007d37d",
+      "replacement_triangles_xyz_m": []
+    },
+    {
+      "material": "road",
+      "triangle_index": 2130,
+      "source_triangle_sha256": "3dd7d4ed30b9fe8b139df3a133170c91ad95074253a6bfe9a06dc38394510877",
+      "replacement_triangles_xyz_m": []
+    }
+  ],
+  "appended_surfaces": {},
+  "removed_foundation_proxy_ids": []
+}

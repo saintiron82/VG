@@ -1,0 +1,4598 @@
+{
+  "schema": "riverstone.city.registered_common_port_placements.v1",
+  "status": "native_quay_run_unions_pending_independent_scene_review",
+  "source_plan": {
+    "path": "world_city/concept_city_v3/registered_source/plan.json",
+    "sha256": "685592393dd5b3bffa189d497db8bff14ba4d893d5d81089a66427bd5a6b588c"
+  },
+  "terrain_author": {
+    "path": "world_city/concept_city_v3/registered_topography/author.py",
+    "sha256": "c30ef5ad507b9704edc501f79363e64e4c8237626a1c7d89616ddb8cfbe3fec6"
+  },
+  "bridge_reservations": {
+    "path": "world_city/concept_city_v3/assemblies/waterworks/registered_bridge/candidate.json",
+    "sha256": "36b99b2be9f0f6be940a4f1acd64100ed37d088b6c0fad1d23e720cedf845be1"
+  },
+  "assets": [
+    {
+      "id": "registered_port_long_loading_shed",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_long_loading_shed.json",
+        "sha256": "8e55fbfc042d03320c63bbb9b4f9cac294c2cfb4085c8fe00723c57171fe806d"
+      },
+      "master_hash": "6fd2eb7d2a7c8cfa5eb093a1da439e757668420bfad33b3e28a4e628506af053",
+      "valid": true,
+      "candidate_cells": 23648,
+      "output_cells": 11351,
+      "constraints": [
+        {
+          "id": "landmark_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 11351
+        },
+        {
+          "id": "masonry_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 3799
+        },
+        {
+          "id": "roof_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 2688
+        },
+        {
+          "id": "windows_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 256
+        },
+        {
+          "id": "owned_floor_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 4608
+        },
+        {
+          "id": "entry_clearance",
+          "kind": "empty_region",
+          "pass": true,
+          "sampled_region_cells": 192,
+          "blocked_cells": 0
+        }
+      ],
+      "seconds": 0.255,
+      "peak_rss_kib": 29120,
+      "local_bounds_m": {
+        "min": [
+          -24.0,
+          -1.0,
+          -6.0
+        ],
+        "max": [
+          24.0,
+          10.0,
+          6.0
+        ]
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_long_loading_shed.pitch_0.5.render.json",
+        "sha256": "e959974bd1f108e4abc3f49c322ff22fcd6ab5f5eef90e548602259ba776f69e"
+      },
+      "quad_count": 420
+    },
+    {
+      "id": "registered_port_pier_7x26",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_pier_7x26.json",
+        "sha256": "68a7ff0058ff5474a2cee527966c28f43ea0467a80daf403bed9bb5152bf67c4"
+      },
+      "master_hash": "09f92a54784c52d4b995dee2fc31b9957203c9b956e85182dcd1452ea45ac8fa",
+      "valid": true,
+      "candidate_cells": 780,
+      "output_cells": 728,
+      "constraints": [],
+      "seconds": 0.008,
+      "peak_rss_kib": 29504,
+      "local_bounds_m": {
+        "min": [
+          -3.5,
+          -0.5,
+          -13.0
+        ],
+        "max": [
+          3.5,
+          0.0,
+          13.0
+        ]
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_pier_7x26.pitch_0.5.render.json",
+        "sha256": "cf1614b2cad16adb9bb59d74dcde02a25b6cf458f90cf033948540b0ce145dab"
+      },
+      "quad_count": 214
+    },
+    {
+      "id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "valid": true,
+      "candidate_cells": 132,
+      "output_cells": 124,
+      "constraints": [
+        {
+          "id": "part_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 124
+        },
+        {
+          "id": "piles_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 96
+        },
+        {
+          "id": "crosshead_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 28
+        }
+      ],
+      "seconds": 0.002,
+      "peak_rss_kib": 29504,
+      "local_bounds_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "quad_count": 16
+    },
+    {
+      "id": "registered_port_braced_crane",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_braced_crane.json",
+        "sha256": "2f8094c3f036825719aa2181fa9914aa9e3f55f4bcb727791238b96f2a121d5f"
+      },
+      "master_hash": "f12fa49cb92cf14a75e4574ff15792f74a9f58201a7c62b3132953f53f1e89b4",
+      "valid": true,
+      "candidate_cells": 18120,
+      "output_cells": 2978,
+      "constraints": [
+        {
+          "id": "part_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 2978
+        },
+        {
+          "id": "foundation_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 1536
+        },
+        {
+          "id": "frame_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 786
+        },
+        {
+          "id": "jib_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 438
+        },
+        {
+          "id": "winch_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 126
+        },
+        {
+          "id": "rope_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 84
+        },
+        {
+          "id": "hook_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 8
+        }
+      ],
+      "seconds": 0.149,
+      "peak_rss_kib": 29632,
+      "local_bounds_m": {
+        "min": [
+          -8,
+          -1,
+          -6
+        ],
+        "max": [
+          8,
+          25.65,
+          22.65
+        ]
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_braced_crane.pitch_0.5.render.json",
+        "sha256": "b516cfb28e92f19ec2110d6847ef0692bf0bb78c66cf19c166f0cc3ea12237ec"
+      },
+      "quad_count": 844
+    },
+    {
+      "id": "registered_port_cargo_barge_18m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_cargo_barge_18m.json",
+        "sha256": "9b6e25fb07a2aeba2b49837a86df6e1ca831449a941ae5baed1bdc8d53528514"
+      },
+      "master_hash": "2bf2641db65b0691dacf59ea19295b73b4d58dac6ef0a9738ca3dd05d2d8344e",
+      "valid": true,
+      "candidate_cells": 2112,
+      "output_cells": 622,
+      "constraints": [
+        {
+          "id": "part_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 622
+        },
+        {
+          "id": "cargo_hold",
+          "kind": "empty_region",
+          "pass": true,
+          "sampled_region_cells": 720,
+          "blocked_cells": 0
+        },
+        {
+          "id": "hull_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 590
+        },
+        {
+          "id": "decks_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 32
+        }
+      ],
+      "seconds": 0.014,
+      "peak_rss_kib": 29632,
+      "local_bounds_m": {
+        "min": [
+          -2.25,
+          -1.0,
+          -9.0
+        ],
+        "max": [
+          2.25,
+          1.0,
+          9.0
+        ]
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_cargo_barge_18m.pitch_0.5.render.json",
+        "sha256": "dbf4c8436e9a4c3a45e13a0e1ed804a95c4685ece63fa532ed54a4f23405a514"
+      },
+      "quad_count": 102
+    },
+    {
+      "id": "registered_port_rigged_barge_24m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_rigged_barge_24m.json",
+        "sha256": "fc6c74b3ec9b124004ff285e6fe2decfdc6fbc31be12e8d274282f602c18f785"
+      },
+      "master_hash": "40650c731b37eb582df3ba9df403d8af9a5ff9dca5529b0a37161bf52d64689c",
+      "valid": true,
+      "candidate_cells": 6110,
+      "output_cells": 1205,
+      "constraints": [
+        {
+          "id": "part_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 1205
+        },
+        {
+          "id": "hull_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 846
+        },
+        {
+          "id": "decks_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 48
+        },
+        {
+          "id": "rig_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 118
+        },
+        {
+          "id": "sail_present",
+          "kind": "nonempty",
+          "pass": true,
+          "occupied_cells": 193
+        }
+      ],
+      "seconds": 0.044,
+      "peak_rss_kib": 29632,
+      "local_bounds_m": {
+        "min": [
+          -2.75,
+          -1.2,
+          -12.0
+        ],
+        "max": [
+          7.75,
+          17.3,
+          12.0
+        ]
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_rigged_barge_24m.pitch_0.5.render.json",
+        "sha256": "9368571b71ac071cf61fef1300b14c9f96690efbbb234536fd9e3094b2a28eed"
+      },
+      "quad_count": 441
+    },
+    {
+      "id": "registered_port_quay_run_0_union_r03",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/masters/registered_port_quay_run_0_union_r03.json",
+        "sha256": "cf40dd01e72a718b451dd42dc5253bfea9d263073bd760d2b513e62604e88ff4"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/cache/registered_port_quay_run_0_union_r03.pitch_0.5.render.json",
+        "sha256": "6106dd4fad5fd6df079ae5b12d1b236e343bfec31f5b4d44c07d195467e1e893"
+      },
+      "master_hash": "9129d911be0ec5edfd3c2a24c163d64fa4795c8cfd4883a75209f6c7eead497e",
+      "valid": true,
+      "candidate_cells": 11388,
+      "output_cells": 10863,
+      "quad_count": 14,
+      "pitch_m": 0.5
+    },
+    {
+      "id": "registered_port_quay_run_1_union_r03",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/masters/registered_port_quay_run_1_union_r03.json",
+        "sha256": "4e7405b1a638c92bb25aeaffb25653eb0b14766517ee2f51934d41fc606717ab"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/cache/registered_port_quay_run_1_union_r03.pitch_0.5.render.json",
+        "sha256": "cec777befa6d11361510f26f27ceec671ee46eff3e8fca212d0a65b2bfa0ab39"
+      },
+      "master_hash": "27d7770688e47a759b3cb2b7ac11b45bd9414b33466853cd4c06575f50293632",
+      "valid": true,
+      "candidate_cells": 14092,
+      "output_cells": 13413,
+      "quad_count": 14,
+      "pitch_m": 0.5
+    },
+    {
+      "id": "registered_port_quay_run_2_union_r03",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/masters/registered_port_quay_run_2_union_r03.json",
+        "sha256": "366bc3789db60d6e27dcb482dcb3c78b071f6c730db2d0920118128608de31fc"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/cache/registered_port_quay_run_2_union_r03.pitch_0.5.render.json",
+        "sha256": "1fd74a688b9c48bc05fe11efd9bc345bde3c42c7eee2d70c7a93bad87f93a4e8"
+      },
+      "master_hash": "f32706b6ac903fdd1a0a2ae49ca9e0882f547b69b28d7810bbaa3438ec268cd9",
+      "valid": true,
+      "candidate_cells": 13208,
+      "output_cells": 12597,
+      "quad_count": 14,
+      "pitch_m": 0.5
+    },
+    {
+      "id": "registered_port_quay_run_3_union_r03",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/masters/registered_port_quay_run_3_union_r03.json",
+        "sha256": "a667f175e226c7c1592559a1748bb1a2af5fcdde29db345885de49dd5e0af1d0"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/cache/registered_port_quay_run_3_union_r03.pitch_0.5.render.json",
+        "sha256": "01e695fee4aeacf6187b04f23baf519e36cb4a0092c173e8cbb8f199927abb00"
+      },
+      "master_hash": "15ab330983335c9178f89cfa05d8849cbe475ecc8aabd67366cdfc9253783a58",
+      "valid": true,
+      "candidate_cells": 14872,
+      "output_cells": 14127,
+      "quad_count": 14,
+      "pitch_m": 0.5
+    }
+  ],
+  "placements": [
+    {
+      "id": "PORT_SHED_0",
+      "asset_key": "registered_port_long_loading_shed",
+      "source_id": "registered_port_long_loading_shed",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_long_loading_shed.json",
+        "sha256": "8e55fbfc042d03320c63bbb9b4f9cac294c2cfb4085c8fe00723c57171fe806d"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_long_loading_shed.pitch_0.5.render.json",
+        "sha256": "e959974bd1f108e4abc3f49c322ff22fcd6ab5f5eef90e548602259ba776f69e"
+      },
+      "master_hash": "6fd2eb7d2a7c8cfa5eb093a1da439e757668420bfad33b3e28a4e628506af053",
+      "position_m": [
+        -300.28759878306806,
+        2.2,
+        282.6114789803494
+      ],
+      "position_xyz_m": [
+        -300.28759878306806,
+        2.2,
+        282.6114789803494
+      ],
+      "yaw_degrees": -27.6222099003371,
+      "yaw_rad": -0.48209850943785715,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "finite_dry_port_floor",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -24.0,
+          -1.0,
+          -6.0
+        ],
+        "max": [
+          24.0,
+          10.0,
+          6.0
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -318.7703357750178,
+          266.1679868546964
+        ],
+        [
+          -276.24118749574626,
+          288.4226840361844
+        ],
+        [
+          -281.8048617911183,
+          299.05497110600237
+        ],
+        [
+          -324.33401007038987,
+          276.80027392451433
+        ]
+      ],
+      "world_y_range_m": [
+        1.2000000000000002,
+        12.2
+      ]
+    },
+    {
+      "id": "PORT_SHED_1",
+      "asset_key": "registered_port_long_loading_shed",
+      "source_id": "registered_port_long_loading_shed",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_long_loading_shed.json",
+        "sha256": "8e55fbfc042d03320c63bbb9b4f9cac294c2cfb4085c8fe00723c57171fe806d"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_long_loading_shed.pitch_0.5.render.json",
+        "sha256": "e959974bd1f108e4abc3f49c322ff22fcd6ab5f5eef90e548602259ba776f69e"
+      },
+      "master_hash": "6fd2eb7d2a7c8cfa5eb093a1da439e757668420bfad33b3e28a4e628506af053",
+      "position_m": [
+        -234.48739425557758,
+        2.2,
+        316.2975606902366
+      ],
+      "position_xyz_m": [
+        -234.48739425557758,
+        2.2,
+        316.2975606902366
+      ],
+      "yaw_degrees": -22.97743905911931,
+      "yaw_rad": -0.40103196525797996,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "finite_dry_port_floor",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -24.0,
+          -1.0,
+          -6.0
+        ],
+        "max": [
+          24.0,
+          10.0,
+          6.0
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -254.2409897275439,
+          301.40476156012295
+        ],
+        [
+          -210.04937513084798,
+          320.1424561711762
+        ],
+        [
+          -214.7337987836113,
+          331.19035982035024
+        ],
+        [
+          -258.9254133803072,
+          312.452665209297
+        ]
+      ],
+      "world_y_range_m": [
+        1.2000000000000002,
+        12.2
+      ]
+    },
+    {
+      "id": "PORT_SHED_2",
+      "asset_key": "registered_port_long_loading_shed",
+      "source_id": "registered_port_long_loading_shed",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_long_loading_shed.json",
+        "sha256": "8e55fbfc042d03320c63bbb9b4f9cac294c2cfb4085c8fe00723c57171fe806d"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_long_loading_shed.pitch_0.5.render.json",
+        "sha256": "e959974bd1f108e4abc3f49c322ff22fcd6ab5f5eef90e548602259ba776f69e"
+      },
+      "master_hash": "6fd2eb7d2a7c8cfa5eb093a1da439e757668420bfad33b3e28a4e628506af053",
+      "position_m": [
+        -165.43799644824077,
+        2.2,
+        345.57520852000835
+      ],
+      "position_xyz_m": [
+        -165.43799644824077,
+        2.2,
+        345.57520852000835
+      ],
+      "yaw_degrees": -22.97743905911931,
+      "yaw_rad": -0.40103196525797996,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "finite_dry_port_floor",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -24.0,
+          -1.0,
+          -6.0
+        ],
+        "max": [
+          24.0,
+          10.0,
+          6.0
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -185.19159192020706,
+          330.6824093898947
+        ],
+        [
+          -140.99997732351116,
+          349.42010400094796
+        ],
+        [
+          -145.68440097627447,
+          360.468007650122
+        ],
+        [
+          -189.87601557297037,
+          341.73031303906873
+        ]
+      ],
+      "world_y_range_m": [
+        1.2000000000000002,
+        12.2
+      ]
+    },
+    {
+      "id": "PORT_SHED_3",
+      "asset_key": "registered_port_long_loading_shed",
+      "source_id": "registered_port_long_loading_shed",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_long_loading_shed.json",
+        "sha256": "8e55fbfc042d03320c63bbb9b4f9cac294c2cfb4085c8fe00723c57171fe806d"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_long_loading_shed.pitch_0.5.render.json",
+        "sha256": "e959974bd1f108e4abc3f49c322ff22fcd6ab5f5eef90e548602259ba776f69e"
+      },
+      "master_hash": "6fd2eb7d2a7c8cfa5eb093a1da439e757668420bfad33b3e28a4e628506af053",
+      "position_m": [
+        -96.36976263842386,
+        2.2,
+        370.6097516566958
+      ],
+      "position_xyz_m": [
+        -96.36976263842386,
+        2.2,
+        370.6097516566958
+      ],
+      "yaw_degrees": -16.705024333700187,
+      "yaw_rad": -0.2915576762488402,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "finite_dry_port_floor",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -24.0,
+          -1.0,
+          -6.0
+        ],
+        "max": [
+          24.0,
+          10.0,
+          6.0
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -117.63223058293606,
+          357.9642996320115
+        ],
+        [
+          -71.65796055812051,
+          371.76163617517614
+        ],
+        [
+          -75.10729469391167,
+          383.25520368138007
+        ],
+        [
+          -121.08156471872722,
+          369.4578671382154
+        ]
+      ],
+      "world_y_range_m": [
+        1.2000000000000002,
+        12.2
+      ]
+    },
+    {
+      "id": "PORT_SHED_4",
+      "asset_key": "registered_port_long_loading_shed",
+      "source_id": "registered_port_long_loading_shed",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_long_loading_shed.json",
+        "sha256": "8e55fbfc042d03320c63bbb9b4f9cac294c2cfb4085c8fe00723c57171fe806d"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_long_loading_shed.pitch_0.5.render.json",
+        "sha256": "e959974bd1f108e4abc3f49c322ff22fcd6ab5f5eef90e548602259ba776f69e"
+      },
+      "master_hash": "6fd2eb7d2a7c8cfa5eb093a1da439e757668420bfad33b3e28a4e628506af053",
+      "position_m": [
+        -25.893149380562008,
+        2.2,
+        391.3632535199028
+      ],
+      "position_xyz_m": [
+        -25.893149380562008,
+        2.2,
+        391.3632535199028
+      ],
+      "yaw_degrees": -10.05687269810635,
+      "yaw_rad": -0.1755255410358815,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "finite_dry_port_floor",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -24.0,
+          -1.0,
+          -6.0
+        ],
+        "max": [
+          24.0,
+          10.0,
+          6.0
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -48.47663326099048,
+          381.26442904264667
+        ],
+        [
+          -1.214157967357535,
+          389.64645917375066
+        ],
+        [
+          -3.3096655001335282,
+          401.46207799715893
+        ],
+        [
+          -50.57214079376648,
+          393.08004786605494
+        ]
+      ],
+      "world_y_range_m": [
+        1.2000000000000002,
+        12.2
+      ]
+    },
+    {
+      "id": "PORT_SHED_5",
+      "asset_key": "registered_port_long_loading_shed",
+      "source_id": "registered_port_long_loading_shed",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_long_loading_shed.json",
+        "sha256": "8e55fbfc042d03320c63bbb9b4f9cac294c2cfb4085c8fe00723c57171fe806d"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_long_loading_shed.pitch_0.5.render.json",
+        "sha256": "e959974bd1f108e4abc3f49c322ff22fcd6ab5f5eef90e548602259ba776f69e"
+      },
+      "master_hash": "6fd2eb7d2a7c8cfa5eb093a1da439e757668420bfad33b3e28a4e628506af053",
+      "position_m": [
+        47.954468265739585,
+        2.2,
+        404.4601755997547
+      ],
+      "position_xyz_m": [
+        47.954468265739585,
+        2.2,
+        404.4601755997547
+      ],
+      "yaw_degrees": -10.056872698107703,
+      "yaw_rad": -0.17552554103590512,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "finite_dry_port_floor",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -24.0,
+          -1.0,
+          -6.0
+        ],
+        "max": [
+          24.0,
+          10.0,
+          6.0
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          25.370984385311345,
+          394.36135112249804
+        ],
+        [
+          72.6334596789441,
+          402.74338125360316
+        ],
+        [
+          70.53795214616783,
+          414.5590000770113
+        ],
+        [
+          23.27547685253507,
+          406.1769699459062
+        ]
+      ],
+      "world_y_range_m": [
+        1.2000000000000002,
+        12.2
+      ]
+    },
+    {
+      "id": "PORT_PIER_0",
+      "asset_key": "registered_port_pier_7x26",
+      "source_id": "registered_port_pier_7x26",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_pier_7x26.json",
+        "sha256": "68a7ff0058ff5474a2cee527966c28f43ea0467a80daf403bed9bb5152bf67c4"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_pier_7x26.pitch_0.5.render.json",
+        "sha256": "cf1614b2cad16adb9bb59d74dcde02a25b6cf458f90cf033948540b0ce145dab"
+      },
+      "master_hash": "09f92a54784c52d4b995dee2fc31b9957203c9b956e85182dcd1452ea45ac8fa",
+      "position_m": [
+        -291.6624624601565,
+        2.2,
+        346.8579968350978
+      ],
+      "position_xyz_m": [
+        -291.6624624601565,
+        2.2,
+        346.8579968350978
+      ],
+      "yaw_degrees": -32.20817437440354,
+      "yaw_rad": -0.5621386888898067,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pier_top_plus2.2",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -0.5,
+          -13.0
+        ],
+        "max": [
+          3.5,
+          0.0,
+          13.0
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -287.6949114642657,
+          333.9929846277579
+        ],
+        [
+          -281.7720915389217,
+          337.72396360544553
+        ],
+        [
+          -295.6300134560473,
+          359.72300904243775
+        ],
+        [
+          -301.55283338139134,
+          355.9920300647501
+        ]
+      ],
+      "world_y_range_m": [
+        1.7000000000000002,
+        2.2
+      ]
+    },
+    {
+      "id": "PORT_BENT_0_0",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -285.26649849840624,
+        2.2,
+        336.7045912487937
+      ],
+      "position_xyz_m": [
+        -285.26649849840624,
+        2.2,
+        336.7045912487937
+      ],
+      "yaw_degrees": -32.20817437440354,
+      "yaw_rad": -0.5621386888898067,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -287.961409962672,
+          334.41604319385385
+        ],
+        [
+          -282.038590037328,
+          338.1470221715415
+        ],
+        [
+          -282.57158703414046,
+          338.9931393037335
+        ],
+        [
+          -288.4944069594845,
+          335.2621603260459
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_0_1",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -287.39848648565635,
+        2.2,
+        340.0890597775617
+      ],
+      "position_xyz_m": [
+        -287.39848648565635,
+        2.2,
+        340.0890597775617
+      ],
+      "yaw_degrees": -32.20817437440354,
+      "yaw_rad": -0.5621386888898067,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -290.0933979499221,
+          337.8005117226219
+        ],
+        [
+          -284.1705780245781,
+          341.5314907003095
+        ],
+        [
+          -284.7035750213906,
+          342.37760783250155
+        ],
+        [
+          -290.6263949467346,
+          338.6466288548139
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_0_2",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -289.5304744729064,
+        2.2,
+        343.4735283063298
+      ],
+      "position_xyz_m": [
+        -289.5304744729064,
+        2.2,
+        343.4735283063298
+      ],
+      "yaw_degrees": -32.20817437440354,
+      "yaw_rad": -0.5621386888898067,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -292.2253859371722,
+          341.18498025138996
+        ],
+        [
+          -286.30256601182816,
+          344.9159592290776
+        ],
+        [
+          -286.83556300864063,
+          345.76207636126964
+        ],
+        [
+          -292.75838293398465,
+          342.031097383582
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_0_3",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -291.6624624601565,
+        2.2,
+        346.8579968350978
+      ],
+      "position_xyz_m": [
+        -291.6624624601565,
+        2.2,
+        346.8579968350978
+      ],
+      "yaw_degrees": -32.20817437440354,
+      "yaw_rad": -0.5621386888898067,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -294.3573739244223,
+          344.569448780158
+        ],
+        [
+          -288.4345539990783,
+          348.3004277578456
+        ],
+        [
+          -288.96755099589075,
+          349.14654489003766
+        ],
+        [
+          -294.89037092123476,
+          345.41556591235
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_0_4",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -293.79445044740663,
+        2.2,
+        350.24246536386585
+      ],
+      "position_xyz_m": [
+        -293.79445044740663,
+        2.2,
+        350.24246536386585
+      ],
+      "yaw_degrees": -32.20817437440354,
+      "yaw_rad": -0.5621386888898067,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -296.4893619116724,
+          347.953917308926
+        ],
+        [
+          -290.5665419863284,
+          351.68489628661365
+        ],
+        [
+          -291.09953898314086,
+          352.5310134188057
+        ],
+        [
+          -297.0223589084849,
+          348.80003444111804
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_0_5",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -295.9264384346567,
+        2.2,
+        353.62693389263393
+      ],
+      "position_xyz_m": [
+        -295.9264384346567,
+        2.2,
+        353.62693389263393
+      ],
+      "yaw_degrees": -32.20817437440354,
+      "yaw_rad": -0.5621386888898067,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -298.62134989892246,
+          351.3383858376941
+        ],
+        [
+          -292.69852997357845,
+          355.06936481538173
+        ],
+        [
+          -293.2315269703909,
+          355.91548194757377
+        ],
+        [
+          -299.15434689573493,
+          352.1845029698861
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_0_6",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -298.0584264219068,
+        2.2,
+        357.01140242140195
+      ],
+      "position_xyz_m": [
+        -298.0584264219068,
+        2.2,
+        357.01140242140195
+      ],
+      "yaw_degrees": -32.20817437440354,
+      "yaw_rad": -0.5621386888898067,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -300.7533378861726,
+          354.7228543664621
+        ],
+        [
+          -294.83051796082856,
+          358.45383334414976
+        ],
+        [
+          -295.36351495764103,
+          359.2999504763418
+        ],
+        [
+          -301.28633488298505,
+          355.56897149865415
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BARGE_0",
+      "asset_key": "registered_port_cargo_barge_18m",
+      "source_id": "registered_port_cargo_barge_18m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_cargo_barge_18m.json",
+        "sha256": "9b6e25fb07a2aeba2b49837a86df6e1ca831449a941ae5baed1bdc8d53528514"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_cargo_barge_18m.pitch_0.5.render.json",
+        "sha256": "dbf4c8436e9a4c3a45e13a0e1ed804a95c4685ece63fa532ed54a4f23405a514"
+      },
+      "master_hash": "2bf2641db65b0691dacf59ea19295b73b4d58dac6ef0a9738ca3dd05d2d8344e",
+      "position_m": [
+        -287.0456723799776,
+        0.5596598533299215,
+        375.1764581166639
+      ],
+      "position_xyz_m": [
+        -287.0456723799776,
+        0.5596598533299215,
+        375.1764581166639
+      ],
+      "yaw_degrees": 57.791825625596466,
+      "yaw_rad": 1.00865763790509,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "exact_river_waterline",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -2.5,
+          -1.0,
+          -9.0
+        ],
+        "max": [
+          2.0,
+          1.0,
+          9.0
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -295.99321906173697,
+          372.49477797583125
+        ],
+        [
+          -293.5947325760806,
+          368.6872508809672
+        ],
+        [
+          -278.36462419662445,
+          378.2811968235926
+        ],
+        [
+          -280.7631106822808,
+          382.08872391845665
+        ]
+      ],
+      "world_y_range_m": [
+        -0.4403401466700785,
+        1.5596598533299215
+      ]
+    },
+    {
+      "id": "PORT_PIER_1",
+      "asset_key": "registered_port_pier_7x26",
+      "source_id": "registered_port_pier_7x26",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_pier_7x26.json",
+        "sha256": "68a7ff0058ff5474a2cee527966c28f43ea0467a80daf403bed9bb5152bf67c4"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_pier_7x26.pitch_0.5.render.json",
+        "sha256": "cf1614b2cad16adb9bb59d74dcde02a25b6cf458f90cf033948540b0ce145dab"
+      },
+      "master_hash": "09f92a54784c52d4b995dee2fc31b9957203c9b956e85182dcd1452ea45ac8fa",
+      "position_m": [
+        -132.91530451616777,
+        2.2,
+        429.711047102914
+      ],
+      "position_xyz_m": [
+        -132.91530451616777,
+        2.2,
+        429.711047102914
+      ],
+      "yaw_degrees": -13.486978033272331,
+      "yaw_rad": -0.23539217282475153,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pier_top_plus2.2",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -0.5,
+          -13.0
+        ],
+        "max": [
+          3.5,
+          0.0,
+          13.0
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -133.2868681508546,
+          416.25326346423935
+        ],
+        [
+          -126.47990748785197,
+          417.8858339932933
+        ],
+        [
+          -132.54374088148094,
+          443.16883074158864
+        ],
+        [
+          -139.35070154448354,
+          441.53626021253467
+        ]
+      ],
+      "world_y_range_m": [
+        1.7000000000000002,
+        2.2
+      ]
+    },
+    {
+      "id": "PORT_BENT_1_0",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -130.1166121806467,
+        2.2,
+        418.0419716806239
+      ],
+      "position_xyz_m": [
+        -130.1166121806467,
+        2.2,
+        418.0419716806239
+      ],
+      "yaw_degrees": -13.486978033272331,
+      "yaw_rad": -0.23539217282475153,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -133.4034803315013,
+          416.7394749401681
+        ],
+        [
+          -126.59651966849871,
+          418.3720454692221
+        ],
+        [
+          -126.82974402979214,
+          419.3444684210796
+        ],
+        [
+          -133.63670469279472,
+          417.71189789202566
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_1_1",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -131.04950962582038,
+        2.2,
+        421.9316634880539
+      ],
+      "position_xyz_m": [
+        -131.04950962582038,
+        2.2,
+        421.9316634880539
+      ],
+      "yaw_degrees": -13.486978033272331,
+      "yaw_rad": -0.23539217282475153,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -134.33637777667496,
+          420.62916674759816
+        ],
+        [
+          -127.52941711367238,
+          422.2617372766521
+        ],
+        [
+          -127.7626414749658,
+          423.23416022850967
+        ],
+        [
+          -134.5696021379684,
+          421.6015896994557
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_1_2",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -131.98240707099407,
+        2.2,
+        425.82135529548395
+      ],
+      "position_xyz_m": [
+        -131.98240707099407,
+        2.2,
+        425.82135529548395
+      ],
+      "yaw_degrees": -13.486978033272331,
+      "yaw_rad": -0.23539217282475153,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -135.26927522184866,
+          424.5188585550282
+        ],
+        [
+          -128.46231455884606,
+          426.15142908408217
+        ],
+        [
+          -128.69553892013948,
+          427.1238520359397
+        ],
+        [
+          -135.50249958314208,
+          425.49128150688574
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_1_3",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -132.91530451616777,
+        2.2,
+        429.711047102914
+      ],
+      "position_xyz_m": [
+        -132.91530451616777,
+        2.2,
+        429.711047102914
+      ],
+      "yaw_degrees": -13.486978033272331,
+      "yaw_rad": -0.23539217282475153,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -136.20217266702235,
+          428.40855036245824
+        ],
+        [
+          -129.39521200401975,
+          430.0411208915122
+        ],
+        [
+          -129.62843636531318,
+          431.01354384336975
+        ],
+        [
+          -136.43539702831578,
+          429.3809733143158
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_1_4",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -133.84820196134146,
+        2.2,
+        433.60073891034403
+      ],
+      "position_xyz_m": [
+        -133.84820196134146,
+        2.2,
+        433.60073891034403
+      ],
+      "yaw_degrees": -13.486978033272331,
+      "yaw_rad": -0.23539217282475153,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -137.13507011219605,
+          432.2982421698883
+        ],
+        [
+          -130.32810944919345,
+          433.93081269894225
+        ],
+        [
+          -130.56133381048687,
+          434.9032356507998
+        ],
+        [
+          -137.36829447348947,
+          433.2706651217458
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_1_5",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -134.78109940651515,
+        2.2,
+        437.4904307177741
+      ],
+      "position_xyz_m": [
+        -134.78109940651515,
+        2.2,
+        437.4904307177741
+      ],
+      "yaw_degrees": -13.486978033272331,
+      "yaw_rad": -0.23539217282475153,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -138.06796755736974,
+          436.1879339773183
+        ],
+        [
+          -131.26100689436714,
+          437.8205045063723
+        ],
+        [
+          -131.49423125566057,
+          438.7929274582298
+        ],
+        [
+          -138.30119191866316,
+          437.16035692917586
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_1_6",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        -135.71399685168882,
+        2.2,
+        441.3801225252041
+      ],
+      "position_xyz_m": [
+        -135.71399685168882,
+        2.2,
+        441.3801225252041
+      ],
+      "yaw_degrees": -13.486978033272331,
+      "yaw_rad": -0.23539217282475153,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -139.0008650025434,
+          440.07762578474836
+        ],
+        [
+          -132.1939043395408,
+          441.7101963138023
+        ],
+        [
+          -132.42712870083423,
+          442.68261926565987
+        ],
+        [
+          -139.23408936383683,
+          441.0500487366059
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BARGE_1",
+      "asset_key": "registered_port_cargo_barge_18m",
+      "source_id": "registered_port_cargo_barge_18m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_cargo_barge_18m.json",
+        "sha256": "9b6e25fb07a2aeba2b49837a86df6e1ca831449a941ae5baed1bdc8d53528514"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_cargo_barge_18m.pitch_0.5.render.json",
+        "sha256": "dbf4c8436e9a4c3a45e13a0e1ed804a95c4685ece63fa532ed54a4f23405a514"
+      },
+      "master_hash": "2bf2641db65b0691dacf59ea19295b73b4d58dac6ef0a9738ca3dd05d2d8344e",
+      "position_m": [
+        -119.45359219868364,
+        -0.0269124273046073,
+        455.04940343242555
+      ],
+      "position_xyz_m": [
+        -119.45359219868364,
+        -0.0269124273046073,
+        455.04940343242555
+      ],
+      "yaw_degrees": 76.51302196672768,
+      "yaw_rad": 1.3354041539701453,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "exact_river_waterline",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -2.5,
+          -1.0,
+          -9.0
+        ],
+        "max": [
+          2.0,
+          1.0,
+          9.0
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -128.7884596686348,
+          455.3814415604285
+        ],
+        [
+          -127.7389500428144,
+          451.0055382770697
+        ],
+        [
+          -110.23533690937919,
+          455.20357678035134
+        ],
+        [
+          -111.28484653519959,
+          459.57948006371015
+        ]
+      ],
+      "world_y_range_m": [
+        -1.0269124273046073,
+        0.9730875726953927
+      ]
+    },
+    {
+      "id": "PORT_PIER_2",
+      "asset_key": "registered_port_pier_7x26",
+      "source_id": "registered_port_pier_7x26",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_pier_7x26.json",
+        "sha256": "68a7ff0058ff5474a2cee527966c28f43ea0467a80daf403bed9bb5152bf67c4"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_pier_7x26.pitch_0.5.render.json",
+        "sha256": "cf1614b2cad16adb9bb59d74dcde02a25b6cf458f90cf033948540b0ce145dab"
+      },
+      "master_hash": "09f92a54784c52d4b995dee2fc31b9957203c9b956e85182dcd1452ea45ac8fa",
+      "position_m": [
+        20.399641258271,
+        2.2,
+        452.2075124849259
+      ],
+      "position_xyz_m": [
+        20.399641258271,
+        2.2,
+        452.2075124849259
+      ],
+      "yaw_degrees": 1.8321328072872727,
+      "yaw_rad": 0.031976749820969666,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pier_top_plus2.2",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -0.5,
+          -13.0
+        ],
+        "max": [
+          3.5,
+          0.0,
+          13.0
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          16.485803594126907,
+          439.3260578023706
+        ],
+        [
+          23.482225105211413,
+          439.1022586977388
+        ],
+        [
+          24.313478922415094,
+          465.08896716748126
+        ],
+        [
+          17.317057411330588,
+          465.31276627211304
+        ]
+      ],
+      "world_y_range_m": [
+        1.7000000000000002,
+        2.2
+      ]
+    },
+    {
+      "id": "PORT_BENT_2_0",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        20.01598565033084,
+        2.2,
+        440.2136470373525
+      ],
+      "position_xyz_m": [
+        20.01598565033084,
+        2.2,
+        440.2136470373525
+      ],
+      "yaw_degrees": 1.8321328072872727,
+      "yaw_rad": 0.031976749820969666,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          16.501789244457747,
+          439.8258021960195
+        ],
+        [
+          23.498210755542253,
+          439.6020030913877
+        ],
+        [
+          23.530182056203934,
+          440.60149187868547
+        ],
+        [
+          16.533760545119428,
+          440.82529098331725
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_2_1",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        20.14387085297756,
+        2.2,
+        444.21160218654364
+      ],
+      "position_xyz_m": [
+        20.14387085297756,
+        2.2,
+        444.21160218654364
+      ],
+      "yaw_degrees": 1.8321328072872727,
+      "yaw_rad": 0.031976749820969666,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          16.629674447104467,
+          443.82375734521065
+        ],
+        [
+          23.626095958188973,
+          443.59995824057887
+        ],
+        [
+          23.658067258850654,
+          444.59944702787664
+        ],
+        [
+          16.661645747766148,
+          444.8232461325084
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_2_2",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        20.27175605562428,
+        2.2,
+        448.20955733573476
+      ],
+      "position_xyz_m": [
+        20.27175605562428,
+        2.2,
+        448.20955733573476
+      ],
+      "yaw_degrees": 1.8321328072872727,
+      "yaw_rad": 0.031976749820969666,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          16.757559649751187,
+          447.82171249440177
+        ],
+        [
+          23.753981160835693,
+          447.59791338977
+        ],
+        [
+          23.785952461497374,
+          448.59740217706775
+        ],
+        [
+          16.789530950412868,
+          448.82120128169953
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_2_3",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        20.399641258271,
+        2.2,
+        452.2075124849259
+      ],
+      "position_xyz_m": [
+        20.399641258271,
+        2.2,
+        452.2075124849259
+      ],
+      "yaw_degrees": 1.8321328072872727,
+      "yaw_rad": 0.031976749820969666,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          16.885444852397907,
+          451.81966764359294
+        ],
+        [
+          23.881866363482413,
+          451.59586853896116
+        ],
+        [
+          23.913837664144094,
+          452.5953573262589
+        ],
+        [
+          16.917416153059587,
+          452.8191564308907
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_2_4",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        20.52752646091772,
+        2.2,
+        456.2054676341171
+      ],
+      "position_xyz_m": [
+        20.52752646091772,
+        2.2,
+        456.2054676341171
+      ],
+      "yaw_degrees": 1.8321328072872727,
+      "yaw_rad": 0.031976749820969666,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          17.013330055044626,
+          455.8176227927841
+        ],
+        [
+          24.009751566129133,
+          455.5938236881523
+        ],
+        [
+          24.041722866790813,
+          456.5933124754501
+        ],
+        [
+          17.045301355706307,
+          456.81711158008187
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_2_5",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        20.65541166356444,
+        2.2,
+        460.2034227833082
+      ],
+      "position_xyz_m": [
+        20.65541166356444,
+        2.2,
+        460.2034227833082
+      ],
+      "yaw_degrees": 1.8321328072872727,
+      "yaw_rad": 0.031976749820969666,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          17.141215257691346,
+          459.8155779419752
+        ],
+        [
+          24.137636768775852,
+          459.59177883734344
+        ],
+        [
+          24.169608069437533,
+          460.5912676246412
+        ],
+        [
+          17.173186558353027,
+          460.815066729273
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BENT_2_6",
+      "asset_key": "registered_port_dock_bent_7m",
+      "source_id": "registered_port_dock_bent_7m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_dock_bent_7m.json",
+        "sha256": "9febb148d250fc6abd9802c492b56d7aca1358a0e349b166dbfb4030484084d1"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_dock_bent_7m.pitch_0.5.render.json",
+        "sha256": "c96bd5f521950b27176e0fb134d0f28ab2e85a22bd1273471e6ce6107b11b20d"
+      },
+      "master_hash": "3526d630ce30949f13cf2b896153e55f3d673a5413812381bafc3d22d86c705c",
+      "position_m": [
+        20.78329686621116,
+        2.2,
+        464.2013779324994
+      ],
+      "position_xyz_m": [
+        20.78329686621116,
+        2.2,
+        464.2013779324994
+      ],
+      "yaw_degrees": 1.8321328072872727,
+      "yaw_rad": 0.031976749820969666,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "pile_bottom_minus4.8",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.5,
+          -7.0,
+          -0.5
+        ],
+        "max": [
+          3.5,
+          -0.5,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          17.269100460338066,
+          463.8135330911664
+        ],
+        [
+          24.265521971422572,
+          463.5897339865346
+        ],
+        [
+          24.297493272084253,
+          464.5892227738324
+        ],
+        [
+          17.301071760999747,
+          464.81302187846416
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        1.7000000000000002
+      ]
+    },
+    {
+      "id": "PORT_BARGE_2",
+      "asset_key": "registered_port_cargo_barge_18m",
+      "source_id": "registered_port_cargo_barge_18m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_cargo_barge_18m.json",
+        "sha256": "9b6e25fb07a2aeba2b49837a86df6e1ca831449a941ae5baed1bdc8d53528514"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_cargo_barge_18m.pitch_0.5.render.json",
+        "sha256": "dbf4c8436e9a4c3a45e13a0e1ed804a95c4685ece63fa532ed54a4f23405a514"
+      },
+      "master_hash": "2bf2641db65b0691dacf59ea19295b73b4d58dac6ef0a9738ca3dd05d2d8344e",
+      "position_m": [
+        40.07731118115507,
+        -0.5852705891340428,
+        473.0890666992564
+      ],
+      "position_xyz_m": [
+        40.07731118115507,
+        -0.5852705891340428,
+        473.0890666992564
+      ],
+      "yaw_degrees": 91.83213280728728,
+      "yaw_rad": 1.6027730766158663,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "exact_river_waterline",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -2.5,
+          -1.0,
+          -9.0
+        ],
+        "max": [
+          2.0,
+          1.0,
+          9.0
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          31.16184034712919,
+          475.875530373456
+        ],
+        [
+          31.017969494151625,
+          471.37783083061595
+        ],
+        [
+          49.00876766551178,
+          470.8023474187057
+        ],
+        [
+          49.152638518489354,
+          475.3000469615458
+        ]
+      ],
+      "world_y_range_m": [
+        -1.5852705891340428,
+        0.41472941086595716
+      ]
+    },
+    {
+      "id": "PORT_MAIN_CRANE",
+      "asset_key": "registered_port_braced_crane",
+      "source_id": "registered_port_braced_crane",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_braced_crane.json",
+        "sha256": "2f8094c3f036825719aa2181fa9914aa9e3f55f4bcb727791238b96f2a121d5f"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_braced_crane.pitch_0.5.render.json",
+        "sha256": "b516cfb28e92f19ec2110d6847ef0692bf0bb78c66cf19c166f0cc3ea12237ec"
+      },
+      "master_hash": "f12fa49cb92cf14a75e4574ff15792f74a9f58201a7c62b3132953f53f1e89b4",
+      "position_m": [
+        -217.07503222678332,
+        2.2,
+        368.7292342775613
+      ],
+      "position_xyz_m": [
+        -217.07503222678332,
+        2.2,
+        368.7292342775613
+      ],
+      "yaw_degrees": -29.1760433931184,
+      "yaw_rad": -0.5092180199146543,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "dry_quay_crane_bearing",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -8.0,
+          -1.0,
+          -6.0
+        ],
+        "max": [
+          8.0,
+          25.5,
+          22.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -221.13507233879486,
+          359.5905213326846
+        ],
+        [
+          -207.16505656833843,
+          367.3904353945958
+        ],
+        [
+          -213.0149921147718,
+          377.86794722243803
+        ],
+        [
+          -226.9850078852282,
+          370.06803316052685
+        ]
+      ],
+      "world_y_range_m": [
+        1.2000000000000002,
+        27.7
+      ]
+    },
+    {
+      "id": "PORT_RIGGED_BARGE",
+      "asset_key": "registered_port_rigged_barge_24m",
+      "source_id": "registered_port_rigged_barge_24m",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/masters/registered_port_rigged_barge_24m.json",
+        "sha256": "fc6c74b3ec9b124004ff285e6fe2decfdc6fbc31be12e8d274282f602c18f785"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/cache/registered_port_rigged_barge_24m.pitch_0.5.render.json",
+        "sha256": "9368571b71ac071cf61fef1300b14c9f96690efbbb234536fd9e3094b2a28eed"
+      },
+      "master_hash": "40650c731b37eb582df3ba9df403d8af9a5ff9dca5529b0a37161bf52d64689c",
+      "position_m": [
+        -87.36089114855137,
+        -0.13923688098007014,
+        482.285288449338
+      ],
+      "position_xyz_m": [
+        -87.36089114855137,
+        -0.13923688098007014,
+        482.285288449338
+      ],
+      "yaw_degrees": 76.51302196672768,
+      "yaw_rad": 1.3354041539701453,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "exact_river_waterline",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -3.0,
+          -1.0,
+          -12.0
+        ],
+        "max": [
+          7.5,
+          16.5,
+          12.0
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -99.72963965472178,
+          482.4038649693895
+        ],
+        [
+          -97.28078386114085,
+          472.1934239748856
+        ],
+        [
+          -73.94263301656058,
+          477.79080864592777
+        ],
+        [
+          -76.39148881014151,
+          488.00124964043164
+        ]
+      ],
+      "world_y_range_m": [
+        -1.1392368809800701,
+        16.36076311901993
+      ]
+    },
+    {
+      "id": "PORT_QUAY_RUN_0",
+      "asset_key": "registered_port_quay_run_0_union_r03",
+      "source_id": "registered_port_quay_run_0_union_r03",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/masters/registered_port_quay_run_0_union_r03.json",
+        "sha256": "cf40dd01e72a718b451dd42dc5253bfea9d263073bd760d2b513e62604e88ff4"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/cache/registered_port_quay_run_0_union_r03.pitch_0.5.render.json",
+        "sha256": "6106dd4fad5fd6df079ae5b12d1b236e343bfec31f5b4d44c07d195467e1e893"
+      },
+      "master_hash": "9129d911be0ec5edfd3c2a24c163d64fa4795c8cfd4883a75209f6c7eead497e",
+      "position_m": [
+        -310.4902339395578,
+        2.2,
+        320.2243963585158
+      ],
+      "position_xyz_m": [
+        -310.4902339395578,
+        2.2,
+        320.2243963585158
+      ],
+      "yaw_degrees": -32.20817437440354,
+      "yaw_rad": -0.5621386888898067,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "finite_shore_apron",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -53.15008462634569,
+          -7.0,
+          -12.0
+        ],
+        "max": [
+          53.34991537365431,
+          0.0,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -349.0654671576138,
+          281.7421552860379
+        ],
+        [
+          -258.9539925791647,
+          338.50633544657165
+        ],
+        [
+          -265.349956540915,
+          348.6597410328758
+        ],
+        [
+          -355.4614311193641,
+          291.89556087234206
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        2.2
+      ],
+      "replaces_placement_ids": [
+        "PORT_QUAY_0_0",
+        "PORT_QUAY_0_1",
+        "PORT_QUAY_0_2",
+        "PORT_QUAY_0_3",
+        "PORT_QUAY_0_4",
+        "PORT_QUAY_0_5",
+        "PORT_QUAY_0_6"
+      ]
+    },
+    {
+      "id": "PORT_QUAY_RUN_1",
+      "asset_key": "registered_port_quay_run_1_union_r03",
+      "source_id": "registered_port_quay_run_1_union_r03",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/masters/registered_port_quay_run_1_union_r03.json",
+        "sha256": "4e7405b1a638c92bb25aeaffb25653eb0b14766517ee2f51934d41fc606717ab"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/cache/registered_port_quay_run_1_union_r03.pitch_0.5.render.json",
+        "sha256": "cec777befa6d11361510f26f27ceec671ee46eff3e8fca212d0a65b2bfa0ab39"
+      },
+      "master_hash": "27d7770688e47a759b3cb2b7ac11b45bd9414b33466853cd4c06575f50293632",
+      "position_m": [
+        -208.21835585175256,
+        2.2,
+        380.54606521833307
+      ],
+      "position_xyz_m": [
+        -208.21835585175256,
+        2.2,
+        380.54606521833307
+      ],
+      "yaw_degrees": -29.1760433931184,
+      "yaw_rad": -0.5092180199146543,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "finite_shore_apron",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -65.62704792838116,
+          -7.0,
+          -12.0
+        ],
+        "max": [
+          65.87295207161884,
+          0.0,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -259.6691012133182,
+          338.0757200168472
+        ],
+        [
+          -144.85303409987955,
+          402.1812637131794
+        ],
+        [
+          -150.7029696463129,
+          412.6587755410217
+        ],
+        [
+          -265.51903675975154,
+          348.5532318446895
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        2.2
+      ],
+      "replaces_placement_ids": [
+        "PORT_QUAY_1_0",
+        "PORT_QUAY_1_1",
+        "PORT_QUAY_1_2",
+        "PORT_QUAY_1_3",
+        "PORT_QUAY_1_4",
+        "PORT_QUAY_1_5",
+        "PORT_QUAY_1_6",
+        "PORT_QUAY_1_7",
+        "PORT_QUAY_1_8"
+      ]
+    },
+    {
+      "id": "PORT_QUAY_RUN_2",
+      "asset_key": "registered_port_quay_run_2_union_r03",
+      "source_id": "registered_port_quay_run_2_union_r03",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/masters/registered_port_quay_run_2_union_r03.json",
+        "sha256": "366bc3789db60d6e27dcb482dcb3c78b071f6c730db2d0920118128608de31fc"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/cache/registered_port_quay_run_2_union_r03.pitch_0.5.render.json",
+        "sha256": "1fd74a688b9c48bc05fe11efd9bc345bde3c42c7eee2d70c7a93bad87f93a4e8"
+      },
+      "master_hash": "f32706b6ac903fdd1a0a2ae49ca9e0882f547b69b28d7810bbaa3438ec268cd9",
+      "position_m": [
+        -90.87512305797057,
+        2.2,
+        426.9394079456892
+      ],
+      "position_xyz_m": [
+        -90.87512305797057,
+        2.2,
+        426.9394079456892
+      ],
+      "yaw_degrees": -13.486978033272331,
+      "yaw_rad": -0.23539217282475153,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "finite_shore_apron",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -61.745305138150485,
+          -7.0,
+          -12.0
+        ],
+        "max": [
+          61.754694861849515,
+          0.0,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -148.11898260823256,
+          400.86982316968647
+        ],
+        [
+          -28.024748053829924,
+          429.6730317894241
+        ],
+        [
+          -30.823440389350992,
+          441.3421072117142
+        ],
+        [
+          -150.9176749437536,
+          412.5388985919766
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        2.2
+      ],
+      "replaces_placement_ids": [
+        "PORT_QUAY_2_0",
+        "PORT_QUAY_2_1",
+        "PORT_QUAY_2_2",
+        "PORT_QUAY_2_3",
+        "PORT_QUAY_2_4",
+        "PORT_QUAY_2_5",
+        "PORT_QUAY_2_6",
+        "PORT_QUAY_2_7"
+      ]
+    },
+    {
+      "id": "PORT_QUAY_RUN_3",
+      "asset_key": "registered_port_quay_run_3_union_r03",
+      "source_id": "registered_port_quay_run_3_union_r03",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/masters/registered_port_quay_run_3_union_r03.json",
+        "sha256": "a667f175e226c7c1592559a1748bb1a2af5fcdde29db345885de49dd5e0af1d0"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/cache/registered_port_quay_run_3_union_r03.pitch_0.5.render.json",
+        "sha256": "01e695fee4aeacf6187b04f23baf519e36cb4a0092c173e8cbb8f199927abb00"
+      },
+      "master_hash": "15ab330983335c9178f89cfa05d8849cbe475ecc8aabd67366cdfc9253783a58",
+      "position_m": [
+        38.40741576552374,
+        2.2,
+        439.1250926126924
+      ],
+      "position_xyz_m": [
+        38.40741576552374,
+        2.2,
+        439.1250926126924
+      ],
+      "yaw_degrees": 1.8321328072872727,
+      "yaw_rad": 0.031976749820969666,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_xyz": [
+        1,
+        1,
+        1
+      ],
+      "datum": "finite_shore_apron",
+      "actual_cached_bounds_local_m": {
+        "min": [
+          -69.27540140285934,
+          -7.0,
+          -12.0
+        ],
+        "max": [
+          69.22459859714066,
+          0.0,
+          0.5
+        ]
+      },
+      "outer_footprint_xz_m": [
+        [
+          -31.216226780127702,
+          429.34605185182835
+        ],
+        [
+          107.21297026061576,
+          424.91802671018564
+        ],
+        [
+          107.59662586855592,
+          436.9118921577591
+        ],
+        [
+          -30.832571172187542,
+          441.3399172994018
+        ]
+      ],
+      "world_y_range_m": [
+        -4.8,
+        2.2
+      ],
+      "replaces_placement_ids": [
+        "PORT_QUAY_3_0",
+        "PORT_QUAY_3_1",
+        "PORT_QUAY_3_2",
+        "PORT_QUAY_3_3",
+        "PORT_QUAY_3_4",
+        "PORT_QUAY_3_5",
+        "PORT_QUAY_3_6",
+        "PORT_QUAY_3_7",
+        "PORT_QUAY_3_8"
+      ]
+    }
+  ],
+  "owned_floors": [
+    {
+      "id": "PORT_SHED_0:floor",
+      "placement_id": "PORT_SHED_0",
+      "polygon_xz_m": [
+        [
+          -318.7703357750178,
+          266.1679868546964
+        ],
+        [
+          -276.24118749574626,
+          288.4226840361844
+        ],
+        [
+          -281.8048617911183,
+          299.05497110600237
+        ],
+        [
+          -324.33401007038987,
+          276.80027392451433
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": 1.2000000000000002,
+      "priority": "traffic_lane_then_owned_floor; timber deck may bridge water only inside its finite support footprint",
+      "datum": "finite_dry_port_floor"
+    },
+    {
+      "id": "PORT_SHED_1:floor",
+      "placement_id": "PORT_SHED_1",
+      "polygon_xz_m": [
+        [
+          -254.2409897275439,
+          301.40476156012295
+        ],
+        [
+          -210.04937513084798,
+          320.1424561711762
+        ],
+        [
+          -214.7337987836113,
+          331.19035982035024
+        ],
+        [
+          -258.9254133803072,
+          312.452665209297
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": 1.2000000000000002,
+      "priority": "traffic_lane_then_owned_floor; timber deck may bridge water only inside its finite support footprint",
+      "datum": "finite_dry_port_floor"
+    },
+    {
+      "id": "PORT_SHED_2:floor",
+      "placement_id": "PORT_SHED_2",
+      "polygon_xz_m": [
+        [
+          -185.19159192020706,
+          330.6824093898947
+        ],
+        [
+          -140.99997732351116,
+          349.42010400094796
+        ],
+        [
+          -145.68440097627447,
+          360.468007650122
+        ],
+        [
+          -189.87601557297037,
+          341.73031303906873
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": 1.2000000000000002,
+      "priority": "traffic_lane_then_owned_floor; timber deck may bridge water only inside its finite support footprint",
+      "datum": "finite_dry_port_floor"
+    },
+    {
+      "id": "PORT_SHED_3:floor",
+      "placement_id": "PORT_SHED_3",
+      "polygon_xz_m": [
+        [
+          -117.63223058293606,
+          357.9642996320115
+        ],
+        [
+          -71.65796055812051,
+          371.76163617517614
+        ],
+        [
+          -75.10729469391167,
+          383.25520368138007
+        ],
+        [
+          -121.08156471872722,
+          369.4578671382154
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": 1.2000000000000002,
+      "priority": "traffic_lane_then_owned_floor; timber deck may bridge water only inside its finite support footprint",
+      "datum": "finite_dry_port_floor"
+    },
+    {
+      "id": "PORT_SHED_4:floor",
+      "placement_id": "PORT_SHED_4",
+      "polygon_xz_m": [
+        [
+          -48.47663326099048,
+          381.26442904264667
+        ],
+        [
+          -1.214157967357535,
+          389.64645917375066
+        ],
+        [
+          -3.3096655001335282,
+          401.46207799715893
+        ],
+        [
+          -50.57214079376648,
+          393.08004786605494
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": 1.2000000000000002,
+      "priority": "traffic_lane_then_owned_floor; timber deck may bridge water only inside its finite support footprint",
+      "datum": "finite_dry_port_floor"
+    },
+    {
+      "id": "PORT_SHED_5:floor",
+      "placement_id": "PORT_SHED_5",
+      "polygon_xz_m": [
+        [
+          25.370984385311345,
+          394.36135112249804
+        ],
+        [
+          72.6334596789441,
+          402.74338125360316
+        ],
+        [
+          70.53795214616783,
+          414.5590000770113
+        ],
+        [
+          23.27547685253507,
+          406.1769699459062
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": 1.2000000000000002,
+      "priority": "traffic_lane_then_owned_floor; timber deck may bridge water only inside its finite support footprint",
+      "datum": "finite_dry_port_floor"
+    },
+    {
+      "id": "PORT_PIER_0:floor",
+      "placement_id": "PORT_PIER_0",
+      "polygon_xz_m": [
+        [
+          -287.6949114642657,
+          333.9929846277579
+        ],
+        [
+          -281.7720915389217,
+          337.72396360544553
+        ],
+        [
+          -295.6300134560473,
+          359.72300904243775
+        ],
+        [
+          -301.55283338139134,
+          355.9920300647501
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": 1.7000000000000002,
+      "priority": "traffic_lane_then_owned_floor; timber deck may bridge water only inside its finite support footprint",
+      "datum": "pier_top_plus2.2"
+    },
+    {
+      "id": "PORT_PIER_1:floor",
+      "placement_id": "PORT_PIER_1",
+      "polygon_xz_m": [
+        [
+          -133.2868681508546,
+          416.25326346423935
+        ],
+        [
+          -126.47990748785197,
+          417.8858339932933
+        ],
+        [
+          -132.54374088148094,
+          443.16883074158864
+        ],
+        [
+          -139.35070154448354,
+          441.53626021253467
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": 1.7000000000000002,
+      "priority": "traffic_lane_then_owned_floor; timber deck may bridge water only inside its finite support footprint",
+      "datum": "pier_top_plus2.2"
+    },
+    {
+      "id": "PORT_PIER_2:floor",
+      "placement_id": "PORT_PIER_2",
+      "polygon_xz_m": [
+        [
+          16.485803594126907,
+          439.3260578023706
+        ],
+        [
+          23.482225105211413,
+          439.1022586977388
+        ],
+        [
+          24.313478922415094,
+          465.08896716748126
+        ],
+        [
+          17.317057411330588,
+          465.31276627211304
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": 1.7000000000000002,
+      "priority": "traffic_lane_then_owned_floor; timber deck may bridge water only inside its finite support footprint",
+      "datum": "pier_top_plus2.2"
+    },
+    {
+      "id": "PORT_MAIN_CRANE:floor",
+      "placement_id": "PORT_MAIN_CRANE",
+      "polygon_xz_m": [
+        [
+          -221.13507233879486,
+          359.5905213326846
+        ],
+        [
+          -207.16505656833843,
+          367.3904353945958
+        ],
+        [
+          -213.0149921147718,
+          377.86794722243803
+        ],
+        [
+          -226.9850078852282,
+          370.06803316052685
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": 1.2000000000000002,
+      "priority": "traffic_lane_then_owned_floor; timber deck may bridge water only inside its finite support footprint",
+      "datum": "dry_quay_crane_bearing"
+    },
+    {
+      "id": "PORT_QUAY_RUN_0:floor",
+      "placement_id": "PORT_QUAY_RUN_0",
+      "polygon_xz_m": [
+        [
+          -349.0654671576138,
+          281.7421552860379
+        ],
+        [
+          -258.9539925791647,
+          338.50633544657165
+        ],
+        [
+          -265.3443147356325,
+          348.6507848321194
+        ],
+        [
+          -265.51903675975166,
+          348.55323184468944
+        ],
+        [
+          -355.4614311193641,
+          291.89556087234206
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": -4.8,
+      "priority": "shared common apron owns matching flat visible top; road semantics retained",
+      "datum": "finite_shore_apron",
+      "footprint_basis": "exact occupied voxel section clipped only to finite dry ownership; native water-edge lip does not reclaim river",
+      "source_continuous_length_m": 106.30016925269138,
+      "sampled_floor_length_m": 106.5,
+      "endpoint_quantization_m": [
+        0.0,
+        0.19983074730862427
+      ],
+      "native_section_polygon_xz_m": [
+        [
+          -349.0654671576138,
+          281.7421552860379
+        ],
+        [
+          -258.9539925791647,
+          338.50633544657165
+        ],
+        [
+          -265.349956540915,
+          348.6597410328758
+        ],
+        [
+          -355.4614311193641,
+          291.89556087234206
+        ]
+      ],
+      "wet_masonry_lip_area_excluded_from_dry_ownership_m2": 0.001057610242187004
+    },
+    {
+      "id": "PORT_QUAY_RUN_1:floor",
+      "placement_id": "PORT_QUAY_RUN_1",
+      "polygon_xz_m": [
+        [
+          -259.6691012133182,
+          338.0757200168472
+        ],
+        [
+          -144.85303409987955,
+          402.1812637131794
+        ],
+        [
+          -150.66929843984389,
+          412.5984688143515
+        ],
+        [
+          -150.91767494375367,
+          412.5388985919766
+        ],
+        [
+          -265.51903675975154,
+          348.5532318446895
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": -4.8,
+      "priority": "shared common apron owns matching flat visible top; road semantics retained",
+      "datum": "finite_shore_apron",
+      "footprint_basis": "exact occupied voxel section clipped only to finite dry ownership; native water-edge lip does not reclaim river",
+      "source_continuous_length_m": 131.25409585676232,
+      "sampled_floor_length_m": 131.5,
+      "endpoint_quantization_m": [
+        0.0,
+        0.24590414323768073
+      ],
+      "native_section_polygon_xz_m": [
+        [
+          -259.6691012133182,
+          338.0757200168472
+        ],
+        [
+          -144.85303409987955,
+          402.1812637131794
+        ],
+        [
+          -150.7029696463129,
+          412.6587755410217
+        ],
+        [
+          -265.51903675975154,
+          348.5532318446895
+        ]
+      ],
+      "wet_masonry_lip_area_excluded_from_dry_ownership_m2": 0.008492287594790171
+    },
+    {
+      "id": "PORT_QUAY_RUN_2:floor",
+      "placement_id": "PORT_QUAY_RUN_2",
+      "polygon_xz_m": [
+        [
+          -148.11898260823256,
+          400.86982316968647
+        ],
+        [
+          -28.024748053829924,
+          429.6730317894241
+        ],
+        [
+          -30.82284051195863,
+          441.3396060384174
+        ],
+        [
+          -30.83257117218749,
+          441.3399172994018
+        ],
+        [
+          -150.9176749437536,
+          412.5388985919766
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": -4.8,
+      "priority": "shared common apron owns matching flat visible top; road semantics retained",
+      "datum": "finite_shore_apron",
+      "footprint_basis": "exact occupied voxel section clipped only to finite dry ownership; native water-edge lip does not reclaim river",
+      "source_continuous_length_m": 123.49061027630097,
+      "sampled_floor_length_m": 123.5,
+      "endpoint_quantization_m": [
+        0.0,
+        0.009389723699030128
+      ],
+      "native_section_polygon_xz_m": [
+        [
+          -148.11898260823256,
+          400.86982316968647
+        ],
+        [
+          -28.024748053829924,
+          429.6730317894241
+        ],
+        [
+          -30.823440389350992,
+          441.3421072117142
+        ],
+        [
+          -150.9176749437536,
+          412.5388985919766
+        ]
+      ],
+      "wet_masonry_lip_area_excluded_from_dry_ownership_m2": 1.2075674548594374e-05
+    },
+    {
+      "id": "PORT_QUAY_RUN_3:floor",
+      "placement_id": "PORT_QUAY_RUN_3",
+      "polygon_xz_m": [
+        [
+          -31.216226780127702,
+          429.34605185182835
+        ],
+        [
+          107.21297026061576,
+          424.91802671018564
+        ],
+        [
+          107.59662586855592,
+          436.9118921577591
+        ],
+        [
+          -30.832571172187542,
+          441.3399172994018
+        ]
+      ],
+      "floor_y_m": 2.2,
+      "support_bottom_y_m": -4.8,
+      "priority": "shared common apron owns matching flat visible top; road semantics retained",
+      "datum": "finite_shore_apron",
+      "footprint_basis": "exact occupied voxel section clipped only to finite dry ownership; native water-edge lip does not reclaim river",
+      "source_continuous_length_m": 138.5508028057187,
+      "sampled_floor_length_m": 138.5,
+      "endpoint_quantization_m": [
+        0.0,
+        -0.050802805718689115
+      ],
+      "native_section_polygon_xz_m": [
+        [
+          -31.216226780127702,
+          429.34605185182835
+        ],
+        [
+          107.21297026061576,
+          424.91802671018564
+        ],
+        [
+          107.59662586855592,
+          436.9118921577591
+        ],
+        [
+          -30.832571172187542,
+          441.3399172994018
+        ]
+      ],
+      "wet_masonry_lip_area_excluded_from_dry_ownership_m2": 0
+    }
+  ],
+  "entrances": [
+    {
+      "id": "PORT_SHED_0:loading_bay_-16",
+      "threshold_world_xyz_m": [
+        -317.24581869051127,
+        2.2,
+        280.509390121429
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_0:loading_bay_0",
+      "threshold_world_xyz_m": [
+        -303.0694359307541,
+        2.2,
+        287.92762251525835
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_0:loading_bay_16",
+      "threshold_world_xyz_m": [
+        -288.8930531709969,
+        2.2,
+        295.3458549090877
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_1:loading_bay_-16",
+      "threshold_world_xyz_m": [
+        -251.56014428085788,
+        2.2,
+        315.5756143111392
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_1:loading_bay_0",
+      "threshold_world_xyz_m": [
+        -236.82960608195924,
+        2.2,
+        321.8215125148236
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_1:loading_bay_16",
+      "threshold_world_xyz_m": [
+        -222.0990678830606,
+        2.2,
+        328.06741071850803
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_2:loading_bay_-16",
+      "threshold_world_xyz_m": [
+        -182.51074647352107,
+        2.2,
+        344.85326214091094
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_2:loading_bay_0",
+      "threshold_world_xyz_m": [
+        -167.78020827462242,
+        2.2,
+        351.09916034459536
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_2:loading_bay_16",
+      "threshold_world_xyz_m": [
+        -153.04967007572378,
+        2.2,
+        357.3450585482798
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_3:loading_bay_-16",
+      "threshold_world_xyz_m": [
+        -113.41918638125796,
+        2.2,
+        371.7574232287429
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_3:loading_bay_0",
+      "threshold_world_xyz_m": [
+        -98.09442970631945,
+        2.2,
+        376.35653540979774
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_3:loading_bay_16",
+      "threshold_world_xyz_m": [
+        -82.76967303138093,
+        2.2,
+        380.9556475908526
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_4:loading_bay_-16",
+      "threshold_world_xyz_m": [
+        -42.69506157816099,
+        2.2,
+        394.4770528879056
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_4:loading_bay_0",
+      "threshold_world_xyz_m": [
+        -26.940903146950003,
+        2.2,
+        397.27106293160693
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_4:loading_bay_16",
+      "threshold_world_xyz_m": [
+        -11.186744715739021,
+        2.2,
+        400.0650729753083
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_5:loading_bay_-16",
+      "threshold_world_xyz_m": [
+        31.15255606814053,
+        2.2,
+        407.57397496775707
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_5:loading_bay_0",
+      "threshold_world_xyz_m": [
+        46.90671449935145,
+        2.2,
+        410.36798501145876
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    },
+    {
+      "id": "PORT_SHED_5:loading_bay_16",
+      "threshold_world_xyz_m": [
+        62.66087293056237,
+        2.2,
+        413.16199505516045
+      ],
+      "clear_width_m": 4,
+      "clear_height_m": 4.5,
+      "external_route_status": "not_resolved"
+    }
+  ],
+  "support_evidence": [
+    {
+      "id": "PORT_SHED_0",
+      "ground_samples_y_m": [
+        2.2,
+        2.2,
+        2.2,
+        2.2
+      ],
+      "foundation_bottom_y_m": 1.2,
+      "foundation_reaches_samples": true,
+      "terrain_intrusion_requires_owned_floor": false
+    },
+    {
+      "id": "PORT_SHED_1",
+      "ground_samples_y_m": [
+        2.2,
+        2.2,
+        2.2,
+        2.2
+      ],
+      "foundation_bottom_y_m": 1.2,
+      "foundation_reaches_samples": true,
+      "terrain_intrusion_requires_owned_floor": false
+    },
+    {
+      "id": "PORT_SHED_2",
+      "ground_samples_y_m": [
+        2.2,
+        2.2,
+        2.2,
+        2.2
+      ],
+      "foundation_bottom_y_m": 1.2,
+      "foundation_reaches_samples": true,
+      "terrain_intrusion_requires_owned_floor": false
+    },
+    {
+      "id": "PORT_SHED_3",
+      "ground_samples_y_m": [
+        2.2,
+        2.2,
+        2.2,
+        2.2
+      ],
+      "foundation_bottom_y_m": 1.2,
+      "foundation_reaches_samples": true,
+      "terrain_intrusion_requires_owned_floor": false
+    },
+    {
+      "id": "PORT_SHED_4",
+      "ground_samples_y_m": [
+        2.2,
+        2.2,
+        2.2,
+        2.2
+      ],
+      "foundation_bottom_y_m": 1.2,
+      "foundation_reaches_samples": true,
+      "terrain_intrusion_requires_owned_floor": false
+    },
+    {
+      "id": "PORT_SHED_5",
+      "ground_samples_y_m": [
+        2.2,
+        2.2,
+        2.2,
+        2.2
+      ],
+      "foundation_bottom_y_m": 1.2,
+      "foundation_reaches_samples": true,
+      "terrain_intrusion_requires_owned_floor": false
+    },
+    {
+      "id": "PORT_BENT_0_0",
+      "pile_tips_xyz_m": [
+        [
+          -287.8048498949823,
+          -4.8,
+          335.1056002583561
+        ],
+        [
+          -282.7281471018302,
+          -4.8,
+          338.3035822392313
+        ]
+      ],
+      "bed_y_m": [
+        -2.437683025367562,
+        -2.4554514851435942
+      ],
+      "embed_m": [
+        2.3623169746324377,
+        2.3445485148564056
+      ]
+    },
+    {
+      "id": "PORT_BENT_0_1",
+      "pile_tips_xyz_m": [
+        [
+          -289.9368378822324,
+          -4.8,
+          338.49006878712413
+        ],
+        [
+          -284.8601350890803,
+          -4.8,
+          341.6880507679993
+        ]
+      ],
+      "bed_y_m": [
+        -2.4302210674121865,
+        -2.447989527188219
+      ],
+      "embed_m": [
+        2.3697789325878134,
+        2.3520104728117808
+      ]
+    },
+    {
+      "id": "PORT_BENT_0_2",
+      "pile_tips_xyz_m": [
+        [
+          -292.06882586948245,
+          -4.8,
+          341.8745373158922
+        ],
+        [
+          -286.99212307633036,
+          -4.8,
+          345.0725192967674
+        ]
+      ],
+      "bed_y_m": [
+        -2.4227591094568117,
+        -2.440527569232844
+      ],
+      "embed_m": [
+        2.377240890543188,
+        2.359472430767156
+      ]
+    },
+    {
+      "id": "PORT_BENT_0_3",
+      "pile_tips_xyz_m": [
+        [
+          -294.20081385673257,
+          -4.8,
+          345.25900584466024
+        ],
+        [
+          -289.1241110635805,
+          -4.8,
+          348.4569878255354
+        ]
+      ],
+      "bed_y_m": [
+        -2.415297151501436,
+        -2.4330656112774687
+      ],
+      "embed_m": [
+        2.3847028484985637,
+        2.366934388722531
+      ]
+    },
+    {
+      "id": "PORT_BENT_0_4",
+      "pile_tips_xyz_m": [
+        [
+          -296.3328018439827,
+          -4.8,
+          348.64347437342826
+        ],
+        [
+          -291.2560990508306,
+          -4.8,
+          351.84145635430343
+        ]
+      ],
+      "bed_y_m": [
+        -2.4078351935460605,
+        -2.425603653322093
+      ],
+      "embed_m": [
+        2.3921648064539394,
+        2.3743963466779068
+      ]
+    },
+    {
+      "id": "PORT_BENT_0_5",
+      "pile_tips_xyz_m": [
+        [
+          -298.46478983123274,
+          -4.8,
+          352.02794290219634
+        ],
+        [
+          -293.38808703808064,
+          -4.8,
+          355.2259248830715
+        ]
+      ],
+      "bed_y_m": [
+        -2.4003732355906857,
+        -2.418141695366718
+      ],
+      "embed_m": [
+        2.399626764409314,
+        2.381858304633282
+      ]
+    },
+    {
+      "id": "PORT_BENT_0_6",
+      "pile_tips_xyz_m": [
+        [
+          -300.59677781848285,
+          -4.8,
+          355.41241143096437
+        ],
+        [
+          -295.52007502533075,
+          -4.8,
+          358.61039341183954
+        ]
+      ],
+      "bed_y_m": [
+        -2.39291127763531,
+        -2.4106797374113427
+      ],
+      "embed_m": [
+        2.4070887223646897,
+        2.389320262588657
+      ]
+    },
+    {
+      "id": "PORT_BARGE_0",
+      "water_y_m": 0.5596598533299215,
+      "bed_y_m": -2.4403401466700787,
+      "source_draft_m": 1,
+      "nominal_underkeel_clearance_m": 2
+    },
+    {
+      "id": "PORT_BENT_1_0",
+      "pile_tips_xyz_m": [
+        [
+          -133.03388103621924,
+          -4.8,
+          417.3422985967436
+        ],
+        [
+          -127.19934332507418,
+          -4.8,
+          418.74164476450414
+        ]
+      ],
+      "bed_y_m": [
+        -2.979381416373233,
+        -2.9998022983622405
+      ],
+      "embed_m": [
+        1.820618583626767,
+        1.8001977016377593
+      ]
+    },
+    {
+      "id": "PORT_BENT_1_1",
+      "pile_tips_xyz_m": [
+        [
+          -133.9667784813929,
+          -4.8,
+          421.23199040417364
+        ],
+        [
+          -128.13224077024785,
+          -4.8,
+          422.6313365719342
+        ]
+      ],
+      "bed_y_m": [
+        -2.9761162753151247,
+        -2.9965371573041324
+      ],
+      "embed_m": [
+        1.8238837246848751,
+        1.8034628426958674
+      ]
+    },
+    {
+      "id": "PORT_BENT_1_2",
+      "pile_tips_xyz_m": [
+        [
+          -134.8996759265666,
+          -4.8,
+          425.1216822116037
+        ],
+        [
+          -129.06513821542154,
+          -4.8,
+          426.5210283793642
+        ]
+      ],
+      "bed_y_m": [
+        -2.972851134257017,
+        -2.9932720162460247
+      ],
+      "embed_m": [
+        1.8271488657429829,
+        1.8067279837539751
+      ]
+    },
+    {
+      "id": "PORT_BENT_1_3",
+      "pile_tips_xyz_m": [
+        [
+          -135.8325733717403,
+          -4.8,
+          429.0113740190337
+        ],
+        [
+          -129.99803566059524,
+          -4.8,
+          430.41072018679426
+        ]
+      ],
+      "bed_y_m": [
+        -2.9695859931989093,
+        -2.990006875187917
+      ],
+      "embed_m": [
+        1.8304140068010906,
+        1.8099931248120829
+      ]
+    },
+    {
+      "id": "PORT_BENT_1_4",
+      "pile_tips_xyz_m": [
+        [
+          -136.765470816914,
+          -4.8,
+          432.90106582646376
+        ],
+        [
+          -130.93093310576893,
+          -4.8,
+          434.3004119942243
+        ]
+      ],
+      "bed_y_m": [
+        -2.966320852140801,
+        -2.986741734129809
+      ],
+      "embed_m": [
+        1.8336791478591987,
+        1.813258265870191
+      ]
+    },
+    {
+      "id": "PORT_BENT_1_5",
+      "pile_tips_xyz_m": [
+        [
+          -137.69836826208768,
+          -4.8,
+          436.7907576338938
+        ],
+        [
+          -131.86383055094262,
+          -4.8,
+          438.19010380165435
+        ]
+      ],
+      "bed_y_m": [
+        -2.963055711082693,
+        -2.9834765930717007
+      ],
+      "embed_m": [
+        1.8369442889173069,
+        1.8165234069282992
+      ]
+    },
+    {
+      "id": "PORT_BENT_1_6",
+      "pile_tips_xyz_m": [
+        [
+          -138.63126570726135,
+          -4.8,
+          440.68044944132384
+        ],
+        [
+          -132.7967279961163,
+          -4.8,
+          442.0797956090844
+        ]
+      ],
+      "bed_y_m": [
+        -2.9597905700245852,
+        -2.9802114520135934
+      ],
+      "embed_m": [
+        1.8402094299754146,
+        1.8197885479864064
+      ]
+    },
+    {
+      "id": "PORT_BARGE_1",
+      "water_y_m": -0.0269124273046073,
+      "bed_y_m": -3.026912427304607,
+      "source_draft_m": 1,
+      "nominal_underkeel_clearance_m": 2
+    },
+    {
+      "id": "PORT_BENT_2_0",
+      "pile_tips_xyz_m": [
+        [
+          17.01751928843748,
+          -4.8,
+          440.30956093933753
+        ],
+        [
+          23.0144520122242,
+          -4.8,
+          440.1177331353674
+        ]
+      ],
+      "bed_y_m": [
+        -3.5045613175095314,
+        -3.5255505820427846
+      ],
+      "embed_m": [
+        1.2954386824904685,
+        1.2744494179572152
+      ]
+    },
+    {
+      "id": "PORT_BENT_2_1",
+      "pile_tips_xyz_m": [
+        [
+          17.1454044910842,
+          -4.8,
+          444.3075160885287
+        ],
+        [
+          23.14233721487092,
+          -4.8,
+          444.1156882845586
+        ]
+      ],
+      "bed_y_m": [
+        -3.505008915718795,
+        -3.5259981802520484
+      ],
+      "embed_m": [
+        1.2949910842812047,
+        1.2740018197479515
+      ]
+    },
+    {
+      "id": "PORT_BENT_2_2",
+      "pile_tips_xyz_m": [
+        [
+          17.27328969373092,
+          -4.8,
+          448.3054712377198
+        ],
+        [
+          23.27022241751764,
+          -4.8,
+          448.1136434337497
+        ]
+      ],
+      "bed_y_m": [
+        -3.505456513928058,
+        -3.5264457784613117
+      ],
+      "embed_m": [
+        1.2945434860719418,
+        1.2735542215386881
+      ]
+    },
+    {
+      "id": "PORT_BENT_2_3",
+      "pile_tips_xyz_m": [
+        [
+          17.40117489637764,
+          -4.8,
+          452.303426386911
+        ],
+        [
+          23.39810762016436,
+          -4.8,
+          452.11159858294087
+        ]
+      ],
+      "bed_y_m": [
+        -3.505904112137322,
+        -3.526893376670575
+      ],
+      "embed_m": [
+        1.294095887862678,
+        1.2731066233294248
+      ]
+    },
+    {
+      "id": "PORT_BENT_2_4",
+      "pile_tips_xyz_m": [
+        [
+          17.52906009902436,
+          -4.8,
+          456.30138153610216
+        ],
+        [
+          23.52599282281108,
+          -4.8,
+          456.10955373213204
+        ]
+      ],
+      "bed_y_m": [
+        -3.5063517103465855,
+        -3.5273409748798388
+      ],
+      "embed_m": [
+        1.2936482896534143,
+        1.272659025120161
+      ]
+    },
+    {
+      "id": "PORT_BENT_2_5",
+      "pile_tips_xyz_m": [
+        [
+          17.65694530167108,
+          -4.8,
+          460.29933668529327
+        ],
+        [
+          23.6538780254578,
+          -4.8,
+          460.10750888132316
+        ]
+      ],
+      "bed_y_m": [
+        -3.506799308555849,
+        -3.5277885730891025
+      ],
+      "embed_m": [
+        1.293200691444151,
+        1.2722114269108973
+      ]
+    },
+    {
+      "id": "PORT_BENT_2_6",
+      "pile_tips_xyz_m": [
+        [
+          17.7848305043178,
+          -4.8,
+          464.29729183448444
+        ],
+        [
+          23.78176322810452,
+          -4.8,
+          464.1054640305143
+        ]
+      ],
+      "bed_y_m": [
+        -3.507246906765112,
+        -3.528236171298366
+      ],
+      "embed_m": [
+        1.2927530932348876,
+        1.271763828701634
+      ]
+    },
+    {
+      "id": "PORT_BARGE_2",
+      "water_y_m": -0.5852705891340428,
+      "bed_y_m": -3.585270589134043,
+      "source_draft_m": 1,
+      "nominal_underkeel_clearance_m": 2
+    },
+    {
+      "id": "PORT_QUAY_RUN_0",
+      "retaining_bottom_y_m": -4.8,
+      "inherited_support_module_ids": [
+        "PORT_QUAY_0_0",
+        "PORT_QUAY_0_1",
+        "PORT_QUAY_0_2",
+        "PORT_QUAY_0_3",
+        "PORT_QUAY_0_4",
+        "PORT_QUAY_0_5",
+        "PORT_QUAY_0_6"
+      ],
+      "support_rule": "Same continuous retaining face and elevation as the existing modules; sampling grid is unified. Exact shoreline corner/edge and support audit remain."
+    },
+    {
+      "id": "PORT_QUAY_RUN_1",
+      "retaining_bottom_y_m": -4.8,
+      "inherited_support_module_ids": [
+        "PORT_QUAY_1_0",
+        "PORT_QUAY_1_1",
+        "PORT_QUAY_1_2",
+        "PORT_QUAY_1_3",
+        "PORT_QUAY_1_4",
+        "PORT_QUAY_1_5",
+        "PORT_QUAY_1_6",
+        "PORT_QUAY_1_7",
+        "PORT_QUAY_1_8"
+      ],
+      "support_rule": "Same continuous retaining face and elevation as the existing modules; sampling grid is unified. Exact shoreline corner/edge and support audit remain."
+    },
+    {
+      "id": "PORT_QUAY_RUN_2",
+      "retaining_bottom_y_m": -4.8,
+      "inherited_support_module_ids": [
+        "PORT_QUAY_2_0",
+        "PORT_QUAY_2_1",
+        "PORT_QUAY_2_2",
+        "PORT_QUAY_2_3",
+        "PORT_QUAY_2_4",
+        "PORT_QUAY_2_5",
+        "PORT_QUAY_2_6",
+        "PORT_QUAY_2_7"
+      ],
+      "support_rule": "Same continuous retaining face and elevation as the existing modules; sampling grid is unified. Exact shoreline corner/edge and support audit remain."
+    },
+    {
+      "id": "PORT_QUAY_RUN_3",
+      "retaining_bottom_y_m": -4.8,
+      "inherited_support_module_ids": [
+        "PORT_QUAY_3_0",
+        "PORT_QUAY_3_1",
+        "PORT_QUAY_3_2",
+        "PORT_QUAY_3_3",
+        "PORT_QUAY_3_4",
+        "PORT_QUAY_3_5",
+        "PORT_QUAY_3_6",
+        "PORT_QUAY_3_7",
+        "PORT_QUAY_3_8"
+      ],
+      "support_rule": "Same continuous retaining face and elevation as the existing modules; sampling grid is unified. Exact shoreline corner/edge and support audit remain."
+    }
+  ],
+  "replacement_overlay": {
+    "remove_building_ids": [
+      "B_PORT_0"
+    ],
+    "remove_path_ids": [
+      "B_PORT_0:DOOR"
+    ],
+    "remove_landmark_component_group_ids": [],
+    "road_edits": [],
+    "reason": "Replace the single provisional port warehouse with independent image-facing warehouse and port modules."
+  },
+  "checks": {
+    "issues": [],
+    "bridge_reserved_polygon_count": 153
+  },
+  "completion_claims": {
+    "actual_scene_loaded": false,
+    "actual_visual_review": false,
+    "functional_access_validated": false,
+    "mechanics_integrated": false
+  },
+  "missing": [
+    "Crane/pier load-path engineering",
+    "Gangplanks and exact source opening route links",
+    "Curved masonry joins and apron/terrain ownership review",
+    "Flood-stage freeboard validation and float physics",
+    "Finite joins between the four differently oriented run unions need actual closeup review; internal repeated-piece seams are closed numerically."
+  ],
+  "base_pack": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r01/resolved_placements.json",
+    "sha256": "2a50173a5d9bbaceb0888364947099d2f05d9815c85b2454d53d8a0005d5cf65"
+  },
+  "quay_union_overlay": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/port_r03_quay_unions/replacement_overlay.json",
+    "sha256": "74ccd8795c248a60b6e5538b9d129d4a2c7a01e7cbffcd1d68276623c9c9be32"
+  }
+}

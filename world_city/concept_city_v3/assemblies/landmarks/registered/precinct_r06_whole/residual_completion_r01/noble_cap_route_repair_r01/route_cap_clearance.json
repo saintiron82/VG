@@ -1,0 +1,20 @@
+{
+  "status": "PASS_FINITE_OLD_CAP_CLEARANCE",
+  "routes": [
+    {
+      "owner_id": "E1",
+      "unreplaced_old_cap_route_area_m2": 1.0743142486724366e-14,
+      "retained_cap_route_overlap_m2": 0.0
+    },
+    {
+      "owner_id": "E2",
+      "unreplaced_old_cap_route_area_m2": 1.3280951452520132e-14,
+      "retained_cap_route_overlap_m2": 0.0
+    }
+  ],
+  "runtime_routes": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/runtime_routes.json",
+    "sha256": "208369577223768f8781490f973448a14f9bb0026152cb9a2a8b7db31bb97274"
+  },
+  "runtime_ready": false
+}

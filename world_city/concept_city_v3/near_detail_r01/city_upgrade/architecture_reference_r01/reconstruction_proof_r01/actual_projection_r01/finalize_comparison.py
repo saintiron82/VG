@@ -1,0 +1,18 @@
+"""Freeze comparison evidence and fix only its display-scale caption.
+Original source, captures, source crops, masks, render and initial board persist.
+"""
+import hashlib,json
+from pathlib import Path
+import numpy as np
+from PIL import Image,ImageDraw,ImageFont
+O=Path(__file__).resolve().parent;D=O.parent;ROOT=next(p for p in O.parents if (p/'voxel_character/common/core.py').exists())
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def ref(p):return {'path':str(p.relative_to(ROOT)),'sha256':sha(p),'bytes':p.stat().st_size}
+def write(p,o):assert not p.exists();p.write_text(json.dumps(o,indent=2,allow_nan=False)+'\n')
+r=json.loads((O/'report.json').read_text());a=np.load(D/'image_derived_arrays.npz');extra=[]
+for v in r['views']:
+ im=np.asarray(Image.open(ROOT/v['actual_capture']['path']).convert('RGB'));h,w=im.shape[:2];sy,sx=np.indices((h,w));c=np.asarray(v['camera_affine_world_u_y_1_to_pixel_uv']);uv=(np.stack([sx+.5,sy+.5],axis=-1)-c[2])@np.linalg.inv(c[:2,:]);half=5 if v['world_u_axis']=='Z' else 6;domain=(uv[:,:,0]>=-half)&(uv[:,:,0]<half)&(uv[:,:,1]>=0)&(uv[:,:,1]<14);hud=(sx>=10)&(sx<850)&(sy>=10)&(sy<67);fg=np.max(np.abs(im.astype(float)-np.asarray(v['capture_background_rgb'])),axis=2)>3
+ extra.append({'view':v['view'],'foreground_pixels_outside_projected_grid_excluding_hud':int((fg&~domain&~hud).sum()),'whole_pixel_common_difference':v['actual_screenshot_vs_common_projected_pixels']['symmetric_difference'],'explanation':'Back12 pixels are retained as exact raster-boundary discrepancies; zero cell-center discrepancies. No mask hole-fill or cleanup used on actual capture.'})
+board=Image.open(O/'comparison_board.png').convert('RGB');draw=ImageDraw.Draw(board);draw.rectangle((1020,110,1609,148),fill='white');draw.text((1030,118),'Fixed camera silhouette difference (uniform display fit)',font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',15),fill='black');out=O/'comparison_board.r02.png';assert not out.exists();board.save(out)
+result={'schema':'riverstone.image_reconstruction.actual_projection_handoff.v1','diagnostic_only':True,'production_gate_open':False,'main_report':ref(O/'report.json'),'comparison_board':ref(out),'original_board_preserved':ref(O/'comparison_board.png'),'caption_revision':'Difference thumbnail is uniformly fit to570x406; its scale is0.48305, not exactly1/2. Actual capture thumbnail stays exactly1/2. Only derived board caption changed.','additional_pixel_domain_audit':extra,'all_source_and_capture_hashes_unchanged':all(sha(ROOT/x['path'])==x['sha256'] for x in r['input_refs']),'input_registration_pass':False,'depth_validated':False,'method':'Four provided camera-anchor affine transforms only, no shape-fit alignment or image warp. Original capture and source crop remain distinct from categorical silhouette difference.','reproduction':['OPENBLAS_NUM_THREADS=1 python compare_actual.py in a fresh output revision','OPENBLAS_NUM_THREADS=1 python finalize_comparison.py in that fresh revision'],'script':ref(Path(__file__))};assert result['all_source_and_capture_hashes_unchanged'];write(O/'handoff.json',result)
+paths={p.resolve() for p in O.iterdir() if p.is_file()};paths.update((ROOT/x['path']).resolve() for x in r['input_refs']);paths.add(D/'side_depth_annotations.json');closure={'schema':'riverstone.file_closure.v1','files':[ref(p) for p in sorted(paths)],'file_count':len(paths),'hash_mismatches':0,'excludes_itself':True};write(O/'closure.json',closure);assert all(sha(ROOT/x['path'])==x['sha256'] for x in closure['files']);print(json.dumps({'handoff':ref(O/'handoff.json'),'closure':ref(O/'closure.json'),'board':ref(out),'audit':extra,'tree_bytes':sum(p.stat().st_size for p in D.rglob('*') if p.is_file())}))

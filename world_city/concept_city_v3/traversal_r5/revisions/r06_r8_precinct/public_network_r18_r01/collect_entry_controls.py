@@ -1,0 +1,19 @@
+"""Bind only the released 23 ordinary holdings and sealed 22 B15 entry routes."""
+import pathlib,json,hashlib,math
+H=pathlib.Path(__file__).resolve().parent;ROOT=next(p for p in H.parents if(p/'voxel_character').is_dir());CITY=ROOT/'world_city/concept_city_v3';T=CITY/'registered_topography/revisions/r17_district_batches';BULK=T/'contour_bulk_r01'
+def read(p):return json.loads(p.read_bytes())
+def ref(p):return dict(path=str(p.relative_to(ROOT)),sha256=hashlib.sha256(p.read_bytes()).hexdigest())
+def main():
+ ready=BULK/'route_handoff_ready_r02.json';d=read(ready);assert ref(ready)['sha256']=='2b616e25fabb22134e7474aca41e015c2353b1759c82c5224ea6a55bbead4d31';assert len(d['entries'])==23 and not d['failures'];candidate=BULK/'exact_public_reservations.json';c=read(candidate);pack=BULK/'native_pack_ready_r02.json';pd=read(pack);assert set(pd['accepted_holding_ids'])==set(d['accepted_holding_ids']);routes=[];coverage=[];byholding={r['holding_id']:r for r in d['entries']}
+ for e in c['entries']:
+  holding=e['holding_id'];r=byholding.get(holding)
+  if not r:coverage.append(dict(id=e['id'],holding_id=holding,status='held',reason='Candidate ordinary entry is outside the released 23-holding physical-owner batch.',source=ref(ready)));continue
+  points=r['polyline_xyz_m'];assert all(math.dist(p,q)>1e-8 for p,q in zip(points,points[1:]));routes.append(dict(id=r['id'],case_class='ordinary_entry',points_xyz_m=points,source_road_ids=[r['public_road_id'],r['id']],test_scope='Exact released public-to-gate chain through the finite entry profile; bidirectional, no interior claim.',provenance=[ref(ready),d['terrain_handoff'],ref(pack)],resolved_geometry_proof=ref(ready),bidirectional=True,holding_id=holding,entry_id=r['id'],source_width_m=r['width_m'],source_plane_owner_ids=r['source_plane_owner_ids'],source_waypoints_preserved=True));coverage.append(dict(id=e['id'],holding_id=holding,status='accepted',route_ids=[r['id']],activation_condition='Exact released native pack and physical-owner terrain must both appear in the final integrated scene.'))
+ fixed=T/'coherent_b15_r02/fixed_public_seams.json';prepared=H.parent/'district_batch_r01/prepared_runtime.json';bd=read(prepared);root_ids={r['id']for r in read(fixed)['roots']};seen=set()
+ for r in bd['routes']:
+  if r['case_class']!='public_entry'or r['id'].endswith('_REVERSE'):continue
+  rid='B15_'+r['id'];seen.add(r['entry_id']);routes.append(dict(id=rid,case_class='ordinary_entry',points_xyz_m=r['points'],source_road_ids=r['source_road_ids'],test_scope=r['test_scope'],provenance=[ref(prepared),ref(fixed),ref(H.parent/'district_batch_r01/freeze_manifest.json')],resolved_geometry_proof=ref(prepared),bidirectional=True,entry_id=r['entry_id'],source_width_m=r['source_width_m'],public_road_id=r['public_road_id']));coverage.append(dict(id=r['entry_id'],status='accepted',route_ids=[rid],activation_condition='Sealed B15 field and exact public interface are preserved in the joint final scene.'))
+ assert seen==root_ids;assert len(routes)==45;out=dict(schema='riverstone.released_ordinary_entry_controls.r18.v1',status='SOURCE_BOUND_PENDING_JOINT_ACTIVATION',sources=dict(ordinary_entry_candidates=ref(candidate),ready_entries=ref(ready),ready_native_pack=ref(pack),b15_entries=ref(fixed),b15_replay=ref(prepared)),required_native_packs=[ref(pack)],routes=routes,coverage=coverage,summary=dict(released_new_entry_routes=23,sealed_b15_entry_routes=22,expanded_bidirectional_cases=90,held_candidate_entries=sum(r['status']=='held'for r in coverage),internal_door_routes_not_automatically_activated=102),limits=['All exact source-plane waypoint knots are preserved.','Only released entrances are planned as positive cases; other ordinary candidates stay held.','No scene or physics result is claimed by this route collection.'])
+ with(H/'bound_entry_controls.json').open('x')as f:json.dump(out,f,indent=2);f.write('\n')
+ print(json.dumps(out['summary']))
+if __name__=='__main__':main()

@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "riverstone.asset.multiview_contract.v1",
+  "title": "Multiview evidence contract. Technical gates never imply art acceptance.",
+  "type": "object",
+  "required": ["schema", "asset_id", "asset_class", "frame", "artifacts", "common", "model_renders", "visual_review"],
+  "properties": {
+    "schema": {"const": "riverstone.asset.multiview_contract.v1"},
+    "asset_id": {"type": "string", "minLength": 1},
+    "asset_class": {"enum": ["complex_character", "complex_hair", "complex_clothing", "standard_component", "parametric_building"]},
+    "frame": {
+      "type": "object",
+      "required": ["id", "unit", "right", "up", "front", "handedness", "foot_y_m", "asset_height_m"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1}, "unit": {"const": "m"},
+        "right": {"const": "+X"}, "up": {"const": "+Y"}, "front": {"const": "+Z"},
+        "handedness": {"const": "right"}, "foot_y_m": {"const": 0},
+        "asset_height_m": {"type": "number", "exclusiveMinimum": 0}
+      }
+    },
+    "artifacts": {
+      "type": "object", "minProperties": 1, "maxProperties": 128,
+      "additionalProperties": {
+        "type": "object", "required": ["path", "sha256", "kind"],
+        "properties": {"path": {"type": "string", "minLength": 1}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}, "kind": {"type": "string"}}
+      }
+    },
+    "references": {
+      "type": "array", "minItems": 0, "maxItems": 3,
+      "items": {
+        "type": "object", "required": ["view", "artifact", "origin", "crop_px", "alignment_record"],
+        "properties": {
+          "view": {"enum": ["front", "side", "back"]}, "artifact": {"type": "string"},
+          "origin": {"enum": ["observed", "generated_inference", "manual_inference"]},
+          "crop_px": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "integer", "minimum": 0}},
+          "alignment_record": {"type": "string"}, "observation_record": {"type": "string"},
+          "generation_record": {"type": "string"}, "source_refs": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "volume": {
+      "type": "object", "required": ["authoring_method", "source_artifact", "profile_artifact", "precompile_review"],
+      "properties": {
+        "authoring_method": {"enum": ["section_loft", "curve_sweep", "mixed_section_curve"]},
+        "source_artifact": {"type": "string"}, "profile_artifact": {"type": "string"}, "precompile_review": {"type": "string"},
+        "continuity_disposition": {"type": "object", "additionalProperties": {"type": "string"}}
+      }
+    },
+    "common": {
+      "type": "object", "required": ["master", "compiled", "render_mesh", "compiler_source", "exporter_source", "mesher_source"],
+      "properties": {
+        "master": {"type": "string"}, "compiled": {"type": "string"}, "render_mesh": {"type": "string"},
+        "compiler_source": {"type": "string"}, "exporter_source": {"type": "string"}, "mesher_source": {"type": "string"},
+        "adapter_source": {"type": "string"}, "lowering_record": {"type": "string"}
+      }
+    },
+    "model_renders": {
+      "type": "array", "minItems": 3, "maxItems": 6,
+      "items": {
+        "type": "object", "required": ["stage", "view", "image", "record", "renderer_source"],
+        "properties": {"stage": {"enum": ["authored_volume", "compiled_mesh"]}, "view": {"enum": ["front", "side", "back"]},
+                       "image": {"type": "string"}, "record": {"type": "string"}, "renderer_source": {"type": "string"}}
+      }
+    },
+    "visual_review": {
+      "type": "object", "required": ["status"],
+      "properties": {"status": {"enum": ["pending", "rejected", "recorded_accepted"]}, "record": {"type": "string"}}
+    },
+    "claims": {
+      "type": "object", "properties": {
+        "asset_complete": {"const": false}, "coverage_pass": {"const": false},
+        "art_quality_pass": {"const": false}, "numeric_quality_pass": {"const": false}
+      }
+    }
+  },
+  "allOf": [{
+    "if": {"properties": {"asset_class": {"enum": ["complex_character", "complex_hair", "complex_clothing"]}}},
+    "then": {"required": ["references", "volume"], "properties": {
+      "references": {"minItems": 3}, "model_renders": {"minItems": 6},
+      "common": {"required": ["adapter_source", "lowering_record"]}
+    }}
+  }],
+  "$comment": "Structural interchange schema only. The Python validator additionally checks file integrity, semantic hashes, bound evidence, scale, geometry diagnostics and false claims. No JSON Schema pass is art approval."
+}

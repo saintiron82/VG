@@ -1,0 +1,40 @@
+{
+  "schema": "riverstone.surface_detail.rules.v2",
+  "id": "house_near_material_r04_generalized_v1",
+  "seed": 41873,
+  "near_pitch_m": 0.05,
+  "roof": {
+    "tile_run_m": 0.25, "tile_width_m": 0.38, "lateral_joint_m": 0.05,
+    "course_overlap_m": 0.055, "lip_height_m": 0.075,
+    "uphill_height_m": 0.025, "tile_bed_depth_m": 0.125, "underlay_recess_m": 0.10
+  },
+  "masonry": {
+    "course_height_m": 0.20, "nominal_width_m": 0.40, "joint_m": 0.075,
+    "recess_m": 0.05, "foundation_skin_m": 0.075,
+    "wall_projection_m": 0.06, "wall_skin_m": 0.14
+  },
+  "window": {
+    "glass_recess_m": 0.15, "glass_thickness_m": 0.07,
+    "mullion_width_m": 0.075, "mullion_back_m": -0.14, "mullion_front_m": 0.055,
+    "sill_bottom_extension_m": 0.23, "sill_top_extension_m": 0.27,
+    "sill_bottom_y_m": -0.18, "sill_middle_y_m": -0.09, "sill_top_y_m": -0.015,
+    "sill_back_m": -0.20, "sill_bottom_front_m": 0.19, "sill_projection_m": 0.26,
+    "shutter_width_m": 0.30, "shutter_plank_m": 0.10,
+    "shutter_frame_clearance_m": 0.01, "shutter_min_width_m": 0.10,
+    "shutter_back_m": -0.025, "shutter_base_front_m": 0.075, "shutter_plank_front_m": 0.125,
+    "shutter_plank_joint_m": 0.03, "shutter_vertical_inset_m": 0.03,
+    "shutter_strap_front_m": 0.175, "shutter_strap_height_m": 0.05,
+    "shutter_strap_low_ratio": 0.15, "shutter_strap_high_ratio": 0.82
+  },
+  "door": {
+    "plank_width_m": 0.18, "joint_m": 0.075, "face_depth_m": 0.075,
+    "vertical_inset_m": 0.04, "latch_center_x_ratio": 0.86, "latch_center_y_ratio": 0.5,
+    "latch_width_m": 0.13, "latch_height_m": 0.25, "latch_back_m": 0.06,
+    "latch_front_m": 0.13, "handle_width_m": 0.07, "handle_height_m": 0.14, "handle_front_m": 0.22
+  },
+  "policy": {
+    "automatic_steps": false, "preserve_instances": true, "preserve_apertures": true,
+    "preserve_thresholds": true, "no_whole_building_scale": true,
+    "full_compilation": "separate_budgeted_step", "visual_approval": false
+  }
+}

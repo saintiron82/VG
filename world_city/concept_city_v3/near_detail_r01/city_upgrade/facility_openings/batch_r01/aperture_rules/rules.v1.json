@@ -1,0 +1,26 @@
+{
+  "schema": "riverstone.existing_aperture.rules.v1",
+  "source_audit": "world_city/concept_city_v3/near_detail_r01/city_upgrade/house_extensions/facility_opening_audit/asset_audit.json",
+  "source_windows": "world_city/concept_city_v3/near_detail_r01/city_upgrade/house_extensions/facility_opening_audit/window_faces.jsonl.gz",
+  "asset_keys": [
+    "c3_property_ordinary_r2_b10bcfbba43136a4",
+    "c3_property_ordinary_r2_fc0efd621519b707",
+    "working_r01_bank_loft_store"
+  ],
+  "compile_priority_asset_keys": ["c3_property_ordinary_r2_b10bcfbba43136a4", "working_r01_bank_loft_store"],
+  "supported_profile": "rectangular_cut_bay",
+  "fine_pitch_m": 0.05,
+  "glass_recess_m": 0.15,
+  "glass_thickness_m": 0.05,
+  "patch_margin_m": 0.1,
+  "treatment": "Subtract front and rear of source glass with instance-and-feature-scoped exact boxes; retain original glass label, source surrounds, mullions, sills and shutters.",
+  "new_paint_allowed": false,
+  "new_shutters_allowed": false,
+  "new_mullions_allowed": false,
+  "source_shape_crop_allowed": false,
+  "source_components_editable": false,
+  "runtime_activation": false,
+  "compile_authorized": false,
+  "output_cap_bytes": 3145728,
+  "memory_cap_mib": 192
+}

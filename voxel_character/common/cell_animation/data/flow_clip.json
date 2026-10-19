@@ -1,0 +1,1315 @@
+{
+  "schema": "riverstone.voxel.cell_animation.v1",
+  "source_id": "rivermark_fountain_common",
+  "master_hash": "f68984e8dcfcca1d364a726f7fdbdbf1ce34abe8aaf0ec943a1b2497a40b15dc",
+  "duration": 2.4,
+  "loop": true,
+  "update_hz": 10,
+  "seed": 0,
+  "bounds": {
+    "min": [
+      -2.4,
+      0,
+      -2.4
+    ],
+    "max": [
+      2.4,
+      3.6,
+      2.4
+    ]
+  },
+  "static_exclusions": [
+    {
+      "instance": "fountain",
+      "feature": [
+        "lower_jets_0",
+        "lower_jets_1",
+        "lower_jets_2",
+        "lower_jets_3",
+        "upper_jets_0",
+        "upper_jets_1",
+        "upper_jets_2",
+        "upper_jets_3",
+        "top_jet_0"
+      ]
+    }
+  ],
+  "pools": [
+    {
+      "id": "flow_cells",
+      "cell_size": {
+        "cells": 1
+      },
+      "source": {
+        "kind": "selected_cells",
+        "selector": {
+          "instance": "fountain",
+          "feature": [
+            "lower_jets_0",
+            "lower_jets_1",
+            "lower_jets_2",
+            "lower_jets_3",
+            "upper_jets_0",
+            "upper_jets_1",
+            "upper_jets_2",
+            "upper_jets_3"
+          ]
+        }
+      },
+      "palette": [
+        "#117aad",
+        "#e3ffff"
+      ],
+      "default_color_index": 0,
+      "banded_color": {
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "band_size": 0.24,
+        "speed": 0.8,
+        "step_rate": 0,
+        "cycle": 4,
+        "bright_bands": 1,
+        "base_index": 0,
+        "highlight_index": 1
+      },
+      "occludes_static": true
+    },
+    {
+      "id": "column_cells",
+      "cell_size": {
+        "cells": 1
+      },
+      "source": {
+        "kind": "axial_lattice",
+        "origin": [
+          0,
+          2.6,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "length": 0.8500000000000001,
+        "radius": 0.11,
+        "minimum_radius_cells": 0.75
+      },
+      "palette": [
+        "#189ed0",
+        "#ecffff"
+      ],
+      "default_color_index": 0,
+      "banded_color": {
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "band_size_cells": 1,
+        "speed": 0,
+        "step_rate": 8,
+        "cycle": 3,
+        "bright_bands": 1,
+        "base_index": 0,
+        "highlight_index": 1
+      },
+      "threshold_visibility": {
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "keys": [
+          [
+            0,
+            2.7
+          ],
+          [
+            0.6,
+            3.45
+          ],
+          [
+            1.2,
+            2.85
+          ],
+          [
+            1.8,
+            3.2
+          ],
+          [
+            2.4,
+            2.7
+          ]
+        ],
+        "interpolation": "linear"
+      }
+    },
+    {
+      "id": "moving_cells",
+      "cell_size": {
+        "world": 0.065,
+        "minimum_cells": 0.55,
+        "maximum_cells": 1.0
+      },
+      "source": {
+        "kind": "members",
+        "members": [
+          {
+            "id": "lower_to_basin_0_0",
+            "position": [
+              1.78,
+              {
+                "plane": "basin_water_top"
+              },
+              0.0
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.13,
+              0.86,
+              0.26
+            ],
+            "phase": 0.0,
+            "lifetime": 0.46,
+            "color_index": 1
+          },
+          {
+            "id": "lower_to_basin_0_1",
+            "position": [
+              1.78,
+              {
+                "plane": "basin_water_top"
+              },
+              0.0
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.22,
+              1.04,
+              -0.29
+            ],
+            "phase": 0.13,
+            "lifetime": 0.57,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_0_2",
+            "position": [
+              1.78,
+              {
+                "plane": "basin_water_top"
+              },
+              0.0
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.1,
+              0.76,
+              0.32
+            ],
+            "phase": 0.27,
+            "lifetime": 0.4,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_0_3",
+            "position": [
+              1.78,
+              {
+                "plane": "basin_water_top"
+              },
+              0.0
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.33,
+              0.93,
+              -0.12
+            ],
+            "phase": 0.4,
+            "lifetime": 0.5,
+            "color_index": 1
+          },
+          {
+            "id": "lower_to_basin_0_4",
+            "position": [
+              1.78,
+              {
+                "plane": "basin_water_top"
+              },
+              0.0
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.13,
+              0.81,
+              -0.24
+            ],
+            "phase": 0.53,
+            "lifetime": 0.43,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_0_5",
+            "position": [
+              1.78,
+              {
+                "plane": "basin_water_top"
+              },
+              0.0
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.16,
+              1.0,
+              0.18
+            ],
+            "phase": 0.67,
+            "lifetime": 0.54,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_1_0",
+            "position": [
+              1.0899356512411444e-16,
+              {
+                "plane": "basin_water_top"
+              },
+              1.78
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.26,
+              0.86,
+              -0.12999999999999998
+            ],
+            "phase": 0.07,
+            "lifetime": 0.46,
+            "color_index": 1
+          },
+          {
+            "id": "lower_to_basin_1_1",
+            "position": [
+              1.0899356512411444e-16,
+              {
+                "plane": "basin_water_top"
+              },
+              1.78
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.29,
+              1.04,
+              -0.22000000000000003
+            ],
+            "phase": 0.2,
+            "lifetime": 0.57,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_1_2",
+            "position": [
+              1.0899356512411444e-16,
+              {
+                "plane": "basin_water_top"
+              },
+              1.78
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.32,
+              0.76,
+              0.10000000000000002
+            ],
+            "phase": 0.34,
+            "lifetime": 0.4,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_1_3",
+            "position": [
+              1.0899356512411444e-16,
+              {
+                "plane": "basin_water_top"
+              },
+              1.78
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.11999999999999998,
+              0.93,
+              -0.33
+            ],
+            "phase": 0.47000000000000003,
+            "lifetime": 0.5,
+            "color_index": 1
+          },
+          {
+            "id": "lower_to_basin_1_4",
+            "position": [
+              1.0899356512411444e-16,
+              {
+                "plane": "basin_water_top"
+              },
+              1.78
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.24,
+              0.81,
+              0.12999999999999998
+            ],
+            "phase": 0.6000000000000001,
+            "lifetime": 0.43,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_1_5",
+            "position": [
+              1.0899356512411444e-16,
+              {
+                "plane": "basin_water_top"
+              },
+              1.78
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.18,
+              1.0,
+              -0.16
+            ],
+            "phase": 0.74,
+            "lifetime": 0.54,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_2_0",
+            "position": [
+              -1.78,
+              {
+                "plane": "basin_water_top"
+              },
+              2.1798713024822888e-16
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.12999999999999998,
+              0.86,
+              -0.26
+            ],
+            "phase": 0.14,
+            "lifetime": 0.46,
+            "color_index": 1
+          },
+          {
+            "id": "lower_to_basin_2_1",
+            "position": [
+              -1.78,
+              {
+                "plane": "basin_water_top"
+              },
+              2.1798713024822888e-16
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.22000000000000003,
+              1.04,
+              0.29
+            ],
+            "phase": 0.27,
+            "lifetime": 0.57,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_2_2",
+            "position": [
+              -1.78,
+              {
+                "plane": "basin_water_top"
+              },
+              2.1798713024822888e-16
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.10000000000000005,
+              0.76,
+              -0.32
+            ],
+            "phase": 0.41000000000000003,
+            "lifetime": 0.4,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_2_3",
+            "position": [
+              -1.78,
+              {
+                "plane": "basin_water_top"
+              },
+              2.1798713024822888e-16
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.33,
+              0.93,
+              0.11999999999999995
+            ],
+            "phase": 0.54,
+            "lifetime": 0.5,
+            "color_index": 1
+          },
+          {
+            "id": "lower_to_basin_2_4",
+            "position": [
+              -1.78,
+              {
+                "plane": "basin_water_top"
+              },
+              2.1798713024822888e-16
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.12999999999999998,
+              0.81,
+              0.24000000000000002
+            ],
+            "phase": 0.67,
+            "lifetime": 0.43,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_2_5",
+            "position": [
+              -1.78,
+              {
+                "plane": "basin_water_top"
+              },
+              2.1798713024822888e-16
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.15999999999999998,
+              1.0,
+              -0.18000000000000002
+            ],
+            "phase": 0.81,
+            "lifetime": 0.54,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_3_0",
+            "position": [
+              -3.269806953723433e-16,
+              {
+                "plane": "basin_water_top"
+              },
+              -1.78
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.26,
+              0.86,
+              0.12999999999999995
+            ],
+            "phase": 0.21000000000000002,
+            "lifetime": 0.46,
+            "color_index": 1
+          },
+          {
+            "id": "lower_to_basin_3_1",
+            "position": [
+              -3.269806953723433e-16,
+              {
+                "plane": "basin_water_top"
+              },
+              -1.78
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.2899999999999999,
+              1.04,
+              0.22000000000000006
+            ],
+            "phase": 0.34,
+            "lifetime": 0.57,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_3_2",
+            "position": [
+              -3.269806953723433e-16,
+              {
+                "plane": "basin_water_top"
+              },
+              -1.78
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.32,
+              0.76,
+              -0.10000000000000006
+            ],
+            "phase": 0.48000000000000004,
+            "lifetime": 0.4,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_3_3",
+            "position": [
+              -3.269806953723433e-16,
+              {
+                "plane": "basin_water_top"
+              },
+              -1.78
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.11999999999999994,
+              0.93,
+              0.33
+            ],
+            "phase": 0.6100000000000001,
+            "lifetime": 0.5,
+            "color_index": 1
+          },
+          {
+            "id": "lower_to_basin_3_4",
+            "position": [
+              -3.269806953723433e-16,
+              {
+                "plane": "basin_water_top"
+              },
+              -1.78
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.24000000000000002,
+              0.81,
+              -0.12999999999999995
+            ],
+            "phase": 0.74,
+            "lifetime": 0.43,
+            "color_index": 0
+          },
+          {
+            "id": "lower_to_basin_3_5",
+            "position": [
+              -3.269806953723433e-16,
+              {
+                "plane": "basin_water_top"
+              },
+              -1.78
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.18000000000000002,
+              1.0,
+              0.15999999999999998
+            ],
+            "phase": 0.8800000000000001,
+            "lifetime": 0.54,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_0_0",
+            "position": [
+              0.7636753236814714,
+              {
+                "plane": "lower_water_top"
+              },
+              0.7636753236814713
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.2757716446627535,
+              0.86,
+              0.0919238815542512
+            ],
+            "phase": 0.28,
+            "lifetime": 0.46,
+            "color_index": 1
+          },
+          {
+            "id": "upper_to_lower_0_1",
+            "position": [
+              0.7636753236814714,
+              {
+                "plane": "lower_water_top"
+              },
+              0.7636753236814713
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.04949747468305829,
+              1.04,
+              -0.36062445840513924
+            ],
+            "phase": 0.41000000000000003,
+            "lifetime": 0.57,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_0_2",
+            "position": [
+              0.7636753236814714,
+              {
+                "plane": "lower_water_top"
+              },
+              0.7636753236814713
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.1555634918610404,
+              0.76,
+              0.29698484809835
+            ],
+            "phase": 0.55,
+            "lifetime": 0.4,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_0_3",
+            "position": [
+              0.7636753236814714,
+              {
+                "plane": "lower_water_top"
+              },
+              0.7636753236814713
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.148492424049175,
+              0.93,
+              -0.31819805153394637
+            ],
+            "phase": 0.68,
+            "lifetime": 0.5,
+            "color_index": 1
+          },
+          {
+            "id": "upper_to_lower_0_4",
+            "position": [
+              0.7636753236814714,
+              {
+                "plane": "lower_water_top"
+              },
+              0.7636753236814713
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.2616295090390226,
+              0.81,
+              -0.07778174593052024
+            ],
+            "phase": 0.81,
+            "lifetime": 0.43,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_0_5",
+            "position": [
+              0.7636753236814714,
+              {
+                "plane": "lower_water_top"
+              },
+              0.7636753236814713
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.24041630560342617,
+              1.0,
+              0.014142135623730956
+            ],
+            "phase": 0.9500000000000001,
+            "lifetime": 0.54,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_1_0",
+            "position": [
+              -0.7636753236814713,
+              {
+                "plane": "lower_water_top"
+              },
+              0.7636753236814714
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.0919238815542512,
+              0.86,
+              -0.2757716446627535
+            ],
+            "phase": 0.35000000000000003,
+            "lifetime": 0.46,
+            "color_index": 1
+          },
+          {
+            "id": "upper_to_lower_1_1",
+            "position": [
+              -0.7636753236814713,
+              {
+                "plane": "lower_water_top"
+              },
+              0.7636753236814714
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.36062445840513924,
+              1.04,
+              0.04949747468305829
+            ],
+            "phase": 0.48000000000000004,
+            "lifetime": 0.57,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_1_2",
+            "position": [
+              -0.7636753236814713,
+              {
+                "plane": "lower_water_top"
+              },
+              0.7636753236814714
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.29698484809835,
+              0.76,
+              -0.1555634918610404
+            ],
+            "phase": 0.6200000000000001,
+            "lifetime": 0.4,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_1_3",
+            "position": [
+              -0.7636753236814713,
+              {
+                "plane": "lower_water_top"
+              },
+              0.7636753236814714
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.31819805153394637,
+              0.93,
+              -0.148492424049175
+            ],
+            "phase": 0.75,
+            "lifetime": 0.5,
+            "color_index": 1
+          },
+          {
+            "id": "upper_to_lower_1_4",
+            "position": [
+              -0.7636753236814713,
+              {
+                "plane": "lower_water_top"
+              },
+              0.7636753236814714
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.07778174593052024,
+              0.81,
+              0.2616295090390226
+            ],
+            "phase": 0.8800000000000001,
+            "lifetime": 0.43,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_1_5",
+            "position": [
+              -0.7636753236814713,
+              {
+                "plane": "lower_water_top"
+              },
+              0.7636753236814714
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.014142135623730956,
+              1.0,
+              -0.24041630560342617
+            ],
+            "phase": 1.02,
+            "lifetime": 0.54,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_2_0",
+            "position": [
+              -0.7636753236814715,
+              {
+                "plane": "lower_water_top"
+              },
+              -0.7636753236814713
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.27577164466275356,
+              0.86,
+              -0.09192388155425123
+            ],
+            "phase": 0.42000000000000004,
+            "lifetime": 0.46,
+            "color_index": 1
+          },
+          {
+            "id": "upper_to_lower_2_1",
+            "position": [
+              -0.7636753236814715,
+              {
+                "plane": "lower_water_top"
+              },
+              -0.7636753236814713
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.04949747468305826,
+              1.04,
+              0.36062445840513924
+            ],
+            "phase": 0.55,
+            "lifetime": 0.57,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_2_2",
+            "position": [
+              -0.7636753236814715,
+              {
+                "plane": "lower_water_top"
+              },
+              -0.7636753236814713
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.1555634918610404,
+              0.76,
+              -0.29698484809835
+            ],
+            "phase": 0.6900000000000001,
+            "lifetime": 0.4,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_2_3",
+            "position": [
+              -0.7636753236814715,
+              {
+                "plane": "lower_water_top"
+              },
+              -0.7636753236814713
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.14849242404917506,
+              0.93,
+              0.31819805153394637
+            ],
+            "phase": 0.8200000000000001,
+            "lifetime": 0.5,
+            "color_index": 1
+          },
+          {
+            "id": "upper_to_lower_2_4",
+            "position": [
+              -0.7636753236814715,
+              {
+                "plane": "lower_water_top"
+              },
+              -0.7636753236814713
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.2616295090390226,
+              0.81,
+              0.07778174593052027
+            ],
+            "phase": 0.9500000000000001,
+            "lifetime": 0.43,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_2_5",
+            "position": [
+              -0.7636753236814715,
+              {
+                "plane": "lower_water_top"
+              },
+              -0.7636753236814713
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.2404163056034262,
+              1.0,
+              -0.014142135623730984
+            ],
+            "phase": 1.09,
+            "lifetime": 0.54,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_3_0",
+            "position": [
+              0.7636753236814712,
+              {
+                "plane": "lower_water_top"
+              },
+              -0.7636753236814715
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.09192388155425124,
+              0.86,
+              0.2757716446627535
+            ],
+            "phase": 0.49000000000000005,
+            "lifetime": 0.46,
+            "color_index": 1
+          },
+          {
+            "id": "upper_to_lower_3_1",
+            "position": [
+              0.7636753236814712,
+              {
+                "plane": "lower_water_top"
+              },
+              -0.7636753236814715
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.36062445840513924,
+              1.04,
+              -0.049497474683058235
+            ],
+            "phase": 0.6200000000000001,
+            "lifetime": 0.57,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_3_2",
+            "position": [
+              0.7636753236814712,
+              {
+                "plane": "lower_water_top"
+              },
+              -0.7636753236814715
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.29698484809835,
+              0.76,
+              0.1555634918610404
+            ],
+            "phase": 0.76,
+            "lifetime": 0.4,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_3_3",
+            "position": [
+              0.7636753236814712,
+              {
+                "plane": "lower_water_top"
+              },
+              -0.7636753236814715
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.31819805153394637,
+              0.93,
+              0.14849242404917506
+            ],
+            "phase": 0.8900000000000001,
+            "lifetime": 0.5,
+            "color_index": 1
+          },
+          {
+            "id": "upper_to_lower_3_4",
+            "position": [
+              0.7636753236814712,
+              {
+                "plane": "lower_water_top"
+              },
+              -0.7636753236814715
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              -0.07778174593052029,
+              0.81,
+              -0.26162950903902255
+            ],
+            "phase": 1.02,
+            "lifetime": 0.43,
+            "color_index": 0
+          },
+          {
+            "id": "upper_to_lower_3_5",
+            "position": [
+              0.7636753236814712,
+              {
+                "plane": "lower_water_top"
+              },
+              -0.7636753236814715
+            ],
+            "offset_in_cell_sizes": [
+              0,
+              0.5,
+              0
+            ],
+            "velocity": [
+              0.014142135623730998,
+              1.0,
+              0.24041630560342614
+            ],
+            "phase": 1.1600000000000001,
+            "lifetime": 0.54,
+            "color_index": 0
+          }
+        ]
+      },
+      "palette": [
+        "#d6fcff",
+        "#72cfe9"
+      ],
+      "ballistic": {
+        "period": 0.8,
+        "acceleration": [
+          0,
+          -3.6,
+          0
+        ],
+        "up_axis": [
+          0,
+          1,
+          0
+        ],
+        "minimum_up_offset": 0,
+        "quantize_positions": true
+      }
+    }
+  ],
+  "source_lineage": {
+    "files": [
+      {
+        "path": "voxel_character/common/assets/fountain/master.json",
+        "sha256": "49d9288b70dd1ae36a9d3af2fefb5f6130caf9a8384bdbf11f677d558846d593"
+      },
+      {
+        "path": "voxel_character/master/fountain_master.json",
+        "sha256": "114643f5d9f639ac21629ba75a0c49724232c1013b65c16986577c17fb5b5f79"
+      },
+      {
+        "path": "voxel_character/master/cell_animation_preview/CellActor.gd",
+        "sha256": "a0c03fbcfc66faccc6322d41e9ccaac62fdbd7e13d1a1706e4fbe90064036621"
+      }
+    ],
+    "preserved": "Source flow colors/speed/bands; plume radius/height keys; all 48 explicit impact-linked ballistic trajectories/phases/lifetimes/size/colors; master coordinate space and unchanged collision semantics.",
+    "source_runtime_constants_retained": {
+      "column_base_color": "#189ed0",
+      "column_highlight_color": "#ecffff",
+      "column_step_rate": 8,
+      "column_cycle": 3
+    },
+    "static_visibility_policy": "Selected animated paints are excluded before static resampling. Hidden original static cells are restored, unlike deleting cells from the final composite.",
+    "not_evaluated": "Legacy alternative shader-uniform animation clip, collision response, fluid simulation and game integration.",
+    "sampling": "Direct analytic evaluation at explicitly authored 10 Hz. Optional 24-state oracle is not a playback input."
+  },
+  "static_layer_policy": "Exclude animated source paints before common sampling; remove static cells covered by explicitly occluding always-visible fixed source-grid pools. Variable-visibility/moving pools cannot occlude static geometry."
+}

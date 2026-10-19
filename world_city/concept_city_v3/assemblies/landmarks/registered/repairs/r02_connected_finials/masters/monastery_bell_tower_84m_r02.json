@@ -1,0 +1,1069 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "monastery_bell_tower_84m_r02",
+  "revision": 2,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "slate": "646f73",
+    "slate_dark": "4a565c",
+    "timber": "654631",
+    "timber_dark": "493729",
+    "glass": "314d55",
+    "glass_light": "54716e",
+    "iron": "394648",
+    "door": "946b45"
+  },
+  "components": [
+    {
+      "id": "masonry",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "masonry",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "bell_tower_west",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.5,
+              0,
+              -5.5
+            ],
+            "max": [
+              -4.8,
+              63.0,
+              5.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "bell_tower_east",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              4.8,
+              0,
+              -5.5
+            ],
+            "max": [
+              5.5,
+              63.0,
+              5.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "bell_tower_rear",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.8,
+              0,
+              -5.5
+            ],
+            "max": [
+              4.8,
+              63.0,
+              -4.8
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "bell_tower_front",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.8,
+              0,
+              4.8
+            ],
+            "max": [
+              4.8,
+              63.0,
+              5.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "bell_tower_top_deck",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.5,
+              62.35,
+              -5.5
+            ],
+            "max": [
+              5.5,
+              62.85,
+              5.5
+            ]
+          },
+          "material": "stone_dark"
+        }
+      ]
+    },
+    {
+      "id": "dressings",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "dressings",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "bell_tower_base_west",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.5,
+              0,
+              -5.5
+            ],
+            "max": [
+              -5.0,
+              0.6,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "bell_tower_base_east",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              5.0,
+              0,
+              -5.5
+            ],
+            "max": [
+              5.5,
+              0.6,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "bell_tower_base_rear",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              -5.5
+            ],
+            "max": [
+              5.0,
+              0.6,
+              -5.0
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "bell_tower_base_front",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              0,
+              5.0
+            ],
+            "max": [
+              5.0,
+              0.6,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "bell_tower_cornice_west",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.5,
+              62.4,
+              -5.5
+            ],
+            "max": [
+              -5.0,
+              63.0,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "bell_tower_cornice_east",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              5.0,
+              62.4,
+              -5.5
+            ],
+            "max": [
+              5.5,
+              63.0,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "bell_tower_cornice_rear",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              62.4,
+              -5.5
+            ],
+            "max": [
+              5.0,
+              63.0,
+              -5.0
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "bell_tower_cornice_front",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              62.4,
+              5.0
+            ],
+            "max": [
+              5.0,
+              63.0,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "stage_0.28_west",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.5,
+              23.520000000000003,
+              -5.5
+            ],
+            "max": [
+              -5.0,
+              24.020000000000003,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "stage_0.28_east",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              5.0,
+              23.520000000000003,
+              -5.5
+            ],
+            "max": [
+              5.5,
+              24.020000000000003,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "stage_0.28_rear",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              23.520000000000003,
+              -5.5
+            ],
+            "max": [
+              5.0,
+              24.020000000000003,
+              -5.0
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "stage_0.28_front",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              23.520000000000003,
+              5.0
+            ],
+            "max": [
+              5.0,
+              24.020000000000003,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "stage_0.46_west",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.5,
+              38.64,
+              -5.5
+            ],
+            "max": [
+              -5.0,
+              39.14,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "stage_0.46_east",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              5.0,
+              38.64,
+              -5.5
+            ],
+            "max": [
+              5.5,
+              39.14,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "stage_0.46_rear",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              38.64,
+              -5.5
+            ],
+            "max": [
+              5.0,
+              39.14,
+              -5.0
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "stage_0.46_front",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              38.64,
+              5.0
+            ],
+            "max": [
+              5.0,
+              39.14,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "stage_0.64_west",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.5,
+              53.76,
+              -5.5
+            ],
+            "max": [
+              -5.0,
+              54.26,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "stage_0.64_east",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              5.0,
+              53.76,
+              -5.5
+            ],
+            "max": [
+              5.5,
+              54.26,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "stage_0.64_rear",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              53.76,
+              -5.5
+            ],
+            "max": [
+              5.0,
+              54.26,
+              -5.0
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "stage_0.64_front",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -5.0,
+              53.76,
+              5.0
+            ],
+            "max": [
+              5.0,
+              54.26,
+              5.5
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "spire_finial",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.3,
+              80,
+              -0.3
+            ],
+            "max": [
+              0.3,
+              84,
+              0.3
+            ]
+          },
+          "material": "iron"
+        }
+      ]
+    },
+    {
+      "id": "roof",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "roof",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "bell_tower_spire",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "lathe",
+            "profile": [
+              [
+                5.5,
+                63.0
+              ],
+              [
+                0,
+                84
+              ],
+              [
+                0,
+                79
+              ],
+              [
+                4.5,
+                63.0
+              ]
+            ]
+          },
+          "material": "slate_dark",
+          "transform": {
+            "translation": [
+              0.0,
+              0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "windows",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "windows",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "bell_tower_slit_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.325,
+                35.28
+              ],
+              [
+                0.325,
+                35.28
+              ],
+              [
+                0.325,
+                37.008
+              ],
+              [
+                0,
+                37.68
+              ],
+              [
+                -0.325,
+                37.008
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              0.0,
+              0,
+              5.5
+            ]
+          }
+        },
+        {
+          "id": "bell_tower_slit_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.20800000000000002,
+                35.397
+              ],
+              [
+                0.20800000000000002,
+                35.397
+              ],
+              [
+                0.20800000000000002,
+                36.891000000000005
+              ],
+              [
+                0.0,
+                37.563
+              ],
+              [
+                -0.20800000000000002,
+                36.891000000000005
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "translation": [
+              0.0,
+              0,
+              5.5
+            ]
+          }
+        },
+        {
+          "id": "belfry_-2.31_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.99,
+                47.879999999999995
+              ],
+              [
+                0.99,
+                47.879999999999995
+              ],
+              [
+                0.99,
+                55.13759999999999
+              ],
+              [
+                0,
+                57.959999999999994
+              ],
+              [
+                -0.99,
+                55.13759999999999
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              -2.31,
+              0,
+              5.5
+            ]
+          }
+        },
+        {
+          "id": "belfry_-2.31_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.7399999999999999,
+                48.129999999999995
+              ],
+              [
+                0.7399999999999999,
+                48.129999999999995
+              ],
+              [
+                0.7399999999999999,
+                54.88759999999999
+              ],
+              [
+                0.0,
+                57.709999999999994
+              ],
+              [
+                -0.7399999999999999,
+                54.88759999999999
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "translation": [
+              -2.31,
+              0,
+              5.5
+            ]
+          }
+        },
+        {
+          "id": "belfry_-2.31_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              48.129999999999995,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              57.709999999999994,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              -2.31,
+              0,
+              5.5
+            ]
+          }
+        },
+        {
+          "id": "belfry_2.31_surround",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.99,
+                47.879999999999995
+              ],
+              [
+                0.99,
+                47.879999999999995
+              ],
+              [
+                0.99,
+                55.13759999999999
+              ],
+              [
+                0,
+                57.959999999999994
+              ],
+              [
+                -0.99,
+                55.13759999999999
+              ]
+            ],
+            "z_min": -0.65,
+            "z_max": 0
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              2.31,
+              0,
+              5.5
+            ]
+          }
+        },
+        {
+          "id": "belfry_2.31_pane",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -0.7399999999999999,
+                48.129999999999995
+              ],
+              [
+                0.7399999999999999,
+                48.129999999999995
+              ],
+              [
+                0.7399999999999999,
+                54.88759999999999
+              ],
+              [
+                0.0,
+                57.709999999999994
+              ],
+              [
+                -0.7399999999999999,
+                54.88759999999999
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": -0.01
+          },
+          "material": "glass",
+          "transform": {
+            "translation": [
+              2.31,
+              0,
+              5.5
+            ]
+          }
+        },
+        {
+          "id": "belfry_2.31_mullion",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.1,
+              48.129999999999995,
+              -0.5
+            ],
+            "max": [
+              0.1,
+              57.709999999999994,
+              -0.01
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "translation": [
+              2.31,
+              0,
+              5.5
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "masonry",
+      "component": "masonry"
+    },
+    {
+      "id": "dressings",
+      "component": "dressings"
+    },
+    {
+      "id": "roof",
+      "component": "roof"
+    },
+    {
+      "id": "windows",
+      "component": "windows"
+    }
+  ],
+  "assembly_cuts": [],
+  "constraints": [
+    {
+      "id": "landmark_present",
+      "kind": "nonempty",
+      "selector": {}
+    },
+    {
+      "id": "masonry_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "masonry"
+      }
+    },
+    {
+      "id": "dressings_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "dressings"
+      }
+    },
+    {
+      "id": "roof_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "roof"
+      }
+    },
+    {
+      "id": "windows_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "windows"
+      }
+    }
+  ],
+  "provenance": {
+    "source_files": [
+      {
+        "path": "world_city/data/city_brief.v2.json",
+        "sha256": "2a848ee765c035892cfe9eab20f96cd4fe6334e1043cfc0e54caab611fb1e8ae"
+      },
+      {
+        "path": "voxel_character/common/assets/house/master.json",
+        "sha256": "8c46e2372049a7f991af4aeda70e19cceaab775a96af3bdaf3662d65885305c3"
+      }
+    ],
+    "author": "world_city/runtime_city/landmarks/author.py",
+    "author_sha256": "d8011564264f85ec3d0725b0af5290d1e1727a52143fe50da69019dbc8f2a1e1",
+    "evidence": "design_inference_not_historical_reconstruction",
+    "observed_source": "Layout roles, total planning dimensions and common house material grammar.",
+    "inferred": "All architectural silhouettes, bays, shell thicknesses, roofs, towers, openings and decorative proportions.",
+    "source_of_geometry": "This continuous standard common master; compile independently at each requested pitch.",
+    "new_engine": false,
+    "registered_adaptation_author": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/build_audit.py",
+      "sha256": "af46507be2a676867c9c0a37f81fad6b07f0efbc1d5920848c1a32afed5f6fef"
+    },
+    "repair_author": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/repairs/r02_connected_finials/repair.py",
+      "sha256": "4e4648a39d2db9522d619c4e6c0a8a0b89a4f6d5a780c30267a75aa6cc5d092f"
+    },
+    "repair_parent_source": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/assembly_r01/masters/monastery_bell_tower_84m.json",
+      "sha256": "38208e1ba0edfe92651a3c641b8d2e9c974e163e6f6c1af7e009eab5fec258b6"
+    },
+    "repair_reason": "Actual r01 closeups show detached finial and perforated coarse taper; improve continuous source occupancy without editing sampled cells."
+  },
+  "extensions": {
+    "landmark_kind": "wall_tower",
+    "total_envelope_m": {
+      "min": [
+        -5.5,
+        0,
+        -5.5
+      ],
+      "max": [
+        5.5,
+        84.0,
+        5.5
+      ]
+    },
+    "dimensions_m": {
+      "width": 11.0,
+      "depth": 11.0,
+      "height": 84.0
+    },
+    "exterior_features": [],
+    "entrances": [],
+    "secondary_openings": [],
+    "secondary_opening_support": {
+      "rear_half_ground_shell_retained": false,
+      "status": "geometric_ground_support_only_not_structural_engineering",
+      "clearance_is_game_design_inference": true
+    },
+    "scope": {
+      "exterior": "authored",
+      "interior": "not_authored",
+      "physics": "not_authored",
+      "visual_review": "not_run",
+      "historical_reconstruction": false
+    },
+    "construction": "Thin shell walls, bounded roof slope strips, supported cornices; no dense building fill.",
+    "sampling_policy": "Unmodified common coordinate_planes/core and render_data; no alternate LOD master or output-cell repair.",
+    "status": "source_only_cost_feasibility_fixture",
+    "actual_scene_placement": false,
+    "intended_use": "One fictional bell tower. No stair, bell animation, internal access, structural or collision certification.",
+    "body_top_m": 63.0,
+    "spire_top_m": 84,
+    "apex_detail": "Continuous 0.6 m square, 2 m high iron finial preserves the chosen silhouette height at exterior pitch. No postcompile voxel edit.",
+    "coarse_spire_repair": {
+      "outer_radius_m": 5.5,
+      "base_y_m": 63.0,
+      "top_y_m": 84,
+      "inner_apex_y_m": 79,
+      "base_radial_thickness_m": 1,
+      "finial_min_y_m": 80,
+      "finial_max_y_m": 84,
+      "finial_square_width_m": 0.6,
+      "outer_silhouette_unchanged": true,
+      "source_tip_height_unchanged": true,
+      "actual_visual_review": false
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "riverstone.roof.material_tone_rules.v1",
+  "asset_key": "registered_main_gate_header",
+  "canonical_catalog_path": "world_city/concept_city_v3/near_detail_r01/city_upgrade/facility_openings/batch_r01/gate_headers_r01/canonical/generated/catalog.json",
+  "base_contact_plan_path": "world_city/concept_city_v3/near_detail_r01/city_upgrade/facility_openings/batch_r01/gate_headers_r01/contact_plan/registered_main_gate_header.plan.json",
+  "base_tile_material": "slate",
+  "underlay_material": "slate_dark",
+  "material_role_aliases": [
+    {
+      "material_id": "slate_tile_tone_dark",
+      "base_material_id": "slate",
+      "luminance_multiplier": 0.92
+    },
+    {
+      "material_id": "slate_tile_tone_mid",
+      "base_material_id": "slate",
+      "luminance_multiplier": 1.0
+    },
+    {
+      "material_id": "slate_tile_tone_light",
+      "base_material_id": "slate",
+      "luminance_multiplier": 1.08
+    }
+  ],
+  "tile_tones": [
+    {
+      "material_id": "slate_tile_tone_dark",
+      "upper_percentile": 20
+    },
+    {
+      "material_id": "slate_tile_tone_mid",
+      "upper_percentile": 80
+    },
+    {
+      "material_id": "slate_tile_tone_light",
+      "upper_percentile": 100
+    }
+  ],
+  "seed": "sha256(original source SHA|exact whole tile operation ID)",
+  "geometry_changes_allowed": false
+}

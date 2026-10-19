@@ -1,0 +1,297 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_curtain_closure_18_0",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "earth": "77765a",
+    "grass": "6f7959",
+    "stone": "9e9b88",
+    "stone_light": "aaa794",
+    "stone_dark": "888a7d",
+    "mortar": "777b71",
+    "water": "427a83",
+    "timber": "796047",
+    "timber_light": "8c7255"
+  },
+  "coordinate_planes": [],
+  "components": [
+    {
+      "id": "module",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "op_0000",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.8263131038958988,
+              0,
+              -1.5
+            ],
+            "max": [
+              1.8263131038958988,
+              18.0,
+              1.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "op_0001",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.8263131038958988,
+              2,
+              -1.5
+            ],
+            "max": [
+              1.8263131038958988,
+              2.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0002",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.8263131038958988,
+              4,
+              -1.5
+            ],
+            "max": [
+              1.8263131038958988,
+              4.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0003",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.8263131038958988,
+              6,
+              -1.5
+            ],
+            "max": [
+              1.8263131038958988,
+              6.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0004",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.8263131038958988,
+              8,
+              -1.5
+            ],
+            "max": [
+              1.8263131038958988,
+              8.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0005",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.8263131038958988,
+              10,
+              -1.5
+            ],
+            "max": [
+              1.8263131038958988,
+              10.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0006",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.8263131038958988,
+              12,
+              -1.5
+            ],
+            "max": [
+              1.8263131038958988,
+              12.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0007",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.8263131038958988,
+              14,
+              -1.5
+            ],
+            "max": [
+              1.8263131038958988,
+              14.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0008",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.8263131038958988,
+              16,
+              -1.5
+            ],
+            "max": [
+              1.8263131038958988,
+              16.25,
+              1.5
+            ]
+          },
+          "material": "stone_dark"
+        },
+        {
+          "id": "op_0009",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              18.0,
+              -1.5
+            ],
+            "max": [
+              0.5,
+              19.0,
+              -0.75
+            ]
+          },
+          "material": "stone_light"
+        }
+      ]
+    },
+    {
+      "id": "bearing",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "footing",
+          "part": "solid",
+          "action": "paint",
+          "material": "stone_dark",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.8263131038958988,
+              -1.0,
+              -2
+            ],
+            "max": [
+              1.8263131038958988,
+              0,
+              2
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "module_0",
+      "component": "module"
+    },
+    {
+      "id": "bearing",
+      "component": "bearing"
+    }
+  ],
+  "metadata": {
+    "authoring": "bounded_common_master_only",
+    "spec": {
+      "kind": "wall_panel",
+      "width_m": 3.6526262077917977,
+      "depth_m": 3,
+      "height_m": 18,
+      "battlements": true,
+      "battlement_height_m": 1,
+      "battlement_spacing_m": 2
+    },
+    "datum": "walking surfaces Y=0; river surface Y=-2; candidate terrain elevations not realized"
+  },
+  "provenance": {
+    "placement_author": {
+      "path": "world_city/concept_city_v3/assemblies/fortifications/registered/resolve_pack.py",
+      "sha256": "ec99c890623ccefac1d8f5c12026fb19ed0337eacfa83c1b2045237e8fe59071"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+config_version=5
+[application]
+config/name="Riverstone City R9 Exterior Review"
+run/main_scene="res://City.tscn"
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=820
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

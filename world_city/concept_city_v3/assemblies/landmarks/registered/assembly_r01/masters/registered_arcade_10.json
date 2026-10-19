@@ -1,0 +1,712 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_arcade_10",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "slate": "646f73",
+    "slate_dark": "4a565c",
+    "timber": "654631",
+    "timber_dark": "493729",
+    "glass": "314d55",
+    "glass_light": "54716e",
+    "iron": "394648",
+    "door": "946b45"
+  },
+  "components": [
+    {
+      "id": "arcade",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "arcade",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "arch_-3.4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2,
+              0,
+              -3.75
+            ],
+            "max": [
+              2,
+              6.0,
+              -3.05
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "opening_-3.4",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -1.35,
+                0
+              ],
+              [
+                1.35,
+                0
+              ],
+              [
+                1.35,
+                3.84
+              ],
+              [
+                0,
+                5.4
+              ],
+              [
+                -1.35,
+                3.84
+              ]
+            ],
+            "z_min": -3.76,
+            "z_max": -3.04
+          }
+        },
+        {
+          "id": "arch_3.4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2,
+              0,
+              3.05
+            ],
+            "max": [
+              2,
+              6.0,
+              3.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "opening_3.4",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -1.35,
+                0
+              ],
+              [
+                1.35,
+                0
+              ],
+              [
+                1.35,
+                3.84
+              ],
+              [
+                0,
+                5.4
+              ],
+              [
+                -1.35,
+                3.84
+              ]
+            ],
+            "z_min": 3.04,
+            "z_max": 3.76
+          }
+        }
+      ]
+    },
+    {
+      "id": "roof",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "roof",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "gallery_left_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -4.0,
+                6.0
+              ],
+              [
+                -2.0,
+                8.0
+              ],
+              [
+                -2.0,
+                7.4
+              ],
+              [
+                -4.0,
+                5.4
+              ]
+            ],
+            "z_min": -2,
+            "z_max": 2
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "gallery_left_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -2.0,
+                8.0
+              ],
+              [
+                0.0,
+                10.0
+              ],
+              [
+                0.0,
+                9.4
+              ],
+              [
+                -2.0,
+                7.4
+              ]
+            ],
+            "z_min": -2,
+            "z_max": 2
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "gallery_right_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                0.0,
+                10.0
+              ],
+              [
+                2.0,
+                8.0
+              ],
+              [
+                2.0,
+                7.4
+              ],
+              [
+                0.0,
+                9.4
+              ]
+            ],
+            "z_min": -2,
+            "z_max": 2
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "gallery_right_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                2.0,
+                8.0
+              ],
+              [
+                4.0,
+                6.0
+              ],
+              [
+                4.0,
+                5.4
+              ],
+              [
+                2.0,
+                7.4
+              ]
+            ],
+            "z_min": -2,
+            "z_max": 2
+          },
+          "material": "slate",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "gallery_ridge",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.18,
+              9.4,
+              -2
+            ],
+            "max": [
+              0.18,
+              10,
+              2
+            ]
+          },
+          "material": "slate_dark",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "masonry",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "masonry",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "gallery_gable_rear",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -4,
+                5.4
+              ],
+              [
+                4,
+                5.4
+              ],
+              [
+                0.0,
+                9.4
+              ]
+            ],
+            "z_min": -2,
+            "z_max": -1.5
+          },
+          "material": "stone_dark",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "gallery_gable_front",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -4,
+                5.4
+              ],
+              [
+                4,
+                5.4
+              ],
+              [
+                0.0,
+                9.4
+              ]
+            ],
+            "z_min": 1.5,
+            "z_max": 2
+          },
+          "material": "stone_dark",
+          "transform": {
+            "basis": [
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "owned_floor",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "owned_floor",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "bearing_floor",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.0,
+              -0.5,
+              -4.0
+            ],
+            "max": [
+              2.0,
+              0,
+              4.0
+            ]
+          },
+          "material": "stone_dark"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "arcade",
+      "component": "arcade"
+    },
+    {
+      "id": "roof",
+      "component": "roof"
+    },
+    {
+      "id": "masonry",
+      "component": "masonry"
+    },
+    {
+      "id": "owned_floor",
+      "component": "owned_floor"
+    }
+  ],
+  "assembly_cuts": [],
+  "constraints": [
+    {
+      "id": "landmark_present",
+      "kind": "nonempty",
+      "selector": {}
+    },
+    {
+      "id": "arcade_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "arcade"
+      }
+    },
+    {
+      "id": "roof_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "roof"
+      }
+    },
+    {
+      "id": "masonry_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "masonry"
+      }
+    },
+    {
+      "id": "owned_floor_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "owned_floor"
+      }
+    }
+  ],
+  "provenance": {
+    "source_files": [
+      {
+        "path": "world_city/data/city_brief.v2.json",
+        "sha256": "2a848ee765c035892cfe9eab20f96cd4fe6334e1043cfc0e54caab611fb1e8ae"
+      },
+      {
+        "path": "voxel_character/common/assets/house/master.json",
+        "sha256": "8c46e2372049a7f991af4aeda70e19cceaab775a96af3bdaf3662d65885305c3"
+      }
+    ],
+    "author": "world_city/runtime_city/landmarks/author.py",
+    "author_sha256": "d8011564264f85ec3d0725b0af5290d1e1727a52143fe50da69019dbc8f2a1e1",
+    "evidence": "design_inference_not_historical_reconstruction",
+    "observed_source": "Layout roles, total planning dimensions and common house material grammar.",
+    "inferred": "All architectural silhouettes, bays, shell thicknesses, roofs, towers, openings and decorative proportions.",
+    "source_of_geometry": "This continuous standard common master; compile independently at each requested pitch.",
+    "new_engine": false,
+    "registered_author": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/author_assemblies.py",
+      "sha256": "5d496439bcdc74dd2717cabdec909fe92313b3c80f293914f5440e48b097af9b"
+    }
+  },
+  "extensions": {
+    "landmark_kind": "monastery",
+    "total_envelope_m": {
+      "min": [
+        -2.0,
+        0,
+        -4.0
+      ],
+      "max": [
+        2.0,
+        10.0,
+        4.0
+      ]
+    },
+    "dimensions_m": {
+      "width": 4.0,
+      "depth": 8.0,
+      "height": 10.0
+    },
+    "exterior_features": [],
+    "entrances": [],
+    "secondary_openings": [],
+    "secondary_opening_support": {
+      "rear_half_ground_shell_retained": false,
+      "status": "geometric_ground_support_only_not_structural_engineering",
+      "clearance_is_game_design_inference": true
+    },
+    "scope": {
+      "exterior": "authored",
+      "interior": "not_authored",
+      "physics": "not_authored",
+      "visual_review": "not_run",
+      "historical_reconstruction": false
+    },
+    "construction": "Thin shell walls, bounded roof slope strips, supported cornices; no dense building fill.",
+    "sampling_policy": "Unmodified common coordinate_planes/core and render_data; no alternate LOD master or output-cell repair.",
+    "registered_module_kind": "covered_pointed_arcade",
+    "local_bounds_m": {
+      "min": [
+        -2.0,
+        -0.5,
+        -4.0
+      ],
+      "max": [
+        2.0,
+        10.0,
+        4.0
+      ]
+    },
+    "owned_floor_depth_m": 0.5,
+    "status": "registered_common_module_candidate",
+    "actual_scene_loaded": false,
+    "actual_visual_review": false
+  }
+}

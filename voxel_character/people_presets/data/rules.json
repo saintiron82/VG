@@ -1,0 +1,50 @@
+{
+  "schema": "riverstone.people.preset_rules.v1",
+  "generator_version": 1,
+  "family": "humanoid_city_v1",
+  "seed_policy": "SHA-256 of version, seed, stable person ID and independent field tag; append/reorder does not change existing people",
+  "body_frames": ["slender", "standard", "broad"],
+  "faces": ["soft", "angular"],
+  "hair_styles": ["braided", "loose", "cropped"],
+  "outfits": ["traveller_tunic", "work_tunic", "guard_tabard"],
+  "accessories": [{"cape": false, "satchel": false}, {"cape": false, "satchel": true}, {"cape": true, "satchel": false}, {"cape": true, "satchel": true}],
+  "skin_palettes": {
+    "porcelain": {"skin": "edc4aa", "skin_shadow": "b87c65", "skin_light": "ffe3cb", "lip": "ad6667", "lip_light": "d68b88"},
+    "rose": {"skin": "dca78f", "skin_shadow": "9b6253", "skin_light": "f4c6ae", "lip": "984f55", "lip_light": "c57b7a"},
+    "olive": {"skin": "bf956b", "skin_shadow": "806047", "skin_light": "dfb98d", "lip": "8c554a", "lip_light": "b57965"},
+    "bronze": {"skin": "a87754", "skin_shadow": "6a4535", "skin_light": "ce9c76", "lip": "79443e", "lip_light": "aa6c5b"},
+    "umber": {"skin": "80563e", "skin_shadow": "4c3229", "skin_light": "ac7b5a", "lip": "573336", "lip_light": "8a5650"},
+    "deep": {"skin": "573b31", "skin_shadow": "302321", "skin_light": "835a45", "lip": "38242b", "lip_light": "684043"}
+  },
+  "hair_palettes": {
+    "raven": ["302b2d", "51464a", "17151a"],
+    "chestnut": ["62432f", "92704a", "382a22"],
+    "copper": ["a45d36", "cf8750", "623b2b"],
+    "flax": ["c3a06b", "e4c594", "8d7048"],
+    "ash": ["77716b", "a5a19a", "4a4745"],
+    "silver": ["b6bec5", "e6e9ed", "7b8795"]
+  },
+  "cloth_palettes": {
+    "river_teal": ["376d6e", "659293", "24484e"],
+    "madder": ["8c4542", "b46f61", "552d32"],
+    "ochre": ["a17e3c", "c5a35d", "6e542c"],
+    "woad": ["405a7a", "6a81a0", "2b3a54"],
+    "moss": ["66734b", "929d70", "424c35"],
+    "plum": ["71536d", "9c7891", "463449"],
+    "undyed": ["a59a83", "cec1a6", "746b5c"],
+    "charcoal": ["4b4c4a", "767974", "2e3231"]
+  },
+  "linen_palettes": {"cream": ["e4d6b9", "b9aa8e"], "oat": ["c7b394", "968266"], "grey": ["b5b8ad", "858b83"]},
+  "leather_palettes": {"tan": ["89623d", "ad8155", "503d2c"], "brown": ["62432f", "8b6448", "392c23"], "oxblood": ["693c37", "965b4f", "3e292a"], "dark": ["3f3834", "65574a", "252222"]},
+  "iris_palettes": {"hazel": ["897549", "baa474"], "green": ["4c7358", "82a279"], "blue": ["4a6d92", "84a6bb"], "brown": ["654332", "9c7150"], "grey": ["727b7d", "a1afb0"], "teal": ["407f7f", "79b8ad"]},
+  "fixed_palette": {"brass": "b4914c", "eye_white": "eee9d9", "pupil": "171d24", "sole": "292724"},
+  "limits": {
+    "adults_only": true,
+    "no_runtime_population_instantiation": true,
+    "no_skin_role_or_status_correlation": true,
+    "no_per_person_generator": true,
+    "detailed_reference_pitch_m": 0.02,
+    "bulk_mesh_build": false,
+    "visual_acceptance_required": true
+  }
+}

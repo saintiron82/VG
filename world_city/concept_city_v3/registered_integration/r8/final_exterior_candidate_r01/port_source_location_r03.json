@@ -1,0 +1,902 @@
+{
+  "schema": "riverstone.port_exact_source_location.v1",
+  "binding": {
+    "path": "world_city/concept_city_v3/registered_integration/r8/final_exterior_candidate_r01/noble_cap_bridge_binding.json",
+    "sha256": "c9476a7251e2977bb7bed77590bf80ebe2bc580ccccd3a2960cd080946af3f90"
+  },
+  "requests": {
+    "path": "world_city/concept_city_v3/assemblies/waterworks/registered_bridge/port_approach_r01/ownership_requests_r03.json",
+    "sha256": "dcfe1b2bae5b8603e6a97130e0b5e51f476cfc669bc45204b8308905c8bae405"
+  },
+  "rows": [
+    {
+      "request_index": 0,
+      "triangle_sha256": "cb40000d9418a9e831ca2a740fda3af5e54e056841cb0aea247f7b64e2f9b335",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "ground",
+          "triangle_index": 32495,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 1,
+      "triangle_sha256": "25c715601be4311ba45f6fa3fe35bdad2a1b9da12420f709ce7909c9b880ea16",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "ground",
+          "triangle_index": 32499,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 2,
+      "triangle_sha256": "8cc132850e20364bb1fd9286d9a32bf593002ee46c6e350bed11a88f096a03cb",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "ground",
+          "triangle_index": 32500,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 3,
+      "triangle_sha256": "5bba38603c1b582a692eae2027cf2b7b503de7d5a23123865e0a5e8dd2b20988",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "ground",
+          "triangle_index": 32501,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 4,
+      "triangle_sha256": "da43c27ce3adcd00327090bdc8fbe01a7af4e24dd0fb29c6f7b532dd97f3be62",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "ground",
+          "triangle_index": 32502,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 5,
+      "triangle_sha256": "81f23f06f2cdc31d627070f44ab09d68667e821cecc7b7720fe24f556cf78a6f",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "ground",
+          "triangle_index": 32503,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 6,
+      "triangle_sha256": "87278295d4f4e57992fb2719b928a6c58013c809c6af74ffd189010633f012d7",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "ground",
+          "triangle_index": 32508,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 7,
+      "triangle_sha256": "ef7db0790bc086482de76fe3428776b1233b41cfeb02bf31289b7f511c1f1d0e",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "ground",
+          "triangle_index": 32509,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 8,
+      "triangle_sha256": "c9422ed1bf3e3f3226c0806cc5fd9c0ab6a1f12ced6256f816e78bc3eef7c5ef",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "ground",
+          "triangle_index": 32510,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 9,
+      "triangle_sha256": "c75a216eaa23f778e73071a3678465c8424900884cf99b5aaf28acef4c984414",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "ground",
+          "triangle_index": 32546,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 10,
+      "triangle_sha256": "9402ae551b4bfffe50659ed41633740e51242ff26686a89032d6d72297158fee",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "ground",
+          "triangle_index": 32547,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 11,
+      "triangle_sha256": "c59509c2f1e5319f5979958ff67de6cdada101e9f0b35d3572da83a5c58518ef",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "ground",
+          "triangle_index": 32666,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 12,
+      "triangle_sha256": "605c8fa1464c31380fb2cb72a02ab6962323bef00f794cc39e63062a3b713d12",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "ground",
+          "triangle_index": 32667,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 13,
+      "triangle_sha256": "af63537e39f24a0e66ddaa54ab774ae28617d9b31089ba40166316d63ebb923c",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68662,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 14,
+      "triangle_sha256": "aae677f89206a94df50f4e38fa0d802e363e3ce8801f871abd2b2b3106cb76c6",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68663,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 15,
+      "triangle_sha256": "fb5c5a329d0eff45533172907b128ffec278d553379243cf5643298ec5dabd86",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68664,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 16,
+      "triangle_sha256": "ee94cf1f25e648f4193e4c035d004f42e695f54d61b243182c38b430778bc0a4",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68665,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 17,
+      "triangle_sha256": "aec06317c7816142d38b927476e436c40b3e4e92330cb1046e6c224fd8e34eca",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68666,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 18,
+      "triangle_sha256": "1893eb31aab6ee9b4b250bd4d30b2da8e52b030f5697a9218ab4838fca25ae27",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68667,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 19,
+      "triangle_sha256": "64773ed4fccb0f26c379c21494cde8e456ba872cc4ac22ade9600ca0858236ac",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68668,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 20,
+      "triangle_sha256": "2af5e156393f56b59ce2eae38319fd6ad7807aa3962f0249975bc5cd7fca14a0",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68669,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 21,
+      "triangle_sha256": "5f71977edc93f0b90bb350eeffbca25add56dd387377aac27edb6591f8acefeb",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68670,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 22,
+      "triangle_sha256": "251f8792ce056a771ac733b676ff9cfba915c7608303bc311f99a26a702de519",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68673,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 23,
+      "triangle_sha256": "a20cfc6939170ef9c40419ca462e2d570e7d507d9bffcea27b96b3b6f588a98a",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68674,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 24,
+      "triangle_sha256": "7f524f9ea45f3d3e71563dfdaa6031608c9db8d9d5c040f5b8b422b026d6d44f",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68675,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 25,
+      "triangle_sha256": "9b59f4fc0c706b3c1418b65435c6d4a072cb792b5af78a30c9e292b815bf3078",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68676,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 26,
+      "triangle_sha256": "3e12180ea042598e4f2a8be54d272c5d7f37c0d3e12aea5dd21781e8391ccee2",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68677,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 27,
+      "triangle_sha256": "77f1c8a762a8b7c12954fd6d437b0f6eee3f27e46f73b3964b01b256622842d7",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68678,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 28,
+      "triangle_sha256": "43c0a7c981ab38f39366d4f13175c5135e87d3d61089d0942963aaac81fa7072",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68679,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 29,
+      "triangle_sha256": "b874497a621b80e6c21118fb53109d55cf316353d311d5fd702bd993f49108e2",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68680,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 30,
+      "triangle_sha256": "e6c345ba13c5877a203de19ba82c62dc581b3aaa062c3d679f5f3d287204dccd",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68681,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 31,
+      "triangle_sha256": "6d73094f0fe4d86764bdf6a5e43c6de7749ab8453aba09c7d1a49de85767a4c5",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68682,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 32,
+      "triangle_sha256": "f16e21b919ba30fc1e8c7d4439eeb939817b57e0b8454af573e11c20323d0f89",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68683,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 33,
+      "triangle_sha256": "5f7832fa15ea184b6569781e9e72587f91b893771cc1ec693502b77a136bbccf",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68684,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 34,
+      "triangle_sha256": "b45ca47ff328b9fac833a7ed29fbcceff270fa93f085e6981fcc42f7de8c4e3f",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68685,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 35,
+      "triangle_sha256": "a4b5a7553d8f777c3e331497f761c0d8719a92fbbd354486d48654faade20287",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68686,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 36,
+      "triangle_sha256": "db276edd672287ae6544fa8f9012c36ee0308a3a144c234b4335e69a1ad020ae",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68687,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 37,
+      "triangle_sha256": "5898798d5d5de99735f48feaa16b864639ba9db38a9f489138bfa464274c958f",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68688,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 38,
+      "triangle_sha256": "ccc8cce5aafe43b4b72b9e1d6023153486ba3dabaccd2577b062acb79f280be5",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68689,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 39,
+      "triangle_sha256": "14045703cdfe950df29ceed1fcda46821c3e8aa44952b2aa05e932d88c654f0f",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68690,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 40,
+      "triangle_sha256": "e35347937e1fe63e66b1b51194f44986bf95bda8b2fb1a9519b0b43faeb4a571",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68691,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 41,
+      "triangle_sha256": "a3f50f1764e643b6ced4576634ace6c69f045317d34670fbfb1af640b859e167",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68692,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 42,
+      "triangle_sha256": "0be634fa49b9da74ee9ce4be7cdd66cf7a7ed5db6fc0320ceac5f7bfa66b5b71",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68694,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 43,
+      "triangle_sha256": "2194202c6fae81c393ffa94e58d08dcf3816f7b18f64ba6abf9fc79a78308518",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68695,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 44,
+      "triangle_sha256": "5a278dfefd7ce88bfafaf95202ed227e4bee944768fa334001246ea08e94b00b",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68696,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 45,
+      "triangle_sha256": "c3accabe547f921776acf8fa8b86db8e339f8d39d3870d9697600fc1749ece53",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68697,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 46,
+      "triangle_sha256": "909947dc88571d8135587791e29dc8acbdc2475cafa9da986b14b9c6d0e365b2",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68698,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 47,
+      "triangle_sha256": "e7a8088086960828ef8bc8b07ec026ce84cddbf1a52f6d49c207c8d4b51b1ed3",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68699,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 48,
+      "triangle_sha256": "ded3c89c026e370e533cdb83a74e0a6a1ef055a84e1edd75718e79edb0a44887",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68700,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 49,
+      "triangle_sha256": "a73b8da863d33c879701610af7e2a231ff14ce87256558b2ad748f87f1c9240e",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68701,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 50,
+      "triangle_sha256": "35dd87e8680e5d5d036ccbc5197169d47ff77bf49230757d5640ccf68981b838",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68702,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 51,
+      "triangle_sha256": "0a294c30d5fa142356da4b2b5d5eeddaf01db56dfb7a4bb5aca1d5c79503e9ac",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68703,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 52,
+      "triangle_sha256": "4d3ee945e48e7bc7f3415f4ecbc4e7660635dacc7e5ef474676798ae159249bb",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68704,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 53,
+      "triangle_sha256": "8eb0a86450fab99def8634793f71405ff97266eeb9d432cf543ee3e63af72bf6",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68705,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 54,
+      "triangle_sha256": "2ac8ed4d0e6b2bd9ccf5e278a67c7dd9675e5eac8dc4c0c7eb650f4f703723d2",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68706,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 55,
+      "triangle_sha256": "4627701875c568196c8d03b2d5dd6a1998c3a5f58946d4eeaff4a6324af82a84",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "road",
+          "triangle_index": 68707,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 56,
+      "triangle_sha256": "3b298aa4e38df7f2d9f3ea47d740725519e6b2870e3c43b5f256dbb6d456b3bc",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "land_D_PORT",
+          "triangle_index": 17188,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 57,
+      "triangle_sha256": "b2974710a6007df8d3f20b5c5ac9ba225279b143b79258ca657b16244ac35429",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "land_D_PORT",
+          "triangle_index": 17189,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    },
+    {
+      "request_index": 58,
+      "triangle_sha256": "a234919ab3aee9ba1da090e7405b5b13fa558577fd45ab8db01c1b5aaac9a102",
+      "locations": [
+        {
+          "kind": "base",
+          "material": "land_D_PORT",
+          "triangle_index": 17214,
+          "source": {
+            "path": "world_city/concept_city_v3/evidence/visual_registered_common_r7_palette_r01/scene.json",
+            "sha256": "1429ae51b7c72b12940dcf0dd7e12c2684cab95f81735d228bba64dc819317c1"
+          }
+        }
+      ]
+    }
+  ],
+  "unique": 59,
+  "missing": [],
+  "ambiguous": [],
+  "seconds": 12.942634752005688
+}

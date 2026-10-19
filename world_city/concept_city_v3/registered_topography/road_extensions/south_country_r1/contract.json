@@ -1,0 +1,421 @@
+{
+  "schema": "riverstone.finite_country_road.v1",
+  "status": "reconstructed_source_profile_validated_pending_owned_terrain_integration",
+  "source_plan": {
+    "path": "world_city/concept_city_v3/registered_source/plan.json",
+    "sha256": "685592393dd5b3bffa189d497db8bff14ba4d893d5d81089a66427bd5a6b588c"
+  },
+  "native_bridge": {
+    "path": "world_city/concept_city_v3/assemblies/waterworks/registered_bridge/drawbridge_candidate/resolved_placements.json",
+    "sha256": "de1663faae0ee408876c4d984e8d85072010cbf5bcf714e9e1993b8a5953f90e",
+    "render_path": "world_city/concept_city_v3/assemblies/waterworks/registered_bridge/drawbridge_candidate/cache/stone_approaches.pitch_0.25.render.json",
+    "render_sha256": "b32f7d1b1d7b74e68b1f9b203f9f491a2789793b310a839d6fabdb2831ccac78"
+  },
+  "route_id": "SOUTH_COUNTRY_ROAD",
+  "width_m": 7.0,
+  "centerline_xyz_m": [
+    [
+      138.78569669685314,
+      1.25,
+      562.0801276749928
+    ],
+    [
+      138.904126,
+      1.25,
+      569.585502
+    ],
+    [
+      144.382458,
+      1.0,
+      600.758913
+    ],
+    [
+      154.57411,
+      1.0,
+      654.848599
+    ]
+  ],
+  "cross_sections_xyz_m": [
+    [
+      [
+        142.25448742940026,
+        1.25,
+        561.6137685282022
+      ],
+      [
+        135.31690596430602,
+        1.25,
+        562.5464868217834
+      ]
+    ],
+    [
+      [
+        142.36805063592158,
+        1.25,
+        569.0842773830312
+      ],
+      [
+        135.4402013640784,
+        1.25,
+        570.0867266169688
+      ]
+    ],
+    [
+      [
+        147.8248055226049,
+        1.0,
+        600.1262649670338
+      ],
+      [
+        140.94011047739514,
+        1.0,
+        601.3915610329663
+      ]
+    ],
+    [
+      [
+        158.01358728740902,
+        1.0,
+        654.2005280244138
+      ],
+      [
+        151.13463271259096,
+        1.0,
+        655.4966699755863
+      ]
+    ]
+  ],
+  "triangles": [
+    {
+      "owner_id": "SOUTH_COUNTRY_ROAD:0:0",
+      "route_id": "SOUTH_COUNTRY_ROAD",
+      "kind": "country_road_preview",
+      "material": "road",
+      "material_hint": "road",
+      "polygon_xz_m": [
+        [
+          142.25448742940026,
+          561.6137685282022
+        ],
+        [
+          142.36805063592158,
+          569.0842773830312
+        ],
+        [
+          135.4402013640784,
+          570.0867266169688
+        ]
+      ],
+      "vertices_xyz_m": [
+        [
+          142.25448742940026,
+          1.25,
+          561.6137685282022
+        ],
+        [
+          142.36805063592158,
+          1.25,
+          569.0842773830312
+        ],
+        [
+          135.4402013640784,
+          1.25,
+          570.0867266169688
+        ]
+      ],
+      "render_surface": true
+    },
+    {
+      "owner_id": "SOUTH_COUNTRY_ROAD:0:1",
+      "route_id": "SOUTH_COUNTRY_ROAD",
+      "kind": "country_road_preview",
+      "material": "road",
+      "material_hint": "road",
+      "polygon_xz_m": [
+        [
+          142.25448742940026,
+          561.6137685282022
+        ],
+        [
+          135.4402013640784,
+          570.0867266169688
+        ],
+        [
+          135.31690596430602,
+          562.5464868217834
+        ]
+      ],
+      "vertices_xyz_m": [
+        [
+          142.25448742940026,
+          1.25,
+          561.6137685282022
+        ],
+        [
+          135.4402013640784,
+          1.25,
+          570.0867266169688
+        ],
+        [
+          135.31690596430602,
+          1.25,
+          562.5464868217834
+        ]
+      ],
+      "render_surface": true
+    },
+    {
+      "owner_id": "SOUTH_COUNTRY_ROAD:1:0",
+      "route_id": "SOUTH_COUNTRY_ROAD",
+      "kind": "country_road_preview",
+      "material": "road",
+      "material_hint": "road",
+      "polygon_xz_m": [
+        [
+          142.36805063592158,
+          569.0842773830312
+        ],
+        [
+          147.8248055226049,
+          600.1262649670338
+        ],
+        [
+          140.94011047739514,
+          601.3915610329663
+        ]
+      ],
+      "vertices_xyz_m": [
+        [
+          142.36805063592158,
+          1.25,
+          569.0842773830312
+        ],
+        [
+          147.8248055226049,
+          1.0,
+          600.1262649670338
+        ],
+        [
+          140.94011047739514,
+          1.0,
+          601.3915610329663
+        ]
+      ],
+      "render_surface": true
+    },
+    {
+      "owner_id": "SOUTH_COUNTRY_ROAD:1:1",
+      "route_id": "SOUTH_COUNTRY_ROAD",
+      "kind": "country_road_preview",
+      "material": "road",
+      "material_hint": "road",
+      "polygon_xz_m": [
+        [
+          142.36805063592158,
+          569.0842773830312
+        ],
+        [
+          140.94011047739514,
+          601.3915610329663
+        ],
+        [
+          135.4402013640784,
+          570.0867266169688
+        ]
+      ],
+      "vertices_xyz_m": [
+        [
+          142.36805063592158,
+          1.25,
+          569.0842773830312
+        ],
+        [
+          140.94011047739514,
+          1.0,
+          601.3915610329663
+        ],
+        [
+          135.4402013640784,
+          1.25,
+          570.0867266169688
+        ]
+      ],
+      "render_surface": true
+    },
+    {
+      "owner_id": "SOUTH_COUNTRY_ROAD:2:0",
+      "route_id": "SOUTH_COUNTRY_ROAD",
+      "kind": "country_road_preview",
+      "material": "road",
+      "material_hint": "road",
+      "polygon_xz_m": [
+        [
+          147.8248055226049,
+          600.1262649670338
+        ],
+        [
+          158.01358728740902,
+          654.2005280244138
+        ],
+        [
+          151.13463271259096,
+          655.4966699755863
+        ]
+      ],
+      "vertices_xyz_m": [
+        [
+          147.8248055226049,
+          1.0,
+          600.1262649670338
+        ],
+        [
+          158.01358728740902,
+          1.0,
+          654.2005280244138
+        ],
+        [
+          151.13463271259096,
+          1.0,
+          655.4966699755863
+        ]
+      ],
+      "render_surface": true
+    },
+    {
+      "owner_id": "SOUTH_COUNTRY_ROAD:2:1",
+      "route_id": "SOUTH_COUNTRY_ROAD",
+      "kind": "country_road_preview",
+      "material": "road",
+      "material_hint": "road",
+      "polygon_xz_m": [
+        [
+          147.8248055226049,
+          600.1262649670338
+        ],
+        [
+          151.13463271259096,
+          655.4966699755863
+        ],
+        [
+          140.94011047739514,
+          601.3915610329663
+        ]
+      ],
+      "vertices_xyz_m": [
+        [
+          147.8248055226049,
+          1.0,
+          600.1262649670338
+        ],
+        [
+          151.13463271259096,
+          1.0,
+          655.4966699755863
+        ],
+        [
+          140.94011047739514,
+          1.0,
+          601.3915610329663
+        ]
+      ],
+      "render_surface": true
+    }
+  ],
+  "ownership_polygons_xz_m": [
+    [
+      [
+        142.25448742940026,
+        561.6137685282022
+      ],
+      [
+        142.36805063592158,
+        569.0842773830312
+      ],
+      [
+        135.4402013640784,
+        570.0867266169688
+      ],
+      [
+        135.31690596430602,
+        562.5464868217834
+      ]
+    ],
+    [
+      [
+        142.36805063592158,
+        569.0842773830312
+      ],
+      [
+        147.8248055226049,
+        600.1262649670338
+      ],
+      [
+        140.94011047739514,
+        601.3915610329663
+      ],
+      [
+        135.4402013640784,
+        570.0867266169688
+      ]
+    ],
+    [
+      [
+        147.8248055226049,
+        600.1262649670338
+      ],
+      [
+        158.01358728740902,
+        654.2005280244138
+      ],
+      [
+        151.13463271259096,
+        655.4966699755863
+      ],
+      [
+        140.94011047739514,
+        601.3915610329663
+      ]
+    ]
+  ],
+  "observed_controls_pixel_xy": [
+    [
+      983,
+      969
+    ],
+    [
+      991,
+      997
+    ],
+    [
+      1006,
+      1045
+    ]
+  ],
+  "evidence": "First point is an actual native terminal edge. Continuation follows foreground bridge-axis alignment; last point extends beyond the painting as a country-route inference.",
+  "gate_status": "The painted southern barbican is not modeled.",
+  "native_shared_edge_xyz_m": [
+    [
+      142.25448742940026,
+      1.25,
+      561.6137685282022
+    ],
+    [
+      135.31690596430602,
+      1.25,
+      562.5464868217834
+    ]
+  ],
+  "native_floor_y_m": 1.25,
+  "maximum_centerline_grade": 0.00789861355172546,
+  "road_length_m": 94.19989470890195,
+  "area_m2": 658.9393910232471,
+  "road_self_overlap_m2": 0.0,
+  "water_overlap": [],
+  "terrain_owner_policy": "Replace inherited ground/shoulder/old terminal MAIN_BRIDGE preview only inside finite polygons; preserve native deck and water.",
+  "reconstruction": "Regenerated from retained design after 2026-10-18 workspace loss. Restored source/cache checks and finite geometry tests rerun; not byte restoration of the lost candidate.",
+  "limits": [
+    "Source profile; native common compilation and character/cart test pending.",
+    "Triangle grade, cut/fill and full-width ownership seam need terrain integration validation.",
+    "Endpoint is explicit off-city boundary, not completed countryside."
+  ]
+}

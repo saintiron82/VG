@@ -1,0 +1,253 @@
+{
+  "schema": "riverstone.precinct.pedestrian_guard_addon.v1",
+  "assets": [
+    {
+      "id": "registered_abbey_orchard_pedestrian_guard_r01",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r04/abbey_guard_r01/masters/registered_abbey_orchard_pedestrian_guard_r01.json",
+        "sha256": "843db34b168240506f8418ab0c4dfefae2f52546cd357c9f36fda4769548e39b"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r04/abbey_guard_r01/cache/registered_abbey_orchard_pedestrian_guard_r01.pitch_0.1.render.json",
+        "sha256": "95be40d95228c3f82cce13063ebc346f871a2549a4711705effea93a2d2eaafb"
+      },
+      "master_hash": "7eed1109eb93f50db703718b9bd9066399da6722d4007433522b1dadbdd0d58e",
+      "pitch_m": 0.1,
+      "candidate_cells": 1024,
+      "cell_count": 720,
+      "quad_count": 66,
+      "bounds": {
+        "min": [
+          -0.1,
+          -1.0,
+          -3.0
+        ],
+        "max": [
+          0.1,
+          0.9,
+          3.0
+        ]
+      }
+    }
+  ],
+  "placements": [
+    {
+      "id": "ABBEY_EAST_ORCHARD:RETAINED_EDGE_GUARD",
+      "asset_key": "registered_abbey_orchard_pedestrian_guard_r01",
+      "position_m": [
+        -149.45,
+        8,
+        224.5
+      ],
+      "yaw_rad": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r04/abbey_guard_r01/masters/registered_abbey_orchard_pedestrian_guard_r01.json",
+        "sha256": "843db34b168240506f8418ab0c4dfefae2f52546cd357c9f36fda4769548e39b"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r04/abbey_guard_r01/cache/registered_abbey_orchard_pedestrian_guard_r01.pitch_0.1.render.json",
+        "sha256": "95be40d95228c3f82cce13063ebc346f871a2549a4711705effea93a2d2eaafb"
+      },
+      "footprint_xz_m": [
+        [
+          -149.54999999999998,
+          221.5
+        ],
+        [
+          -149.35,
+          221.5
+        ],
+        [
+          -149.35,
+          227.5
+        ],
+        [
+          -149.54999999999998,
+          227.5
+        ]
+      ]
+    }
+  ],
+  "owned_floors": [],
+  "terrain_policy": "Embedded post feet only; retain the shoulder and R14 path support. No new ground-plane cut.",
+  "source_native_pack": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r04/resolved_placements.json",
+    "sha256": "a351eb3dfed14c2218a7f7c39720f09c578952de3ccb9db1ce4de1175f5df83a"
+  },
+  "effective_access": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r04/access_r02/exterior_access_proposal.json",
+    "sha256": "44e8fcbc15629e5dfa940bddf7c69a9818dc11bb85bab59f8d3ca269753a692f"
+  },
+  "finite_shoulder_request": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r04/access_r02/abbey_shoulder_request.json",
+    "sha256": "b584c521b2d71899dc2a26aa370bb2ed0f25f6603af120679dd0ffb975cf20a4"
+  },
+  "test_results": {
+    "connected_cells": 720,
+    "total_cells": 720,
+    "travel_ribbon_hits": 0,
+    "minimum_native_guard_to_traffic_edge_m": 1.0481105910149608,
+    "bearing_vertices": [
+      {
+        "position_xyz_m": [
+          -149.35,
+          7.0,
+          221.5
+        ],
+        "inherited_land_y_m": 8,
+        "embed_m": 1.0
+      },
+      {
+        "position_xyz_m": [
+          -149.35,
+          7.0,
+          221.7
+        ],
+        "inherited_land_y_m": 8,
+        "embed_m": 1.0
+      },
+      {
+        "position_xyz_m": [
+          -149.54999999999998,
+          7.0,
+          221.7
+        ],
+        "inherited_land_y_m": 8,
+        "embed_m": 1.0
+      },
+      {
+        "position_xyz_m": [
+          -149.54999999999998,
+          7.0,
+          221.5
+        ],
+        "inherited_land_y_m": 8,
+        "embed_m": 1.0
+      },
+      {
+        "position_xyz_m": [
+          -149.35,
+          7.0,
+          223.4
+        ],
+        "inherited_land_y_m": 7.6255418167490925,
+        "embed_m": 0.6255418167490925
+      },
+      {
+        "position_xyz_m": [
+          -149.35,
+          7.0,
+          223.6
+        ],
+        "inherited_land_y_m": 7.631291859369808,
+        "embed_m": 0.6312918593698083
+      },
+      {
+        "position_xyz_m": [
+          -149.54999999999998,
+          7.0,
+          223.6
+        ],
+        "inherited_land_y_m": 7.611958335089448,
+        "embed_m": 0.6119583350894482
+      },
+      {
+        "position_xyz_m": [
+          -149.54999999999998,
+          7.0,
+          223.4
+        ],
+        "inherited_land_y_m": 7.606490696751462,
+        "embed_m": 0.6064906967514618
+      },
+      {
+        "position_xyz_m": [
+          -149.35,
+          7.0,
+          225.4
+        ],
+        "inherited_land_y_m": 7.634641887133186,
+        "embed_m": 0.6346418871331858
+      },
+      {
+        "position_xyz_m": [
+          -149.35,
+          7.0,
+          225.6
+        ],
+        "inherited_land_y_m": 7.629576846564631,
+        "embed_m": 0.629576846564631
+      },
+      {
+        "position_xyz_m": [
+          -149.54999999999998,
+          7.0,
+          225.6
+        ],
+        "inherited_land_y_m": 7.610328403215499,
+        "embed_m": 0.6103284032154992
+      },
+      {
+        "position_xyz_m": [
+          -149.54999999999998,
+          7.0,
+          225.4
+        ],
+        "inherited_land_y_m": 7.615140036666348,
+        "embed_m": 0.6151400366663484
+      },
+      {
+        "position_xyz_m": [
+          -149.35,
+          7.0,
+          227.3
+        ],
+        "inherited_land_y_m": 7.551457037408981,
+        "embed_m": 0.5514570374089809
+      },
+      {
+        "position_xyz_m": [
+          -149.35,
+          7.0,
+          227.5
+        ],
+        "inherited_land_y_m": 8,
+        "embed_m": 1.0
+      },
+      {
+        "position_xyz_m": [
+          -149.54999999999998,
+          7.0,
+          227.5
+        ],
+        "inherited_land_y_m": 8,
+        "embed_m": 1.0
+      },
+      {
+        "position_xyz_m": [
+          -149.54999999999998,
+          7.0,
+          227.3
+        ],
+        "inherited_land_y_m": 8,
+        "embed_m": 1.0
+      }
+    ],
+    "minimum_post_embed_m": 0.5514570374089809,
+    "maximum_post_embed_m": 1.0
+  },
+  "compile_seconds": 0.20850395700017543,
+  "peak_rss_kib": 326732,
+  "actual_placed": false,
+  "actual_viewed": false,
+  "independent_acceptance": false,
+  "limitations": [
+    "Geometric barrier only; structural and native character physics unverified.",
+    "Terrain R14 must supply the matching retained support."
+  ]
+}

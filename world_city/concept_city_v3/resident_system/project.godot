@@ -1,0 +1,6 @@
+; Isolated lightweight scheduler tests. No city geometry or per-resident scene nodes.
+config_version=5
+[application]
+config/name="Riverstone Live Resident Scheduler"
+[rendering]
+renderer/rendering_method="gl_compatibility"

@@ -1,0 +1,102 @@
+{
+  "schema": "riverstone.shared_surface.rules.v1",
+  "revision": 1,
+  "pitch_m": 0.0125,
+  "module_size_m": [
+    1.0,
+    1.0
+  ],
+  "trim": {
+    "width_m": 1.0,
+    "height_m": 1.0,
+    "offset_m": [
+      0.0,
+      0.0
+    ]
+  },
+  "holes": [],
+  "seeds": [
+    41873,
+    41879,
+    41887
+  ],
+  "kinds": [
+    "ashlar",
+    "rubble",
+    "planks",
+    "paving"
+  ],
+  "geometry": {
+    "joint_width_m": 0.025,
+    "mortar_top_z_m": -0.025,
+    "back_z_m": -0.0375,
+    "bevel_inset_m": 0.0125,
+    "ashlar": {
+      "course_height_m": 0.25,
+      "stone_widths_m": [
+        0.5
+      ],
+      "corner_clip_m": 0.0125,
+      "face_z_choices_m": [
+        0
+      ]
+    },
+    "rubble": {
+      "course_height_m": 0.25,
+      "stone_widths_m": [
+        0.3,
+        0.35,
+        0.4,
+        0.45
+      ],
+      "corner_clip_m": 0.025,
+      "face_z_choices_m": [
+        0
+      ]
+    },
+    "planks": {
+      "plank_width_m": 0.2,
+      "face_z_m": 0.0,
+      "nails": false,
+      "nail_width_m": 0.025,
+      "nail_projection_m": 0.0125
+    },
+    "paving": {
+      "course_height_m": 0.25,
+      "stone_widths_m": [
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "corner_clip_m": 0.025,
+      "face_z_choices_m": [
+        0.0
+      ]
+    }
+  },
+  "materials": {
+    "masonry.base": "9e9b88",
+    "masonry.light": "b7b19b",
+    "masonry.dark": "7e8075",
+    "masonry.joint": "666c63",
+    "paving.warm": "8e8a7e",
+    "paving.cool": "7f8582",
+    "paving.light": "a09b8d",
+    "paving.dark": "76796f",
+    "paving.joint": "575c53",
+    "wood.base": "946b45",
+    "wood.warm": "896143",
+    "wood.light": "9c7850",
+    "wood.joint": "654631",
+    "metal.iron": "394648"
+  },
+  "budgets": {
+    "max_candidate_cells_per_module": 150000,
+    "max_output_cells_per_module": 50000,
+    "max_artifact_bytes": 20000000,
+    "max_rss_mib": 600
+  },
+  "variant_family": "safe_offset_r01"
+}

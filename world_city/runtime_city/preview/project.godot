@@ -1,0 +1,15 @@
+config_version=5
+[application]
+config/name="Riverstone Coherent City Exterior"
+run/main_scene="res://City.tscn"
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=820
+window/size/window_width_override=1280
+window/size/window_height_override=820
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+[environment]
+defaults/default_clear_color=Color(0.24,0.29,0.31,1)

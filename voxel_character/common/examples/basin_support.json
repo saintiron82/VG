@@ -1,0 +1,304 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "basin_support_slice",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "stone": "#c9bfa4",
+    "rim": "#e8dab7",
+    "shadow": "#a69b82",
+    "bronze": "#ad8a48",
+    "water": "#418a9d",
+    "foam": "#a9dde1"
+  },
+  "components": [
+    {
+      "id": "rotational_structure",
+      "parts": [
+        {
+          "id": "masonry",
+          "parent": null,
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "water",
+          "parent": null,
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "base",
+          "part": "masonry",
+          "action": "paint",
+          "material": "rim",
+          "shape": {
+            "kind": "lathe",
+            "profile": [
+              [
+                0,
+                0
+              ],
+              [
+                2.2,
+                0
+              ],
+              [
+                2.32,
+                0.05
+              ],
+              [
+                2.4,
+                0.15
+              ],
+              [
+                2.38,
+                0.225
+              ],
+              [
+                0,
+                0.225
+              ]
+            ]
+          }
+        },
+        {
+          "id": "basin",
+          "part": "masonry",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "lathe",
+            "profile": [
+              [
+                1.98,
+                0.15
+              ],
+              [
+                2.28,
+                0.15
+              ],
+              [
+                2.28,
+                0.57
+              ],
+              [
+                2.34,
+                0.6
+              ],
+              [
+                2.38,
+                0.69
+              ],
+              [
+                2.36,
+                0.78
+              ],
+              [
+                2.27,
+                0.825
+              ],
+              [
+                2.04,
+                0.825
+              ],
+              [
+                1.98,
+                0.75
+              ]
+            ]
+          }
+        },
+        {
+          "id": "basin_rim",
+          "part": "masonry",
+          "action": "paint",
+          "material": "rim",
+          "shape": {
+            "kind": "lathe",
+            "profile": [
+              [
+                1.98,
+                0.68
+              ],
+              [
+                2.38,
+                0.68
+              ],
+              [
+                2.38,
+                0.73
+              ],
+              [
+                2.32,
+                0.79
+              ],
+              [
+                2.04,
+                0.79
+              ],
+              [
+                1.98,
+                0.75
+              ]
+            ]
+          }
+        },
+        {
+          "id": "pedestal",
+          "part": "masonry",
+          "action": "paint",
+          "material": "stone",
+          "shape": {
+            "kind": "lathe",
+            "profile": [
+              [
+                0,
+                0.18
+              ],
+              [
+                0.56,
+                0.18
+              ],
+              [
+                0.56,
+                0.32
+              ],
+              [
+                0.48,
+                0.38
+              ],
+              [
+                0.42,
+                0.48
+              ],
+              [
+                0.34,
+                0.65
+              ],
+              [
+                0.28,
+                0.9
+              ],
+              [
+                0.26,
+                1.14
+              ],
+              [
+                0.33,
+                1.23
+              ],
+              [
+                0,
+                1.23
+              ]
+            ]
+          }
+        },
+        {
+          "id": "basin_water",
+          "part": "water",
+          "action": "paint",
+          "material": "water",
+          "shape": {
+            "kind": "annulus",
+            "inner_radius": 0.34,
+            "outer_radius": 1.96,
+            "y_min": 0.51,
+            "y_max": 0.6,
+            "minimum_cells_y": 1,
+            "anchor_y": "max"
+          }
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "assembly",
+      "component": "rotational_structure"
+    }
+  ],
+  "assembly_cuts": [],
+  "constraints": [
+    {
+      "id": "water_present",
+      "kind": "nonempty",
+      "selector": {
+        "part": "water"
+      }
+    },
+    {
+      "id": "structure_connected",
+      "kind": "connected",
+      "selector": {
+        "part": "masonry"
+      }
+    },
+    {
+      "id": "bowl_supported",
+      "kind": "touch",
+      "a": {
+        "feature": "base"
+      },
+      "b": {
+        "feature": "basin"
+      }
+    },
+    {
+      "id": "water_contacts_basin",
+      "kind": "touch",
+      "a": {
+        "part": "water"
+      },
+      "b": {
+        "feature": "basin"
+      }
+    },
+    {
+      "id": "basin_space_open",
+      "kind": "empty_region",
+      "selector": {},
+      "shape": {
+        "kind": "box",
+        "min": [
+          0.8,
+          0.65,
+          -0.2
+        ],
+        "max": [
+          1.2,
+          0.8,
+          0.2
+        ]
+      }
+    }
+  ],
+  "provenance": {
+    "source_files": [
+      {
+        "path": "voxel_character/master/fountain_master.json",
+        "sha256": "114643f5d9f639ac21629ba75a0c49724232c1013b65c16986577c17fb5b5f79"
+      }
+    ],
+    "scope": "Original base, basin, pedestal and basin water only. Spillways, tier jets, splashes and full fountain migration are deliberately absent.",
+    "status": "partial_structural_fixture_not_visual_approval"
+  }
+}

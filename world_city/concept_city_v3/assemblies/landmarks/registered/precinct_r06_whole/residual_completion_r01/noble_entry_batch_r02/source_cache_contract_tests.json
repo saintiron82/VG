@@ -1,0 +1,888 @@
+{
+  "status": "PASS_STATIC_SOURCE_RUNTIME_PENDING",
+  "tests": {
+    "seven_owners_and_fourteen_assets": true,
+    "seven_bound_collision_contracts": true,
+    "all_project_local_refs": true,
+    "all_fourteen_fresh_caches": true,
+    "all_seven_retained_bases_exact": true,
+    "all_101_approved_cap_columns_empty": true,
+    "all_actual_fine_tops_public_disjoint": true,
+    "all_shared_original_rows_disjoint": true,
+    "all_unaffected_predecessor_appended_rows_exact": true,
+    "all_native_bearings_have_explicit_subgrade": true,
+    "baseline_scene_unchanged": true,
+    "all_53_retained_internal_routes_accepted": true,
+    "all_exact_prerequisites_bound": true
+  },
+  "independent_regeneration": [
+    {
+      "asset_id": "registered_precinct_noble_entry_r01_e1_retained_base",
+      "valid": true,
+      "cache_exact": true
+    },
+    {
+      "asset_id": "registered_precinct_noble_entry_r02_e1_fine_access",
+      "valid": true,
+      "cache_exact": true
+    },
+    {
+      "asset_id": "registered_precinct_noble_entry_r01_e2_retained_base",
+      "valid": true,
+      "cache_exact": true
+    },
+    {
+      "asset_id": "registered_precinct_noble_entry_r02_e2_fine_access",
+      "valid": true,
+      "cache_exact": true
+    },
+    {
+      "asset_id": "registered_precinct_noble_entry_r01_e3_retained_base",
+      "valid": true,
+      "cache_exact": true
+    },
+    {
+      "asset_id": "registered_precinct_noble_entry_r01_e3_fine_access",
+      "valid": true,
+      "cache_exact": true
+    },
+    {
+      "asset_id": "registered_precinct_noble_entry_r01_e4_retained_base",
+      "valid": true,
+      "cache_exact": true
+    },
+    {
+      "asset_id": "registered_precinct_noble_entry_r02_e4_fine_access",
+      "valid": true,
+      "cache_exact": true
+    },
+    {
+      "asset_id": "registered_precinct_noble_entry_r01_e5_retained_base",
+      "valid": true,
+      "cache_exact": true
+    },
+    {
+      "asset_id": "registered_precinct_noble_entry_r02_e5_fine_access",
+      "valid": true,
+      "cache_exact": true
+    },
+    {
+      "asset_id": "registered_precinct_noble_entry_r01_e6_retained_base",
+      "valid": true,
+      "cache_exact": true
+    },
+    {
+      "asset_id": "registered_precinct_noble_entry_r02_e6_fine_access",
+      "valid": true,
+      "cache_exact": true
+    },
+    {
+      "asset_id": "registered_precinct_noble_entry_r01_e7_retained_base",
+      "valid": true,
+      "cache_exact": true
+    },
+    {
+      "asset_id": "registered_precinct_noble_entry_r02_e7_fine_access",
+      "valid": true,
+      "cache_exact": true
+    }
+  ],
+  "non_access_preservation": [
+    {
+      "owner_id": "E1",
+      "retained_base_exact": true,
+      "pose_exact": true
+    },
+    {
+      "owner_id": "E2",
+      "retained_base_exact": true,
+      "pose_exact": true
+    },
+    {
+      "owner_id": "E3",
+      "retained_base_exact": true,
+      "pose_exact": true
+    },
+    {
+      "owner_id": "E4",
+      "retained_base_exact": true,
+      "pose_exact": true
+    },
+    {
+      "owner_id": "E5",
+      "retained_base_exact": true,
+      "pose_exact": true
+    },
+    {
+      "owner_id": "E6",
+      "retained_base_exact": true,
+      "pose_exact": true
+    },
+    {
+      "owner_id": "E7",
+      "retained_base_exact": true,
+      "pose_exact": true
+    }
+  ],
+  "cap_column_tests": [
+    {
+      "owner_id": "E1",
+      "columns": 44,
+      "contacts": []
+    },
+    {
+      "owner_id": "E2",
+      "columns": 57,
+      "contacts": []
+    }
+  ],
+  "collision_contract_tests": [
+    {
+      "owner_id": "E1",
+      "pose_exact": true,
+      "only_own_fine_disabled": true,
+      "native_bound": true,
+      "no_degenerate_faces": true,
+      "walking_winding": true,
+      "finite_values": true,
+      "visible_above_bound": true,
+      "physical_above_bound": true,
+      "declared_grade_bound": true,
+      "world_mesh_exact": true
+    },
+    {
+      "owner_id": "E2",
+      "pose_exact": true,
+      "only_own_fine_disabled": true,
+      "native_bound": true,
+      "no_degenerate_faces": true,
+      "walking_winding": true,
+      "finite_values": true,
+      "visible_above_bound": true,
+      "physical_above_bound": true,
+      "declared_grade_bound": true,
+      "world_mesh_exact": true
+    },
+    {
+      "owner_id": "E3",
+      "pose_exact": true,
+      "only_own_fine_disabled": true,
+      "native_bound": true,
+      "no_degenerate_faces": true,
+      "walking_winding": true,
+      "finite_values": true,
+      "visible_above_bound": true,
+      "physical_above_bound": true,
+      "declared_grade_bound": true,
+      "world_mesh_exact": true
+    },
+    {
+      "owner_id": "E4",
+      "pose_exact": true,
+      "only_own_fine_disabled": true,
+      "native_bound": true,
+      "no_degenerate_faces": true,
+      "walking_winding": true,
+      "finite_values": true,
+      "visible_above_bound": true,
+      "physical_above_bound": true,
+      "declared_grade_bound": true,
+      "world_mesh_exact": true
+    },
+    {
+      "owner_id": "E5",
+      "pose_exact": true,
+      "only_own_fine_disabled": true,
+      "native_bound": true,
+      "no_degenerate_faces": true,
+      "walking_winding": true,
+      "finite_values": true,
+      "visible_above_bound": true,
+      "physical_above_bound": true,
+      "declared_grade_bound": true,
+      "world_mesh_exact": true
+    },
+    {
+      "owner_id": "E6",
+      "pose_exact": true,
+      "only_own_fine_disabled": true,
+      "native_bound": true,
+      "no_degenerate_faces": true,
+      "walking_winding": true,
+      "finite_values": true,
+      "visible_above_bound": true,
+      "physical_above_bound": true,
+      "declared_grade_bound": true,
+      "world_mesh_exact": true
+    },
+    {
+      "owner_id": "E7",
+      "pose_exact": true,
+      "only_own_fine_disabled": true,
+      "native_bound": true,
+      "no_degenerate_faces": true,
+      "walking_winding": true,
+      "finite_values": true,
+      "visible_above_bound": true,
+      "physical_above_bound": true,
+      "declared_grade_bound": true,
+      "world_mesh_exact": true
+    }
+  ],
+  "project_local_references": [
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e1_retained_base.json",
+      "sha256": "dee479066ed94a69091dadfdb722d7258dd81559359ccf0199a69d19ea071da1",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e1_retained_base.render.json",
+      "sha256": "e8820b0405dff6fdcdff315a8156090cf17d6289c826e1222910319351dde3f1",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/preflight/E1_retained_base.json",
+      "sha256": "19ec50279331bd3fd8e4748bbe73789e8d971b3df004b7643705dfafb336e11e",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/masters/registered_precinct_noble_entry_r02_e1_fine_access.json",
+      "sha256": "14f815dde036a8932a8f19f4378af86644f33e21396b9309ce796dde6113da07",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/cache/registered_precinct_noble_entry_r02_e1_fine_access.render.json",
+      "sha256": "4e9dd0cf0e65ed923c2b020d22f0aad671d5e9356c383366440053a7df167ae9",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/preflight/E1.json",
+      "sha256": "37c056b5670ec4a41278d07a6de65e8755f07c5f1623c8c088dc0437beb0324d",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e2_retained_base.json",
+      "sha256": "59b29dcf6bd0fbfba1d07aa14ccba27339ed6f7eec7106692bb3e5e0700dcb15",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e2_retained_base.render.json",
+      "sha256": "00b37982f7d2355e98a28c3addc5f498dc26b4a648563f89e78944e6cabfa5b7",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/preflight/E2_retained_base.json",
+      "sha256": "9e4fcc311ce315bd8bfa866128cf3ea3c9bc38cf4c35e77a0a272f2b7ae12bd5",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/masters/registered_precinct_noble_entry_r02_e2_fine_access.json",
+      "sha256": "d240748e68ea9f6f8e6186ddb253408a73e7449fa5246b066ca76fde3733034b",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/cache/registered_precinct_noble_entry_r02_e2_fine_access.render.json",
+      "sha256": "93e9441539117540912f09f5d26e562545d284f7e686193e25dca6397f102bd5",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/preflight/E2.json",
+      "sha256": "46d8940152aa235c9b068d23d9f7e319fdbbb5f7d908fb5a060f368c37fed363",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e3_retained_base.json",
+      "sha256": "8815c2ec086d2c1a8fe3a75397088e50e3d997bae90643a52328efe3462bdf40",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e3_retained_base.render.json",
+      "sha256": "3389709c0126333a81f90bb55a2c67f03ae7d2a06fc215725110da93f33022ab",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/preflight/E3_retained_base.json",
+      "sha256": "8c6dfb2d6fc3451ecde08ba8e60a5e229042800e78f63faf2c4f32d4aa7f134e",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e3_fine_access.json",
+      "sha256": "6972bbd28ea1e8426cd98f7c8b2fb27729b439515a1978019bcfd80e84e787c2",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e3_fine_access.render.json",
+      "sha256": "116131833125e4e4489b5f204d444728e4e8b8a20ef0b86996f88e3a400a5f9e",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/preflight/E3_fine_access.json",
+      "sha256": "74daabb950aa080776c6e7e71a2a9d7d9b67ecce2f86f9558331afce272bc9a4",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e4_retained_base.json",
+      "sha256": "4c151b73928b8e61ccd8b8d354e3375c90bffcdce5c893f57022600ba29e238e",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e4_retained_base.render.json",
+      "sha256": "cb2f9c38258195044b322a195eddb54a15f1d940f979837c876132192d529a54",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/preflight/E4_retained_base.json",
+      "sha256": "06d26cde2081cb0f7e4009360f148367855e966cad3acc01b8e9c4a1a8722439",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/masters/registered_precinct_noble_entry_r02_e4_fine_access.json",
+      "sha256": "562b16ec6af927a75b80231bf456e385b301b94eb3edf23ba33ad52699d8eda6",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/cache/registered_precinct_noble_entry_r02_e4_fine_access.render.json",
+      "sha256": "02a3fcece182eeda4cc3cc1fa51102af2f80e12254fe08ab90f164d81cee8fa3",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/preflight/E4.json",
+      "sha256": "7f130857fac1b58f2db772cda1425ce8d45b29c7fcd7d190ed910898d1939505",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e5_retained_base.json",
+      "sha256": "c9303f8ca8f1c6bb53270f343af9219ce9775b5b46ef1413045c01fa59f0bbe1",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e5_retained_base.render.json",
+      "sha256": "15b6ffec3f68929f28d0f3bda18b653f4d84a447fd1d3ba0fa9b2cdae6cb0826",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/preflight/E5_retained_base.json",
+      "sha256": "85f613a3ef3c391a9148f72e51908c6830c6cccbab9a4c7754df97638a3f3597",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/masters/registered_precinct_noble_entry_r02_e5_fine_access.json",
+      "sha256": "25d5e10e9040adad945e48c72925ad82e8aab0cd9d247cbd2c07436b009a2b91",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/cache/registered_precinct_noble_entry_r02_e5_fine_access.render.json",
+      "sha256": "2dfce51f5ec165b2a1d1879f35fcb3abc98d369810aae08ed39197723648903b",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/preflight/E5.json",
+      "sha256": "9cade66a02fd027e8ff4eed9a12c2cdee51a9931e90862d109a4dd6121589cea",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e6_retained_base.json",
+      "sha256": "1ddc64a23f13b75d1d74bdae91e96ed4387bfd41ffd336650d97a9f6541e4fc4",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e6_retained_base.render.json",
+      "sha256": "2124bbfb45c10fb005f0223000fa870465ade159ab4d52dc1777d49f0a411014",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/preflight/E6_retained_base.json",
+      "sha256": "db317814ddc17f7b114f73e84f5c4cccc69a446f50fd0ccbe8c738e844b2b79b",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/masters/registered_precinct_noble_entry_r02_e6_fine_access.json",
+      "sha256": "7098d883ecedceb7870dfc480d74e594cfbfc39cb4d84b92c8b1e722269a984d",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/cache/registered_precinct_noble_entry_r02_e6_fine_access.render.json",
+      "sha256": "df64f90b0fdffea18a0671eaef8a739b187ada41487d003bfe8db2a07baa2fbf",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/preflight/E6.json",
+      "sha256": "84f7c27aed22582a479010da464b9a2f227de70f84d4b25851b4807c1f94cf71",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e7_retained_base.json",
+      "sha256": "6d002c6dbb80a2a1a86daf8b47fa0a4cbb4699413aadd9d7160193f0ef5979f5",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e7_retained_base.render.json",
+      "sha256": "1c73f26accfe8a9b14f3e711dc7f199820b2391bcc261aebc2e893eae2b6adb4",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/preflight/E7_retained_base.json",
+      "sha256": "81b513870b371899c9920c79cc2c6389c732a779a266a9959aa426bfd76891ef",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/masters/registered_precinct_noble_entry_r02_e7_fine_access.json",
+      "sha256": "cea06dc192feda9dbc0e55b3af893379b619715ad80b1cc88d3d98831422ae4c",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/cache/registered_precinct_noble_entry_r02_e7_fine_access.render.json",
+      "sha256": "d65107e5ffe39c0ce2172698dea94545889e002884a33fad64715c9ab44121b1",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/preflight/E7.json",
+      "sha256": "7e313e17f64783e83c0bfb727f8e9ec1c93511b5c1496ec52746826590d8786e",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/repair_01/E1.master.json",
+      "sha256": "a62ffa512080e0b31801dcdfc0863d9cefcb5af5a90e0ec2ace316485d1477ff",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/repair_01/registered_property_r1_6c9df1c34c4229c0.render.json",
+      "sha256": "0f12833346223f8b55445b92d78b9f9d8c3af81f7ddbbd46a6afbed484f20cc5",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/public_lane_repairs_r01/sources/E1.master.json",
+      "sha256": "797c47636eb79842adfccc7e58428223e689660f846050cfcd22f568bf9c6815",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/generated/E2.infrastructure.master.json",
+      "sha256": "38b7e759a235402b3e92b5ddf76b435b6b5c9b1d46c51fd88158145de57a8a13",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/cache/registered_property_r1_e241be54e00545eb.render.json",
+      "sha256": "99668345e37b9b3c1d5fb7a45aca6f17b09d95c7dfe5f3acadf8d4f72a514044",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/public_lane_repairs_r01/sources/E2.master.json",
+      "sha256": "191e7ec98a488c97cd773d73473e114f8ccaf50a0944c64f5f457f41e88aab8d",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/generated/E3.infrastructure.master.json",
+      "sha256": "f01b62cb181ebd6610940b43b31792efe78f6ce34324b408dbcd797105c8f702",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/cache/registered_property_r1_53cc456e3c6901f8.render.json",
+      "sha256": "2befb724ac500340d9c14bc72e8f2c0ac4f93bbf3af15733f116f8c8b1131f12",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/generated/E4.infrastructure.master.json",
+      "sha256": "7ee6996bf88148fa0f4b5212c77d27825b1e5a15ee171140f85c9779a2d6f957",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/cache/registered_property_r1_815db037d0ee3c67.render.json",
+      "sha256": "d29bbff04c249cd6a823df84b3617571c56a12aa29e9721c79e57dd03181e677",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/generated/E5.infrastructure.master.json",
+      "sha256": "0cabd2e9844cb61c667b473440fbe624ef9c828d37cb04185953655979223c26",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/cache/registered_property_r1_f8a8adf943e67dfd.render.json",
+      "sha256": "7ce4ad6c524eaf8a8c3ec147eaa3b7b64aad166535d0637c22808152c7751e7d",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/repair_01/E6.master.json",
+      "sha256": "3f31149bbd89a23f2ebbdcda81811aae63bb002690371b34fc3692d5eb9b4ba4",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/repair_01/registered_property_r1_b3c4d1d58615b490.render.json",
+      "sha256": "b2d69917fef716de5ad8b27b4629da8828a44b4a5b103d1db9138e0c57961790",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/generated/E7.infrastructure.master.json",
+      "sha256": "f7c15229e372d08c543933a0ac6bc54d1522717fd682cfe7ade225338b8bcc1d",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/cache/registered_property_r1_2eddba2fff300fa5.render.json",
+      "sha256": "59f704bf4bf55b7f0ba241555a7cc1462549edbd5385bc0dd195fbe42d567b5c",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/actual_native_projection.json",
+      "sha256": "56bd685ecb6d7ba94d0e1745914b19e39c415796666f378f1bd7524bde51d9bb",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/r1/repair_01/resolved_placements.json",
+      "sha256": "aa8fd088eca6a1ba9a9012f7bd004132be1c84c74837e0def3ecfb6a341be152",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/ordinary/registered/district_fabric_r01/noble_internal_route_review_r01/internal_route_acceptance.json",
+      "sha256": "dd7e7a9430b4c04035b4e74b6c068dd5d7e0dadf9ad58a83964760d44a4621ed",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/property/registered/public_lane_repairs_r01/source_candidates.json",
+      "sha256": "4c4d9ade36cee2359310b28f90a30fe7e29b07bdb026949b814da9055fe449f7",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/resolved_native_candidate.json",
+      "sha256": "d6b00bd0939b91480d2019ec88427c6a5098dbc333b8ef8a92d39206df825f4e",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/registered_topography/revisions/public_corridors_r18/finite_field_candidate_r07_native_bound.json",
+      "sha256": "d807f13a82e2639e1e9c7ff37ce8750b60d783b80cee9205fe1ffe8344239683",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e1_fine_access.json",
+      "sha256": "7130ae9afca8a7ec328edcaafd5ba566e00c13dc67d282c663564722edb9569b",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e1_fine_access.render.json",
+      "sha256": "2da78832f341d6c351f70f79c88a49151aea58f5f9949ca0899608f15d7d53bd",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/selected_solutions/E1_proposal.json",
+      "sha256": "a168d057c25bdc6d8843fdf1d912ed59b0f38bb0da91ace288c78a94aaf83e86",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e2_fine_access.json",
+      "sha256": "a191b74f3ec93391a64a164f0850d5983cc894ac39859c70cb9b1fc740653748",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e2_fine_access.render.json",
+      "sha256": "e05d4f3dc7b1c394d007c8aba0b646a22106f220d88ce3ab1ad52cf6658ce37a",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/selected_solutions/E2_proposal.json",
+      "sha256": "4ca766e139f57eed32a2dc27a7297187b6100228df2ba500eeb3fef138532914",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e4_fine_access.json",
+      "sha256": "990cedc84518ebfc0998437f2e716b5992baf1dfcb385f58ef8f4ba9d611c636",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e4_fine_access.render.json",
+      "sha256": "7e4d862fceedf9da117c7c15137ec165ae999c48463419bf38dc2eabf6fef2ff",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/selected_solutions/E4_proposal.json",
+      "sha256": "81c77e968fd5998a78da312e65794a94a7c811d50869e5a04463e8fa1aea6a63",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e5_fine_access.json",
+      "sha256": "34cb611fb0d175602610f3633b37c758e166f1e7bdfeccf10a42a3878cff2d54",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e5_fine_access.render.json",
+      "sha256": "dbe49ccd8e11abf369c88ff51033ce1ff677d5e1fe30c5570fa41c0314ae2c09",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/selected_solutions/E5_proposal.json",
+      "sha256": "761ea87d1b92927f92b038325c1866eaeb5a885664ef596bd793517399e47e23",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e6_fine_access.json",
+      "sha256": "b42975d10f4dfd6f687ca8eb8665b135233588d9d9bea71960f12b0a292f7225",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e6_fine_access.render.json",
+      "sha256": "870db6bef1b70340a2483ec63992a3c82d815fff78bb66cf8dc50b95b0a2a50a",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/selected_solutions/E6_proposal.json",
+      "sha256": "b496d4f051641cb494979324731cff8c6a776144f155503fc1cd833f0056b3ba",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/masters/registered_precinct_noble_entry_r01_e7_fine_access.json",
+      "sha256": "30ac3936343eb8061fb8b204f46510b4a1d66421195f174f06f85d7fe2c65361",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/cache/registered_precinct_noble_entry_r01_e7_fine_access.render.json",
+      "sha256": "4376ae7187c63a9d4043c3989c6035a986076a6019d6cfcfffd5d574b8143b4f",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/selected_solutions/E7_proposal.json",
+      "sha256": "07916a997a3ad222ad13d276050f3a7ff5a09d84d8b2ee3462c4ce6e4e8c6e8f",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/geometry/E1_physical_top.json",
+      "sha256": "6d2290cde6604f8082a963ab73e00a474173ac1aa6beaa33e43c43bd72048dc7",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/geometry/E2_physical_top.json",
+      "sha256": "bb04017aec75c496adcce22909f43b99949cfa00cffffd793394a86b2a2a0d49",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/geometry/E3_physical_top.json",
+      "sha256": "c53b454b6eac72a2901fb0b5211b0f43ad2083e59bc58feefeb67396e528c352",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/geometry/E4_physical_top.json",
+      "sha256": "3431b07f2349b4fdbcb7c3703ff73e7c1a0cdd814ab2ca771fdf3f9756dd72e8",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/geometry/E5_physical_top.json",
+      "sha256": "5695033ea03099f55c929f6b806e75e111078020bc042847964fed016fdd5526",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/geometry/E6_physical_top.json",
+      "sha256": "406fc41fff51e62457465a9996185d8477b193e065c8c3814bf6b10d401e20e7",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/geometry/E7_physical_top.json",
+      "sha256": "78397dae0431d77910a29c6096624d185886a3e176f1f2d118725854a25d1309",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/resolved_native_candidate.json",
+      "sha256": "99737adced398b3a778f40367beed3687ca912560613ea037a7339c51705458d",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/contracts/E1_collision_contract.json",
+      "sha256": "190ca6e1225cdf347c460a7dc4eea610da4f328bda59a63edf83c8e8a094c791",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/contracts/E2_collision_contract.json",
+      "sha256": "019ef164f48b02c42d4b7273867d75a2dd11d64482fbc58b43d760e816ea7298",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/contracts/E3_collision_contract.json",
+      "sha256": "a5121397ca85347a3013dc5412202dc9ff7b02647b8ec059930cb8f2de94a339",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/contracts/E4_collision_contract.json",
+      "sha256": "c5c002ce387a1227cd6c0a1fc717f986784f9d201027ef8c7d78df355af67a3c",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/contracts/E5_collision_contract.json",
+      "sha256": "3fd15d8ea7487cc0653ab30123c18ce2d856629ce5bbf378f395a5def4f4da8a",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/contracts/E6_collision_contract.json",
+      "sha256": "ec267b90c27ff028392b23e843af8c6a2c338f652fdba0f9042eee832454016f",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/contracts/E7_collision_contract.json",
+      "sha256": "ade73a4b89c380b6d4266d576e039fec2ec207fea88b9f43aec4bc11ae6485c3",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/registered_integration/r8/canonical_private61_north_final_r01/binding.json",
+      "sha256": "bcc74a891cac0e5c233aa4da88f848433860b96ac6770306749e39cc60a77779",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/surface_patch.json",
+      "sha256": "fa22e9908937aa3c362fe8064cefa23c5bae5f930d25a97427ebf77848761696",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/normalization_final_r02/noble_surface_patch.json",
+      "sha256": "70ba82d509055a0141a7b84fb02a0b90537fed5a4fb3d03abb1aec99f743165e",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/registered_integration/r8/precinct_phase02_rebound_patch.json",
+      "sha256": "6270caaa92768e23e4af6644dcf061d7a82c34180d3424aa6db6ec10369e6ac5",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/normalization_final_r02/predecessor_00.json",
+      "sha256": "45ee7643f1733a8e5823467423295c66364000bf35b490f4f67ea9e3958c23d1",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/registered_integration/r8/backland_activation_r05/surface_patch.json",
+      "sha256": "4c536d5b0900c6110cdb6ee1de3a0d38c711a26ddacba49a217789fb0830493f",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/normalization_final_r02/predecessor_13.json",
+      "sha256": "ce44550ec16da3d1ff3b50b38a036ac7e3741d638e4f8ffc2dbefbd81c71f887",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/registered_integration/r8/joint_boundary_r06/boundary_review.json",
+      "sha256": "965b3909c4d44670303f2e905d54e9fca447449c149f2488973fd976b9d7956e",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/native_ground_candidate_patch.json",
+      "sha256": "8920ad17b5c8614768e4d2a4d97b2336e32baeb76dfb52ad7aec3ca8b3331af2",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/registered_topography/revisions/public_corridors_r18/joint_boundary_north_rebound_final_r01.json",
+      "sha256": "e979db418fbbbccd604dfbd3fdb67e6226a1c5b6e991a819231455cc77c7e23a",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/normalization_final_r02/predecessor_16.json",
+      "sha256": "f670471db6a542eb8562e32e121d6584fdfd5436d4a732cc653cbe6c24fd2cda",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/registered_integration/r8/side_retirement_normalization_r02_61/producer_11.json",
+      "sha256": "032e72909baf0b0d84effd27e80d3f790bae081be0541c391492fa2e495fad5f",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/registered_integration/r8/side_retirement_normalization_r02_61/producer_15.json",
+      "sha256": "b3bc024bf3d6fe8c7a80390f51c030d412f6e0f5caa7295e6a50ba46fbdb69c2",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/geometry/E1_collision_world.json",
+      "sha256": "6242c57f47dea4de8e2ef259caae2e958ad6e6cb218a1138e46c483b46d27e2c",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/physical_profile_audit.json",
+      "sha256": "234d812e4653bdfa58856a1c19050e538b15d28393b7fa28809e826884e5b199",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/common_entry_repair_r03/candidate_r02/collision_contract.json",
+      "sha256": "338ad107b2c32b1bdedb9f7e37fcc0eb7d5de8cf1d967c8281beb423477127b2",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/contracts/E1_collision_contract.json",
+      "sha256": "882acead991e5c13efd510366acb8dcff5747792d872a021eb3994c06e183845",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/geometry/E2_collision_world.json",
+      "sha256": "fe2011196da2c604745dec9bbd88ed970925d1276c015e2ff52e18ddb409419a",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/contracts/E2_collision_contract.json",
+      "sha256": "18d4e8ba6efec15402d38ad2308304fd6d9158525965221ea28f5e0ee36d4bec",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/geometry/E3_collision_world.json",
+      "sha256": "ae0588847be27d2adc7b35b446fda918385db8e3244db64dac949420e6cc20a1",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/geometry/E3_physical_top.json",
+      "sha256": "6ea0cce3f015710f706ef8d4f7d2365555a61b7393fc6fb40ce1485e18d57bfe",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/geometry/E4_collision_world.json",
+      "sha256": "3c642a444b792a03b5f64acc738f2c6bc39d6681df56198140f2943be09e3e2d",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/contracts/E4_collision_contract.json",
+      "sha256": "a45d1bb40572a17ae5d4d4b0a5d32c75735c188ea99c46b5026849cdf8030877",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/geometry/E5_collision_world.json",
+      "sha256": "62d0d8fb983ab8d0dcbb2bf72692e71357433b2cfa7542fbfb651862ef1fa9ad",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/contracts/E5_collision_contract.json",
+      "sha256": "53adb774a4bd75862e5442de8b23439084bfa25dd0b789e8056faa7234fec6be",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/geometry/E6_collision_world.json",
+      "sha256": "6cff421618dbe5dc166ea45297042b4b2680bc0867711fba66e5d02024d02e08",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/contracts/E6_collision_contract.json",
+      "sha256": "160db3eb78aab644b1f5bbc8b5d2c864f2c2d3a7793b4eaec23e5cee52c47116",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r02/geometry/E7_collision_world.json",
+      "sha256": "caf6ed254d7791e90f151dc965d356f4ef7393eeed520c676ce4be3e698d0e30",
+      "passed": true
+    },
+    {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/noble_entry_batch_r01/contracts/E7_collision_contract.json",
+      "sha256": "32e00136f04d3f5013cbc02906e41772eaeb19efbeaa1e16860bff5e26defa2f",
+      "passed": true
+    }
+  ],
+  "shared_source_rows_checked": 4069,
+  "shared_source_errors": [],
+  "predecessor_append_row_tests": [
+    {
+      "patch_id": "productive_ground_phase02_frozen_r6",
+      "unchanged_original_edits": true,
+      "every_unaffected_append_row_exact": true,
+      "all_clipped_old_row_hashes_match": true
+    },
+    {
+      "patch_id": "R8_SAME_PLANE_FUNCTIONAL_BACKLANDS",
+      "unchanged_original_edits": true,
+      "every_unaffected_append_row_exact": true,
+      "all_clipped_old_row_hashes_match": true
+    },
+    {
+      "patch_id": "R8_JOINT_61_BOUNDARY_NORTH_EXACT_REBOUND_FINAL_R01",
+      "unchanged_original_edits": true,
+      "every_unaffected_append_row_exact": true,
+      "all_clipped_old_row_hashes_match": true
+    }
+  ],
+  "runtime_ready": false,
+  "seconds": 173.64475990900246
+}

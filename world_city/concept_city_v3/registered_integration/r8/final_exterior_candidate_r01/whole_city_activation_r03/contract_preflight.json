@@ -1,0 +1,41 @@
+{
+  "status": "PASS_ALL_CURRENT_NATIVE_CONTRACTS",
+  "source_binding": {
+    "path": "world_city/concept_city_v3/registered_integration/r8/final_exterior_candidate_r01/whole_city_activation_r02/activation_binding.json",
+    "sha256": "531041dcea146ce29f09059f8a7e3b8539bcf41ac016e0bf0329f1807f8ce521"
+  },
+  "contracts": 13,
+  "scene_contracts": 15,
+  "native_instances": 5203,
+  "changes": [
+    {
+      "index": 10,
+      "previous": {
+        "path": "world_city/concept_city_v3/assemblies/waterworks/registered_bridge/fixed_span_walk_r02/collision_contract.json",
+        "sha256": "d1c06a20364c042cc85f3cbd260a161be4b36d4e2d160fe13a392e33ce7f4fab"
+      },
+      "current": {
+        "path": "world_city/concept_city_v3/registered_integration/r8/final_exterior_candidate_r01/whole_city_activation_r03/contract_10.json",
+        "sha256": "8faa540d55aed1f58e5a94b7d17a6b36c0f7a4d28f22e7eeece4ebdf594e684d"
+      },
+      "triangles_unchanged": true,
+      "disable_ids_unchanged": true,
+      "native_placement_id": "BRIDGE_MAIN_RIVER:DRAWBRIDGE_FIXED"
+    },
+    {
+      "index": 12,
+      "previous": {
+        "path": "world_city/concept_city_v3/assemblies/waterworks/registered_bridge/port_approach_r01/collision_contract_r02.json",
+        "sha256": "ee1b54c51e598acd509ee1c2adefdd7fb6449a8d48bc58bd2ed8c57e1bd74f5b"
+      },
+      "current": {
+        "path": "world_city/concept_city_v3/registered_integration/r8/final_exterior_candidate_r01/whole_city_activation_r03/contract_12.json",
+        "sha256": "9d6d270f54c3b044d5918d968e41ca24015f6004ecc1715cbc7d6ddf3e07c34b"
+      },
+      "triangles_unchanged": true,
+      "disable_ids_unchanged": true,
+      "native_placement_id": "BRIDGE_MAIN_RIVER:PORT_VISIBLE_APPROACH_R01"
+    }
+  ],
+  "geometry_changed": false
+}

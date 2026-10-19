@@ -1,0 +1,5540 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_productive_boundary_c_chapter_garden_1",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "timber": "654631",
+    "timber_light": "896143",
+    "timber_dark": "493729",
+    "iron": "394648",
+    "iron_light": "68736c",
+    "slate": "646f73",
+    "slate_light": "748085",
+    "slate_dark": "4a565c",
+    "slate_worn": "879096"
+  },
+  "coordinate_planes": [],
+  "components": [
+    {
+      "id": "boundary",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "runtime_animation": "not_integrated"
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "boundary_0_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              29.5,
+              -0.75,
+              -36.0
+            ],
+            "max": [
+              37.5,
+              1.25,
+              -35.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_0_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              37.5,
+              -0.75,
+              -36.0
+            ],
+            "max": [
+              45.0,
+              1.25,
+              -35.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_1_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              38.5,
+              -0.75,
+              -5.5
+            ],
+            "max": [
+              39.5,
+              1.25,
+              -5.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_2_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              38.0,
+              -0.75,
+              -5.0
+            ],
+            "max": [
+              39.0,
+              1.25,
+              -4.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_3_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              38.0,
+              -0.75,
+              -4.5
+            ],
+            "max": [
+              38.5,
+              1.25,
+              -4.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_4_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              37.5,
+              -0.75,
+              -4.0
+            ],
+            "max": [
+              38.5,
+              1.25,
+              -3.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_5_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              37.0,
+              -0.75,
+              -3.5
+            ],
+            "max": [
+              38.0,
+              1.25,
+              -3.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_6_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              36.5,
+              -0.75,
+              -3.0
+            ],
+            "max": [
+              37.5,
+              1.25,
+              -2.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_7_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              36.0,
+              -0.75,
+              -2.5
+            ],
+            "max": [
+              37.0,
+              1.25,
+              -2.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_8_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              35.5,
+              -0.75,
+              -2.0
+            ],
+            "max": [
+              36.5,
+              1.25,
+              -1.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_9_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              35.0,
+              -0.75,
+              -1.5
+            ],
+            "max": [
+              36.0,
+              1.25,
+              -1.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_10_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              34.5,
+              -0.75,
+              -1.0
+            ],
+            "max": [
+              35.5,
+              1.25,
+              -0.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_11_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              34.0,
+              -0.75,
+              -0.5
+            ],
+            "max": [
+              35.0,
+              1.25,
+              0.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_12_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              33.5,
+              -0.75,
+              0.0
+            ],
+            "max": [
+              34.5,
+              1.25,
+              0.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_13_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              33.0,
+              -0.75,
+              0.5
+            ],
+            "max": [
+              34.0,
+              1.25,
+              1.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_14_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              32.5,
+              -0.75,
+              1.0
+            ],
+            "max": [
+              33.5,
+              1.25,
+              1.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_15_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              32.0,
+              -0.75,
+              1.5
+            ],
+            "max": [
+              33.0,
+              1.25,
+              2.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_16_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              31.5,
+              -0.75,
+              2.0
+            ],
+            "max": [
+              32.5,
+              1.25,
+              2.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_17_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              31.0,
+              -0.75,
+              2.5
+            ],
+            "max": [
+              32.0,
+              1.25,
+              3.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_18_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              30.5,
+              -0.75,
+              3.0
+            ],
+            "max": [
+              31.5,
+              1.25,
+              3.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_19_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              30.0,
+              -0.75,
+              3.5
+            ],
+            "max": [
+              31.0,
+              1.25,
+              4.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_20_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              29.5,
+              -0.75,
+              4.0
+            ],
+            "max": [
+              30.5,
+              1.25,
+              4.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_21_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              29.0,
+              -0.75,
+              4.5
+            ],
+            "max": [
+              30.0,
+              1.25,
+              5.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_22_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              28.5,
+              -0.75,
+              5.0
+            ],
+            "max": [
+              29.5,
+              1.25,
+              5.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_23_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              28.0,
+              -0.75,
+              5.5
+            ],
+            "max": [
+              29.0,
+              1.25,
+              6.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_24_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              27.5,
+              -0.75,
+              6.0
+            ],
+            "max": [
+              28.5,
+              1.25,
+              6.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_25_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              27.0,
+              -0.75,
+              6.5
+            ],
+            "max": [
+              28.0,
+              1.25,
+              7.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_26_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              26.5,
+              -0.75,
+              7.0
+            ],
+            "max": [
+              27.5,
+              1.25,
+              7.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_27_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              26.0,
+              -0.75,
+              7.5
+            ],
+            "max": [
+              27.0,
+              1.25,
+              8.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_28_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              25.5,
+              -0.75,
+              8.0
+            ],
+            "max": [
+              26.5,
+              1.25,
+              8.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_29_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              25.0,
+              -0.75,
+              8.5
+            ],
+            "max": [
+              26.0,
+              1.25,
+              9.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_30_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              24.5,
+              -0.75,
+              9.0
+            ],
+            "max": [
+              25.5,
+              1.25,
+              9.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_31_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              24.0,
+              -0.75,
+              9.5
+            ],
+            "max": [
+              25.0,
+              1.25,
+              10.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_32_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              23.5,
+              -0.75,
+              10.0
+            ],
+            "max": [
+              24.5,
+              1.25,
+              10.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_33_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              20.0,
+              -0.75,
+              10.5
+            ],
+            "max": [
+              24.0,
+              1.25,
+              11.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_34_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              19.5,
+              -0.75,
+              11.0
+            ],
+            "max": [
+              20.5,
+              1.25,
+              11.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_35_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              19.0,
+              -0.75,
+              11.5
+            ],
+            "max": [
+              20.0,
+              1.25,
+              12.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_36_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              18.5,
+              -0.75,
+              12.0
+            ],
+            "max": [
+              19.5,
+              1.25,
+              12.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_37_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              18.0,
+              -0.75,
+              12.5
+            ],
+            "max": [
+              19.0,
+              1.25,
+              13.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_38_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              17.5,
+              -0.75,
+              13.0
+            ],
+            "max": [
+              18.5,
+              1.25,
+              13.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_39_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              17.0,
+              -0.75,
+              13.5
+            ],
+            "max": [
+              18.0,
+              1.25,
+              14.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_40_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              16.5,
+              -0.75,
+              14.0
+            ],
+            "max": [
+              17.5,
+              1.25,
+              14.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_41_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -48.5,
+              -0.75,
+              14.5
+            ],
+            "max": [
+              -47.5,
+              1.25,
+              15.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_42_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              16.0,
+              -0.75,
+              14.5
+            ],
+            "max": [
+              17.0,
+              1.25,
+              15.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_43_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -48.0,
+              -0.75,
+              15.0
+            ],
+            "max": [
+              -47.0,
+              1.25,
+              15.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_44_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              15.5,
+              -0.75,
+              15.0
+            ],
+            "max": [
+              16.5,
+              1.25,
+              15.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_45_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -47.5,
+              -0.75,
+              15.5
+            ],
+            "max": [
+              -47.0,
+              1.25,
+              16.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_46_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              15.0,
+              -0.75,
+              15.5
+            ],
+            "max": [
+              16.0,
+              1.25,
+              16.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_47_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -47.5,
+              -0.75,
+              16.0
+            ],
+            "max": [
+              -46.5,
+              1.25,
+              16.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_48_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              14.5,
+              -0.75,
+              16.0
+            ],
+            "max": [
+              15.5,
+              1.25,
+              16.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_49_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -47.0,
+              -0.75,
+              16.5
+            ],
+            "max": [
+              -46.0,
+              1.25,
+              17.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_50_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -46.5,
+              -0.75,
+              17.0
+            ],
+            "max": [
+              -46.0,
+              1.25,
+              17.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_51_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -46.5,
+              -0.75,
+              17.5
+            ],
+            "max": [
+              -45.5,
+              1.25,
+              18.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_52_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -46.0,
+              -0.75,
+              18.0
+            ],
+            "max": [
+              -45.5,
+              1.25,
+              18.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_53_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -46.0,
+              -0.75,
+              18.5
+            ],
+            "max": [
+              -45.0,
+              1.25,
+              19.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_54_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              10.0,
+              -0.75,
+              18.5
+            ],
+            "max": [
+              11.5,
+              1.25,
+              19.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_55_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -45.5,
+              -0.75,
+              19.0
+            ],
+            "max": [
+              -44.5,
+              1.25,
+              19.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_56_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              9.5,
+              -0.75,
+              19.0
+            ],
+            "max": [
+              10.5,
+              1.25,
+              19.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_57_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -45.0,
+              -0.75,
+              19.5
+            ],
+            "max": [
+              -44.5,
+              1.25,
+              20.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_58_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              9.0,
+              -0.75,
+              19.5
+            ],
+            "max": [
+              10.0,
+              1.25,
+              20.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_59_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -45.0,
+              -0.75,
+              20.0
+            ],
+            "max": [
+              -44.0,
+              1.25,
+              20.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_60_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              8.5,
+              -0.75,
+              20.0
+            ],
+            "max": [
+              9.5,
+              1.25,
+              20.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_61_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -44.5,
+              -0.75,
+              20.5
+            ],
+            "max": [
+              -43.5,
+              1.25,
+              21.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_62_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              7.0,
+              -0.75,
+              20.5
+            ],
+            "max": [
+              9.0,
+              1.25,
+              21.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_63_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -44.0,
+              -0.75,
+              21.0
+            ],
+            "max": [
+              -43.5,
+              1.25,
+              21.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_64_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              6.5,
+              -0.75,
+              21.0
+            ],
+            "max": [
+              7.5,
+              1.25,
+              21.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_65_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -44.0,
+              -0.75,
+              21.5
+            ],
+            "max": [
+              -43.0,
+              1.25,
+              22.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_66_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              6.0,
+              -0.75,
+              21.5
+            ],
+            "max": [
+              7.0,
+              1.25,
+              22.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_67_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -43.5,
+              -0.75,
+              22.0
+            ],
+            "max": [
+              -42.5,
+              1.25,
+              22.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_68_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              5.5,
+              -0.75,
+              22.0
+            ],
+            "max": [
+              6.5,
+              1.25,
+              22.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_69_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -43.0,
+              -0.75,
+              22.5
+            ],
+            "max": [
+              -42.5,
+              1.25,
+              23.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_70_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              4.0,
+              -0.75,
+              22.5
+            ],
+            "max": [
+              6.0,
+              1.25,
+              23.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_71_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -43.0,
+              -0.75,
+              23.0
+            ],
+            "max": [
+              -42.0,
+              1.25,
+              23.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_72_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              3.5,
+              -0.75,
+              23.0
+            ],
+            "max": [
+              4.5,
+              1.25,
+              23.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_73_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -42.5,
+              -0.75,
+              23.5
+            ],
+            "max": [
+              -42.0,
+              1.25,
+              24.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_74_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.0,
+              -0.75,
+              23.5
+            ],
+            "max": [
+              4.0,
+              1.25,
+              24.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_75_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -42.5,
+              -0.75,
+              24.0
+            ],
+            "max": [
+              -41.5,
+              1.25,
+              24.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_76_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.5,
+              -0.75,
+              24.0
+            ],
+            "max": [
+              2.5,
+              1.25,
+              24.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_77_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -42.0,
+              -0.75,
+              24.5
+            ],
+            "max": [
+              -41.0,
+              1.25,
+              25.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_78_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.0,
+              -0.75,
+              24.5
+            ],
+            "max": [
+              2.0,
+              1.25,
+              25.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_79_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -41.5,
+              -0.75,
+              25.0
+            ],
+            "max": [
+              -41.0,
+              1.25,
+              25.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_80_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -40.5,
+              -0.75,
+              25.0
+            ],
+            "max": [
+              -37.5,
+              1.25,
+              25.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_81_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.5,
+              -0.75,
+              25.0
+            ],
+            "max": [
+              1.5,
+              1.25,
+              25.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_82_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -41.5,
+              -0.75,
+              25.5
+            ],
+            "max": [
+              -40.0,
+              1.25,
+              26.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_83_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -38.0,
+              -0.75,
+              25.5
+            ],
+            "max": [
+              -37.0,
+              1.25,
+              26.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_84_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.0,
+              -0.75,
+              25.5
+            ],
+            "max": [
+              1.0,
+              1.25,
+              26.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_85_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.5,
+              -0.75,
+              26.0
+            ],
+            "max": [
+              -0.5,
+              1.25,
+              26.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_86_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -41.0,
+              -0.75,
+              26.0
+            ],
+            "max": [
+              -40.0,
+              1.25,
+              27.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_87_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.0,
+              -0.75,
+              26.5
+            ],
+            "max": [
+              -1.0,
+              1.25,
+              27.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_88_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -37.5,
+              -0.75,
+              26.0
+            ],
+            "max": [
+              -37.0,
+              1.25,
+              27.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_89_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.5,
+              -0.75,
+              27.0
+            ],
+            "max": [
+              -1.5,
+              1.25,
+              27.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_90_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -40.5,
+              -0.75,
+              27.0
+            ],
+            "max": [
+              -40.0,
+              1.25,
+              28.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_91_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -38.0,
+              -0.75,
+              27.5
+            ],
+            "max": [
+              -37.0,
+              1.25,
+              28.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_92_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.0,
+              -0.75,
+              27.5
+            ],
+            "max": [
+              -2.0,
+              1.25,
+              28.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_93_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -40.0,
+              -0.75,
+              28.0
+            ],
+            "max": [
+              -37.5,
+              1.25,
+              28.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_94_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.5,
+              -0.75,
+              28.0
+            ],
+            "max": [
+              -3.5,
+              1.25,
+              28.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_95_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -39.5,
+              -0.75,
+              28.5
+            ],
+            "max": [
+              -39.0,
+              1.25,
+              29.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_96_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -6.0,
+              -0.75,
+              28.5
+            ],
+            "max": [
+              -4.0,
+              1.25,
+              29.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_97_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -39.5,
+              -0.75,
+              29.0
+            ],
+            "max": [
+              -38.5,
+              1.25,
+              29.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_98_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -6.5,
+              -0.75,
+              29.0
+            ],
+            "max": [
+              -5.5,
+              1.25,
+              29.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_99_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -39.0,
+              -0.75,
+              29.5
+            ],
+            "max": [
+              -38.0,
+              1.25,
+              30.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_100_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -7.0,
+              -0.75,
+              29.5
+            ],
+            "max": [
+              -6.0,
+              1.25,
+              30.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_101_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -38.5,
+              -0.75,
+              30.0
+            ],
+            "max": [
+              -38.0,
+              1.25,
+              30.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_102_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -7.5,
+              -0.75,
+              30.0
+            ],
+            "max": [
+              -6.5,
+              1.25,
+              30.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_103_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -38.5,
+              -0.75,
+              30.5
+            ],
+            "max": [
+              -37.5,
+              1.25,
+              31.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_104_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -9.0,
+              -0.75,
+              30.5
+            ],
+            "max": [
+              -7.0,
+              1.25,
+              31.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_105_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -38.0,
+              -0.75,
+              31.0
+            ],
+            "max": [
+              -37.0,
+              1.25,
+              31.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_106_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -9.5,
+              -0.75,
+              31.0
+            ],
+            "max": [
+              -8.5,
+              1.25,
+              31.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_107_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -37.5,
+              -0.75,
+              31.5
+            ],
+            "max": [
+              -37.0,
+              1.25,
+              32.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_108_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -10.0,
+              -0.75,
+              31.5
+            ],
+            "max": [
+              -9.0,
+              1.25,
+              32.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_109_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -37.5,
+              -0.75,
+              32.0
+            ],
+            "max": [
+              -36.5,
+              1.25,
+              32.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_110_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -10.5,
+              -0.75,
+              32.0
+            ],
+            "max": [
+              -9.5,
+              1.25,
+              32.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_111_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -37.0,
+              -0.75,
+              32.5
+            ],
+            "max": [
+              -36.5,
+              1.25,
+              33.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_112_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -12.0,
+              -0.75,
+              32.5
+            ],
+            "max": [
+              -10.0,
+              1.25,
+              33.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_113_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -37.0,
+              -0.75,
+              33.0
+            ],
+            "max": [
+              -36.0,
+              1.25,
+              33.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_114_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -12.5,
+              -0.75,
+              33.0
+            ],
+            "max": [
+              -11.5,
+              1.25,
+              33.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_115_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -36.5,
+              -0.75,
+              33.5
+            ],
+            "max": [
+              -35.5,
+              1.25,
+              34.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_116_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -13.0,
+              -0.75,
+              33.5
+            ],
+            "max": [
+              -12.0,
+              1.25,
+              34.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_117_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -36.0,
+              -0.75,
+              34.0
+            ],
+            "max": [
+              -35.5,
+              1.25,
+              34.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_118_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -13.5,
+              -0.75,
+              34.0
+            ],
+            "max": [
+              -12.5,
+              1.25,
+              34.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_119_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -36.0,
+              -0.75,
+              34.5
+            ],
+            "max": [
+              -35.0,
+              1.25,
+              35.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_120_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -15.0,
+              -0.75,
+              34.5
+            ],
+            "max": [
+              -13.0,
+              1.25,
+              35.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_121_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -35.5,
+              -0.75,
+              35.0
+            ],
+            "max": [
+              -34.5,
+              1.25,
+              35.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_122_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -15.5,
+              -0.75,
+              35.0
+            ],
+            "max": [
+              -14.5,
+              1.25,
+              35.5
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_123_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -35.0,
+              -0.75,
+              35.5
+            ],
+            "max": [
+              -27.0,
+              1.25,
+              36.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_123_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -27.0,
+              -0.75,
+              35.5
+            ],
+            "max": [
+              -19.0,
+              1.25,
+              36.0
+            ]
+          },
+          "material": "stone"
+        },
+        {
+          "id": "boundary_123_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -19.0,
+              -0.75,
+              35.5
+            ],
+            "max": [
+              -15.0,
+              1.25,
+              36.0
+            ]
+          },
+          "material": "stone"
+        }
+      ]
+    },
+    {
+      "id": "gate",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "runtime_animation": "not_integrated"
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "gate_post_-1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              14.5,
+              -0.75,
+              16.0
+            ],
+            "max": [
+              15.0,
+              1.5,
+              16.5
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "open_leaf_-1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                14.92677669529661,
+                -16.07322330470336
+              ],
+              [
+                13.689339828220113,
+                -14.835786437626894
+              ],
+              [
+                13.335786437626894,
+                -15.189339828220227
+              ],
+              [
+                14.57322330470339,
+                -16.42677669529664
+              ]
+            ],
+            "z_min": 0.25,
+            "z_max": 1.25
+          },
+          "material": "timber",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "gate_post_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              11.0,
+              -0.75,
+              18.5
+            ],
+            "max": [
+              11.5,
+              1.5,
+              19.0
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "open_leaf_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                11.426776695296638,
+                -18.57322330470336
+              ],
+              [
+                10.18933982822017,
+                -17.335786437626922
+              ],
+              [
+                9.835786437626894,
+                -17.6893398282202
+              ],
+              [
+                11.073223304703362,
+                -18.92677669529664
+              ]
+            ],
+            "z_min": 0.25,
+            "z_max": 1.25
+          },
+          "material": "timber",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "boundary",
+      "component": "boundary"
+    },
+    {
+      "id": "gate",
+      "component": "gate"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "part_present",
+      "kind": "nonempty",
+      "selector": {}
+    },
+    {
+      "id": "boundary_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "boundary"
+      }
+    },
+    {
+      "id": "gate_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "gate"
+      }
+    }
+  ],
+  "provenance": {
+    "author": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r05_ground/phase01/author.py",
+      "sha256": "ef53154fbc935fb147edaa0d38bcef5d04592293104ff6a71c12584b9e8df6f4"
+    },
+    "source_files": [
+      {
+        "path": "voxel_character/common/assets/house/master.json",
+        "sha256": "8c46e2372049a7f991af4aeda70e19cceaab775a96af3bdaf3662d65885305c3"
+      },
+      {
+        "path": "voxel_character/common/assets/fountain/master.json",
+        "sha256": "49d9288b70dd1ae36a9d3af2fefb5f6130caf9a8384bdbf11f677d558846d593"
+      },
+      {
+        "path": "world_city/runtime_city/revisions/r2/city_history.r2.candidate.json",
+        "sha256": "46f4ad745219f4b52a20150b4d926a91a47d839b746d4a25f539108e6e920699"
+      },
+      {
+        "path": "world_city/reference/revision_02/city_terrain_concept.png",
+        "sha256": "7f86e8e7b28058cc70227e098e4cc65edd3aa3f94ba541683482540187cc53f1"
+      },
+      {
+        "path": "world_city/reference/revision_02/prompt.txt",
+        "sha256": "c641d75651c42156f933a166653676d51cde13029c08f86f56d9f02d59fd0114"
+      }
+    ],
+    "observed": "Existing common schema, palette roles, landmark/infrastructure/topography source interfaces.",
+    "inferred": "All new part geometry, dimensions, sockets, support zones and mechanical proportions.",
+    "image_basis": "Revision 02 whole-city concept inspected for facility families only; exact part dimensions are source/design inferences, not measured from pixels.",
+    "evidence": "fictional_game_design_inference_not_historical_reconstruction",
+    "material_policy": "Original house warm stone/timber roles; canonical r2 gray slate for roof roles. Old masters remain unchanged.",
+    "new_engine": false,
+    "reviewed_remaining_land": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/remaining_land_r01/remaining_land_plan.json",
+      "sha256": "b222a9e927ac640bf264d0bfacebd4b86d3d8e4c9f4be30dc9adc613fb31d49c"
+    },
+    "preflight": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r05_ground/phase01/preflight.json",
+      "sha256": "8f22b43a4a7ff6cf37388f301aaef9dd4e245c3e8294915641e90db93a00997f"
+    }
+  },
+  "extensions": {
+    "part_kind": "productive_boundary_c_chapter_garden_1",
+    "status": "staged_prototype_needs_art_review",
+    "local_bounds_m": {
+      "min": [
+        -150,
+        -0.75,
+        -150
+      ],
+      "max": [
+        150,
+        1.5,
+        150
+      ]
+    },
+    "footprint_xz_m": [
+      [
+        -150,
+        -150
+      ],
+      [
+        150,
+        -150
+      ],
+      [
+        150,
+        150
+      ],
+      [
+        -150,
+        150
+      ]
+    ],
+    "sockets": [],
+    "supports": [],
+    "clearances": [],
+    "functional_connections": [],
+    "animation_hooks": [],
+    "lod": {
+      "policy": "Every pitch is compiled independently from this single continuous master.",
+      "source_geometry_changes_by_lod": false,
+      "output_cell_edits_allowed": false,
+      "collision_changes_by_lod": false,
+      "collision_status": "not_integrated",
+      "candidate_visual_pitches_m": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "coarse_functional_guarantee": false,
+      "thin_rope_policy": "Existing common tube minimum_radius_cells=0.75 preserves crane/hoist visual lines; no physics shape or output cells are changed.",
+      "coarse_action": "Reject a functional use if sampled clearance or support checks fail."
+    },
+    "smoke_pitch_m": 0.2,
+    "design_notes": [],
+    "city_placement": null,
+    "terrain_placement": null,
+    "visual_review": "not_run",
+    "whole_city_complete": false,
+    "release_gate": "New concept review, material/silhouette review, placement/support checks, traversal and runtime integration remain open.",
+    "holding_id": "C_CHAPTER_GARDEN:1",
+    "world_origin_xyz_m": [
+      244,
+      14,
+      -272
+    ],
+    "source_ground_regions_xz_m": [
+      [
+        [
+          271.5,
+          -308.0
+        ],
+        [
+          293.5,
+          -308.0
+        ],
+        [
+          293.5,
+          -307.5
+        ],
+        [
+          271.5,
+          -307.5
+        ]
+      ],
+      [
+        [
+          271.0,
+          -307.5
+        ],
+        [
+          292.5,
+          -307.5
+        ],
+        [
+          292.5,
+          -307.0
+        ],
+        [
+          271.0,
+          -307.0
+        ]
+      ],
+      [
+        [
+          270.0,
+          -307.0
+        ],
+        [
+          292.0,
+          -307.0
+        ],
+        [
+          292.0,
+          -306.5
+        ],
+        [
+          270.0,
+          -306.5
+        ]
+      ],
+      [
+        [
+          269.5,
+          -306.5
+        ],
+        [
+          291.0,
+          -306.5
+        ],
+        [
+          291.0,
+          -306.0
+        ],
+        [
+          269.5,
+          -306.0
+        ]
+      ],
+      [
+        [
+          268.5,
+          -306.0
+        ],
+        [
+          290.5,
+          -306.0
+        ],
+        [
+          290.5,
+          -305.5
+        ],
+        [
+          268.5,
+          -305.5
+        ]
+      ],
+      [
+        [
+          268.0,
+          -305.5
+        ],
+        [
+          289.5,
+          -305.5
+        ],
+        [
+          289.5,
+          -305.0
+        ],
+        [
+          268.0,
+          -305.0
+        ]
+      ],
+      [
+        [
+          267.0,
+          -305.0
+        ],
+        [
+          288.5,
+          -305.0
+        ],
+        [
+          288.5,
+          -304.5
+        ],
+        [
+          267.0,
+          -304.5
+        ]
+      ],
+      [
+        [
+          266.0,
+          -304.5
+        ],
+        [
+          288.0,
+          -304.5
+        ],
+        [
+          288.0,
+          -304.0
+        ],
+        [
+          266.0,
+          -304.0
+        ]
+      ],
+      [
+        [
+          265.5,
+          -304.0
+        ],
+        [
+          287.0,
+          -304.0
+        ],
+        [
+          287.0,
+          -303.5
+        ],
+        [
+          265.5,
+          -303.5
+        ]
+      ],
+      [
+        [
+          264.5,
+          -303.5
+        ],
+        [
+          286.5,
+          -303.5
+        ],
+        [
+          286.5,
+          -303.0
+        ],
+        [
+          264.5,
+          -303.0
+        ]
+      ],
+      [
+        [
+          264.0,
+          -303.0
+        ],
+        [
+          285.5,
+          -303.0
+        ],
+        [
+          285.5,
+          -302.5
+        ],
+        [
+          264.0,
+          -302.5
+        ]
+      ],
+      [
+        [
+          263.0,
+          -302.5
+        ],
+        [
+          284.5,
+          -302.5
+        ],
+        [
+          284.5,
+          -302.0
+        ],
+        [
+          263.0,
+          -302.0
+        ]
+      ],
+      [
+        [
+          262.0,
+          -302.0
+        ],
+        [
+          284.0,
+          -302.0
+        ],
+        [
+          284.0,
+          -301.5
+        ],
+        [
+          262.0,
+          -301.5
+        ]
+      ],
+      [
+        [
+          261.5,
+          -301.5
+        ],
+        [
+          283.0,
+          -301.5
+        ],
+        [
+          283.0,
+          -301.0
+        ],
+        [
+          261.5,
+          -301.0
+        ]
+      ],
+      [
+        [
+          260.5,
+          -301.0
+        ],
+        [
+          282.5,
+          -301.0
+        ],
+        [
+          282.5,
+          -300.5
+        ],
+        [
+          260.5,
+          -300.5
+        ]
+      ],
+      [
+        [
+          260.0,
+          -300.5
+        ],
+        [
+          281.5,
+          -300.5
+        ],
+        [
+          281.5,
+          -300.0
+        ],
+        [
+          260.0,
+          -300.0
+        ]
+      ],
+      [
+        [
+          259.0,
+          -300.0
+        ],
+        [
+          281.0,
+          -300.0
+        ],
+        [
+          281.0,
+          -299.5
+        ],
+        [
+          259.0,
+          -299.5
+        ]
+      ],
+      [
+        [
+          258.5,
+          -299.5
+        ],
+        [
+          280.0,
+          -299.5
+        ],
+        [
+          280.0,
+          -299.0
+        ],
+        [
+          258.5,
+          -299.0
+        ]
+      ],
+      [
+        [
+          257.5,
+          -299.0
+        ],
+        [
+          279.0,
+          -299.0
+        ],
+        [
+          279.0,
+          -298.5
+        ],
+        [
+          257.5,
+          -298.5
+        ]
+      ],
+      [
+        [
+          256.5,
+          -298.5
+        ],
+        [
+          278.5,
+          -298.5
+        ],
+        [
+          278.5,
+          -298.0
+        ],
+        [
+          256.5,
+          -298.0
+        ]
+      ],
+      [
+        [
+          256.0,
+          -298.0
+        ],
+        [
+          277.5,
+          -298.0
+        ],
+        [
+          277.5,
+          -297.5
+        ],
+        [
+          256.0,
+          -297.5
+        ]
+      ],
+      [
+        [
+          255.0,
+          -297.5
+        ],
+        [
+          277.0,
+          -297.5
+        ],
+        [
+          277.0,
+          -297.0
+        ],
+        [
+          255.0,
+          -297.0
+        ]
+      ],
+      [
+        [
+          254.5,
+          -297.0
+        ],
+        [
+          276.0,
+          -297.0
+        ],
+        [
+          276.0,
+          -296.5
+        ],
+        [
+          254.5,
+          -296.5
+        ]
+      ],
+      [
+        [
+          253.5,
+          -296.5
+        ],
+        [
+          275.5,
+          -296.5
+        ],
+        [
+          275.5,
+          -296.0
+        ],
+        [
+          253.5,
+          -296.0
+        ]
+      ],
+      [
+        [
+          252.5,
+          -296.0
+        ],
+        [
+          274.5,
+          -296.0
+        ],
+        [
+          274.5,
+          -295.5
+        ],
+        [
+          252.5,
+          -295.5
+        ]
+      ],
+      [
+        [
+          252.0,
+          -295.5
+        ],
+        [
+          274.5,
+          -295.5
+        ],
+        [
+          274.5,
+          -295.0
+        ],
+        [
+          252.0,
+          -295.0
+        ]
+      ],
+      [
+        [
+          251.0,
+          -295.0
+        ],
+        [
+          274.5,
+          -295.0
+        ],
+        [
+          274.5,
+          -294.5
+        ],
+        [
+          251.0,
+          -294.5
+        ]
+      ],
+      [
+        [
+          250.5,
+          -294.5
+        ],
+        [
+          274.5,
+          -294.5
+        ],
+        [
+          274.5,
+          -294.0
+        ],
+        [
+          250.5,
+          -294.0
+        ]
+      ],
+      [
+        [
+          249.5,
+          -294.0
+        ],
+        [
+          275.0,
+          -294.0
+        ],
+        [
+          275.0,
+          -293.5
+        ],
+        [
+          249.5,
+          -293.5
+        ]
+      ],
+      [
+        [
+          249.0,
+          -293.5
+        ],
+        [
+          275.0,
+          -293.5
+        ],
+        [
+          275.0,
+          -293.0
+        ],
+        [
+          249.0,
+          -293.0
+        ]
+      ],
+      [
+        [
+          248.0,
+          -293.0
+        ],
+        [
+          275.5,
+          -293.0
+        ],
+        [
+          275.5,
+          -292.5
+        ],
+        [
+          248.0,
+          -292.5
+        ]
+      ],
+      [
+        [
+          247.0,
+          -292.5
+        ],
+        [
+          276.0,
+          -292.5
+        ],
+        [
+          276.0,
+          -292.0
+        ],
+        [
+          247.0,
+          -292.0
+        ]
+      ],
+      [
+        [
+          246.5,
+          -292.0
+        ],
+        [
+          276.0,
+          -292.0
+        ],
+        [
+          276.0,
+          -291.5
+        ],
+        [
+          246.5,
+          -291.5
+        ]
+      ],
+      [
+        [
+          245.5,
+          -291.5
+        ],
+        [
+          276.5,
+          -291.5
+        ],
+        [
+          276.5,
+          -291.0
+        ],
+        [
+          245.5,
+          -291.0
+        ]
+      ],
+      [
+        [
+          245.0,
+          -291.0
+        ],
+        [
+          276.5,
+          -291.0
+        ],
+        [
+          276.5,
+          -290.5
+        ],
+        [
+          245.0,
+          -290.5
+        ]
+      ],
+      [
+        [
+          244.0,
+          -290.5
+        ],
+        [
+          277.0,
+          -290.5
+        ],
+        [
+          277.0,
+          -290.0
+        ],
+        [
+          244.0,
+          -290.0
+        ]
+      ],
+      [
+        [
+          243.0,
+          -290.0
+        ],
+        [
+          277.5,
+          -290.0
+        ],
+        [
+          277.5,
+          -289.5
+        ],
+        [
+          243.0,
+          -289.5
+        ]
+      ],
+      [
+        [
+          242.5,
+          -289.5
+        ],
+        [
+          277.5,
+          -289.5
+        ],
+        [
+          277.5,
+          -289.0
+        ],
+        [
+          242.5,
+          -289.0
+        ]
+      ],
+      [
+        [
+          241.5,
+          -289.0
+        ],
+        [
+          278.0,
+          -289.0
+        ],
+        [
+          278.0,
+          -288.5
+        ],
+        [
+          241.5,
+          -288.5
+        ]
+      ],
+      [
+        [
+          241.0,
+          -288.5
+        ],
+        [
+          278.5,
+          -288.5
+        ],
+        [
+          278.5,
+          -288.0
+        ],
+        [
+          241.0,
+          -288.0
+        ]
+      ],
+      [
+        [
+          240.0,
+          -288.0
+        ],
+        [
+          278.5,
+          -288.0
+        ],
+        [
+          278.5,
+          -287.5
+        ],
+        [
+          240.0,
+          -287.5
+        ]
+      ],
+      [
+        [
+          239.5,
+          -287.5
+        ],
+        [
+          279.0,
+          -287.5
+        ],
+        [
+          279.0,
+          -287.0
+        ],
+        [
+          239.5,
+          -287.0
+        ]
+      ],
+      [
+        [
+          238.5,
+          -287.0
+        ],
+        [
+          279.5,
+          -287.0
+        ],
+        [
+          279.5,
+          -286.5
+        ],
+        [
+          238.5,
+          -286.5
+        ]
+      ],
+      [
+        [
+          237.5,
+          -286.5
+        ],
+        [
+          279.5,
+          -286.5
+        ],
+        [
+          279.5,
+          -286.0
+        ],
+        [
+          237.5,
+          -286.0
+        ]
+      ],
+      [
+        [
+          237.0,
+          -286.0
+        ],
+        [
+          280.0,
+          -286.0
+        ],
+        [
+          280.0,
+          -285.5
+        ],
+        [
+          237.0,
+          -285.5
+        ]
+      ],
+      [
+        [
+          236.0,
+          -285.5
+        ],
+        [
+          280.0,
+          -285.5
+        ],
+        [
+          280.0,
+          -285.0
+        ],
+        [
+          236.0,
+          -285.0
+        ]
+      ],
+      [
+        [
+          235.5,
+          -285.0
+        ],
+        [
+          280.5,
+          -285.0
+        ],
+        [
+          280.5,
+          -284.5
+        ],
+        [
+          235.5,
+          -284.5
+        ]
+      ],
+      [
+        [
+          234.5,
+          -284.5
+        ],
+        [
+          281.0,
+          -284.5
+        ],
+        [
+          281.0,
+          -284.0
+        ],
+        [
+          234.5,
+          -284.0
+        ]
+      ],
+      [
+        [
+          234.0,
+          -284.0
+        ],
+        [
+          281.0,
+          -284.0
+        ],
+        [
+          281.0,
+          -283.5
+        ],
+        [
+          234.0,
+          -283.5
+        ]
+      ],
+      [
+        [
+          233.0,
+          -283.5
+        ],
+        [
+          281.5,
+          -283.5
+        ],
+        [
+          281.5,
+          -283.0
+        ],
+        [
+          233.0,
+          -283.0
+        ]
+      ],
+      [
+        [
+          232.0,
+          -283.0
+        ],
+        [
+          282.0,
+          -283.0
+        ],
+        [
+          282.0,
+          -282.5
+        ],
+        [
+          232.0,
+          -282.5
+        ]
+      ],
+      [
+        [
+          231.5,
+          -282.5
+        ],
+        [
+          282.0,
+          -282.5
+        ],
+        [
+          282.0,
+          -282.0
+        ],
+        [
+          231.5,
+          -282.0
+        ]
+      ],
+      [
+        [
+          230.5,
+          -282.0
+        ],
+        [
+          282.5,
+          -282.0
+        ],
+        [
+          282.5,
+          -281.5
+        ],
+        [
+          230.5,
+          -281.5
+        ]
+      ],
+      [
+        [
+          230.0,
+          -281.5
+        ],
+        [
+          282.5,
+          -281.5
+        ],
+        [
+          282.5,
+          -281.0
+        ],
+        [
+          230.0,
+          -281.0
+        ]
+      ],
+      [
+        [
+          229.0,
+          -281.0
+        ],
+        [
+          283.0,
+          -281.0
+        ],
+        [
+          283.0,
+          -280.5
+        ],
+        [
+          229.0,
+          -280.5
+        ]
+      ],
+      [
+        [
+          228.0,
+          -280.5
+        ],
+        [
+          283.5,
+          -280.5
+        ],
+        [
+          283.5,
+          -280.0
+        ],
+        [
+          228.0,
+          -280.0
+        ]
+      ],
+      [
+        [
+          227.5,
+          -280.0
+        ],
+        [
+          283.5,
+          -280.0
+        ],
+        [
+          283.5,
+          -279.5
+        ],
+        [
+          227.5,
+          -279.5
+        ]
+      ],
+      [
+        [
+          226.5,
+          -279.5
+        ],
+        [
+          284.0,
+          -279.5
+        ],
+        [
+          284.0,
+          -279.0
+        ],
+        [
+          226.5,
+          -279.0
+        ]
+      ],
+      [
+        [
+          226.0,
+          -279.0
+        ],
+        [
+          284.0,
+          -279.0
+        ],
+        [
+          284.0,
+          -278.5
+        ],
+        [
+          226.0,
+          -278.5
+        ]
+      ],
+      [
+        [
+          225.0,
+          -278.5
+        ],
+        [
+          284.0,
+          -278.5
+        ],
+        [
+          284.0,
+          -278.0
+        ],
+        [
+          225.0,
+          -278.0
+        ]
+      ],
+      [
+        [
+          224.5,
+          -278.0
+        ],
+        [
+          284.0,
+          -278.0
+        ],
+        [
+          284.0,
+          -277.5
+        ],
+        [
+          224.5,
+          -277.5
+        ]
+      ],
+      [
+        [
+          223.5,
+          -277.5
+        ],
+        [
+          283.5,
+          -277.5
+        ],
+        [
+          283.5,
+          -277.0
+        ],
+        [
+          223.5,
+          -277.0
+        ]
+      ],
+      [
+        [
+          222.5,
+          -277.0
+        ],
+        [
+          283.0,
+          -277.0
+        ],
+        [
+          283.0,
+          -276.5
+        ],
+        [
+          222.5,
+          -276.5
+        ]
+      ],
+      [
+        [
+          222.0,
+          -276.5
+        ],
+        [
+          282.5,
+          -276.5
+        ],
+        [
+          282.5,
+          -276.0
+        ],
+        [
+          222.0,
+          -276.0
+        ]
+      ],
+      [
+        [
+          221.0,
+          -276.0
+        ],
+        [
+          282.5,
+          -276.0
+        ],
+        [
+          282.5,
+          -275.5
+        ],
+        [
+          221.0,
+          -275.5
+        ]
+      ],
+      [
+        [
+          220.5,
+          -275.5
+        ],
+        [
+          282.0,
+          -275.5
+        ],
+        [
+          282.0,
+          -275.0
+        ],
+        [
+          220.5,
+          -275.0
+        ]
+      ],
+      [
+        [
+          219.5,
+          -275.0
+        ],
+        [
+          281.5,
+          -275.0
+        ],
+        [
+          281.5,
+          -274.5
+        ],
+        [
+          219.5,
+          -274.5
+        ]
+      ],
+      [
+        [
+          218.5,
+          -274.5
+        ],
+        [
+          281.0,
+          -274.5
+        ],
+        [
+          281.0,
+          -274.0
+        ],
+        [
+          218.5,
+          -274.0
+        ]
+      ],
+      [
+        [
+          218.0,
+          -274.0
+        ],
+        [
+          280.5,
+          -274.0
+        ],
+        [
+          280.5,
+          -273.5
+        ],
+        [
+          218.0,
+          -273.5
+        ]
+      ],
+      [
+        [
+          217.0,
+          -273.5
+        ],
+        [
+          280.0,
+          -273.5
+        ],
+        [
+          280.0,
+          -273.0
+        ],
+        [
+          217.0,
+          -273.0
+        ]
+      ],
+      [
+        [
+          216.5,
+          -273.0
+        ],
+        [
+          279.5,
+          -273.0
+        ],
+        [
+          279.5,
+          -272.5
+        ],
+        [
+          216.5,
+          -272.5
+        ]
+      ],
+      [
+        [
+          215.5,
+          -272.5
+        ],
+        [
+          279.0,
+          -272.5
+        ],
+        [
+          279.0,
+          -272.0
+        ],
+        [
+          215.5,
+          -272.0
+        ]
+      ],
+      [
+        [
+          215.0,
+          -272.0
+        ],
+        [
+          278.5,
+          -272.0
+        ],
+        [
+          278.5,
+          -271.5
+        ],
+        [
+          215.0,
+          -271.5
+        ]
+      ],
+      [
+        [
+          214.0,
+          -271.5
+        ],
+        [
+          278.0,
+          -271.5
+        ],
+        [
+          278.0,
+          -271.0
+        ],
+        [
+          214.0,
+          -271.0
+        ]
+      ],
+      [
+        [
+          213.0,
+          -271.0
+        ],
+        [
+          277.5,
+          -271.0
+        ],
+        [
+          277.5,
+          -270.5
+        ],
+        [
+          213.0,
+          -270.5
+        ]
+      ],
+      [
+        [
+          212.5,
+          -270.5
+        ],
+        [
+          277.0,
+          -270.5
+        ],
+        [
+          277.0,
+          -270.0
+        ],
+        [
+          212.5,
+          -270.0
+        ]
+      ],
+      [
+        [
+          211.5,
+          -270.0
+        ],
+        [
+          276.5,
+          -270.0
+        ],
+        [
+          276.5,
+          -269.5
+        ],
+        [
+          211.5,
+          -269.5
+        ]
+      ],
+      [
+        [
+          211.0,
+          -269.5
+        ],
+        [
+          276.0,
+          -269.5
+        ],
+        [
+          276.0,
+          -269.0
+        ],
+        [
+          211.0,
+          -269.0
+        ]
+      ],
+      [
+        [
+          210.0,
+          -269.0
+        ],
+        [
+          275.5,
+          -269.0
+        ],
+        [
+          275.5,
+          -268.5
+        ],
+        [
+          210.0,
+          -268.5
+        ]
+      ],
+      [
+        [
+          209.0,
+          -268.5
+        ],
+        [
+          275.0,
+          -268.5
+        ],
+        [
+          275.0,
+          -268.0
+        ],
+        [
+          209.0,
+          -268.0
+        ]
+      ],
+      [
+        [
+          208.5,
+          -268.0
+        ],
+        [
+          274.5,
+          -268.0
+        ],
+        [
+          274.5,
+          -267.5
+        ],
+        [
+          208.5,
+          -267.5
+        ]
+      ],
+      [
+        [
+          207.5,
+          -267.5
+        ],
+        [
+          274.0,
+          -267.5
+        ],
+        [
+          274.0,
+          -267.0
+        ],
+        [
+          207.5,
+          -267.0
+        ]
+      ],
+      [
+        [
+          207.0,
+          -267.0
+        ],
+        [
+          273.5,
+          -267.0
+        ],
+        [
+          273.5,
+          -266.5
+        ],
+        [
+          207.0,
+          -266.5
+        ]
+      ],
+      [
+        [
+          206.0,
+          -266.5
+        ],
+        [
+          273.0,
+          -266.5
+        ],
+        [
+          273.0,
+          -266.0
+        ],
+        [
+          206.0,
+          -266.0
+        ]
+      ],
+      [
+        [
+          205.5,
+          -266.0
+        ],
+        [
+          272.5,
+          -266.0
+        ],
+        [
+          272.5,
+          -265.5
+        ],
+        [
+          205.5,
+          -265.5
+        ]
+      ],
+      [
+        [
+          204.5,
+          -265.5
+        ],
+        [
+          272.0,
+          -265.5
+        ],
+        [
+          272.0,
+          -265.0
+        ],
+        [
+          204.5,
+          -265.0
+        ]
+      ],
+      [
+        [
+          203.5,
+          -265.0
+        ],
+        [
+          271.5,
+          -265.0
+        ],
+        [
+          271.5,
+          -264.5
+        ],
+        [
+          203.5,
+          -264.5
+        ]
+      ],
+      [
+        [
+          203.0,
+          -264.5
+        ],
+        [
+          271.0,
+          -264.5
+        ],
+        [
+          271.0,
+          -264.0
+        ],
+        [
+          203.0,
+          -264.0
+        ]
+      ],
+      [
+        [
+          202.0,
+          -264.0
+        ],
+        [
+          270.5,
+          -264.0
+        ],
+        [
+          270.5,
+          -263.5
+        ],
+        [
+          202.0,
+          -263.5
+        ]
+      ],
+      [
+        [
+          201.5,
+          -263.5
+        ],
+        [
+          270.0,
+          -263.5
+        ],
+        [
+          270.0,
+          -263.0
+        ],
+        [
+          201.5,
+          -263.0
+        ]
+      ],
+      [
+        [
+          200.5,
+          -263.0
+        ],
+        [
+          269.5,
+          -263.0
+        ],
+        [
+          269.5,
+          -262.5
+        ],
+        [
+          200.5,
+          -262.5
+        ]
+      ],
+      [
+        [
+          199.5,
+          -262.5
+        ],
+        [
+          269.0,
+          -262.5
+        ],
+        [
+          269.0,
+          -262.0
+        ],
+        [
+          199.5,
+          -262.0
+        ]
+      ],
+      [
+        [
+          199.0,
+          -262.0
+        ],
+        [
+          268.5,
+          -262.0
+        ],
+        [
+          268.5,
+          -261.5
+        ],
+        [
+          199.0,
+          -261.5
+        ]
+      ],
+      [
+        [
+          198.0,
+          -261.5
+        ],
+        [
+          268.0,
+          -261.5
+        ],
+        [
+          268.0,
+          -261.0
+        ],
+        [
+          198.0,
+          -261.0
+        ]
+      ],
+      [
+        [
+          197.5,
+          -261.0
+        ],
+        [
+          264.5,
+          -261.0
+        ],
+        [
+          264.5,
+          -260.5
+        ],
+        [
+          197.5,
+          -260.5
+        ]
+      ],
+      [
+        [
+          196.5,
+          -260.5
+        ],
+        [
+          264.0,
+          -260.5
+        ],
+        [
+          264.0,
+          -260.0
+        ],
+        [
+          196.5,
+          -260.0
+        ]
+      ],
+      [
+        [
+          196.0,
+          -260.0
+        ],
+        [
+          263.5,
+          -260.0
+        ],
+        [
+          263.5,
+          -259.5
+        ],
+        [
+          196.0,
+          -259.5
+        ]
+      ],
+      [
+        [
+          195.0,
+          -259.5
+        ],
+        [
+          263.0,
+          -259.5
+        ],
+        [
+          263.0,
+          -259.0
+        ],
+        [
+          195.0,
+          -259.0
+        ]
+      ],
+      [
+        [
+          194.5,
+          -259.0
+        ],
+        [
+          262.5,
+          -259.0
+        ],
+        [
+          262.5,
+          -258.5
+        ],
+        [
+          194.5,
+          -258.5
+        ]
+      ],
+      [
+        [
+          195.0,
+          -258.5
+        ],
+        [
+          262.0,
+          -258.5
+        ],
+        [
+          262.0,
+          -258.0
+        ],
+        [
+          195.0,
+          -258.0
+        ]
+      ],
+      [
+        [
+          195.0,
+          -258.0
+        ],
+        [
+          261.5,
+          -258.0
+        ],
+        [
+          261.5,
+          -257.5
+        ],
+        [
+          195.0,
+          -257.5
+        ]
+      ],
+      [
+        [
+          195.5,
+          -257.5
+        ],
+        [
+          261.0,
+          -257.5
+        ],
+        [
+          261.0,
+          -257.0
+        ],
+        [
+          195.5,
+          -257.0
+        ]
+      ],
+      [
+        [
+          196.0,
+          -257.0
+        ],
+        [
+          260.5,
+          -257.0
+        ],
+        [
+          260.5,
+          -256.5
+        ],
+        [
+          196.0,
+          -256.5
+        ]
+      ],
+      [
+        [
+          196.5,
+          -256.5
+        ],
+        [
+          260.0,
+          -256.5
+        ],
+        [
+          260.0,
+          -256.0
+        ],
+        [
+          196.5,
+          -256.0
+        ]
+      ],
+      [
+        [
+          196.5,
+          -256.0
+        ],
+        [
+          259.5,
+          -256.0
+        ],
+        [
+          259.5,
+          -255.5
+        ],
+        [
+          196.5,
+          -255.5
+        ]
+      ],
+      [
+        [
+          197.0,
+          -255.5
+        ],
+        [
+          259.0,
+          -255.5
+        ],
+        [
+          259.0,
+          -255.0
+        ],
+        [
+          197.0,
+          -255.0
+        ]
+      ],
+      [
+        [
+          197.5,
+          -255.0
+        ],
+        [
+          257.5,
+          -255.0
+        ],
+        [
+          257.5,
+          -254.5
+        ],
+        [
+          197.5,
+          -254.5
+        ]
+      ],
+      [
+        [
+          197.5,
+          -254.5
+        ],
+        [
+          257.0,
+          -254.5
+        ],
+        [
+          257.0,
+          -254.0
+        ],
+        [
+          197.5,
+          -254.0
+        ]
+      ],
+      [
+        [
+          198.0,
+          -254.0
+        ],
+        [
+          256.5,
+          -254.0
+        ],
+        [
+          256.5,
+          -253.5
+        ],
+        [
+          198.0,
+          -253.5
+        ]
+      ],
+      [
+        [
+          198.0,
+          -253.5
+        ],
+        [
+          256.0,
+          -253.5
+        ],
+        [
+          256.0,
+          -253.0
+        ],
+        [
+          198.0,
+          -253.0
+        ]
+      ],
+      [
+        [
+          198.5,
+          -253.0
+        ],
+        [
+          254.5,
+          -253.0
+        ],
+        [
+          254.5,
+          -252.5
+        ],
+        [
+          198.5,
+          -252.5
+        ]
+      ],
+      [
+        [
+          199.0,
+          -252.5
+        ],
+        [
+          254.0,
+          -252.5
+        ],
+        [
+          254.0,
+          -252.0
+        ],
+        [
+          199.0,
+          -252.0
+        ]
+      ],
+      [
+        [
+          199.0,
+          -252.0
+        ],
+        [
+          253.5,
+          -252.0
+        ],
+        [
+          253.5,
+          -251.5
+        ],
+        [
+          199.0,
+          -251.5
+        ]
+      ],
+      [
+        [
+          199.5,
+          -251.5
+        ],
+        [
+          253.0,
+          -251.5
+        ],
+        [
+          253.0,
+          -251.0
+        ],
+        [
+          199.5,
+          -251.0
+        ]
+      ],
+      [
+        [
+          200.0,
+          -251.0
+        ],
+        [
+          251.5,
+          -251.0
+        ],
+        [
+          251.5,
+          -250.5
+        ],
+        [
+          200.0,
+          -250.5
+        ]
+      ],
+      [
+        [
+          200.0,
+          -250.5
+        ],
+        [
+          251.0,
+          -250.5
+        ],
+        [
+          251.0,
+          -250.0
+        ],
+        [
+          200.0,
+          -250.0
+        ]
+      ],
+      [
+        [
+          200.5,
+          -250.0
+        ],
+        [
+          250.5,
+          -250.0
+        ],
+        [
+          250.5,
+          -249.5
+        ],
+        [
+          200.5,
+          -249.5
+        ]
+      ],
+      [
+        [
+          201.0,
+          -249.5
+        ],
+        [
+          250.0,
+          -249.5
+        ],
+        [
+          250.0,
+          -249.0
+        ],
+        [
+          201.0,
+          -249.0
+        ]
+      ],
+      [
+        [
+          201.0,
+          -249.0
+        ],
+        [
+          248.5,
+          -249.0
+        ],
+        [
+          248.5,
+          -248.5
+        ],
+        [
+          201.0,
+          -248.5
+        ]
+      ],
+      [
+        [
+          201.5,
+          -248.5
+        ],
+        [
+          248.0,
+          -248.5
+        ],
+        [
+          248.0,
+          -248.0
+        ],
+        [
+          201.5,
+          -248.0
+        ]
+      ],
+      [
+        [
+          201.5,
+          -248.0
+        ],
+        [
+          246.5,
+          -248.0
+        ],
+        [
+          246.5,
+          -247.5
+        ],
+        [
+          201.5,
+          -247.5
+        ]
+      ],
+      [
+        [
+          202.0,
+          -247.5
+        ],
+        [
+          246.0,
+          -247.5
+        ],
+        [
+          246.0,
+          -247.0
+        ],
+        [
+          202.0,
+          -247.0
+        ]
+      ],
+      [
+        [
+          202.5,
+          -247.0
+        ],
+        [
+          245.5,
+          -247.0
+        ],
+        [
+          245.5,
+          -246.5
+        ],
+        [
+          202.5,
+          -246.5
+        ]
+      ],
+      [
+        [
+          202.5,
+          -246.5
+        ],
+        [
+          204.0,
+          -246.5
+        ],
+        [
+          204.0,
+          -246.0
+        ],
+        [
+          202.5,
+          -246.0
+        ]
+      ],
+      [
+        [
+          206.0,
+          -246.5
+        ],
+        [
+          245.0,
+          -246.5
+        ],
+        [
+          245.0,
+          -246.0
+        ],
+        [
+          206.0,
+          -246.0
+        ]
+      ],
+      [
+        [
+          206.5,
+          -246.0
+        ],
+        [
+          243.5,
+          -246.0
+        ],
+        [
+          243.5,
+          -245.5
+        ],
+        [
+          206.5,
+          -245.5
+        ]
+      ],
+      [
+        [
+          203.0,
+          -246.0
+        ],
+        [
+          204.0,
+          -246.0
+        ],
+        [
+          204.0,
+          -245.0
+        ],
+        [
+          203.0,
+          -245.0
+        ]
+      ],
+      [
+        [
+          206.5,
+          -245.5
+        ],
+        [
+          243.0,
+          -245.5
+        ],
+        [
+          243.0,
+          -245.0
+        ],
+        [
+          206.5,
+          -245.0
+        ]
+      ],
+      [
+        [
+          206.5,
+          -245.0
+        ],
+        [
+          242.5,
+          -245.0
+        ],
+        [
+          242.5,
+          -244.5
+        ],
+        [
+          206.5,
+          -244.5
+        ]
+      ],
+      [
+        [
+          203.5,
+          -245.0
+        ],
+        [
+          204.0,
+          -245.0
+        ],
+        [
+          204.0,
+          -244.0
+        ],
+        [
+          203.5,
+          -244.0
+        ]
+      ],
+      [
+        [
+          206.0,
+          -244.5
+        ],
+        [
+          242.0,
+          -244.5
+        ],
+        [
+          242.0,
+          -244.0
+        ],
+        [
+          206.0,
+          -244.0
+        ]
+      ],
+      [
+        [
+          204.0,
+          -244.0
+        ],
+        [
+          240.5,
+          -244.0
+        ],
+        [
+          240.5,
+          -243.5
+        ],
+        [
+          204.0,
+          -243.5
+        ]
+      ],
+      [
+        [
+          204.5,
+          -243.5
+        ],
+        [
+          240.0,
+          -243.5
+        ],
+        [
+          240.0,
+          -243.0
+        ],
+        [
+          204.5,
+          -243.0
+        ]
+      ],
+      [
+        [
+          204.5,
+          -243.0
+        ],
+        [
+          238.5,
+          -243.0
+        ],
+        [
+          238.5,
+          -242.5
+        ],
+        [
+          204.5,
+          -242.5
+        ]
+      ],
+      [
+        [
+          205.0,
+          -242.5
+        ],
+        [
+          238.0,
+          -242.5
+        ],
+        [
+          238.0,
+          -242.0
+        ],
+        [
+          205.0,
+          -242.0
+        ]
+      ],
+      [
+        [
+          205.5,
+          -242.0
+        ],
+        [
+          237.5,
+          -242.0
+        ],
+        [
+          237.5,
+          -241.5
+        ],
+        [
+          205.5,
+          -241.5
+        ]
+      ],
+      [
+        [
+          205.5,
+          -241.5
+        ],
+        [
+          237.0,
+          -241.5
+        ],
+        [
+          237.0,
+          -241.0
+        ],
+        [
+          205.5,
+          -241.0
+        ]
+      ],
+      [
+        [
+          206.0,
+          -241.0
+        ],
+        [
+          235.5,
+          -241.0
+        ],
+        [
+          235.5,
+          -240.5
+        ],
+        [
+          206.0,
+          -240.5
+        ]
+      ],
+      [
+        [
+          206.5,
+          -240.5
+        ],
+        [
+          235.0,
+          -240.5
+        ],
+        [
+          235.0,
+          -240.0
+        ],
+        [
+          206.5,
+          -240.0
+        ]
+      ],
+      [
+        [
+          206.5,
+          -240.0
+        ],
+        [
+          234.5,
+          -240.0
+        ],
+        [
+          234.5,
+          -239.5
+        ],
+        [
+          206.5,
+          -239.5
+        ]
+      ],
+      [
+        [
+          207.0,
+          -239.5
+        ],
+        [
+          234.0,
+          -239.5
+        ],
+        [
+          234.0,
+          -239.0
+        ],
+        [
+          207.0,
+          -239.0
+        ]
+      ],
+      [
+        [
+          207.0,
+          -239.0
+        ],
+        [
+          232.5,
+          -239.0
+        ],
+        [
+          232.5,
+          -238.5
+        ],
+        [
+          207.0,
+          -238.5
+        ]
+      ],
+      [
+        [
+          207.5,
+          -238.5
+        ],
+        [
+          232.0,
+          -238.5
+        ],
+        [
+          232.0,
+          -238.0
+        ],
+        [
+          207.5,
+          -238.0
+        ]
+      ],
+      [
+        [
+          208.0,
+          -238.0
+        ],
+        [
+          231.5,
+          -238.0
+        ],
+        [
+          231.5,
+          -237.5
+        ],
+        [
+          208.0,
+          -237.5
+        ]
+      ],
+      [
+        [
+          208.0,
+          -237.5
+        ],
+        [
+          231.0,
+          -237.5
+        ],
+        [
+          231.0,
+          -237.0
+        ],
+        [
+          208.0,
+          -237.0
+        ]
+      ],
+      [
+        [
+          208.5,
+          -237.0
+        ],
+        [
+          229.5,
+          -237.0
+        ],
+        [
+          229.5,
+          -236.5
+        ],
+        [
+          208.5,
+          -236.5
+        ]
+      ],
+      [
+        [
+          209.0,
+          -236.5
+        ],
+        [
+          229.0,
+          -236.5
+        ],
+        [
+          229.0,
+          -236.0
+        ],
+        [
+          209.0,
+          -236.0
+        ]
+      ]
+    ],
+    "gate": {
+      "id": "C_CHAPTER_GARDEN:1:field_gate",
+      "center_xz_m": [
+        257.0,
+        -254.5
+      ],
+      "source_opening_center_xz_m": [
+        257.04411764705884,
+        -254.4558823529412
+      ],
+      "gate_along_existing_source_path_xz_m": [
+        257.04411764705884,
+        -254.4558823529412
+      ],
+      "outward_direction_xz": [
+        0.7071067811865547,
+        0.7071067811865404
+      ],
+      "jamb_centers_xz_m": [
+        [
+          258.75,
+          -255.75
+        ],
+        [
+          255.25,
+          -253.25
+        ]
+      ],
+      "open_leaf_polygons_xz_m": [
+        [
+          [
+            258.9267766952966,
+            -255.92677669529664
+          ],
+          [
+            257.6893398282201,
+            -257.1642135623731
+          ],
+          [
+            257.3357864376269,
+            -256.8106601717798
+          ],
+          [
+            258.5732233047034,
+            -255.57322330470336
+          ]
+        ],
+        [
+          [
+            255.42677669529664,
+            -253.42677669529664
+          ],
+          [
+            254.18933982822017,
+            -254.66421356237308
+          ],
+          [
+            253.8357864376269,
+            -254.3106601717798
+          ],
+          [
+            255.07322330470336,
+            -253.07322330470336
+          ]
+        ]
+      ],
+      "authored_jamb_clear_projection_m": 3.7426406871192786,
+      "required_pedestrian_clear_width_m": 2,
+      "floor_y_m": 14,
+      "leaf_state": "static_fully_open",
+      "animation_hook": "future rigid hinge around each jamb; no runtime interaction or closing clearance certified",
+      "route": {
+        "holding_id": "C_CHAPTER_GARDEN:1",
+        "zone_id": "C_CHAPTER_GARDEN",
+        "width_m": 2.0,
+        "travel_role": "pedestrian_rear_lane",
+        "status": "plan_grid_connected_profile_unresolved",
+        "terrain_profile_approved": false,
+        "actual_native_opening": false,
+        "review_radius_m": 100,
+        "search_status": "plan_grid_route",
+        "visited_cells": 141,
+        "polyline_xz_m": [
+          [
+            242.75,
+            -268.75
+          ],
+          [
+            257.75,
+            -253.75
+          ]
+        ],
+        "ribbon_polygons_xz_m": [
+          [
+            [
+              242.04289321881345,
+              -268.04289321881345
+            ],
+            [
+              257.04289321881345,
+              -253.04289321881345
+            ],
+            [
+              258.45710678118655,
+              -254.45710678118655
+            ],
+            [
+              243.45710678118655,
+              -269.45710678118655
+            ]
+          ]
+        ],
+        "length_m": 21.213203435596427,
+        "target_kind": "existing_precinct_floor_or_access_reservation",
+        "target_point_xz_m": [
+          257.75,
+          -253.75
+        ],
+        "gate_candidates": [
+          {
+            "position_xz_m": [
+              257.25,
+              -254.25
+            ],
+            "clear_width_m": 2.0,
+            "status": "boundary portal inference; native jamb/leaf and full-width grade unresolved"
+          }
+        ]
+      }
+    },
+    "boundary_band": "Inside-cell0.5m low stone band; diagonal staircase returns include the necessary inside corner cell for face connectivity.",
+    "wall_visible_height_m": 1.25,
+    "wall_embed_m": 0.75,
+    "inside_edge_band_m": 0.5,
+    "all_dimensions_unscaled": true,
+    "actual_viewed": false
+  }
+}

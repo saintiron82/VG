@@ -1,0 +1,12 @@
+{
+  "schema": "riverstone.shared_surface.edge_scan_rules.v1",
+  "source_catalog": "world_city/concept_city_v3/playable_detail_r01/surface_catalog.json",
+  "source_city_index": "world_city/concept_city_v3/playable_r01/generated/tile_r01/index.json",
+  "expected_candidate_assets": 206,
+  "kinds": ["ashlar", "planks"],
+  "boundary_quantum_m": 0.25,
+  "nominal_module_size_m": [1, 1],
+  "output_budget_bytes": 15000000,
+  "source_frame": "u=UP cross normal, v=UP, n=exact cardinal outward source normal",
+  "unsupported_boundary_policy": "reject; no rounding, snapping, gap filling or scaling"
+}

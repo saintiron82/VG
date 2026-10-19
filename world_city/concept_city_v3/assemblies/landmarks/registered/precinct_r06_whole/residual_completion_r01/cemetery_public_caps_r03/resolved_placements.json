@@ -1,0 +1,83 @@
+{
+  "schema": "riverstone.precinct.cemetery_cap_retirement.v1",
+  "status": "SOURCE_READY_JOINT_PUBLIC_ACTIVATION_RUNTIME_PENDING",
+  "assets": [
+    {
+      "id": "registered_precinct_cemetery_caps_r03",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/cemetery_public_caps_r03/masters/registered_precinct_cemetery_caps_r03.json",
+        "sha256": "30a377488eb2f526d0a810690fdaf7266c021dcfcda9bb47376950d5f314f994"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/cemetery_public_caps_r03/cache/registered_precinct_cemetery_caps_r03.render.json",
+        "sha256": "0252e371f7b1f8f67057d623558aafe691446d5e78d62eb88cd5c7450ad45cc4"
+      },
+      "pitch_m": 0.5,
+      "preflight": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/cemetery_public_caps_r03/preflight.json",
+        "sha256": "0aee6bf1b9f75776a1935782412e59936ea498ed5e80b26601c6a84b55787a0e"
+      }
+    }
+  ],
+  "placements": [
+    {
+      "id": "R06_CEMETERY_CAP_R03:retained_site",
+      "owner_id": "SITE_CEMETERY",
+      "asset_key": "registered_precinct_cemetery_caps_r03",
+      "source": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/cemetery_public_caps_r03/masters/registered_precinct_cemetery_caps_r03.json",
+        "sha256": "30a377488eb2f526d0a810690fdaf7266c021dcfcda9bb47376950d5f314f994"
+      },
+      "cache": {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/cemetery_public_caps_r03/cache/registered_precinct_cemetery_caps_r03.render.json",
+        "sha256": "0252e371f7b1f8f67057d623558aafe691446d5e78d62eb88cd5c7450ad45cc4"
+      },
+      "position_m": [
+        142.0,
+        14,
+        -249.0
+      ],
+      "yaw_rad": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "role": "retained_cemetery_without_obsolete_connection"
+    }
+  ],
+  "replacement_ledger": {
+    "existing_native_placements_removed": [
+      "REGISTERED_LANDSCAPE:SITE_CEMETERY"
+    ]
+  },
+  "source_original": {
+    "path": "world_city/concept_city_v3/assemblies/landscape/registered/generated/registered_institutional_site_cemetery_153c590d4038.master.json",
+    "sha256": "20be8e15fcbaa44a4d6bcacfab84c7e0a4abd68abe4189ca3c021493f147620e"
+  },
+  "cache_original": {
+    "path": "world_city/concept_city_v3/assemblies/landscape/registered/cache/registered_institutional_site_cemetery_153c590d4038.render.json",
+    "sha256": "b73ef713e9dbb6557fe90e80e9bf2d089661083cc74020cd137c5de0beb2127e"
+  },
+  "retired_operation": "CLERGY_CEMETERY:connection:1:0",
+  "summary": {
+    "all_other_operations_exact": true,
+    "removed_operation_count": 1,
+    "removed_floor_area_m2": 59.25,
+    "public_owned_retirement_area_m2": 2.029973530556132,
+    "off_public_same_datum_restoration_area_m2": 57.22002646829844,
+    "new_source": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/cemetery_public_caps_r03/masters/registered_precinct_cemetery_caps_r03.json",
+      "sha256": "30a377488eb2f526d0a810690fdaf7266c021dcfcda9bb47376950d5f314f994"
+    },
+    "new_cache": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/cemetery_public_caps_r03/cache/registered_precinct_cemetery_caps_r03.render.json",
+      "sha256": "0252e371f7b1f8f67057d623558aafe691446d5e78d62eb88cd5c7450ad45cc4"
+    }
+  },
+  "runtime_ready": false,
+  "source_candidate": {
+    "path": "world_city/concept_city_v3/assemblies/landmarks/registered/precinct_r06_whole/residual_completion_r01/cemetery_public_caps_r03/resolved_native_candidate.json",
+    "sha256": "fe3b14d27bec4063c64aec73650dbf276e747261869e94b1da58448fe227b1a2"
+  }
+}

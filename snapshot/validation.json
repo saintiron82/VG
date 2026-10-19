@@ -1,0 +1,70 @@
+{
+  "schema": "vg.public-source-validation.v1",
+  "checked_utc": "2026-10-19T14:29:36.936071+00:00",
+  "scope": "Source-preservation QA only; no full project generation, mesh compilation, engine execution or external write.",
+  "syntax": {
+    "status": "PASS",
+    "python_parsed": 2596,
+    "json_parsed": 996,
+    "failures": [],
+    "note": "Historic Python files can emit non-fatal syntax warnings; no syntax errors were found."
+  },
+  "source_hashes": {
+    "status": "PASS",
+    "checked": 4286,
+    "mismatches": [],
+    "live_source_changed_during_snapshot": [],
+    "refreshed_before_seal": [
+      "world_city/concept_city_v3/near_detail_r01/city_upgrade/architecture_reference_r01/exact_rgb_runtime_r01/TestExactRGB.gd"
+    ],
+    "capture_note": "One actively edited GDScript test was refreshed and re-scanned before sealing. Snapshot is file-by-file, not a source-control atomic checkout."
+  },
+  "focused_checks": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s voxel_character/common -p test_six_view_review.py -v",
+      "status": "PASS",
+      "tests": 12,
+      "scope": "Synthetic six-view review-contract validator only; no image input or mesh generation."
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python voxel_character/common/core.py --help",
+      "status": "PASS"
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python voxel_character/common/render_data.py --help",
+      "status": "PASS"
+    }
+  ],
+  "privacy_scan": {
+    "status": "PASS",
+    "files_scanned": 4295,
+    "checks": [
+      "credential_signature",
+      "private_service_reference",
+      "conversation_quote_marker",
+      "embedded_image_payload",
+      "credential_assignment",
+      "private_signed_url"
+    ],
+    "findings": [],
+    "additional_review": "All retained files are UTF-8 text. URL inventory contains only public standards/research pages and example.com. Email-pattern candidates were NumPy matrix-expression false positives; no personal email address was found. No image/media binary, symlink, private reference input or environment credential file is included.",
+    "limits": "Pattern-based scan plus targeted source review, not a guarantee that arbitrary data has no latent sensitive information.",
+    "reviewed_false_positives": [
+      {
+        "path": "world_city/concept_city_v3/assemblies/landmarks/registered/build_audit.py",
+        "reason": "SVG generation template contains {img}; no embedded image bytes are present."
+      },
+      {
+        "path": "world_city/concept_city_v3/image_registration/trace_controls.py",
+        "reason": "SVG generation template contains {img}; no embedded image bytes are present."
+      }
+    ]
+  },
+  "not_run": [
+    "full unit/integration suite",
+    "procedural city or asset compilation",
+    "Godot runtime/renderer",
+    "Windows execution",
+    "full runtime/build/physics dependency closure"
+  ]
+}

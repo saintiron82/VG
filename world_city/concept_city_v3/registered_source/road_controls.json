@@ -1,0 +1,1308 @@
+{
+  "schema": "riverstone.registered_source.controls.v1",
+  "source_registration_path": "world_city/concept_city_v3/image_registration/controls.json",
+  "source_registration_sha256": "25a1eda09c8c1b47fe6b242e8aeed1af7688ccceba9029ee34c8ddd75bc8a84c",
+  "roads": [
+    {
+      "id": "UPPER_CONTOUR",
+      "registration_control_id": "UPPER_CONTOUR",
+      "trace_pixel_xy": [
+        [
+          380,
+          369
+        ],
+        [
+          526,
+          403
+        ],
+        [
+          653,
+          348
+        ],
+        [
+          757,
+          302
+        ],
+        [
+          843,
+          282
+        ],
+        [
+          891,
+          313
+        ],
+        [
+          955,
+          339
+        ],
+        [
+          1066,
+          367
+        ],
+        [
+          1213,
+          392
+        ],
+        [
+          1341,
+          430
+        ]
+      ],
+      "original_trace_pixel_xy": [
+        [
+          380,
+          369
+        ],
+        [
+          526,
+          403
+        ],
+        [
+          653,
+          348
+        ],
+        [
+          757,
+          302
+        ],
+        [
+          843,
+          282
+        ],
+        [
+          891,
+          313
+        ],
+        [
+          955,
+          339
+        ],
+        [
+          1066,
+          367
+        ],
+        [
+          1213,
+          392
+        ],
+        [
+          1341,
+          430
+        ]
+      ],
+      "width_m": 7,
+      "observed_vs_inferred": "Traced visible street alignment; occluded spans and width remain authored hypotheses.",
+      "evidence_kind": "traced_control"
+    },
+    {
+      "id": "MARKET_CONTOUR",
+      "registration_control_id": "MARKET_CONTOUR",
+      "trace_pixel_xy": [
+        [
+          370,
+          444
+        ],
+        [
+          474,
+          472
+        ],
+        [
+          604,
+          448
+        ],
+        [
+          716,
+          399
+        ],
+        [
+          810,
+          374
+        ],
+        [
+          892,
+          379
+        ],
+        [
+          992,
+          400
+        ],
+        [
+          1094,
+          430
+        ],
+        [
+          1195,
+          468
+        ]
+      ],
+      "original_trace_pixel_xy": [
+        [
+          370,
+          444
+        ],
+        [
+          474,
+          472
+        ],
+        [
+          604,
+          448
+        ],
+        [
+          716,
+          399
+        ],
+        [
+          810,
+          374
+        ],
+        [
+          892,
+          379
+        ],
+        [
+          992,
+          400
+        ],
+        [
+          1094,
+          430
+        ],
+        [
+          1195,
+          468
+        ]
+      ],
+      "width_m": 6,
+      "observed_vs_inferred": "Traced visible street alignment; occluded spans and width remain authored hypotheses.",
+      "evidence_kind": "traced_control"
+    },
+    {
+      "id": "LOWER_CONTOUR",
+      "registration_control_id": "LOWER_CONTOUR",
+      "trace_pixel_xy": [
+        [
+          529,
+          650
+        ],
+        [
+          644,
+          614
+        ],
+        [
+          737,
+          590
+        ],
+        [
+          792,
+          550
+        ],
+        [
+          837,
+          536
+        ],
+        [
+          926,
+          560
+        ],
+        [
+          1036,
+          557
+        ],
+        [
+          1134,
+          586
+        ],
+        [
+          1229,
+          616
+        ]
+      ],
+      "original_trace_pixel_xy": [
+        [
+          529,
+          650
+        ],
+        [
+          644,
+          614
+        ],
+        [
+          737,
+          590
+        ],
+        [
+          792,
+          550
+        ],
+        [
+          837,
+          536
+        ],
+        [
+          926,
+          560
+        ],
+        [
+          1036,
+          557
+        ],
+        [
+          1134,
+          586
+        ],
+        [
+          1229,
+          616
+        ]
+      ],
+      "width_m": 5,
+      "observed_vs_inferred": "Traced visible street alignment; occluded spans and width remain authored hypotheses.",
+      "evidence_kind": "traced_control"
+    },
+    {
+      "id": "SOUTH_MARKET_AXIS",
+      "registration_control_id": "SOUTH_MARKET_AXIS",
+      "trace_pixel_xy": [
+        [
+          952,
+          811
+        ],
+        [
+          943,
+          768
+        ],
+        [
+          928,
+          722
+        ],
+        [
+          903,
+          687
+        ],
+        [
+          876,
+          638
+        ],
+        [
+          876,
+          593
+        ],
+        [
+          901,
+          554
+        ],
+        [
+          930,
+          530
+        ]
+      ],
+      "original_trace_pixel_xy": [
+        [
+          952,
+          811
+        ],
+        [
+          943,
+          768
+        ],
+        [
+          928,
+          722
+        ],
+        [
+          903,
+          687
+        ],
+        [
+          876,
+          638
+        ],
+        [
+          876,
+          593
+        ],
+        [
+          901,
+          554
+        ],
+        [
+          930,
+          530
+        ]
+      ],
+      "width_m": 8,
+      "observed_vs_inferred": "Traced visible street alignment; occluded spans and width remain authored hypotheses.",
+      "evidence_kind": "traced_control"
+    },
+    {
+      "id": "MARKET_NORTH",
+      "registration_control_id": "MARKET_NORTH",
+      "trace_pixel_xy": [
+        [
+          941,
+          453
+        ],
+        [
+          927,
+          420
+        ],
+        [
+          936,
+          382
+        ],
+        [
+          924,
+          350
+        ],
+        [
+          897,
+          309
+        ],
+        [
+          872,
+          279
+        ],
+        [
+          861,
+          233
+        ],
+        [
+          882,
+          198
+        ],
+        [
+          906,
+          175
+        ]
+      ],
+      "original_trace_pixel_xy": [
+        [
+          941,
+          453
+        ],
+        [
+          927,
+          420
+        ],
+        [
+          936,
+          382
+        ],
+        [
+          924,
+          350
+        ],
+        [
+          897,
+          309
+        ],
+        [
+          872,
+          279
+        ],
+        [
+          861,
+          233
+        ],
+        [
+          882,
+          198
+        ],
+        [
+          906,
+          175
+        ]
+      ],
+      "width_m": 6,
+      "observed_vs_inferred": "Traced visible street alignment; occluded spans and width remain authored hypotheses.",
+      "evidence_kind": "traced_control"
+    },
+    {
+      "id": "CATHEDRAL_APPROACH",
+      "registration_control_id": "CATHEDRAL_APPROACH",
+      "trace_pixel_xy": [
+        [
+          955,
+          339
+        ],
+        [
+          984,
+          310
+        ],
+        [
+          1014,
+          287
+        ],
+        [
+          1054,
+          275
+        ]
+      ],
+      "original_trace_pixel_xy": [
+        [
+          955,
+          339
+        ],
+        [
+          984,
+          310
+        ],
+        [
+          1014,
+          287
+        ],
+        [
+          1054,
+          275
+        ]
+      ],
+      "width_m": 6,
+      "observed_vs_inferred": "Traced visible street alignment; occluded spans and width remain authored hypotheses.",
+      "evidence_kind": "traced_control"
+    },
+    {
+      "id": "NOBLE_RISE",
+      "registration_control_id": "NOBLE_RISE",
+      "trace_pixel_xy": [
+        [
+          394,
+          368
+        ],
+        [
+          380,
+          321
+        ],
+        [
+          380,
+          273
+        ],
+        [
+          389,
+          225
+        ],
+        [
+          434,
+          220
+        ],
+        [
+          466,
+          220
+        ]
+      ],
+      "original_trace_pixel_xy": [
+        [
+          394,
+          368
+        ],
+        [
+          386,
+          321
+        ],
+        [
+          406,
+          273
+        ],
+        [
+          432,
+          226
+        ],
+        [
+          466,
+          220
+        ]
+      ],
+      "width_m": 5,
+      "observed_vs_inferred": "Follow the visible west estate-wall exterior with full-width clearance; the first narrow-edge trace still overlapped E4.",
+      "evidence_kind": "locally_refined_traced_control"
+    },
+    {
+      "id": "PORT_QUAY",
+      "registration_control_id": "PORT_QUAY",
+      "trace_pixel_xy": [
+        [
+          215,
+          702
+        ],
+        [
+          360,
+          745
+        ],
+        [
+          542,
+          789
+        ],
+        [
+          709,
+          818
+        ],
+        [
+          925,
+          841
+        ]
+      ],
+      "original_trace_pixel_xy": [
+        [
+          215,
+          702
+        ],
+        [
+          360,
+          745
+        ],
+        [
+          542,
+          789
+        ],
+        [
+          709,
+          818
+        ],
+        [
+          925,
+          841
+        ]
+      ],
+      "width_m": 8,
+      "observed_vs_inferred": "Traced visible street alignment; occluded spans and width remain authored hypotheses.",
+      "evidence_kind": "traced_control"
+    },
+    {
+      "id": "MAIN_BRIDGE",
+      "registration_control_id": "MAIN_BRIDGE",
+      "trace_pixel_xy": [
+        [
+          950,
+          810
+        ],
+        [
+          958,
+          854
+        ],
+        [
+          971,
+          904
+        ],
+        [
+          983,
+          969
+        ]
+      ],
+      "original_trace_pixel_xy": [
+        [
+          950,
+          810
+        ],
+        [
+          958,
+          854
+        ],
+        [
+          971,
+          904
+        ],
+        [
+          983,
+          969
+        ]
+      ],
+      "width_m": 7,
+      "observed_vs_inferred": "Traced visible street alignment; occluded spans and width remain authored hypotheses.",
+      "evidence_kind": "traced_control"
+    },
+    {
+      "id": "WEST_MONASTERY_EDGE",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          380,
+          369
+        ],
+        [
+          370,
+          444
+        ],
+        [
+          414,
+          450
+        ],
+        [
+          514,
+          530
+        ],
+        [
+          583,
+          632
+        ],
+        [
+          529,
+          650
+        ]
+      ],
+      "width_m": 5,
+      "observed_vs_inferred": "Connect west ends around the monastery east enclosure; gate edge is shared with the public lane.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "CASTLE_APPROACH",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          380,
+          369
+        ],
+        [
+          365,
+          340
+        ],
+        [
+          365,
+          307
+        ],
+        [
+          365,
+          262
+        ],
+        [
+          311,
+          249
+        ]
+      ],
+      "width_m": 6,
+      "observed_vs_inferred": "Bent military approach on the training-ground edge to castle south gate.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "NOBLE_PUBLIC_TIE",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          394,
+          368
+        ],
+        [
+          380,
+          369
+        ]
+      ],
+      "width_m": 4,
+      "observed_vs_inferred": "Short occluded tie between the traced noble rise and upper contour.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "NORTH_BACK_LANE",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          466,
+          220
+        ],
+        [
+          508,
+          230
+        ],
+        [
+          508,
+          335
+        ],
+        [
+          526,
+          389
+        ],
+        [
+          551,
+          392
+        ],
+        [
+          616,
+          367
+        ],
+        [
+          686,
+          326
+        ],
+        [
+          757,
+          302
+        ],
+        [
+          780,
+          280
+        ],
+        [
+          808,
+          212
+        ],
+        [
+          817,
+          164
+        ],
+        [
+          906,
+          175
+        ]
+      ],
+      "width_m": 4,
+      "observed_vs_inferred": "Estate service lane follows the visible west E5 gap and E7/E6 exterior; the narrower E3/E5 garden seam cannot hold a cart lane.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "NORTH_WATERKEEPER",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          630,
+          153
+        ],
+        [
+          716,
+          158
+        ],
+        [
+          817,
+          164
+        ]
+      ],
+      "width_m": 4,
+      "observed_vs_inferred": "Northern house/service frontage below the reservoir bank, with an explicit full-width stand-off from E3.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "RESERVOIR_SERVICE",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          716,
+          168
+        ],
+        [
+          735,
+          148
+        ],
+        [
+          735,
+          128
+        ]
+      ],
+      "width_m": 3,
+      "observed_vs_inferred": "Inferred controlled access through the north wall to the separately enclosed basin.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "CENTRAL_WEST_RADIAL",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          526,
+          403
+        ],
+        [
+          474,
+          472
+        ],
+        [
+          612,
+          526
+        ],
+        [
+          644,
+          614
+        ],
+        [
+          650,
+          732
+        ]
+      ],
+      "width_m": 5,
+      "observed_vs_inferred": "Bent mixed-town cross street following the visible housing grain.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "CIVIC_WEST_APPROACH",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          716,
+          399
+        ],
+        [
+          745,
+          440
+        ],
+        [
+          797,
+          463
+        ]
+      ],
+      "width_m": 5,
+      "observed_vs_inferred": "Occluded civic approach beside the hall complex.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "MARKET_WEST_EDGE",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          797,
+          463
+        ],
+        [
+          845,
+          536
+        ],
+        [
+          837,
+          536
+        ]
+      ],
+      "width_m": 6,
+      "observed_vs_inferred": "Reserved west market cart edge; exact width is authored.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "MARKET_EAST_EDGE",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          941,
+          453
+        ],
+        [
+          1014,
+          472
+        ],
+        [
+          1068,
+          505
+        ],
+        [
+          999,
+          541
+        ],
+        [
+          926,
+          560
+        ]
+      ],
+      "width_m": 6,
+      "observed_vs_inferred": "Reserved east/south market cart edge along the traced open square.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "MARKET_PROCESSION",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          930,
+          530
+        ],
+        [
+          935,
+          485
+        ],
+        [
+          941,
+          453
+        ]
+      ],
+      "width_m": 7,
+      "observed_vs_inferred": "Civic procession corridor across the square; stall placement must exclude it.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "SOUTH_MERCHANT_LINK",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          737,
+          590
+        ],
+        [
+          733,
+          648
+        ],
+        [
+          769,
+          719
+        ],
+        [
+          789,
+          794
+        ]
+      ],
+      "width_m": 4,
+      "observed_vs_inferred": "Short bent route through southern merchant blocks to the wall service lane.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "EAST_RADIAL",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          1213,
+          392
+        ],
+        [
+          1195,
+          468
+        ],
+        [
+          1229,
+          616
+        ],
+        [
+          1270,
+          693
+        ],
+        [
+          1282,
+          747
+        ]
+      ],
+      "width_m": 5,
+      "observed_vs_inferred": "Craft cross street; canal crossing must receive an explicit bridge.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "POOR_NORTH_CROSS",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          1195,
+          468
+        ],
+        [
+          1293,
+          505
+        ],
+        [
+          1412,
+          520
+        ]
+      ],
+      "width_m": 3.4,
+      "observed_vs_inferred": "Connected upper poor-quarter lane within the visible street grain.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "POOR_SOUTH_CROSS",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          1229,
+          616
+        ],
+        [
+          1326,
+          606
+        ],
+        [
+          1416,
+          590
+        ]
+      ],
+      "width_m": 3.2,
+      "observed_vs_inferred": "Lower poor-quarter short cross lane and shared-workcourt access.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "EAST_WALL_SERVICE",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          1341,
+          430
+        ],
+        [
+          1390,
+          452
+        ],
+        [
+          1412,
+          520
+        ],
+        [
+          1416,
+          590
+        ],
+        [
+          1379,
+          672
+        ],
+        [
+          1322,
+          735
+        ],
+        [
+          1248,
+          770
+        ],
+        [
+          1125,
+          789
+        ],
+        [
+          1019,
+          798
+        ],
+        [
+          952,
+          811
+        ]
+      ],
+      "width_m": 4,
+      "observed_vs_inferred": "Narrow connected wall service route following the visible curved southeast frontage.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "SOUTH_WALL_SERVICE",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          529,
+          650
+        ],
+        [
+          546,
+          704
+        ],
+        [
+          650,
+          732
+        ],
+        [
+          789,
+          794
+        ],
+        [
+          952,
+          811
+        ]
+      ],
+      "width_m": 4,
+      "observed_vs_inferred": "Curved inner wall service route; it is separate from the external working quay.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "PORT_BRIDGE_TIE",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          925,
+          841
+        ],
+        [
+          958,
+          854
+        ]
+      ],
+      "width_m": 6,
+      "observed_vs_inferred": "Short external quay tie at the bridge north landing.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    },
+    {
+      "id": "CLERGY_EAST_GATE",
+      "registration_control_id": null,
+      "trace_pixel_xy": [
+        [
+          1341,
+          430
+        ],
+        [
+          1365,
+          385
+        ],
+        [
+          1378,
+          354
+        ]
+      ],
+      "width_m": 4,
+      "observed_vs_inferred": "Clergy service gate connection at the east enclosure.",
+      "evidence_kind": "inferred_image_aligned_connector"
+    }
+  ],
+  "estate_edge_refinements": {
+    "E1": {
+      "pixels": [
+        [
+          442,
+          139
+        ],
+        [
+          518,
+          150
+        ],
+        [
+          504,
+          212
+        ],
+        [
+          434,
+          216
+        ]
+      ],
+      "ys": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "reason": "Move the inferred west edge east of the visible castle curtain; original E1 trace overlapped the castle."
+    },
+    "E3": {
+      "pixels": [
+        [
+          630,
+          162
+        ],
+        [
+          727,
+          174
+        ],
+        [
+          716,
+          233
+        ],
+        [
+          640,
+          233
+        ],
+        [
+          628,
+          237
+        ]
+      ],
+      "ys": [
+        15,
+        15,
+        12,
+        12,
+        15
+      ],
+      "reason": "Shared E3/E6 garden wall foot at image y233 and datum12; E3 interior bench remains15."
+    },
+    "E6": {
+      "pixels": [
+        [
+          640,
+          233
+        ],
+        [
+          716,
+          233
+        ],
+        [
+          744,
+          225
+        ],
+        [
+          770,
+          273
+        ],
+        [
+          662,
+          305
+        ]
+      ],
+      "ys": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "reason": "Same shared E3/E6 wall vertices; no duplicate ownership across the visible dividing wall."
+    },
+    "E5": {
+      "pixels": [
+        [
+          519,
+          242
+        ],
+        [
+          635,
+          242
+        ],
+        [
+          627,
+          305
+        ],
+        [
+          523,
+          305
+        ],
+        [
+          514,
+          305
+        ]
+      ],
+      "ys": [
+        13,
+        13,
+        10,
+        10,
+        10
+      ],
+      "reason": "Shared E5/E7 garden wall foot at image y305 and datum10; E5 interior bench remains13."
+    },
+    "E7": {
+      "pixels": [
+        [
+          523,
+          305
+        ],
+        [
+          627,
+          305
+        ],
+        [
+          606,
+          355
+        ],
+        [
+          551,
+          379
+        ]
+      ],
+      "ys": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "reason": "Same shared E5/E7 edge; the earlier top triangle was an overlapping occlusion inference."
+    }
+  },
+  "road_edge_refinements": {
+    "NOBLE_RISE": {
+      "pixels": [
+        [
+          394,
+          368
+        ],
+        [
+          380,
+          321
+        ],
+        [
+          380,
+          273
+        ],
+        [
+          389,
+          225
+        ],
+        [
+          434,
+          220
+        ],
+        [
+          466,
+          220
+        ]
+      ],
+      "reason": "Follow the visible west estate-wall exterior with full-width clearance; the first narrow-edge trace still overlapped E4."
+    }
+  }
+}

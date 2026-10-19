@@ -1,0 +1,32 @@
+"""Consume the exact moved R16 chains; no inferred connectors or waypoint edits."""
+import pathlib,json,hashlib,sys,math,copy,argparse
+sys.dont_write_bytecode=True
+H=pathlib.Path(__file__).resolve().parent;ROOT=next(p for p in H.parents if (p/'voxel_character').is_dir());CITY=ROOT/'world_city/concept_city_v3';BASE=CITY/'traversal_r5';W=CITY/'assemblies/ordinary/registered/working_ranges_r01';T=CITY/'registered_topography/revisions/r16_working_ranges';sys.path.insert(0,str(ROOT))
+from world_city.runtime_city.checks import placement as geo
+read=lambda p:json.loads(pathlib.Path(p).read_bytes());sha=lambda p:hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()
+def ref(p):return {'path':str(pathlib.Path(p).resolve()),'sha256':sha(p)}
+def main():
+ parser=argparse.ArgumentParser();parser.add_argument('--output',default=str(H/'route_plan.json'));parser.add_argument('--court-pack-sha256',required=True);args=parser.parse_args();handoff_path=T/'route_handoff.json';assert sha(handoff_path)=='2bbb7c7ae159b9d5c174ffad80d5f97d176230b6e3026471e0db1039c8e90521';handoff=read(handoff_path);assert handoff['base_scene_sha256']=='6e441b9ca417db63dccbb0bbccd48aa59e6a2a62079cdeeb3e5440d78f654844';assert handoff['closed_native_doors_not_traversed']
+ pack=read(W/'resolved_placements.json');court_pack_path=W/'court_phase01/resolved_placements.json';assert sha(court_pack_path)==args.court_pack_sha256;props=read(court_pack_path);doors={r['id']:r for r in pack['actual_doors']};assert len(doors)==15 and len(pack['placements'])==4 and len(props['placements'])==6
+ external={r['id']:r for r in handoff['external_routes']};assert len(external)==2 and len(handoff['native_door_routes'])==15 and len(handoff['court_links'])==2;routes=[];selected=[]
+ def pair(record,kind,index):
+  points=copy.deepcopy(record['polyline_xyz_m']);assert len(points)>=2 and all(len(v)==3 and all(math.isfinite(x) for x in v) for v in points);ext=external[record['connects_route_id']];assert points[0]==ext['public_endpoint_xyz_m'];assert all(abs(v[1]-2.5)<1e-8 for v in points)
+  rid=f'R7_{kind}_{index:02d}_PUBLIC_TO_'+('STANDING_LIP' if kind=='DOOR' else 'COURT')
+  r={'id':rid,'kind':'actual_scene_public_route','holding_id':record['holding_id'],'points':points,'length_m':sum(math.dist(a,b) for a,b in zip(points,points[1:])),'source_road_ids':[ext['source_public_road_id'],ext['id'],record['id']],'source_route_id':record['id'],'reserved_width_m':min(record['width_m'],ext['width_m']),'minimum_allowed_feet_y_m':.5,'placement_ids':[],'building_ids':[],'test_scope':'Actual public-road start through the exact handed-off finite lanes to '+('a closed native door exterior standing lip; no through-interior passage.' if kind=='DOOR' else 'the exact source court-link destination.')}
+  if kind=='DOOR':r['actual_door_id']=record['door_id']
+  else:r['court_id']=record['id']
+  routes.extend([r,dict(copy.deepcopy(r),id=rid+'_REVERSE',points=list(reversed(points)))])
+ for index,r in enumerate(handoff['native_door_routes']):
+  d=doors[r['door_id']];assert r['actual_door_xyz_m']==d['actual_door_xyz_m'];assert r['threshold_lip_xyz_m']==[d['threshold_lip_xz_m'][0],d['actual_door_xyz_m'][1],d['threshold_lip_xz_m'][1]];assert r['polyline_xyz_m'][-1]==r['threshold_lip_xyz_m'];branch=r['branch_polyline_xyz_m'];ext=external[r['connects_route_id']];assert branch[-1]==ext['polyline_xyz_m'][0];assert r['polyline_xyz_m']==list(reversed(ext['polyline_xyz_m']))+list(reversed(branch))[1:]
+  pair(r,'DOOR',index);selected.append({'door_id':d['id'],'source_route_id':r['id'],'actual_native_leaf_anchor_xyz_m':d['actual_door_xyz_m'],'standing_lip_xyz_m':r['threshold_lip_xyz_m'],'leaf_to_standing_distance_m':math.dist(d['actual_door_xyz_m'],r['threshold_lip_xyz_m']),'width_m':r['width_m'],'holding_id':r['holding_id'],'native_leaf_status':r['portal_status']})
+ assert {r['door_id'] for r in handoff['native_door_routes']}==set(doors)
+ for index,r in enumerate(handoff['court_links']):
+  endpoint=r['polyline_xyz_m'][-1];assert geo.point_in_convex_polygon([endpoint[0],endpoint[2]],r['polygon_xz_m'],0);assert r['polyline_xyz_m']==r['public_to_court_polyline_xyz_m'];pair(r,'COURT',index)
+ control=read(BASE/'revisions/r04_r6_winding/prepared.json');routes+=copy.deepcopy([r for r in control['routes'] if 'expected_failure' in r]);assert len(routes)==handoff['expected_case_count']==36
+ sources={key:ref(path) for key,path in {'route_handoff':handoff_path,'working_range_pack':W/'resolved_placements.json','working_range_source_seal':W/'freeze_manifest.json','source_native_access':W/'access_handoff.json','source_courts':W/'court_plan.json','court_prop_pack':court_pack_path,'negative_control_prepared':BASE/'revisions/r04_r6_winding/prepared.json','prior_corrected_r6_seal':BASE/'revisions/r04_r6_winding/freeze_manifest.json'}.items()}
+ for key in ['profile_ref','bank_court_connector_ref']:
+  r=handoff[key];path=ROOT/r['path'];assert sha(path)==r['sha256'];sources[key]=ref(path)
+ result={'schema':'riverstone.r7.working_ranges_route_plan.v1','status':'exact_source_chains_awaiting_actual_scene_and_physics','sources':sources,'routes':routes,'selected_door_chains':selected,'external_route_endpoint_ledger':[{'route_id':r['id'],'old_xz_m':r['terminal_moved_from_xz_m'],'new_xyz_m':r['public_endpoint_xyz_m'],'retained_gate':r['gate']} for r in handoff['external_routes']],'coverage':{'native_ranges':4,'native_modules':12,'actual_external_door_branches':15,'tested_door_branches':15,'untested_new_door_branches':0,'door_positive_directions':30,'court_entries':2,'court_positive_directions':4,'negative_controls':2,'total_cases':36},'limits':['Source-based plan only until the parent supplies the final actual R7 scene hash and headless release.','No source waypoint snapping, shortcut, height change or inferred connector is added.','The existing generic controller remains unchanged. Closed doors and interiors are not traversed.','All new exterior branches are included; this does not certify full-width/cart movement, the rest of the city, or the moving bridge.']}
+ with pathlib.Path(args.output).open('x') as f:json.dump(result,f,indent=2,allow_nan=False);f.write('\n')
+ print(json.dumps({'route_plan':ref(pathlib.Path(args.output)),'cases':36,'total_positive_length_m':sum(r['length_m']for r in routes if 'expected_failure'not in r),'maximum_positive_route_length_m':max(r['length_m']for r in routes if 'expected_failure'not in r),'coverage':result['coverage']},indent=2))
+if __name__=='__main__':main()

@@ -1,0 +1,303 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_port_dock_bent_7m",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "timber": "654631",
+    "timber_light": "896143",
+    "timber_dark": "493729",
+    "iron": "394648",
+    "iron_light": "68736c",
+    "slate": "646f73",
+    "slate_light": "748085",
+    "slate_dark": "4a565c",
+    "slate_worn": "879096",
+    "rope": "896143",
+    "canvas": "b7b19b"
+  },
+  "coordinate_planes": [],
+  "components": [
+    {
+      "id": "piles",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "runtime_animation": "not_integrated"
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "pile_-3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.3,
+              -7,
+              -0.3
+            ],
+            "max": [
+              -2.7,
+              -0.5,
+              0.3
+            ]
+          },
+          "material": "timber_dark"
+        },
+        {
+          "id": "pile_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.7,
+              -7,
+              -0.3
+            ],
+            "max": [
+              3.3,
+              -0.5,
+              0.3
+            ]
+          },
+          "material": "timber_dark"
+        }
+      ]
+    },
+    {
+      "id": "crosshead",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "runtime_animation": "not_integrated"
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "crosshead",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.5,
+              -1,
+              -0.5
+            ],
+            "max": [
+              3.5,
+              -0.5,
+              0.5
+            ]
+          },
+          "material": "timber"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "piles",
+      "component": "piles"
+    },
+    {
+      "id": "crosshead",
+      "component": "crosshead"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "part_present",
+      "kind": "nonempty",
+      "selector": {}
+    },
+    {
+      "id": "piles_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "piles"
+      }
+    },
+    {
+      "id": "crosshead_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "crosshead"
+      }
+    }
+  ],
+  "provenance": {
+    "author": {
+      "path": "world_city/runtime_city/parts/author.py",
+      "sha256": "e64ff087cc0b6231c95043bf82839adc706ff00201ba622961a122ef161397ab"
+    },
+    "source_files": [
+      {
+        "path": "voxel_character/common/assets/house/master.json",
+        "sha256": "8c46e2372049a7f991af4aeda70e19cceaab775a96af3bdaf3662d65885305c3"
+      },
+      {
+        "path": "voxel_character/common/assets/fountain/master.json",
+        "sha256": "49d9288b70dd1ae36a9d3af2fefb5f6130caf9a8384bdbf11f677d558846d593"
+      },
+      {
+        "path": "world_city/runtime_city/revisions/r2/city_history.r2.candidate.json",
+        "sha256": "46f4ad745219f4b52a20150b4d926a91a47d839b746d4a25f539108e6e920699"
+      },
+      {
+        "path": "world_city/reference/revision_02/city_terrain_concept.png",
+        "sha256": "7f86e8e7b28058cc70227e098e4cc65edd3aa3f94ba541683482540187cc53f1"
+      },
+      {
+        "path": "world_city/reference/revision_02/prompt.txt",
+        "sha256": "094ffce4f977e75c5d900c635b7a2e6e6c47e878dd6deee9935a0f6c7a4d5944"
+      }
+    ],
+    "observed": "Existing common schema, palette roles, landmark/infrastructure/topography source interfaces.",
+    "inferred": "All new part geometry, dimensions, sockets, support zones and mechanical proportions.",
+    "image_basis": "Revision03 port crop: observed shed/piers/crane/cargo boats. All exact dimensions are fictional source design inferences.",
+    "evidence": "fictional_game_design_inference_not_historical_reconstruction",
+    "material_policy": "Original house warm stone/timber roles; canonical r2 gray slate for roof roles. Old masters remain unchanged.",
+    "new_engine": false,
+    "registered_port_author": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/author_port_modules.py",
+      "sha256": "3e330adf2146d2f4ace3a8f6c0c9770ed2788123d5a7a1d9a5652f53476916a6"
+    },
+    "source_concept": {
+      "path": "world_city/reference/revision_03/city_social_water_concept.png",
+      "sha256": "b5a103353b901efe871bc048eadd200883f64ee762f5ff267b71f5e903d30a8e"
+    },
+    "semantic_palette_overrides": {
+      "rope": "approved timber_light swatch; rope physical role",
+      "canvas": "approved warm stone_light swatch; unbleached cloth physical role"
+    }
+  },
+  "extensions": {
+    "part_kind": "port_dock_bent_7m",
+    "status": "registered_reusable_source_fixture",
+    "local_bounds_m": {
+      "min": [
+        -3.5,
+        -7,
+        -0.5
+      ],
+      "max": [
+        3.5,
+        -0.5,
+        0.5
+      ]
+    },
+    "footprint_xz_m": [
+      [
+        -3.5,
+        -0.5
+      ],
+      [
+        3.5,
+        -0.5
+      ],
+      [
+        3.5,
+        0.5
+      ],
+      [
+        -3.5,
+        0.5
+      ]
+    ],
+    "sockets": [
+      {
+        "id": "deck_underside",
+        "position_m": [
+          0,
+          -0.5,
+          0
+        ],
+        "outward_normal": [
+          0,
+          1,
+          0
+        ],
+        "role": "pier_deck",
+        "coordinate_space": "asset_local_metres"
+      }
+    ],
+    "supports": [
+      {
+        "id": "pile_tips",
+        "contact_region_m": {
+          "kind": "box",
+          "min": [
+            -3.3,
+            -7,
+            -0.3
+          ],
+          "max": [
+            3.3,
+            -6.9,
+            0.3
+          ]
+        },
+        "requires": "Exact registered bed sampled at each pile plus declared embed; this fixture uses7m depth only.",
+        "status": "geometric_interface_only_not_structural_engineering"
+      }
+    ],
+    "clearances": [],
+    "functional_connections": [],
+    "animation_hooks": [],
+    "lod": {
+      "policy": "Every pitch is compiled independently from this single continuous master.",
+      "source_geometry_changes_by_lod": false,
+      "output_cell_edits_allowed": false,
+      "collision_changes_by_lod": false,
+      "collision_status": "not_integrated",
+      "candidate_visual_pitches_m": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "coarse_functional_guarantee": false,
+      "thin_rope_policy": "Existing common tube minimum_radius_cells=0.75 preserves crane/hoist visual lines; no physics shape or output cells are changed.",
+      "coarse_action": "Reject a functional use if sampled clearance or support checks fail."
+    },
+    "smoke_pitch_m": 0.2,
+    "design_notes": [],
+    "city_placement": null,
+    "terrain_placement": null,
+    "visual_review": "not_run",
+    "whole_city_complete": false,
+    "release_gate": "New concept review, material/silhouette review, placement/support checks, traversal and runtime integration remain open.",
+    "actual_scene_loaded": false,
+    "actual_visual_review": false
+  }
+}

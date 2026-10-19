@@ -1,0 +1,33 @@
+{
+  "schema": "riverstone.house_detail.layer_rules.v1",
+  "fine_pitch_m": 0.05,
+  "core_pitch_m": 0.1,
+  "chunk_edge_fine_cells": 60,
+  "halo_fine_cells": 2,
+  "max_chunk_output_cells": 600000,
+  "max_chunk_candidate_cells": 5000000,
+  "memory_limit_bytes": 738197504,
+  "total_output_budget_bytes": 180000000,
+  "protected_parts": [
+    "windows",
+    "door",
+    "door_frame"
+  ],
+  "protected_feature_regex": ".*(__near|threshold).*",
+  "core_admission": "All eight fine cells equal the actual common .1m cell's instance/part/material/feature; all six fine-neighbors occupied; no protected detail part or feature.",
+  "vertex_decimal_places": 8,
+  "vertex_grid_tolerance": 1e-06,
+  "unsupported_policy": "Emit pending; no coarse fallback.",
+  "shared_output_reservation": {
+    "book_path": "world_city/concept_city_v3/near_detail_r01/city_upgrade/house_rules/generated/shared_output_reservations.v1.json",
+    "retained_roots": [
+      "world_city/concept_city_v3/near_detail_r01/city_upgrade/house_rules/compiled",
+      "world_city/concept_city_v3/near_detail_r01/city_upgrade/house_rules/replay_code",
+      "world_city/concept_city_v3/near_detail_r01/city_upgrade/facility_roofs/compiled_priority_r01",
+      "world_city/concept_city_v3/near_detail_r01/city_upgrade/facility_roofs/compiled_expansion_r01",
+      "world_city/concept_city_v3/near_detail_r01/city_upgrade/facility_openings/batch_r01"
+    ],
+    "limit_bytes": 180000000,
+    "asset_cap_bytes": 6000000
+  }
+}

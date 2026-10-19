@@ -1,0 +1,15 @@
+"""Exact native central loading portals, apron, and 4m public quay turn."""
+import pathlib,json,hashlib,numpy as np
+O=pathlib.Path(__file__).resolve().parent;ROOT=O.parents[4]
+read=lambda p:json.loads(p.read_text());sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();ref=lambda p:{'path':str(p.relative_to(ROOT)),'sha256':sha(p)}
+b=read(O/'junction_runtime_request.json');req={k:b[k] for k in ['base_scene','finite_patch','visual_index','collision_margin_m']};req.update(schema='riverstone.r10.port_cart_request.v1',routes=[],gates=[],cart_fixture=read(ROOT/'world_city/concept_city_v3/registered_integration/r9/gate_runtime_validation/INPUT_CONTRACT.json')['cart_fixture'],producer_sources={'generator':ref(pathlib.Path(__file__)),'loading_candidates':ref(O/'port_two_warehouse_candidates.json'),'observed_route_mapping':ref(O/'observed_route_observation_mapping.json')})
+q=np.array(next(x for x in read(O/'observed_route_observation_mapping.json') if x['id']=='ROAD:PORT_QUAY')['observed_graph_points_xyz_m']);length=np.linalg.norm(np.diff(q[:,[0,2]],axis=0),axis=1);ss=np.r_[0,np.cumsum(length)]
+def point(s):
+ j=min(len(q)-2,max(0,np.searchsorted(ss,s,side='right')-1));return q[j]+(q[j+1]-q[j])*((s-ss[j])/length[j])
+for w in read(O/'port_two_warehouse_candidates.json')['warehouses']:
+ p=np.array(w['public_quay_station_xyz_m']);v=np.diff(q[:,[0,2]],axis=0);t=np.clip(np.sum((p[[0,2]]-q[:-1,[0,2]])*v,axis=1)/np.sum(v*v,axis=1),0,1);pp=q[:-1]+t[:,None]*np.diff(q,axis=0);j=np.linalg.norm(pp[:,[0,2]]-p[[0,2]],axis=1).argmin();s=ss[j]+t[j]*length[j];# selected quay sequence points east toward bridge/market
+ end=s+4;assert end<ss[-1];turn=[x.tolist() for k,x in enumerate(q) if s+1e-8<ss[k]<end-1e-8]+[point(end).tolist()];pts=w['local_candidate_points_xyz_m']+turn
+ req['producer_sources'][w['warehouse']+'_native_master']=ref(ROOT/w['native_master_path'])
+ req['routes'].append({'id':w['warehouse']+':CENTRAL_LOADING_TO_QUAY_TURN','kind':'actual_scene_public_route','group':w['warehouse'],'points':pts,'both_directions':True,'bidirectional':True,'cart_test':True,'source_road_ids':['PORT_QUAY'],'source_route_ids':['ROAD:PORT_QUAY'],'minimum_allowed_feet_y_m':1.2,'minimum_allowed_feet_y_explicit':True,'test_scope':'Actual native 4m central bay, threshold, seven-metre apron and 4m quay leg including approximately 90-degree turn. Exact base+r9 scene, no geometry edits. Kinematic cart envelope only; not full quay-to-market cart certification.','warehouse_entrance':w,'quay_turn_distance_m':4,'quay_original_station_m':float(s)})
+req['expected_positive_directional_cases']=4;req['expected_retained_negative_controls']=2;req['limits']=['No vehicle dynamics or steering-radius claim.','Four directions exercise central doorway and turn; no entire quay/bridge/market certification.','Original controller, common loader and gate cart fixture unchanged.']
+(O/'port_runtime_request.json').write_text(json.dumps(req,indent=2)+'\n');print('Wrote 2 forward routes, 4 positive directions + 2 negatives')

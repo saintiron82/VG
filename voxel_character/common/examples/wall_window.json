@@ -1,0 +1,1049 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "wall_window_slice",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "plaster": "d8c6a2",
+    "plaster_light": "e4d4b4",
+    "plaster_dark": "c7b58f",
+    "timber": "654631",
+    "timber_light": "896143",
+    "timber_dark": "493729",
+    "endgrain": "9c7850",
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "slate": "45676a",
+    "slate_light": "658284",
+    "slate_dark": "355157",
+    "slate_worn": "7b8f8a",
+    "iron": "394648",
+    "iron_light": "68736c",
+    "glass": "314d55",
+    "glass_light": "54716e",
+    "door": "946b45",
+    "door_dark": "6f4e34"
+  },
+  "components": [
+    {
+      "id": "panel",
+      "parts": [
+        {
+          "id": "panel",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "op_0",
+          "part": "panel",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0,
+              0,
+              -0.13
+            ],
+            "max": [
+              2.4,
+              2.7,
+              0.13
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "plaster"
+        },
+        {
+          "id": "op_1",
+          "part": "panel",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0,
+              0,
+              -0.23
+            ],
+            "max": [
+              0.1,
+              2.7,
+              0.16
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "op_2",
+          "part": "panel",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.3,
+              0,
+              -0.23
+            ],
+            "max": [
+              2.4,
+              2.7,
+              0.16
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "op_3",
+          "part": "panel",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0,
+              0,
+              -0.2
+            ],
+            "max": [
+              2.4,
+              0.17,
+              0.16
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "op_4",
+          "part": "panel",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0,
+              2.52,
+              -0.23
+            ],
+            "max": [
+              2.4,
+              2.7,
+              0.16
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "op_5",
+          "part": "panel",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                0.06298188963066781,
+                2.1248809235343624
+              ],
+              [
+                0.48298188963066785,
+                2.5648809235343624
+              ],
+              [
+                0.5770181103693323,
+                2.4751190764656377
+              ],
+              [
+                0.1570181103693322,
+                2.0351190764656377
+              ]
+            ],
+            "z_min": -0.3,
+            "z_max": -0.12
+          },
+          "material": "timber"
+        },
+        {
+          "id": "op_6",
+          "part": "panel",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                2.2429818896306677,
+                2.0351190764656377
+              ],
+              [
+                1.8229818896306678,
+                2.4751190764656377
+              ],
+              [
+                1.917018110369332,
+                2.5648809235343624
+              ],
+              [
+                2.3370181103693324,
+                2.1248809235343624
+              ]
+            ],
+            "z_min": -0.3,
+            "z_max": -0.12
+          },
+          "material": "timber"
+        },
+        {
+          "id": "op_7",
+          "part": "panel",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.8599999999999999,
+              0.72,
+              -0.4
+            ],
+            "max": [
+              1.54,
+              1.6,
+              0.4
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "insert",
+      "parts": [
+        {
+          "id": "insert",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "op_0",
+          "part": "insert",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.34,
+              0,
+              -0.4
+            ],
+            "max": [
+              0.34,
+              0.88,
+              0.4
+            ]
+          }
+        },
+        {
+          "id": "op_1",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.30000000000000004,
+              0.04,
+              0.085
+            ],
+            "max": [
+              0.30000000000000004,
+              0.84,
+              0.13
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "glass"
+        },
+        {
+          "id": "op_2",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.44000000000000006,
+              -0.1,
+              -0.24
+            ],
+            "max": [
+              -0.27,
+              0.98,
+              0.06
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_3",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.27,
+              -0.1,
+              -0.24
+            ],
+            "max": [
+              0.44000000000000006,
+              0.98,
+              0.06
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_4",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.44000000000000006,
+              0.86,
+              -0.24
+            ],
+            "max": [
+              0.44000000000000006,
+              1.03,
+              0.06
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_5",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5,
+              -0.12,
+              -0.3
+            ],
+            "max": [
+              0.5,
+              0.03,
+              0.12
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_6",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.035,
+              0.03,
+              -0.04
+            ],
+            "max": [
+              0.035,
+              0.85,
+              0.09
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_7",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.31000000000000005,
+              0.29179999999999995,
+              -0.05
+            ],
+            "max": [
+              0.31000000000000005,
+              0.3418,
+              0.09
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_8",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.31000000000000005,
+              0.591,
+              -0.05
+            ],
+            "max": [
+              0.31000000000000005,
+              0.641,
+              0.09
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "op_9",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.26,
+              -0.36,
+              -0.19
+            ],
+            "max": [
+              -0.16,
+              -0.1,
+              0.05
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "op_10",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.18000000000000002,
+              -0.36,
+              -0.19
+            ],
+            "max": [
+              0.28,
+              -0.1,
+              0.05
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "timber"
+        },
+        {
+          "id": "op_11",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.6504000000000001,
+              -0.03,
+              -0.2
+            ],
+            "max": [
+              -0.4600000000000001,
+              0.92,
+              -0.1
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "door"
+        },
+        {
+          "id": "op_12",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5989333333333334,
+              0,
+              -0.225
+            ],
+            "max": [
+              -0.5749333333333334,
+              0.88,
+              -0.18
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "door_dark"
+        },
+        {
+          "id": "op_13",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5354666666666668,
+              0,
+              -0.225
+            ],
+            "max": [
+              -0.5114666666666667,
+              0.88,
+              -0.18
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "door_dark"
+        },
+        {
+          "id": "op_14",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.6754000000000001,
+              0.145,
+              -0.25
+            ],
+            "max": [
+              -0.43500000000000005,
+              0.215,
+              -0.2
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "iron"
+        },
+        {
+          "id": "op_15",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.6504000000000001,
+              0.155,
+              -0.28
+            ],
+            "max": [
+              -0.6004,
+              0.205,
+              -0.24
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "iron_light"
+        },
+        {
+          "id": "op_16",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5100000000000001,
+              0.155,
+              -0.28
+            ],
+            "max": [
+              -0.4600000000000001,
+              0.205,
+              -0.24
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "iron_light"
+        },
+        {
+          "id": "op_17",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.6754000000000001,
+              0.6649999999999999,
+              -0.25
+            ],
+            "max": [
+              -0.43500000000000005,
+              0.735,
+              -0.2
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "iron"
+        },
+        {
+          "id": "op_18",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.6504000000000001,
+              0.6749999999999999,
+              -0.28
+            ],
+            "max": [
+              -0.6004,
+              0.725,
+              -0.24
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "iron_light"
+        },
+        {
+          "id": "op_19",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.5100000000000001,
+              0.6749999999999999,
+              -0.28
+            ],
+            "max": [
+              -0.4600000000000001,
+              0.725,
+              -0.24
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "iron_light"
+        },
+        {
+          "id": "op_20",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.46,
+              -0.03,
+              -0.2
+            ],
+            "max": [
+              0.6504000000000001,
+              0.92,
+              -0.1
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "door"
+        },
+        {
+          "id": "op_21",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.5114666666666667,
+              0,
+              -0.225
+            ],
+            "max": [
+              0.5354666666666668,
+              0.88,
+              -0.18
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "door_dark"
+        },
+        {
+          "id": "op_22",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.5749333333333334,
+              0,
+              -0.225
+            ],
+            "max": [
+              0.5989333333333334,
+              0.88,
+              -0.18
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "door_dark"
+        },
+        {
+          "id": "op_23",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.435,
+              0.145,
+              -0.25
+            ],
+            "max": [
+              0.6754000000000001,
+              0.215,
+              -0.2
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "iron"
+        },
+        {
+          "id": "op_24",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.46,
+              0.155,
+              -0.28
+            ],
+            "max": [
+              0.51,
+              0.205,
+              -0.24
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "iron_light"
+        },
+        {
+          "id": "op_25",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.6004,
+              0.155,
+              -0.28
+            ],
+            "max": [
+              0.6504000000000001,
+              0.205,
+              -0.24
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "iron_light"
+        },
+        {
+          "id": "op_26",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.435,
+              0.6649999999999999,
+              -0.25
+            ],
+            "max": [
+              0.6754000000000001,
+              0.735,
+              -0.2
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "iron"
+        },
+        {
+          "id": "op_27",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.46,
+              0.6749999999999999,
+              -0.28
+            ],
+            "max": [
+              0.51,
+              0.725,
+              -0.24
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "iron_light"
+        },
+        {
+          "id": "op_28",
+          "part": "insert",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.6004,
+              0.6749999999999999,
+              -0.28
+            ],
+            "max": [
+              0.6504000000000001,
+              0.725,
+              -0.24
+            ],
+            "minimum_cells": [
+              1,
+              1,
+              1
+            ]
+          },
+          "material": "iron_light"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "panel",
+      "component": "panel",
+      "transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "insert",
+      "component": "insert",
+      "transform": {
+        "translation": [
+          1.2,
+          0.72,
+          0
+        ]
+      }
+    }
+  ],
+  "assembly_cuts": [],
+  "constraints": [
+    {
+      "id": "panel_present",
+      "kind": "nonempty",
+      "selector": {
+        "instance": "panel"
+      }
+    },
+    {
+      "id": "insert_present",
+      "kind": "nonempty",
+      "selector": {
+        "instance": "insert"
+      }
+    },
+    {
+      "id": "frame_contacts_panel",
+      "kind": "touch",
+      "a": {
+        "instance": "panel"
+      },
+      "b": {
+        "instance": "insert",
+        "material": "timber_light"
+      }
+    },
+    {
+      "id": "glass_present",
+      "kind": "nonempty",
+      "selector": {
+        "material": "glass"
+      }
+    },
+    {
+      "id": "window_hole_clear_of_plaster",
+      "kind": "empty_region",
+      "selector": {
+        "material": "plaster"
+      },
+      "shape": {
+        "kind": "box",
+        "min": [
+          0.87,
+          0.73,
+          -0.13
+        ],
+        "max": [
+          1.53,
+          1.59,
+          0.13
+        ]
+      }
+    }
+  ],
+  "provenance": {
+    "source_files": [
+      {
+        "path": "voxel_character/house/house_master.json",
+        "sha256": "e2cc8cb3d30808eaac16ecf6e2e81b03ffede99dda17812e29cc51d9a509b9f5"
+      },
+      {
+        "path": "voxel_character/house/generate_house.py",
+        "sha256": "4ed98ac98a4ee3f778bcab9dcac2927fb2ca95260758f720c5ed660ff7552500"
+      }
+    ],
+    "scope": "One original wall bay and its separate window; no house, roof, interior or door certification.",
+    "status": "partial_structural_fixture_not_visual_approval"
+  }
+}

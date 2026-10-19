@@ -1,0 +1,42 @@
+"""Wall/tower image-fit preflight. Source bounds only, zero compilation."""
+import sys,json,math,hashlib
+from pathlib import Path
+HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[4]
+sys.path.insert(0,str(ROOT));sys.path.insert(0,str(ROOT/'world_city/concept_city_v3/assemblies/landmarks/registered'))
+from build_audit import ref,write,camera_functions,estimate_candidates
+from author_assemblies import make_hip_tower
+from world_city.runtime_city.infrastructure.author import make_master
+from world_city.concept_city_v3.validation.geometry import closest_point
+
+def main():
+ controls_path=ROOT/'world_city/concept_city_v3/image_registration/controls.json';plan_path=ROOT/'world_city/concept_city_v3/registered_source/plan.json';controls=json.loads(controls_path.read_text());plan=json.loads(plan_path.read_text());project,inverse,vertical,depth=camera_functions(controls)
+ # Paired visible features on one local face. These are annotated observations, not survey points.
+ raw=[('south_tower_544','tower',[544,710],[544,756],3,4,'Toe partly obscured by warehouse; masonry face only, excluding quay drop.'),('south_tower_674','tower',[674,741],[674,786],4,4,'Visible face toe near warehouse; conservative image uncertainty.'),('main_gate_left_tower','tower',[928,756],[928,810],3,4,'Same tower roof axis and dry gate-side toe; bridge ramp excluded.'),('main_gate_right_tower','tower',[969,754],[969,814],3,4,'Same tower roof axis and dry toe; outer embankment excluded.'),('west_tower_129','tower',[129,563],[129,617],4,4,'Visible stone toe above rocky retaining slope; do not include the cliff.'),('west_tower_86','tower',[86,484],[86,536],5,4,'Toe partly screened by vegetation; lower confidence.'),('south_curtain_1048','curtain',[1048,785],[1048,817],5,0,'Same exterior face; shrubs obscure the last few pixels.'),('west_curtain_166','curtain',[166,602],[166,634],6,0,'Same masonry face; excludes rocky drop below.'),('north_curtain_1190','curtain',[1190,112],[1190,139],5,0,'Background face toe partly occluded; diagnostic sample only.')]
+ samples=[]
+ for id,kind,top,base,uncertainty,depth_uncertainty,note in raw:
+  dy=base[1]-top[1];h=dy/vertical;tol=(2*uncertainty+depth*depth_uncertainty)/vertical
+  candidates=[]
+  pts=plan['wall_registration']['world_xyz_m']
+  for i,(a,b) in enumerate(zip(pts,pts[1:]+pts[:1])):
+   pa,pb=project(a),project(b);distance,q,t=closest_point(base,pa,pb);candidates.append((distance,i,t,q,[a[j]+(b[j]-a[j])*t for j in range(3)]))
+  dist,edge,t,q,world=min(candidates,key=lambda x:x[0])
+  samples.append({'id':id,'kind':kind,'observed_top_pixel_xy':top,'observed_same_face_base_pixel_xy':base,'pick_uncertainty_px':uncertainty,'roof_center_depth_uncertainty_m':depth_uncertainty,'paired_vertical_span_px':dy,'paired_height_center_m':h,'paired_height_interval_m':[max(0,h-tol),h+tol],'observation_note':note,'nearest_current_wall_ground_projection':{'edge_index':edge,'segment_t':t,'pixel_xy':q,'world_xyz_m':world,'base_residual_px':dist},'status':'manual paired-face inference; not approved placement or historical measurement'})
+ catalog=[]
+ for h in (14,18,22):
+  s=make_master({'kind':'wall_panel','width_m':16,'depth_m':3,'height_m':h,'battlements':True,'battlement_height_m':1,'battlement_spacing_m':2})
+  catalog.append({'id':'curtain16_h'+str(h),'purpose':'candidate exterior curtain height, assign only after local fit','parameters_m':{'length':16,'thickness':3,'wall_height':h},'candidate_cells_0_5m':estimate_candidates(s,.5)['candidate_cells_exact_aabb_visits']})
+ for w,h in ((10,34),(12,42)):
+  s=make_hip_tower('fortification_preflight_tower',w,w,h-7,h,1)
+  catalog.append({'id':'square_tower_'+str(w)+'x'+str(h),'purpose':'hollow square tower with hip roof; isolated feasibility only','parameters_m':{'width':w,'depth':w,'body_height':h-7,'roof_tip':h},'candidate_cells_0_5m':estimate_candidates(s,.5)['candidate_cells_exact_aabb_visits']})
+ wall=plan['boundary_xz_m'];length=sum(math.dist(a,b) for a,b in zip(wall,wall[1:]+wall[:1]));gates=plan['gates']
+ result={'schema':'riverstone.city.registered_fortification_preflight.v1','status':'silhouette_preflight_only_no_compile','inputs':{'source_plan':ref(plan_path),'controls':ref(controls_path),'concept':ref(ROOT/'world_city/reference/revision_03/city_social_water_concept.png'),'common_wall_factory':ref(ROOT/'world_city/runtime_city/infrastructure/author.py'),'common_tower_factory':ref(ROOT/'world_city/runtime_city/landmarks/author.py')},'observations':samples,'image_height_policy':'Paired top/base pixels from the same visible face. Retaining cliff and precinct depth are excluded; tower roof-center depth is an explicit uncertainty. Do not equate full image extent with wall height.','camera_scales':{'vertical_px_per_m':vertical,'ground_depth_px_per_m':depth},'catalog_preflight':catalog,'budget':{'compile_now':False,'pitch_m':.5,'max_candidates_per_unique_source':2000000,'max_unique_caches_initial':42,'standard_curtain_families':3,'exact_end_closure_variants_max':32,'tower_families':2,'gateway_headers':2,'foundation_blocks':3,'whole_city_or_whole_wall_compile':False,'per_meter_unique_sources':False,'wall_scaling':False},'wall_source_contract':{'closed_edges':len(wall),'total_length_m':length,'estimated_16m_main_chunks':math.ceil(length/16),'replace_runtime_proxy_id_prefix':'wall:','reported_proxy_count':722,'actual_proxy_ids_to_enumerate_from_bound_scene_before_apply':True,'source_plan_mutation':False,'foundation_policy':'Each rigid chunk samples exact underlying ground at both face strips and endpoints. Reused short foundation blocks reach min sampled land with declared embed. No unsupported midpoint-only placement.'},'gate_contracts':[{'source_gate':g,'new_geometry_status':'parameter_design_pending_exact_bridge_frame' if g['road_id']=='MAIN_BRIDGE' else 'parameter_design_pending_road_floor_sample','new_opening_count':0} for g in gates],'main_gate_functional_narrowing':{'decision':'implementation lead selected explicit short shared gateway','source_reservation_width_m':9.047511073905033,'terminal_corridor_total_m':7,'target_cart_band_m':4,'target_pedestrian_margins_each_m':1.5,'separated_footways':'merge into shared throat before gate; no separated-width guarantee inside','eight_metre_cart_lane_at_gate':False,'finished_floor_y_m':1.204572,'floor_binding':'Must verify exact continuous road/bridge transition, not stale wall2.2 label','native_jamb_clear_width_m':'to be proven against authored source and sample; target at least7'},'remaining_gates':['Resolve west/north wall control ground-toe residual before selecting local tower heights.','Produce silhouette-only comparison against current source ground projections.','Enumerate only observed tower anchors; no extra equally spaced gate grid.','Check actual wall/tower footprints against ordinary bodies, roads, waterworks and institutional floors.','Bind current bridge terminal and port tie overlay before main gate source commit.'],'actual_common_placement':False,'actual_visual_review':False}
+ write(HERE/'preflight.json',result)
+ # A pure SVG diagnostic over the unchanged concept. Yellow is the same-face measurement;
+ # magenta is the nearest current source-ground anchor. No generated scene or altered asset.
+ out=['<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1536" height="1024" viewBox="0 0 1536 1024">','<image xlink:href="../../../../reference/revision_03/city_social_water_concept.png" width="1536" height="1024"/>']
+ for s in samples:
+  t,b,q=s['observed_top_pixel_xy'],s['observed_same_face_base_pixel_xy'],s['nearest_current_wall_ground_projection']['pixel_xy']
+  out.extend([f'<line x1="{t[0]}" y1="{t[1]}" x2="{b[0]}" y2="{b[1]}" stroke="#ffff33" stroke-width="2"/>',f'<circle cx="{q[0]}" cy="{q[1]}" r="4" fill="none" stroke="#ff33cc" stroke-width="2"/>',f'<line x1="{q[0]}" y1="{q[1]}" x2="{b[0]}" y2="{b[1]}" stroke="#ff33cc" stroke-dasharray="3 3"/>'])
+ out.append('</svg>');(HERE/'paired_face_comparison.svg').write_text('\n'.join(out))
+ print(json.dumps({'samples':len(samples),'zero_compiles':True,'max_estimated_candidates':max(s['candidate_cells_0_5m'] for s in catalog),'wall_length_m':length,'large_anchor_residuals':[(s['id'],round(s['nearest_current_wall_ground_projection']['base_residual_px'],2)) for s in samples if s['nearest_current_wall_ground_projection']['base_residual_px']>10]},indent=2))
+if __name__=='__main__':main()

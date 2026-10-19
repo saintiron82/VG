@@ -1,0 +1,18 @@
+from . import geometry as g
+from .refit_b05_native_junction_entry import FIELDS,LAYOUT
+from .refit_held_private_entries import PublicField,route_intervals,rows
+from .activate_backlands_subset import MaskIndex
+from world_city.concept_city_v3.registered_topography.revisions.public_corridors_r18 import public_domain
+import math
+OUT=g.HERE/'b05_native_junction_entry_r04'
+def run():
+ OUT.mkdir(exist_ok=True);lay=g.load(LAYOUT);h=next(x for x in lay['holdings']if x['id']=='BLOCK_005:R8_C006');f=next(f for f in g.load(FIELDS)['profiles']if f['id']=='NORTH_SHARED_JUNCTION');gate=h['gate_position_xz_m'];field=PublicField(f['triangles']);mf=g.load(g.HERE/'effective_city_manifest_r01.json');own=[p for p in mf['placements']if p.get('holding_id')==h['id']];native=MaskIndex([dict(id=p['id'],polygon_xz_m=q)for p in own for q in p['native_walking_obstacles_xz_m']]);scene=g.load(g.CITY/'evidence/r8_district_61_assembly_preflight_r01/scene.json');water=MaskIndex(rows([[[v[0],v[2]]for v in scene['surfaces']['water'][i:i+3]]for i in range(0,len(scene['surfaces']['water']),3)],'WATER'));pub=MaskIndex(public_domain.records()+rows(f['polygons_xz_m'],'NORTH_SHARED_JUNCTION'));court=MaskIndex([dict(id=h['id'],polygon_xz_m=h['holding_polygon_xz_m'])]);others=MaskIndex([dict(id=x['id'],polygon_xz_m=x['holding_polygon_xz_m'])for x in lay['holdings']if x['id']!=h['id']]);good=[];diagnostics=[]
+ for width in [2.,3.5]:
+  for a in [[80,-307],[80,-308],[82,-308.5]]:
+   for b in [[84,-299],[86,-298],[88,-297]]:
+    for target in [[75,-298],[74,-297],[74,-296]]:
+     line=[gate,a,b,target];ps=g.ribbons(line,width);fixed=field.intersection(ps);pi=route_intervals(line,width,pub);ci=route_intervals(line,width,court);first=min(x['station_range_m'][0]for x in pi);last=max((x['station_range_m'][1]for x in ci),default=0.);hits=native.hit(ps);wet=water.hit(ps);other=others.hit(ps);early=pub.hit(g.ribbons(line[:-1],width));run=first-last;screen=(15.6-h['floor_y_m'])/run if run>0 else 999;row=dict(width_m=width,line=line,first=first,last=last,run=run,screen=screen,native=len(hits),water=len(wet),other=len(other),early=len(early));diagnostics.append(row)
+     if not any(':FABRIC:'in q['id']for q in hits) and not wet and not other and not early and screen<.12:
+      good.append(dict(holding_id=h['id'],candidate_index=len(good),floor_y_m=h['floor_y_m'],original_floor_y_m=h['floor_y_m'],proposed_rigid_y_delta_m=0.,width_m=width,original_gate_xz_m=gate,gate_xz_m=gate,gate_changed=False,polyline_xz_m=line,polygons_xz_m=ps,public_road_id='NORTH_SHARED_JUNCTION',public_segment=None,public_target_evidence=field.at(target),fixed_public_regions=fixed,first_full_width_public_station_m=first,last_fixed_holding_station_m=last,strict_private_rise_length_m=run,source_average_rise_screen=screen,length_m=sum(math.dist(x,y)for x,y in zip(line,line[1:])),additional_retirement_ids=[],native_projection_contacts=hits,water_contacts=wet,other_holding_contacts=other,preterminal_public_contacts=early,public_field=g.ref(FIELDS),status='BOUNDED_DOGLEG_CANDIDATE_PENDING_FINITE_PROFILE'))
+ g.write(OUT/'source_candidates.json',dict(holding_id=h['id'],source_layout=g.ref(LAYOUT),source_public_field=g.ref(FIELDS),author=g.ref(__file__),candidates=good,diagnostics=diagnostics,retired_source_ids=h['retired_source_ids'],activation=False));print(g.ref(OUT/'source_candidates.json'));print('good',len(good));print([{k:v for k,v in q.items()if k in ['candidate_index','width_m','polyline_xz_m','strict_private_rise_length_m','source_average_rise_screen','length_m']}for q in good]);print('best',sorted(diagnostics,key=lambda r:r['screen'])[:3])
+if __name__=='__main__':run()

@@ -1,0 +1,1100 @@
+{
+  "revision": "r1_contour_control_geometry",
+  "roads": [
+    {
+      "id": "R_BAND_INNER",
+      "polyline_xz_m": [
+        [
+          -45,
+          0
+        ],
+        [
+          -38,
+          -65
+        ],
+        [
+          18,
+          -105
+        ],
+        [
+          95,
+          -105
+        ],
+        [
+          150,
+          -55
+        ],
+        [
+          170,
+          35
+        ],
+        [
+          150,
+          105
+        ],
+        [
+          90,
+          140
+        ],
+        [
+          5,
+          138
+        ],
+        [
+          -65,
+          105
+        ],
+        [
+          -85,
+          45
+        ],
+        [
+          -45,
+          0
+        ]
+      ],
+      "width_m": 5,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_BAND_MIDDLE",
+      "polyline_xz_m": [
+        [
+          -45,
+          -155
+        ],
+        [
+          20,
+          -205
+        ],
+        [
+          110,
+          -200
+        ],
+        [
+          165,
+          -140
+        ],
+        [
+          250,
+          -100
+        ],
+        [
+          285,
+          -20
+        ],
+        [
+          285,
+          90
+        ],
+        [
+          235,
+          165
+        ],
+        [
+          150,
+          200
+        ],
+        [
+          50,
+          207
+        ],
+        [
+          -55,
+          188
+        ],
+        [
+          -135,
+          130
+        ],
+        [
+          -185,
+          70
+        ],
+        [
+          -215,
+          20
+        ],
+        [
+          -220,
+          -65
+        ],
+        [
+          -210,
+          -120
+        ],
+        [
+          -210,
+          -165
+        ],
+        [
+          -150,
+          -170
+        ],
+        [
+          -45,
+          -155
+        ]
+      ],
+      "width_m": 6,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_BAND_OUTER",
+      "polyline_xz_m": [
+        [
+          -200,
+          -175
+        ],
+        [
+          -160,
+          -225
+        ],
+        [
+          -100,
+          -280
+        ],
+        [
+          0,
+          -285
+        ],
+        [
+          100,
+          -275
+        ],
+        [
+          145,
+          -225
+        ],
+        [
+          155,
+          -170
+        ],
+        [
+          290,
+          -165
+        ],
+        [
+          350,
+          -100
+        ],
+        [
+          390,
+          0
+        ],
+        [
+          395,
+          95
+        ],
+        [
+          360,
+          180
+        ],
+        [
+          285,
+          240
+        ],
+        [
+          180,
+          245
+        ],
+        [
+          65,
+          250
+        ],
+        [
+          -65,
+          250
+        ],
+        [
+          -180,
+          240
+        ],
+        [
+          -190,
+          180
+        ],
+        [
+          -190,
+          90
+        ],
+        [
+          -215,
+          65
+        ],
+        [
+          -230,
+          10
+        ],
+        [
+          -230,
+          -65
+        ],
+        [
+          -225,
+          -130
+        ],
+        [
+          -200,
+          -175
+        ]
+      ],
+      "width_m": 6,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_NORTH",
+      "polyline_xz_m": [
+        [
+          90,
+          -400
+        ],
+        [
+          90,
+          -370
+        ],
+        [
+          105,
+          -320
+        ],
+        [
+          100,
+          -275
+        ],
+        [
+          110,
+          -200
+        ],
+        [
+          95,
+          -105
+        ],
+        [
+          95,
+          0
+        ]
+      ],
+      "width_m": 7,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_NORTH_BANK",
+      "polyline_xz_m": [
+        [
+          -180,
+          -330
+        ],
+        [
+          -95,
+          -325
+        ],
+        [
+          -75,
+          -290
+        ],
+        [
+          0,
+          -285
+        ]
+      ],
+      "width_m": 4,
+      "kind": "gardener_and_clergy_lane",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_NORTH_WEST",
+      "polyline_xz_m": [
+        [
+          -180,
+          -330
+        ],
+        [
+          -180,
+          -260
+        ],
+        [
+          -160,
+          -225
+        ]
+      ],
+      "width_m": 4,
+      "kind": "north_residential_lane",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_RADIAL_NE",
+      "polyline_xz_m": [
+        [
+          290,
+          -165
+        ],
+        [
+          250,
+          -100
+        ],
+        [
+          150,
+          -55
+        ],
+        [
+          95,
+          0
+        ]
+      ],
+      "width_m": 6,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_RADIAL_E",
+      "polyline_xz_m": [
+        [
+          490,
+          70
+        ],
+        [
+          440,
+          65
+        ],
+        [
+          395,
+          95
+        ],
+        [
+          285,
+          90
+        ],
+        [
+          170,
+          35
+        ],
+        [
+          95,
+          35
+        ]
+      ],
+      "width_m": 7,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_RADIAL_SE",
+      "polyline_xz_m": [
+        [
+          285,
+          240
+        ],
+        [
+          235,
+          165
+        ],
+        [
+          150,
+          105
+        ],
+        [
+          95,
+          90
+        ]
+      ],
+      "width_m": 5,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_RADIAL_S",
+      "polyline_xz_m": [
+        [
+          65,
+          250
+        ],
+        [
+          50,
+          207
+        ],
+        [
+          90,
+          140
+        ],
+        [
+          95,
+          90
+        ]
+      ],
+      "width_m": 5,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_RADIAL_SW",
+      "polyline_xz_m": [
+        [
+          -180,
+          240
+        ],
+        [
+          -135,
+          130
+        ],
+        [
+          -65,
+          105
+        ],
+        [
+          -45,
+          90
+        ]
+      ],
+      "width_m": 5,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_RADIAL_NW",
+      "polyline_xz_m": [
+        [
+          -45,
+          -155
+        ],
+        [
+          -38,
+          -65
+        ],
+        [
+          -45,
+          0
+        ]
+      ],
+      "width_m": 5,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_MARKET_EAST",
+      "polyline_xz_m": [
+        [
+          95,
+          0
+        ],
+        [
+          95,
+          90
+        ],
+        [
+          110,
+          170
+        ],
+        [
+          120,
+          240
+        ],
+        [
+          120,
+          330
+        ],
+        [
+          120,
+          390
+        ],
+        [
+          120,
+          465
+        ],
+        [
+          120,
+          550
+        ]
+      ],
+      "width_m": 8,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_MARKET_W",
+      "polyline_xz_m": [
+        [
+          -45,
+          0
+        ],
+        [
+          -45,
+          90
+        ]
+      ],
+      "width_m": 5,
+      "kind": "market_edge",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_MARKET_N",
+      "polyline_xz_m": [
+        [
+          -45,
+          0
+        ],
+        [
+          95,
+          0
+        ]
+      ],
+      "width_m": 5,
+      "kind": "market_edge",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_MARKET_S",
+      "polyline_xz_m": [
+        [
+          -45,
+          90
+        ],
+        [
+          30,
+          98
+        ],
+        [
+          95,
+          90
+        ]
+      ],
+      "width_m": 5,
+      "kind": "market_edge",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_HALL_APPROACH",
+      "polyline_xz_m": [
+        [
+          20,
+          -10
+        ],
+        [
+          20,
+          0
+        ]
+      ],
+      "width_m": 4,
+      "kind": "civic_approach",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_CASTLE",
+      "polyline_xz_m": [
+        [
+          -300,
+          -175
+        ],
+        [
+          -245,
+          -172
+        ],
+        [
+          -210,
+          -165
+        ]
+      ],
+      "width_m": 7,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_CATHEDRAL",
+      "polyline_xz_m": [
+        [
+          250,
+          -175
+        ],
+        [
+          290,
+          -165
+        ],
+        [
+          300,
+          -140
+        ],
+        [
+          250,
+          -100
+        ]
+      ],
+      "width_m": 7,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_TRAINING",
+      "polyline_xz_m": [
+        [
+          -400,
+          -140
+        ],
+        [
+          -235,
+          -140
+        ],
+        [
+          -225,
+          -130
+        ]
+      ],
+      "width_m": 4,
+      "kind": "military_service",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_WEST",
+      "polyline_xz_m": [
+        [
+          -490,
+          0
+        ],
+        [
+          -460,
+          0
+        ],
+        [
+          -400,
+          0
+        ],
+        [
+          -320,
+          0
+        ],
+        [
+          -220,
+          -10
+        ],
+        [
+          -215,
+          20
+        ]
+      ],
+      "width_m": 7,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_NOBLE_N",
+      "polyline_xz_m": [
+        [
+          -220,
+          -65
+        ],
+        [
+          -220,
+          -72
+        ],
+        [
+          -40,
+          -72
+        ],
+        [
+          -38,
+          -65
+        ]
+      ],
+      "width_m": 4,
+      "kind": "noble_quarter_lane",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_NOBLE_M",
+      "polyline_xz_m": [
+        [
+          -220,
+          -10
+        ],
+        [
+          -210,
+          12
+        ],
+        [
+          -45,
+          12
+        ],
+        [
+          -45,
+          0
+        ]
+      ],
+      "width_m": 4,
+      "kind": "noble_quarter_lane",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_MONASTERY",
+      "polyline_xz_m": [
+        [
+          -410,
+          320
+        ],
+        [
+          -310,
+          285
+        ],
+        [
+          -190,
+          250
+        ],
+        [
+          -190,
+          130
+        ],
+        [
+          -195,
+          130
+        ]
+      ],
+      "width_m": 6,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_PORT",
+      "polyline_xz_m": [
+        [
+          -390,
+          335
+        ],
+        [
+          -250,
+          335
+        ],
+        [
+          -100,
+          340
+        ],
+        [
+          120,
+          335
+        ],
+        [
+          300,
+          335
+        ],
+        [
+          385,
+          300
+        ]
+      ],
+      "width_m": 8,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_PORT_W",
+      "polyline_xz_m": [
+        [
+          -310,
+          285
+        ],
+        [
+          -250,
+          335
+        ]
+      ],
+      "width_m": 6,
+      "kind": "cart_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_WORKING",
+      "polyline_xz_m": [
+        [
+          285,
+          240
+        ],
+        [
+          335,
+          265
+        ],
+        [
+          385,
+          300
+        ],
+        [
+          420,
+          235
+        ],
+        [
+          420,
+          160
+        ],
+        [
+          395,
+          95
+        ]
+      ],
+      "width_m": 5,
+      "kind": "mill_and_workshop_street",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_UPPER_MIXED",
+      "polyline_xz_m": [
+        [
+          -160,
+          -225
+        ],
+        [
+          -112,
+          -205
+        ],
+        [
+          -45,
+          -155
+        ]
+      ],
+      "width_m": 3.2,
+      "kind": "local_bent_lane",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_CLERGY_EDGE",
+      "polyline_xz_m": [
+        [
+          100,
+          -275
+        ],
+        [
+          105,
+          -235
+        ],
+        [
+          145,
+          -225
+        ]
+      ],
+      "width_m": 3.2,
+      "kind": "local_bent_lane",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_MERCHANT_N",
+      "polyline_xz_m": [
+        [
+          20,
+          -205
+        ],
+        [
+          25,
+          -165
+        ],
+        [
+          18,
+          -105
+        ]
+      ],
+      "width_m": 3.0,
+      "kind": "local_bent_lane",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_MERCHANT_E",
+      "polyline_xz_m": [
+        [
+          165,
+          -140
+        ],
+        [
+          190,
+          -90
+        ],
+        [
+          205,
+          -40
+        ],
+        [
+          250,
+          -100
+        ]
+      ],
+      "width_m": 3.2,
+      "kind": "local_bent_lane",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_OLD_ARC",
+      "polyline_xz_m": [
+        [
+          -135,
+          130
+        ],
+        [
+          -85,
+          167
+        ],
+        [
+          -10,
+          178
+        ],
+        [
+          50,
+          207
+        ]
+      ],
+      "width_m": 2.8,
+      "kind": "local_bent_lane",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_POOR_ARC",
+      "polyline_xz_m": [
+        [
+          150,
+          200
+        ],
+        [
+          180,
+          150
+        ],
+        [
+          210,
+          110
+        ],
+        [
+          230,
+          40
+        ],
+        [
+          285,
+          -20
+        ]
+      ],
+      "width_m": 2.6,
+      "kind": "local_bent_lane",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_CRAFT_ARC",
+      "polyline_xz_m": [
+        [
+          350,
+          -100
+        ],
+        [
+          335,
+          -25
+        ],
+        [
+          330,
+          55
+        ],
+        [
+          360,
+          180
+        ]
+      ],
+      "width_m": 3.2,
+      "kind": "local_bent_lane",
+      "height_policy": "terrain author evaluates the whole profile"
+    },
+    {
+      "id": "R_CRAFT_CROSS",
+      "polyline_xz_m": [
+        [
+          285,
+          90
+        ],
+        [
+          330,
+          55
+        ],
+        [
+          395,
+          95
+        ]
+      ],
+      "width_m": 3.2,
+      "kind": "local_bent_lane",
+      "height_policy": "terrain author evaluates the whole profile"
+    }
+  ],
+  "protected_conflicts": [
+    [
+      "R_BAND_INNER",
+      "P_NOBLE_06",
+      0.576,
+      [
+        -85,
+        45
+      ],
+      [
+        -45,
+        0
+      ]
+    ],
+    [
+      "R_BAND_OUTER",
+      "S_CATHEDRAL",
+      12.595,
+      [
+        145,
+        -225
+      ],
+      [
+        155,
+        -170
+      ]
+    ],
+    [
+      "R_BAND_OUTER",
+      "S_MONASTERY",
+      42.426,
+      [
+        -190,
+        90
+      ],
+      [
+        -215,
+        65
+      ]
+    ],
+    [
+      "R_CASTLE",
+      "S_CASTLE",
+      110.041,
+      [
+        -300,
+        -175
+      ],
+      [
+        -245,
+        -172
+      ]
+    ],
+    [
+      "R_CASTLE",
+      "S_CASTLE",
+      0.485,
+      [
+        -245,
+        -172
+      ],
+      [
+        -210,
+        -165
+      ]
+    ],
+    [
+      "R_CATHEDRAL",
+      "S_CATHEDRAL",
+      24.5,
+      [
+        250,
+        -175
+      ],
+      [
+        290,
+        -165
+      ]
+    ]
+  ],
+  "road_count": 35,
+  "total_length_m": 11475.723888736353,
+  "method": "three deliberate bent contour bands with radial market approaches and short district-specific links; no Cartesian parcel grid"
+}

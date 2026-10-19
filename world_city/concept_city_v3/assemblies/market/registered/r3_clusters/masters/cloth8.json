@@ -1,0 +1,269 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_market_cloth8",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "earth": "77765a",
+    "grass": "6f7959",
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "777b71",
+    "water": "427a83",
+    "timber": "654631",
+    "timber_light": "896143",
+    "plaster": "d8c6a2",
+    "plaster_light": "e4d4b4",
+    "timber_dark": "493729"
+  },
+  "components": [
+    {
+      "id": "module",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "operations": [
+        {
+          "id": "op_000",
+          "part": "solid",
+          "action": "paint",
+          "material": "timber",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.0,
+              -0.5,
+              -2.0
+            ],
+            "max": [
+              -3.75,
+              3.0,
+              -1.75
+            ]
+          },
+          "feature": "canopy_post"
+        },
+        {
+          "id": "op_001",
+          "part": "solid",
+          "action": "paint",
+          "material": "timber",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.0,
+              -0.5,
+              1.75
+            ],
+            "max": [
+              -3.75,
+              3.0,
+              2.0
+            ]
+          },
+          "feature": "canopy_post"
+        },
+        {
+          "id": "op_002",
+          "part": "solid",
+          "action": "paint",
+          "material": "timber",
+          "shape": {
+            "kind": "box",
+            "min": [
+              3.75,
+              -0.5,
+              -2.0
+            ],
+            "max": [
+              4.0,
+              3.0,
+              -1.75
+            ]
+          },
+          "feature": "canopy_post"
+        },
+        {
+          "id": "op_003",
+          "part": "solid",
+          "action": "paint",
+          "material": "timber",
+          "shape": {
+            "kind": "box",
+            "min": [
+              3.75,
+              -0.5,
+              1.75
+            ],
+            "max": [
+              4.0,
+              3.0,
+              2.0
+            ]
+          },
+          "feature": "canopy_post"
+        },
+        {
+          "id": "op_004",
+          "part": "solid",
+          "action": "paint",
+          "material": "plaster_light",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.0,
+              3.0,
+              -2.0
+            ],
+            "max": [
+              4.0,
+              3.25,
+              2.0
+            ]
+          },
+          "feature": "market_canopy"
+        },
+        {
+          "id": "op_005",
+          "part": "solid",
+          "action": "paint",
+          "material": "timber_light",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.0,
+              0.75,
+              1.25
+            ],
+            "max": [
+              4.0,
+              1.0,
+              2.0
+            ]
+          },
+          "feature": "trading_counter"
+        },
+        {
+          "id": "op_006",
+          "part": "solid",
+          "action": "paint",
+          "material": "earth",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -3.75,
+              1,
+              1.35
+            ],
+            "max": [
+              -2.75,
+              1.5,
+              1.9
+            ]
+          },
+          "feature": "wares_in_trays"
+        },
+        {
+          "id": "op_007",
+          "part": "solid",
+          "action": "paint",
+          "material": "earth",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0,
+              1,
+              1.35
+            ],
+            "max": [
+              1,
+              1.5,
+              1.9
+            ]
+          },
+          "feature": "wares_in_trays"
+        },
+        {
+          "id": "center_brace_-1",
+          "part": "solid",
+          "action": "paint",
+          "material": "timber",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.125,
+              -0.5,
+              -2.0
+            ],
+            "max": [
+              0.125,
+              3,
+              -1.75
+            ]
+          },
+          "feature": "center_support_for_long_market_canopy"
+        },
+        {
+          "id": "center_brace_1",
+          "part": "solid",
+          "action": "paint",
+          "material": "timber",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.125,
+              -0.5,
+              1.75
+            ],
+            "max": [
+              0.125,
+              3,
+              2.0
+            ]
+          },
+          "feature": "center_support_for_long_market_canopy"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "module_0",
+      "component": "module"
+    }
+  ],
+  "metadata": {
+    "authoring": "bounded_common_master_only",
+    "spec": {
+      "kind": "market_stall",
+      "width_m": 8,
+      "depth_m": 4,
+      "height_m": 3.25,
+      "cloth": true
+    },
+    "ground_datum_y_m": 0,
+    "support_embed_m": 0.5,
+    "palette_sources": [
+      "voxel_character/common/assets/house/master.json",
+      "world_city/runtime_city/infrastructure/author.py"
+    ],
+    "reuse": "existing urban_fabric.make_master parameterized canopy/posts/counter/wares, unchanged common compiler"
+  }
+}

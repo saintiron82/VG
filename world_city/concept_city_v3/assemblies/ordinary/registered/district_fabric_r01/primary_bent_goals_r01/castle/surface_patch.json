@@ -1,0 +1,79 @@
+{
+  "schema": "riverstone.frozen_scene_patch.v1",
+  "id": "CASTLE_EXISTING_GATE_SILL_SUPPORT_R01",
+  "status": "EXACT_SAME_PLANE_VISIBLE_SUPPORT_PATCH",
+  "base_scene_sha256": "2d53ca4a99572f1a3383a847b6ae5f93dda78fb7e721af8a6a15b78de4d7f1c2",
+  "source_surface_hashes": {},
+  "surface_edits": [],
+  "appended_surfaces": {
+    "ground_stone": [
+      [
+        -309.1539957423201,
+        24,
+        -235.33227084503898
+      ],
+      [
+        -303.524910893143,
+        24,
+        -233.24040474971548
+      ],
+      [
+        -303.4476566445492,
+        24,
+        -233.4781688787893
+      ],
+      [
+        -309.1539957423201,
+        24,
+        -235.33227084503898
+      ],
+      [
+        -309.23124999091385,
+        24,
+        -235.09450671596517
+      ],
+      [
+        -303.524910893143,
+        24,
+        -233.24040474971548
+      ]
+    ]
+  },
+  "removed_foundation_proxy_ids": [],
+  "source_references": {
+    "scene": {
+      "path": "world_city/concept_city_v3/evidence/r8_final110_runtime_r01/scene.json",
+      "sha256": "2d53ca4a99572f1a3383a847b6ae5f93dda78fb7e721af8a6a15b78de4d7f1c2"
+    },
+    "missing_support_proof": {
+      "path": "world_city/concept_city_v3/assemblies/ordinary/registered/district_fabric_r01/primary_bent_goals_r01/castle/branch_review_upper_support_r02.json",
+      "sha256": "5da82854cb3de18823c0848a18ab9bf40abd5a172c3b6291367053f9c77fb58a"
+    }
+  },
+  "ownership": {
+    "kind": "restore_missing_existing_gate_sill",
+    "native_id": "castle_registered:front_curtain",
+    "polygon_xz_m": [
+      [
+        -309.1539957423201,
+        -235.33227084503898
+      ],
+      [
+        -303.4476566445492,
+        -233.4781688787893
+      ],
+      [
+        -303.524910893143,
+        -233.24040474971548
+      ],
+      [
+        -309.23124999091385,
+        -235.09450671596517
+      ]
+    ],
+    "floor_y_m": 24,
+    "area_m2": 1.5000000000001525,
+    "visible_and_collision_same_triangles": true,
+    "native_or_wall_changes": 0
+  }
+}

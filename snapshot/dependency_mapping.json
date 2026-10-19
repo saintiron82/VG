@@ -1,0 +1,45 @@
+{
+  "schema": "vg.public-source-dependency-map.v1",
+  "mapping_mode": "Preserve repository-relative paths from the recovered project. No external framework copy or symlink is required.",
+  "shared_framework": [
+    {
+      "preserved_path": "voxel_character/common/core.py",
+      "source_relative_path": "voxel_character/common/core.py",
+      "sha256": "2a64ed2cdf43c9adb27a821170192f69fef0153c7be98cc85c903e34ff2a407b"
+    },
+    {
+      "preserved_path": "voxel_character/common/coordinate_planes.py",
+      "source_relative_path": "voxel_character/common/coordinate_planes.py",
+      "sha256": "5bfd7db5350af2a38c385adcfbd1a0a34f9b4616085ef507aa787e1d9237feaf"
+    },
+    {
+      "preserved_path": "voxel_character/common/exact_sampling_v2.py",
+      "source_relative_path": "voxel_character/common/exact_sampling_v2.py",
+      "sha256": "e19e884b4decadaaf8c585952a8c5121f5872d9a3a73b74b4ca9dfc05de8c225"
+    },
+    {
+      "preserved_path": "voxel_character/common/prepared_sampling_v3.py",
+      "source_relative_path": "voxel_character/common/prepared_sampling_v3.py",
+      "sha256": "fc1d25b73b3158394c6559246288ded2f5b882c80389b12695a254100239dfd7"
+    },
+    {
+      "preserved_path": "voxel_character/common/render_data.py",
+      "source_relative_path": "voxel_character/common/render_data.py",
+      "sha256": "e0a00b3bc905cad413516f830950b0d7b3e5369dace744578878dd01fa407e50"
+    },
+    {
+      "preserved_path": "voxel_character/tools/mesh.py",
+      "source_relative_path": "voxel_character/tools/mesh.py",
+      "sha256": "446406dedf27d926239a8a9f626f6924bd23c3d7edcd34a9f9a6d13a7090b6e7"
+    }
+  ],
+  "render_export_import_resolution": "voxel_character/common/render_data.py imports core from the same directory and mesh from ../tools. Both are included.",
+  "external_packages_seen": [
+    "numpy",
+    "scipy",
+    "Pillow",
+    "matplotlib"
+  ],
+  "dependency_lock": "No complete reproducible environment lock was present or synthesized. Core and the selected review-validator test use the Python standard library.",
+  "engine": "Godot 4 source is preserved; engine binaries and generated runtime dependencies are not included."
+}

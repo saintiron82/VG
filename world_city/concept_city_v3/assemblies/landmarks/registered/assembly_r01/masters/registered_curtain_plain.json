@@ -1,0 +1,2499 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_curtain_plain",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "slate": "a16b51",
+    "slate_dark": "80523f",
+    "timber": "654631",
+    "timber_dark": "493729",
+    "glass": "314d55",
+    "glass_light": "54716e",
+    "iron": "394648",
+    "door": "946b45"
+  },
+  "components": [
+    {
+      "id": "wall",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "wall",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -54.0,
+              0,
+              -0.75
+            ],
+            "max": [
+              54.0,
+              6,
+              0.75
+            ]
+          },
+          "material": "stone"
+        }
+      ]
+    },
+    {
+      "id": "dressings",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "dressings",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_parapet_west",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -54.0,
+              6.388,
+              -0.75
+            ],
+            "max": [
+              -53.76,
+              6.64,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_parapet_east",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              53.76,
+              6.388,
+              -0.75
+            ],
+            "max": [
+              54.0,
+              6.64,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_parapet_rear",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -53.76,
+              6.388,
+              -0.75
+            ],
+            "max": [
+              53.76,
+              6.64,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_parapet_front",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -53.76,
+              6.388,
+              0.51
+            ],
+            "max": [
+              53.76,
+              6.64,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "continuous_bearing_cap",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -54.0,
+              6,
+              -0.75
+            ],
+            "max": [
+              54.0,
+              6.64,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        }
+      ]
+    },
+    {
+      "id": "battlements",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "battlements",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "wall_front_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -54.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -52.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -52.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -50.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -50.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -48.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -48.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -46.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -46.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -44.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_5",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -44.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -42.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_6",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -42.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -40.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_7",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -40.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -38.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_8",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -38.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -36.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_9",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -36.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -34.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_10",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -34.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -32.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_11",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -32.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -30.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_12",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -30.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -28.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_13",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -28.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -26.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_14",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -26.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -24.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_15",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -24.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -22.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_16",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -22.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -20.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_17",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -20.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -18.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_18",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -18.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -16.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_19",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -16.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -14.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_20",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -14.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -12.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_21",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -12.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -10.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_22",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -10.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -8.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_23",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -8.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -6.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_24",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -6.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -4.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_25",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -2.84,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_26",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              -0.8400000000000001,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_27",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              1.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_28",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              3.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_29",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              4.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              5.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_30",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              6.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              7.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_31",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              8.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              9.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_32",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              10.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              11.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_33",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              12.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              13.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_34",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              14.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              15.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_35",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              16.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              17.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_36",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              18.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              19.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_37",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              20.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              21.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_38",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              22.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              23.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_39",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              24.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              25.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_40",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              26.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              27.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_41",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              28.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              29.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_42",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              30.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              31.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_43",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              32.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              33.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_44",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              34.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              35.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_45",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              36.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              37.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_46",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              38.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              39.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_47",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              40.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              41.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_48",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              42.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              43.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_49",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              44.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              45.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_50",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              46.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              47.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_51",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              48.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              49.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_52",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              50.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              51.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_front_53",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              52.0,
+              6.64,
+              0.51
+            ],
+            "max": [
+              53.16,
+              7,
+              0.75
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -54.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -52.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -52.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -50.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -50.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -48.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -48.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -46.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -46.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -44.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_5",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -44.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -42.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_6",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -42.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -40.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_7",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -40.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -38.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_8",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -38.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -36.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_9",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -36.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -34.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_10",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -34.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -32.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_11",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -32.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -30.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_12",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -30.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -28.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_13",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -28.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -26.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_14",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -26.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -24.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_15",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -24.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -22.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_16",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -22.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -20.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_17",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -20.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -18.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_18",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -18.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -16.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_19",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -16.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -14.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_20",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -14.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -12.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_21",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -12.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -10.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_22",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -10.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -8.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_23",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -8.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -6.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_24",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -6.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -4.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_25",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -4.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -2.84,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_26",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -2.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -0.8400000000000001,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_27",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              0.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              1.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_28",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              2.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              3.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_29",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              4.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              5.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_30",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              6.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              7.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_31",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              8.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              9.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_32",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              10.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              11.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_33",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              12.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              13.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_34",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              14.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              15.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_35",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              16.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              17.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_36",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              18.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              19.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_37",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              20.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              21.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_38",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              22.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              23.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_39",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              24.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              25.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_40",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              26.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              27.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_41",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              28.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              29.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_42",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              30.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              31.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_43",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              32.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              33.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_44",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              34.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              35.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_45",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              36.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              37.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_46",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              38.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              39.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_47",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              40.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              41.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_48",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              42.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              43.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_49",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              44.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              45.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_50",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              46.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              47.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_51",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              48.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              49.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_52",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              50.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              51.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_rear_53",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              52.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              53.16,
+              7,
+              -0.51
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_west_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -54.0,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              -53.76,
+              7,
+              -0.31500000000000006
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_west_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -54.0,
+              6.64,
+              0.0
+            ],
+            "max": [
+              -53.76,
+              7,
+              0.43499999999999994
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_east_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              53.76,
+              6.64,
+              -0.75
+            ],
+            "max": [
+              54.0,
+              7,
+              -0.31500000000000006
+            ]
+          },
+          "material": "stone_light"
+        },
+        {
+          "id": "wall_east_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              53.76,
+              6.64,
+              0.0
+            ],
+            "max": [
+              54.0,
+              7,
+              0.43499999999999994
+            ]
+          },
+          "material": "stone_light"
+        }
+      ]
+    },
+    {
+      "id": "owned_floor",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "source_category": "owned_floor",
+            "dynamic": false
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "bearing_floor",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -54.0,
+              -0.5,
+              -0.75
+            ],
+            "max": [
+              54.0,
+              0,
+              0.75
+            ]
+          },
+          "material": "stone_dark"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "wall",
+      "component": "wall"
+    },
+    {
+      "id": "dressings",
+      "component": "dressings"
+    },
+    {
+      "id": "battlements",
+      "component": "battlements"
+    },
+    {
+      "id": "owned_floor",
+      "component": "owned_floor"
+    }
+  ],
+  "assembly_cuts": [],
+  "constraints": [
+    {
+      "id": "landmark_present",
+      "kind": "nonempty",
+      "selector": {}
+    },
+    {
+      "id": "wall_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "wall"
+      }
+    },
+    {
+      "id": "dressings_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "dressings"
+      }
+    },
+    {
+      "id": "battlements_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "battlements"
+      }
+    },
+    {
+      "id": "owned_floor_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "owned_floor"
+      }
+    }
+  ],
+  "provenance": {
+    "source_files": [
+      {
+        "path": "world_city/data/city_brief.v2.json",
+        "sha256": "2a848ee765c035892cfe9eab20f96cd4fe6334e1043cfc0e54caab611fb1e8ae"
+      },
+      {
+        "path": "voxel_character/common/assets/house/master.json",
+        "sha256": "8c46e2372049a7f991af4aeda70e19cceaab775a96af3bdaf3662d65885305c3"
+      }
+    ],
+    "author": "world_city/runtime_city/landmarks/author.py",
+    "author_sha256": "d8011564264f85ec3d0725b0af5290d1e1727a52143fe50da69019dbc8f2a1e1",
+    "evidence": "design_inference_not_historical_reconstruction",
+    "observed_source": "Layout roles, total planning dimensions and common house material grammar.",
+    "inferred": "All architectural silhouettes, bays, shell thicknesses, roofs, towers, openings and decorative proportions.",
+    "source_of_geometry": "This continuous standard common master; compile independently at each requested pitch.",
+    "new_engine": false,
+    "registered_author": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/author_assemblies.py",
+      "sha256": "5d496439bcdc74dd2717cabdec909fe92313b3c80f293914f5440e48b097af9b"
+    }
+  },
+  "extensions": {
+    "landmark_kind": "wall_tower",
+    "total_envelope_m": {
+      "min": [
+        -54.0,
+        0,
+        -0.75
+      ],
+      "max": [
+        54.0,
+        6.0,
+        0.75
+      ]
+    },
+    "dimensions_m": {
+      "width": 108.0,
+      "depth": 1.5,
+      "height": 6.0
+    },
+    "exterior_features": [],
+    "entrances": [],
+    "secondary_openings": [],
+    "secondary_opening_support": {
+      "rear_half_ground_shell_retained": false,
+      "status": "geometric_ground_support_only_not_structural_engineering",
+      "clearance_is_game_design_inference": true
+    },
+    "scope": {
+      "exterior": "authored",
+      "interior": "not_authored",
+      "physics": "not_authored",
+      "visual_review": "not_run",
+      "historical_reconstruction": false
+    },
+    "construction": "Thin shell walls, bounded roof slope strips, supported cornices; no dense building fill.",
+    "sampling_policy": "Unmodified common coordinate_planes/core and render_data; no alternate LOD master or output-cell repair.",
+    "registered_module_kind": "curtain_wall",
+    "local_bounds_m": {
+      "min": [
+        -54.0,
+        -0.5,
+        -0.75
+      ],
+      "max": [
+        54.0,
+        7.0,
+        0.75
+      ]
+    },
+    "owned_floor_depth_m": 0.5,
+    "status": "registered_common_module_candidate",
+    "actual_scene_loaded": false,
+    "actual_visual_review": false
+  }
+}

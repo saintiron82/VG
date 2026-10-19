@@ -1,0 +1,831 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_port_cargo_barge_18m",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "timber": "654631",
+    "timber_light": "896143",
+    "timber_dark": "493729",
+    "iron": "394648",
+    "iron_light": "68736c",
+    "slate": "646f73",
+    "slate_light": "748085",
+    "slate_dark": "4a565c",
+    "slate_worn": "879096",
+    "rope": "896143",
+    "canvas": "b7b19b"
+  },
+  "coordinate_planes": [],
+  "components": [
+    {
+      "id": "hull",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "runtime_animation": "not_integrated"
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "bottom",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -2.25,
+                7.0
+              ],
+              [
+                -1.125,
+                9.0
+              ],
+              [
+                1.125,
+                9.0
+              ],
+              [
+                2.25,
+                7.0
+              ],
+              [
+                2.25,
+                -7.0
+              ],
+              [
+                1.125,
+                -9.0
+              ],
+              [
+                -1.125,
+                -9.0
+              ],
+              [
+                -2.25,
+                -7.0
+              ]
+            ],
+            "z_min": -1,
+            "z_max": -0.5
+          },
+          "material": "timber_dark",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "strake_0",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -2.25,
+                7.0
+              ],
+              [
+                -1.125,
+                9.0
+              ],
+              [
+                -0.625,
+                8.35
+              ],
+              [
+                -1.75,
+                6.35
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 1
+          },
+          "material": "timber",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "strake_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -1.125,
+                9.0
+              ],
+              [
+                1.125,
+                9.0
+              ],
+              [
+                0.625,
+                8.35
+              ],
+              [
+                -0.625,
+                8.35
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 1
+          },
+          "material": "timber",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "strake_2",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                1.125,
+                9.0
+              ],
+              [
+                2.25,
+                7.0
+              ],
+              [
+                1.75,
+                6.35
+              ],
+              [
+                0.625,
+                8.35
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 1
+          },
+          "material": "timber",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "strake_3",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                2.25,
+                7.0
+              ],
+              [
+                2.25,
+                -7.0
+              ],
+              [
+                1.75,
+                -6.35
+              ],
+              [
+                1.75,
+                6.35
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 1
+          },
+          "material": "timber",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "strake_4",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                2.25,
+                -7.0
+              ],
+              [
+                1.125,
+                -9.0
+              ],
+              [
+                0.625,
+                -8.35
+              ],
+              [
+                1.75,
+                -6.35
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 1
+          },
+          "material": "timber",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "strake_5",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                1.125,
+                -9.0
+              ],
+              [
+                -1.125,
+                -9.0
+              ],
+              [
+                -0.625,
+                -8.35
+              ],
+              [
+                0.625,
+                -8.35
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 1
+          },
+          "material": "timber",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "strake_6",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -1.125,
+                -9.0
+              ],
+              [
+                -2.25,
+                -7.0
+              ],
+              [
+                -1.75,
+                -6.35
+              ],
+              [
+                -0.625,
+                -8.35
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 1
+          },
+          "material": "timber",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "strake_7",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -2.25,
+                -7.0
+              ],
+              [
+                -2.25,
+                7.0
+              ],
+              [
+                -1.75,
+                6.35
+              ],
+              [
+                -1.75,
+                -6.35
+              ]
+            ],
+            "z_min": -0.5,
+            "z_max": 1
+          },
+          "material": "timber",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                -1,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "decks",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "runtime_animation": "not_integrated"
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "end_deck_-1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.2375,
+              0.2,
+              -7.8
+            ],
+            "max": [
+              1.2375,
+              0.7,
+              -6.2
+            ]
+          },
+          "material": "timber_light"
+        },
+        {
+          "id": "end_deck_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.2375,
+              0.2,
+              6.2
+            ],
+            "max": [
+              1.2375,
+              0.7,
+              7.8
+            ]
+          },
+          "material": "timber_light"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "hull",
+      "component": "hull"
+    },
+    {
+      "id": "decks",
+      "component": "decks"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "part_present",
+      "kind": "nonempty",
+      "selector": {}
+    },
+    {
+      "id": "cargo_hold",
+      "kind": "empty_region",
+      "selector": {},
+      "shape": {
+        "kind": "box",
+        "min": [
+          -1.65,
+          -0.4,
+          -6.0
+        ],
+        "max": [
+          1.65,
+          2,
+          6.0
+        ]
+      }
+    },
+    {
+      "id": "hull_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "hull"
+      }
+    },
+    {
+      "id": "decks_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "decks"
+      }
+    }
+  ],
+  "provenance": {
+    "author": {
+      "path": "world_city/runtime_city/parts/author.py",
+      "sha256": "e64ff087cc0b6231c95043bf82839adc706ff00201ba622961a122ef161397ab"
+    },
+    "source_files": [
+      {
+        "path": "voxel_character/common/assets/house/master.json",
+        "sha256": "8c46e2372049a7f991af4aeda70e19cceaab775a96af3bdaf3662d65885305c3"
+      },
+      {
+        "path": "voxel_character/common/assets/fountain/master.json",
+        "sha256": "49d9288b70dd1ae36a9d3af2fefb5f6130caf9a8384bdbf11f677d558846d593"
+      },
+      {
+        "path": "world_city/runtime_city/revisions/r2/city_history.r2.candidate.json",
+        "sha256": "46f4ad745219f4b52a20150b4d926a91a47d839b746d4a25f539108e6e920699"
+      },
+      {
+        "path": "world_city/reference/revision_02/city_terrain_concept.png",
+        "sha256": "7f86e8e7b28058cc70227e098e4cc65edd3aa3f94ba541683482540187cc53f1"
+      },
+      {
+        "path": "world_city/reference/revision_02/prompt.txt",
+        "sha256": "094ffce4f977e75c5d900c635b7a2e6e6c47e878dd6deee9935a0f6c7a4d5944"
+      }
+    ],
+    "observed": "Existing common schema, palette roles, landmark/infrastructure/topography source interfaces.",
+    "inferred": "All new part geometry, dimensions, sockets, support zones and mechanical proportions.",
+    "image_basis": "Revision03 port crop: observed shed/piers/crane/cargo boats. All exact dimensions are fictional source design inferences.",
+    "evidence": "fictional_game_design_inference_not_historical_reconstruction",
+    "material_policy": "Original house warm stone/timber roles; canonical r2 gray slate for roof roles. Old masters remain unchanged.",
+    "new_engine": false,
+    "registered_port_author": {
+      "path": "world_city/concept_city_v3/assemblies/landmarks/registered/author_port_modules.py",
+      "sha256": "3e330adf2146d2f4ace3a8f6c0c9770ed2788123d5a7a1d9a5652f53476916a6"
+    },
+    "source_concept": {
+      "path": "world_city/reference/revision_03/city_social_water_concept.png",
+      "sha256": "b5a103353b901efe871bc048eadd200883f64ee762f5ff267b71f5e903d30a8e"
+    },
+    "semantic_palette_overrides": {
+      "rope": "approved timber_light swatch; rope physical role",
+      "canvas": "approved warm stone_light swatch; unbleached cloth physical role"
+    }
+  },
+  "extensions": {
+    "part_kind": "port_cargo_barge_18m",
+    "status": "registered_reusable_source_fixture",
+    "local_bounds_m": {
+      "min": [
+        -2.25,
+        -1,
+        -9.0
+      ],
+      "max": [
+        2.25,
+        1.2,
+        9.0
+      ]
+    },
+    "footprint_xz_m": [
+      [
+        -2.25,
+        -9.0
+      ],
+      [
+        2.25,
+        -9.0
+      ],
+      [
+        2.25,
+        9.0
+      ],
+      [
+        -2.25,
+        9.0
+      ]
+    ],
+    "sockets": [
+      {
+        "id": "mooring_-1",
+        "position_m": [
+          0,
+          1,
+          -7.0
+        ],
+        "outward_normal": [
+          0,
+          1,
+          0
+        ],
+        "role": "rope_attach",
+        "coordinate_space": "asset_local_metres"
+      },
+      {
+        "id": "mooring_1",
+        "position_m": [
+          0,
+          1,
+          7.0
+        ],
+        "outward_normal": [
+          0,
+          1,
+          0
+        ],
+        "role": "rope_attach",
+        "coordinate_space": "asset_local_metres"
+      },
+      {
+        "id": "waterline",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "outward_normal": [
+          0,
+          1,
+          0
+        ],
+        "role": "river_water_y_at_world_x",
+        "coordinate_space": "asset_local_metres"
+      }
+    ],
+    "supports": [
+      {
+        "id": "buoyancy_reference",
+        "contact_region_m": {
+          "kind": "box",
+          "min": [
+            -2.25,
+            -1,
+            -9.0
+          ],
+          "max": [
+            2.25,
+            0,
+            9.0
+          ]
+        },
+        "requires": "Water head and bed-depth sample; no buoyancy physics implemented.",
+        "status": "geometric_interface_only_not_structural_engineering"
+      }
+    ],
+    "clearances": [
+      {
+        "id": "cargo_hold",
+        "region_m": {
+          "kind": "box",
+          "min": [
+            -1.65,
+            -0.4,
+            -6.0
+          ],
+          "max": [
+            1.65,
+            2,
+            6.0
+          ]
+        },
+        "purpose": "Cargo loading hold; source intentionally empty.",
+        "placement_must_reserve": true,
+        "source_empty_constraint": true
+      }
+    ],
+    "functional_connections": [
+      {
+        "id": "rigid_vessel",
+        "parts": [
+          "all components"
+        ],
+        "status": "All components share one rigid root; no hull-only motion."
+      }
+    ],
+    "animation_hooks": [
+      {
+        "id": "whole_vessel",
+        "component": "hull",
+        "part": "solid",
+        "pivot_local_m": [
+          0,
+          0,
+          0
+        ],
+        "axis_local": [
+          0,
+          1,
+          0
+        ],
+        "action": "external_float_transform",
+        "limits": {
+          "heave_m": 0.1,
+          "roll_degrees": 2
+        },
+        "status": "socket_and_pivot_contract_only_no_runtime_track",
+        "physics_status": "not_integrated"
+      }
+    ],
+    "lod": {
+      "policy": "Every pitch is compiled independently from this single continuous master.",
+      "source_geometry_changes_by_lod": false,
+      "output_cell_edits_allowed": false,
+      "collision_changes_by_lod": false,
+      "collision_status": "not_integrated",
+      "candidate_visual_pitches_m": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "coarse_functional_guarantee": false,
+      "thin_rope_policy": "Existing common tube minimum_radius_cells=0.75 preserves crane/hoist visual lines; no physics shape or output cells are changed.",
+      "coarse_action": "Reject a functional use if sampled clearance or support checks fail."
+    },
+    "smoke_pitch_m": 0.2,
+    "design_notes": [],
+    "city_placement": null,
+    "terrain_placement": null,
+    "visual_review": "not_run",
+    "whole_city_complete": false,
+    "release_gate": "New concept review, material/silhouette review, placement/support checks, traversal and runtime integration remain open.",
+    "actual_scene_loaded": false,
+    "actual_visual_review": false
+  }
+}

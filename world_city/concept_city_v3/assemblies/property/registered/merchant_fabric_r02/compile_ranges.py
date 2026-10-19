@@ -1,0 +1,14 @@
+"""Sequential standard common compilation of the five reviewed native front ranges."""
+import json,time,resource
+from .grammar import HERE,ROOT,ref,write
+from voxel_character.common import coordinate_planes,render_data
+from world_city.concept_city_v3.assemblies.ordinary.registered.r1.finalize_rows import face_bijection
+
+def run():
+ budget=json.loads((HERE/'compile_budget.json').read_text());assert budget['eligibility']==ref(HERE/'eligibility.json');assert budget['grammar']==ref(HERE/'grammar.py');assert len(budget['variants'])==5;assets={};progress=[];(HERE/'cache').mkdir(exist_ok=True);start=time.monotonic()
+ for key,spec in budget['variants'].items():
+  before=time.monotonic();path=ROOT/spec['master']['path'];assert ref(path)==spec['master'];m=json.loads(path.read_text());c=coordinate_planes.compile_master(m,spec['resource'],max_candidate_cells=spec['candidate_cap'],max_output_cells=spec['output_cell_cap']);assert c['candidate_cells']==spec['predicted_candidate_cells'];cp=HERE/'cache'/f'{key}.compiled.json';write(cp,c)
+  if not c['valid']:write(HERE/'failure_constraints.json',dict(key=key,constraints=c['constraints']));raise ValueError('Native composition constraints failed: '+key)
+  r=render_data.make_render_data(c);proof=face_bijection(c,r);rp=HERE/'cache'/f'{key}.render.json';write(rp,r);a=dict(key=key,master_path=spec['master']['path'],master_sha256=spec['master']['sha256'],render_path=str(rp.relative_to(ROOT)),render_sha256=ref(rp)['sha256'],compiled_path=str(cp.relative_to(ROOT)),compiled_sha256=ref(cp)['sha256'],bounds=r['bounds'],cell_count=r['cell_count'],quad_count=r['quad_count'],pitch_m=.5,constraints=c['constraints'],native_metadata=m['metadata'],face_bijection=proof);assets[key]=a;record=dict(key=key,candidate_cells=c['candidate_cells'],cell_count=r['cell_count'],quad_count=r['quad_count'],seconds=time.monotonic()-before,valid=c['valid'],**proof);progress.append(record);write(HERE/'compile_checkpoint.json',dict(complete_asset_count=len(assets),total_asset_count=len(budget['variants']),assets=assets,progress=progress));print(json.dumps(record),flush=True)
+ report=dict(schema='riverstone.merchant_fabric_r02_compile.v1',budget=ref(HERE/'compile_budget.json'),eligibility=ref(HERE/'eligibility.json'),assets=assets,progress=progress,total_seconds=time.monotonic()-start,peak_rss_mib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss/1024,unique_assets=len(assets),total_quads=sum(a['quad_count'] for a in assets.values()),total_candidate_visits=sum(x['candidate_cells'] for x in progress),output_cell_edits=0,whole_house_scales=0);write(HERE/'compile_report.json',report);print(json.dumps({k:report[k] for k in ('unique_assets','total_quads','total_candidate_visits','total_seconds','peak_rss_mib')},indent=2));return report
+if __name__=='__main__':run()

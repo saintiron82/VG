@@ -1,0 +1,12 @@
+"""Freeze supplementary retained-road entry/exit vectors around the r08 junctions."""
+import json,hashlib,shutil
+from .build_corridors import H,ROOT,Ground,ref,xz
+from world_city.runtime_city.checks import placement as geo
+C=H/'candidate_r08';O=H/'candidate_r08_boundary_routes_r01';O.mkdir();data=json.load(open(C/'routes.json'));p=json.load(open(C/'surface_patch.json'));edits={(e['material'],e['triangle_index']):e for e in p['surface_edits']};rows=[]
+for r in json.load(open(H/'local_source_faces.json')):
+ for t in edits.get((r['material'],r['triangle_index']),{}).get('replacement_triangles_xyz_m',[r['triangle']]):rows.append(dict(r,triangle=t))
+rows.extend(dict(material=m,triangle_index=i//3,triangle=vs[i:i+3])for m,vs in p['appended_surfaces'].items()for i in range(0,len(vs),3));g=Ground(rows);bridge=next(o['polygon_xz_m']for o in p['ownership']if o['id']=='EAST_NATIVE_CANAL_BRIDGE');planpath=ROOT/'world_city/concept_city_v3/registered_source/plan.json';plan=json.load(open(planpath));data['reference_gate_frames']=data['gates'];data['gates']=[];data['routes']=[]
+for side,rid,indices in [('WEST','CASTLE_APPROACH',list(range(17,24))),('EAST','EAST_WALL_SERVICE',list(range(2,15)))]:
+ r=next(r for r in plan['roads']if r['id']==rid);original=[r['resolved_world_xyz_m'][i]for i in indices];points=[[v[0],3. if geo.point_in_convex_polygon(xz(v),bridge,1e-7)else g.at(xz(v)),v[2]]for v in original]
+ data['routes'].append(dict(id=side+'_RETAINED_ROAD_BOUNDARY_THROUGH',group=side,points=points,source_original_points=original,source_road_ids=[rid],source_plan=ref(planpath),source_station_indices=indices,design_clear_width_m=r['width_m'],test_scope='Supplementary boundary coverage from retained original road before the patched junction to retained original road beyond it, in both directions. Original 22-case suite remains separate and unchanged.',public_access='existing_public_road_junction',cart_test=True))
+data['supplements_request']=ref(C/'routes.json');data['producer_sources']['boundary_overlap_inventory']=ref(C/'original_road_overlap_inventory.json');(O/'routes.json').write_text(json.dumps(data,separators=(',',':'))+'\n');shutil.copyfile(__file__,O/'producer.py');(O/'FROZEN.json').write_text(json.dumps(dict(status='IMMUTABLE_SUPPLEMENTARY_ROUTES_RUNTIME_PENDING',route_request=ref(O/'routes.json'),source=ref(O/'producer.py'),command='python -m world_city.concept_city_v3.registered_integration.r9.landward_gates.freeze_boundary_routes'),separators=(',',':'))+'\n');print(json.dumps(ref(O/'routes.json')))

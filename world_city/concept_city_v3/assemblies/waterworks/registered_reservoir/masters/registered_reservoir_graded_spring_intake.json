@@ -1,0 +1,599 @@
+{
+  "schema": "riverstone.voxel.master.v1",
+  "id": "registered_reservoir_graded_spring_intake",
+  "revision": 1,
+  "axes": {
+    "up": "+Y",
+    "front": "+Z",
+    "right": "+X"
+  },
+  "grid_origin": [
+    0,
+    0,
+    0
+  ],
+  "materials": {
+    "stone": "9e9b88",
+    "stone_light": "b7b19b",
+    "stone_dark": "7e8075",
+    "mortar": "666c63",
+    "timber": "654631",
+    "timber_light": "896143",
+    "timber_dark": "493729",
+    "iron": "394648",
+    "iron_light": "68736c",
+    "slate": "646f73",
+    "slate_light": "748085",
+    "slate_dark": "4a565c",
+    "slate_worn": "879096"
+  },
+  "coordinate_planes": [],
+  "components": [
+    {
+      "id": "lining",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "runtime_animation": "not_integrated"
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "bed_liner",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.4,
+              -0.8999999999999999,
+              -2.0
+            ],
+            "max": [
+              1.4,
+              -0.6,
+              2.0
+            ]
+          },
+          "material": "stone_dark",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.999301614883038,
+                -0.037366863557865025
+              ],
+              [
+                0,
+                0.037366863557865025,
+                0.999301614883038
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "bank_-1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.4,
+              -0.6,
+              -2.0
+            ],
+            "max": [
+              -1.0,
+              0.6,
+              2.0
+            ]
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.999301614883038,
+                -0.037366863557865025
+              ],
+              [
+                0,
+                0.037366863557865025,
+                0.999301614883038
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "bank_1",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              1.0,
+              -0.6,
+              -2.0
+            ],
+            "max": [
+              1.4,
+              0.6,
+              2.0
+            ]
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.999301614883038,
+                -0.037366863557865025
+              ],
+              [
+                0,
+                0.037366863557865025,
+                0.999301614883038
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "headwall",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "runtime_animation": "not_integrated"
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "headwall",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.4,
+              -0.6,
+              -2
+            ],
+            "max": [
+              1.4,
+              1.2,
+              -1.6
+            ]
+          },
+          "material": "stone",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.999301614883038,
+                -0.037366863557865025
+              ],
+              [
+                0,
+                0.037366863557865025,
+                0.999301614883038
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "inlet_opening",
+          "part": "solid",
+          "action": "cut",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -0.65,
+              -0.5,
+              -2.01
+            ],
+            "max": [
+              0.65,
+              0.5,
+              -1.59
+            ]
+          },
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.999301614883038,
+                -0.037366863557865025
+              ],
+              [
+                0,
+                0.037366863557865025,
+                0.999301614883038
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cover",
+      "parts": [
+        {
+          "id": "solid",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "metadata": {
+            "runtime_animation": "not_integrated"
+          }
+        }
+      ],
+      "operations": [
+        {
+          "id": "covered_intake",
+          "part": "solid",
+          "action": "paint",
+          "shape": {
+            "kind": "box",
+            "min": [
+              -1.4,
+              1.2,
+              -2
+            ],
+            "max": [
+              1.4,
+              1.5,
+              -0.4
+            ]
+          },
+          "material": "stone_light",
+          "transform": {
+            "basis": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.999301614883038,
+                -0.037366863557865025
+              ],
+              [
+                0,
+                0.037366863557865025,
+                0.999301614883038
+              ]
+            ],
+            "translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "lining",
+      "component": "lining"
+    },
+    {
+      "id": "headwall",
+      "component": "headwall"
+    },
+    {
+      "id": "cover",
+      "component": "cover"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "part_present",
+      "kind": "nonempty",
+      "selector": {}
+    },
+    {
+      "id": "lining_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "lining"
+      }
+    },
+    {
+      "id": "headwall_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "headwall"
+      }
+    },
+    {
+      "id": "cover_present",
+      "kind": "nonempty",
+      "selector": {
+        "component": "cover"
+      }
+    }
+  ],
+  "provenance": {
+    "author": {
+      "path": "world_city/concept_city_v3/assemblies/waterworks/author.py",
+      "sha256": "2132a8b5d8c3f063bc6ef72405c9e1283f6bb78d4ead7dd1e653d228e04dd874"
+    },
+    "source_files": [
+      {
+        "path": "voxel_character/common/assets/house/master.json",
+        "sha256": "8c46e2372049a7f991af4aeda70e19cceaab775a96af3bdaf3662d65885305c3"
+      },
+      {
+        "path": "world_city/runtime_city/revisions/r2/city_history.r2.candidate.json",
+        "sha256": "46f4ad745219f4b52a20150b4d926a91a47d839b746d4a25f539108e6e920699"
+      }
+    ],
+    "observed": "Existing common schema, palette roles, landmark/infrastructure/topography source interfaces.",
+    "inferred": "All geometry, mechanical dimensions, lining thicknesses, clearances and bridge arch shape are authored game design.",
+    "image_basis": "Approved v3 concept establishes facility roles only; dimensions are explicit source/head contracts or provisional module design.",
+    "evidence": "fictional_game_design_inference_not_historical_reconstruction",
+    "material_policy": "Original house warm stone/timber roles; canonical r2 gray slate for roof roles. Old masters remain unchanged.",
+    "new_engine": false,
+    "source_grammar": {
+      "path": "world_city/runtime_city/parts/author.py",
+      "sha256": "e64ff087cc0b6231c95043bf82839adc706ff00201ba622961a122ef161397ab"
+    },
+    "concept": {
+      "path": "world_city/reference/revision_03/city_social_water_concept.png",
+      "sha256": "b5a103353b901efe871bc048eadd200883f64ee762f5ff267b71f5e903d30a8e"
+    },
+    "prompt": {
+      "path": "world_city/reference/revision_03/prompt.txt",
+      "sha256": "2232e72f49bcb95a1e107c57076d3589efe23fce0412a6527b5040fd94e941fa"
+    },
+    "terrain_contract": {
+      "path": "world_city/concept_city_v3/topography/author.py",
+      "sha256": "46da84dbdce212efbf8b55314e974671e9a12f838a6927c8657848fd8e89ba71"
+    },
+    "new_mesher": false,
+    "registered_interface_author": {
+      "path": "world_city/concept_city_v3/assemblies/waterworks/registered_reservoir/author_interfaces.py",
+      "sha256": "6752270424600986a6bdf68f83610c16bb95dae84e72397f7e7b4e637b1666e1"
+    },
+    "registered_water_contract": {
+      "path": "world_city/concept_city_v3/registered_topography/revisions/r02_assembly_overlay/contract.json",
+      "sha256": "a36124601fdeef21f81fd5868d9bf6a989281e861ceec66ebf3d3ef013372516"
+    }
+  },
+  "extensions": {
+    "part_kind": "spring_intake",
+    "status": "local_source_prototype_pending_art_and_placement",
+    "local_bounds_m": {
+      "min": [
+        -1.4,
+        -0.9741051805104641,
+        -2.0322334069681545
+      ],
+      "max": [
+        1.4,
+        1.5736861494402872,
+        2.0210233479007953
+      ]
+    },
+    "footprint_xz_m": [
+      [
+        -1.4,
+        -2.0
+      ],
+      [
+        1.4,
+        -2.0
+      ],
+      [
+        1.4,
+        2.0
+      ],
+      [
+        -1.4,
+        2.0
+      ]
+    ],
+    "sockets": [
+      {
+        "id": "upstream",
+        "position_m": [
+          0,
+          0.07473372711573005,
+          -1.998603229766076
+        ],
+        "outward_normal": [
+          0,
+          0,
+          -1
+        ],
+        "role": "water_inlet_head",
+        "coordinate_space": "asset_local_metres"
+      },
+      {
+        "id": "downstream",
+        "position_m": [
+          0,
+          -0.07473372711573005,
+          1.998603229766076
+        ],
+        "outward_normal": [
+          0,
+          0,
+          1
+        ],
+        "role": "water_outlet_head",
+        "coordinate_space": "asset_local_metres"
+      },
+      {
+        "id": "spring",
+        "position_m": [
+          0,
+          0.07473372711573005,
+          -1.998603229766076
+        ],
+        "outward_normal": [
+          0,
+          0,
+          -1
+        ],
+        "role": "raw_source_head",
+        "coordinate_space": "asset_local_metres"
+      }
+    ],
+    "supports": [
+      {
+        "id": "liner_base",
+        "contact_region_m": {
+          "kind": "box",
+          "min": [
+            -1.4,
+            -0.8999999999999999,
+            -2.0
+          ],
+          "max": [
+            1.4,
+            -0.8,
+            2.0
+          ]
+        },
+        "requires": "Excavated bearing ground and exterior bank fill; matching wet domain must remain empty.",
+        "status": "geometric_interface_only_not_structural_engineering"
+      }
+    ],
+    "clearances": [
+      {
+        "id": "wet_outlet",
+        "region_m": {
+          "kind": "box",
+          "min": [
+            -0.95,
+            -0.55,
+            -1.5
+          ],
+          "max": [
+            0.95,
+            0.55,
+            2.01
+          ]
+        },
+        "purpose": "Continuous 2 m spring feeder connection.",
+        "placement_must_reserve": true,
+        "source_empty_constraint": true
+      }
+    ],
+    "functional_connections": [],
+    "animation_hooks": [],
+    "lod": {
+      "policy": "Every pitch is compiled independently from this single continuous master.",
+      "source_geometry_changes_by_lod": false,
+      "output_cell_edits_allowed": false,
+      "collision_changes_by_lod": false,
+      "collision_status": "not_integrated",
+      "candidate_visual_pitches_m": [
+        0.2,
+        0.4
+      ],
+      "coarse_functional_guarantee": false,
+      "thin_rope_policy": "No ropes in these modules. All small members are explicit source geometry.",
+      "coarse_action": "Reject a functional use if sampled clearance or support checks fail."
+    },
+    "smoke_pitch_m": 0.2,
+    "design_notes": [
+      "Source local coordinates only; whole-city location, hydrology, collision and visual review remain pending."
+    ],
+    "city_placement": null,
+    "terrain_placement": null,
+    "visual_review": "not_run",
+    "whole_city_complete": false,
+    "release_gate": "New concept review, material/silhouette review, placement/support checks, traversal and runtime integration remain open.",
+    "network": "raw_clean_source",
+    "datum": "Y=0 inlet water head; align with source node, not ground.",
+    "authored_parameters": {
+      "wet_width_m": 2,
+      "bed_y_m": -0.6,
+      "outlet_head_y_m": 0
+    },
+    "source_present": true,
+    "compiled_sample": "See hash-verified inventory.json and evidence/compile_report.json",
+    "actual_placed": false,
+    "visually_reviewed": false,
+    "fluid_surface_owner": "Separate terrain/water source. This master contains no solid water volume.",
+    "network_role": "raw_source",
+    "registered_source_origin_xyz_m": null,
+    "actual_scene_loaded": false,
+    "actual_visual_review": false,
+    "head_slope_per_m": -0.03739297825735885,
+    "source_node_id": "RAW_SPRING",
+    "head_binding": "Upstream socket is24; each source operation follows the existing first feeder grade."
+  }
+}

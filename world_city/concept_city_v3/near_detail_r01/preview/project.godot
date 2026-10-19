@@ -1,0 +1,16 @@
+config_version=5
+[application]
+config/name="Riverstone — near-detail comparison"
+run/main_scene="res://Main.tscn"
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=800
+window/size/window_width_override=1280
+window/size/window_height_override=800
+[physics]
+common/physics_ticks_per_second=60
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+lights_and_shadows/directional_shadow/size=4096
+anti_aliasing/quality/msaa_3d=2
