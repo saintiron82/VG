@@ -1,3 +1,11 @@
+# VG: voxel city source and runnable Godot baseline
+
+## Runnable city added, 2026-10-19
+
+Open [godot/riverstone_city/project.godot](godot/riverstone_city/project.godot) in Godot 4.6.3. See [controls and scope](godot/riverstone_city/README_KO.md) and [resource restoration status](docs/GODOT_RESOURCE_STATUS_KO.md). This independently checked baseline includes city terrain/mesh resources and the previously deployed original Lily appearance. Later near-detail and image-reconstruction experiments remain partial.
+
+The following describes the **initial source-only snapshot**, retained as historical context. Its omitted-runtime statement has been superseded for the new standalone project above, not for every legacy project.
+
 # VG: public source snapshot
 
 A filtered preservation snapshot of a procedural medieval-city and voxel-asset project, prepared on 2026-10-19.

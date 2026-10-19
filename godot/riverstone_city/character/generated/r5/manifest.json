@@ -1,0 +1,64 @@
+{
+  "schema": "riverstone.character.cache.v1",
+  "source_master_hash": "b3375808ca62e411fa9517c6fe2ac10faf3f36edd917c3b7ab0afeb0b64a7d49",
+  "preset_file": "canonical_lily",
+  "preset_sha256": null,
+  "source_hashes": {
+    "appearance_contract.json": "91e4b1ba929a2e40a6be58f6264a17582b0cdd7a32ee5e4327ed62347f25a944",
+    "bind.json": "8c1f589a66f4929ca0ec70846c8a6640529efd7330ffa71d2462929f9973615a",
+    "blink.json": "a4ffde092727863bc2ea52cb0235abc20bb492fb923db0507857e9c6e0cd9584",
+    "expression_focused.json": "32b2da4b76ca471d045100a87f9fa6a43d636d0ef88b8cb098a0a1a8b9c92ea7",
+    "expression_happy.json": "13017274f38f74832ceb6e3855bc698e0904d9de9bd0b9acc47884515f264dc3",
+    "expression_neutral.json": "da44f62185e907fc5f7678a4a1a668748fb6f1ad096b9be64716fcb0d2f622a3",
+    "idle.json": "8bd340896f99fd92b5c4e9ad6c6e2126d49b8f2417a37e179e11c6fd79b36312",
+    "input_replay.example.json": "dd7891e973505f5a62aed529eb99ae6e76b541670b14d62af2c5c019ff7e9d63",
+    "lily.preset.json": "c03bbd7caa8100e3420daa7190944f6fb5fc9157e2cd74b03c4d7c56290d9b88",
+    "master.json": "536ce336151410c50ddf98c5cf186533a77ff9498bba9a76620d6561c2047013",
+    "rig.json": "96c89011b6e4b51f5ea7a1f32a618399938064a04632caff95cf052e3c684c32",
+    "walk.json": "85ede6249850624dad45491682a5e45255c921754adf73df2e111d4a8bff04be"
+  },
+  "pitch_m": 0.02,
+  "parts": 28,
+  "cells": 31018,
+  "quads": 1741,
+  "mesh_groups": 83,
+  "bounds_m": {
+    "min": [
+      -0.34,
+      0.0,
+      -0.22
+    ],
+    "max": [
+      0.34,
+      1.76,
+      0.26
+    ]
+  },
+  "source_modules": {
+    "RenderData.gd": {
+      "source": "voxel_character/common/preview/RenderData.gd",
+      "sha256": "40dc99d08818c8df1a4df13a951cc7b814a6b26d5dc8f1e64901a2c41e794af6"
+    },
+    "TransformTracks.gd": {
+      "source": "voxel_character/common/animation/TransformTracks.gd",
+      "sha256": "ab74fddf730486c2a278de0310d4b728e72b1162a09565e77d16f04ea4b2b980"
+    }
+  },
+  "files": {
+    "bind.json": "990008658423835962a9c8fb7793a61c325ee0d84c61c1f96c414fc062833e7c",
+    "blink.json": "0c3ebfcf8f319249afbbbc126523651eeb1b2d09f78e54bcc3b55f82b7b9741f",
+    "common/RenderData.gd": "40dc99d08818c8df1a4df13a951cc7b814a6b26d5dc8f1e64901a2c41e794af6",
+    "common/TransformTracks.gd": "ab74fddf730486c2a278de0310d4b728e72b1162a09565e77d16f04ea4b2b980",
+    "derived.master.json": "7f7a87745a490372804fa71137419679f8a9dfca3a7c748e03ed3c7fc0da2003",
+    "expression_focused.json": "11d55e42e67857778f75a2354d6ac554cf67ee624d31834bbc06ef29b539ee2f",
+    "expression_happy.json": "54e6912ef9555efe7b4099de91173d63f10e58b13a071791465779d2eec54796",
+    "expression_neutral.json": "2c22b82d6dd21992a1393be9cec3dbd5654520cbeb89385447ce6064418dfcf0",
+    "idle.json": "c2aff36f6513f2c805f4639f152089eebcde0891be112812b2af2dad914544a4",
+    "lily.render.json": "2c0abbec4324f750977dd79c6efb23ed2deaba6033a5a2ca4fb6e9eca52f1372",
+    "rig.json": "5b0146b4f04d3416418b9a60a38a873129804e0992c6fa5ba362570be9350466",
+    "walk.json": "cb5e5420c2f02b982c17f31aa4f458f8118825f8c37993bdece9a864f905c443"
+  },
+  "seconds": 0.572,
+  "visual_review": "not performed by this build",
+  "known_absence": "B7 source is unavailable, not recovered"
+}

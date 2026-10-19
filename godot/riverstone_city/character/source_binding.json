@@ -1,0 +1,87 @@
+{
+  "schema": "riverstone.playable.character_binding.v1",
+  "files": [
+    {
+      "source": "voxel_character/lily_city/runtime/LilyController.gd",
+      "copy": "character/runtime/LilyController.gd",
+      "sha256": "d804a81c0bc07da8709a31459b83f4aa8759a779ad9554a05a1e1505aace3e71"
+    },
+    {
+      "source": "voxel_character/lily_city/runtime/LilyVisual.gd",
+      "copy": "character/runtime/LilyVisual.gd",
+      "sha256": "21fb087755ab741fa23d1d88215dd6fbec363f13d6ef07a54233ade27be2a239"
+    },
+    {
+      "source": "voxel_character/lily_city/runtime/CharacterVisual.gd",
+      "copy": "character/runtime/CharacterVisual.gd",
+      "sha256": "7ffb8c75009e0fd494a4510c479a9b069389191374ca1035d0f9d61ae11aa599"
+    },
+    {
+      "source": "voxel_character/lily_city/generated/r5/bind.json",
+      "copy": "character/generated/r5/bind.json",
+      "sha256": "990008658423835962a9c8fb7793a61c325ee0d84c61c1f96c414fc062833e7c"
+    },
+    {
+      "source": "voxel_character/lily_city/generated/r5/blink.json",
+      "copy": "character/generated/r5/blink.json",
+      "sha256": "0c3ebfcf8f319249afbbbc126523651eeb1b2d09f78e54bcc3b55f82b7b9741f"
+    },
+    {
+      "source": "voxel_character/lily_city/generated/r5/common/RenderData.gd",
+      "copy": "character/generated/r5/common/RenderData.gd",
+      "sha256": "40dc99d08818c8df1a4df13a951cc7b814a6b26d5dc8f1e64901a2c41e794af6"
+    },
+    {
+      "source": "voxel_character/lily_city/generated/r5/common/TransformTracks.gd",
+      "copy": "character/generated/r5/common/TransformTracks.gd",
+      "sha256": "ab74fddf730486c2a278de0310d4b728e72b1162a09565e77d16f04ea4b2b980"
+    },
+    {
+      "source": "voxel_character/lily_city/generated/r5/derived.master.json",
+      "copy": "character/generated/r5/derived.master.json",
+      "sha256": "7f7a87745a490372804fa71137419679f8a9dfca3a7c748e03ed3c7fc0da2003"
+    },
+    {
+      "source": "voxel_character/lily_city/generated/r5/expression_focused.json",
+      "copy": "character/generated/r5/expression_focused.json",
+      "sha256": "11d55e42e67857778f75a2354d6ac554cf67ee624d31834bbc06ef29b539ee2f"
+    },
+    {
+      "source": "voxel_character/lily_city/generated/r5/expression_happy.json",
+      "copy": "character/generated/r5/expression_happy.json",
+      "sha256": "54e6912ef9555efe7b4099de91173d63f10e58b13a071791465779d2eec54796"
+    },
+    {
+      "source": "voxel_character/lily_city/generated/r5/expression_neutral.json",
+      "copy": "character/generated/r5/expression_neutral.json",
+      "sha256": "2c22b82d6dd21992a1393be9cec3dbd5654520cbeb89385447ce6064418dfcf0"
+    },
+    {
+      "source": "voxel_character/lily_city/generated/r5/idle.json",
+      "copy": "character/generated/r5/idle.json",
+      "sha256": "c2aff36f6513f2c805f4639f152089eebcde0891be112812b2af2dad914544a4"
+    },
+    {
+      "source": "voxel_character/lily_city/generated/r5/lily.render.json",
+      "copy": "character/generated/r5/lily.render.json",
+      "sha256": "2c0abbec4324f750977dd79c6efb23ed2deaba6033a5a2ca4fb6e9eca52f1372"
+    },
+    {
+      "source": "voxel_character/lily_city/generated/r5/manifest.json",
+      "copy": "character/generated/r5/manifest.json",
+      "sha256": "2a00642ac3160f71ffa0c2f31b01465022ab5262ed7e992ba3010214d591f268"
+    },
+    {
+      "source": "voxel_character/lily_city/generated/r5/rig.json",
+      "copy": "character/generated/r5/rig.json",
+      "sha256": "5b0146b4f04d3416418b9a60a38a873129804e0992c6fa5ba362570be9350466"
+    },
+    {
+      "source": "voxel_character/lily_city/generated/r5/walk.json",
+      "copy": "character/generated/r5/walk.json",
+      "sha256": "cb5e5420c2f02b982c17f31aa4f458f8118825f8c37993bdece9a864f905c443"
+    }
+  ],
+  "originals_modified": false,
+  "copy_policy": "Byte-identical source closure. No character edits."
+}

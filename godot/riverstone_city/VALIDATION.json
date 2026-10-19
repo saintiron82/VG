@@ -1,0 +1,223 @@
+{
+  "date_utc": "2026-10-19",
+  "engine": "Godot 4.6.3 stable official",
+  "fresh_staging_headless_boot": {
+    "exit_code": 0,
+    "ready": {
+      "load_ms": 6946.817,
+      "spawn": {
+        "authored": true,
+        "initialization_only": true,
+        "position_m": [
+          98.4150543212891,
+          4.0,
+          48.7563858032227
+        ],
+        "support_id": "Surface_1_0",
+        "support_y": 4.0
+      },
+      "world": {
+        "active_cell": [
+          1,
+          0
+        ],
+        "contract_faces_loaded_cumulative": 11716,
+        "error": "",
+        "load_events": [
+          {
+            "added": [
+              "-1_-2",
+              "-1_-1",
+              "-1_-3",
+              "-2_-1",
+              "-2_-2",
+              "-2_-3",
+              "-2_-4",
+              "0_-1",
+              "0_-2",
+              "0_-3",
+              "-1_0",
+              "-1_1",
+              "-2_0",
+              "0_0",
+              "0_1",
+              "-1_2",
+              "-2_1",
+              "0_2",
+              "-1_3",
+              "-2_2",
+              "-2_3",
+              "1_-2",
+              "1_-3",
+              "1_-1",
+              "1_0",
+              "1_1",
+              "1_2",
+              "0_3",
+              "1_3",
+              "2_-1",
+              "2_-2",
+              "2_-3",
+              "3_-4",
+              "2_0",
+              "2_1",
+              "2_2",
+              "2_3",
+              "3_-1",
+              "3_-2",
+              "3_-3",
+              "3_0",
+              "3_1",
+              "3_2",
+              "3_3",
+              "4_-2",
+              "4_-3",
+              "4_-1",
+              "4_0",
+              "4_1",
+              "4_2"
+            ],
+            "cell": [
+              1,
+              0
+            ],
+            "loaded_owners": 50,
+            "removed": [],
+            "wall_ms": 6629.494
+          }
+        ],
+        "loaded_owners": [
+          "-1_-2",
+          "-1_-1",
+          "-1_-3",
+          "-2_-1",
+          "-2_-2",
+          "-2_-3",
+          "-2_-4",
+          "0_-1",
+          "0_-2",
+          "0_-3",
+          "-1_0",
+          "-1_1",
+          "-2_0",
+          "0_0",
+          "0_1",
+          "-1_2",
+          "-2_1",
+          "0_2",
+          "-1_3",
+          "-2_2",
+          "-2_3",
+          "1_-2",
+          "1_-3",
+          "1_-1",
+          "1_0",
+          "1_1",
+          "1_2",
+          "0_3",
+          "1_3",
+          "2_-1",
+          "2_-2",
+          "2_-3",
+          "3_-4",
+          "2_0",
+          "2_1",
+          "2_2",
+          "2_3",
+          "3_-1",
+          "3_-2",
+          "3_-3",
+          "3_0",
+          "3_1",
+          "3_2",
+          "3_3",
+          "4_-2",
+          "4_-3",
+          "4_-1",
+          "4_0",
+          "4_1",
+          "4_2"
+        ],
+        "native_asset_cache": 106,
+        "native_loads_cumulative": 1438,
+        "palette_mesh_cache": 109,
+        "ready": true,
+        "render_enabled": true,
+        "terrain_faces_loaded_cumulative": 624918,
+        "tile_index_sha256": "645cc185d07712165ea5915bf7a02ce54be8217e1f452901e46b14b88d2dfa97",
+        "world_coordinates_unchanged": true
+      }
+    }
+  },
+  "static_and_dynamic_audit": {
+    "status": "PASS_STATIC_PORTABLE_RUNTIME_CLOSURE",
+    "static_resource_references": [
+      {
+        "from": "PlayCity.gd",
+        "literal": "res://CityWorld.gd",
+        "resolved": "CityWorld.gd",
+        "exists": true
+      },
+      {
+        "from": "PlayCity.gd",
+        "literal": "res://character/runtime/LilyController.gd",
+        "resolved": "character/runtime/LilyController.gd",
+        "exists": true
+      },
+      {
+        "from": "CityWorld.gd",
+        "literal": "res://RenderData.gd",
+        "resolved": "RenderData.gd",
+        "exists": true
+      },
+      {
+        "from": "Main.tscn",
+        "literal": "res://PlayCity.gd",
+        "resolved": "PlayCity.gd",
+        "exists": true
+      },
+      {
+        "from": "character/runtime/LilyController.gd",
+        "literal": "LilyVisual.gd",
+        "resolved": "character/runtime/LilyVisual.gd",
+        "exists": true
+      },
+      {
+        "from": "character/runtime/CharacterVisual.gd",
+        "literal": "../generated/r5/common/RenderData.gd",
+        "resolved": "character/generated/r5/common/RenderData.gd",
+        "exists": true
+      },
+      {
+        "from": "character/runtime/CharacterVisual.gd",
+        "literal": "../generated/r5/common/TransformTracks.gd",
+        "resolved": "character/generated/r5/common/TransformTracks.gd",
+        "exists": true
+      },
+      {
+        "from": "character/runtime/LilyVisual.gd",
+        "literal": "CharacterVisual.gd",
+        "resolved": "character/runtime/CharacterVisual.gd",
+        "exists": true
+      },
+      {
+        "from": "project.godot",
+        "literal": "res://Main.tscn",
+        "resolved": "Main.tscn",
+        "exists": true
+      }
+    ],
+    "missing_static_resource_references": [],
+    "dynamic_tile_and_native_references": 1024,
+    "unique_dynamic_tile_and_native_paths": 1017,
+    "dynamic_hash_failures": [],
+    "terrain_binary_layout_88_bytes_per_face": "PASS",
+    "portable_character_cache": "character/generated/original_lily_r03",
+    "character_geometry_rig_master_binding": "PASS",
+    "index_collision_sidecar_binding": "PASS",
+    "delivery_index_sha_and_bytes_binding": "PASS",
+    "runtime_is_portable_by_project_settings": true,
+    "caution": "Static reference validation did not launch the engine; the fresh staging boot is recorded separately above."
+  },
+  "scope": "Startup and reference-integrity validation; not a fresh full traversal or GPU performance test"
+}

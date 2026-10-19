@@ -1,0 +1,1550 @@
+{
+  "schema": "riverstone.voxel.transform_animation.v1",
+  "id": "all_parts_rest",
+  "source_id": "lily_original_r01__lily_original",
+  "master_hash": "7abfe6232efddc920f58b93fef6ad9ae10078cf6746f05d6b2c30b9cedaa607f",
+  "duration": 1,
+  "loop": true,
+  "tracks": [
+    {
+      "id": "pelvis",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "pelvis"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "torso",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "torso"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thigh_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "thigh_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skirt_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "skirt_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thigh_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "thigh_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skirt_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "skirt_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "satchel",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "satchel"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costume_pelvis",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "costume_pelvis"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "head",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "head"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upper_arm_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "upper_arm_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shin_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "shin_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upper_arm_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "upper_arm_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shin_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "shin_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cape",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "cape"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costume_torso",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "costume_torso"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costume_thigh_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "costume_thigh_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costume_thigh_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "costume_thigh_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hair",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "hair"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forearm_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "forearm_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foot_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "foot_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forearm_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "forearm_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foot_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "foot_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eyelid_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "eyelid_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brow_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "brow_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mouth_corner_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "mouth_corner_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eyelid_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "eyelid_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brow_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "brow_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mouth_corner_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "mouth_corner_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mouth",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "mouth"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ornament",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "ornament"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costume_shin_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "costume_shin_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costume_shin_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "costume_shin_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costume_upper_arm_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "costume_upper_arm_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costume_upper_arm_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "costume_upper_arm_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "braid",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "braid"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0.0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0.0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hand_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "hand_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hand_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "hand_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hair_tail_back",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "hair_tail_back"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hair_tail_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "hair_tail_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hair_tail_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "hair_tail_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costume_forearm_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "costume_forearm_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costume_foot_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "costume_foot_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costume_forearm_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "costume_forearm_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costume_foot_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "costume_foot_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0,
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

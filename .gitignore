@@ -1,4 +1,4 @@
-# This repository is source-only. Never commit private inputs or generated payloads.
+# Exclude private inputs, engine caches and exports. Explicit reviewed runtime assets are tracked.
 __pycache__/
 *.py[cod]
 .godot/
@@ -26,3 +26,29 @@ __pycache__/
 **/compiled*/
 **/checkpoints/
 **/cache/
+
+# Standalone runtime contains essential authored/generated geometry.
+!godot/
+!godot/riverstone_city/
+!godot/riverstone_city/**
+godot/riverstone_city/.godot/
+godot/riverstone_city/**/__pycache__/
+
+# The runtime exception never authorizes secrets, pictures, exports or editor caches.
+.env
+.env.*
+*.pem
+*.key
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.mov
+*.exe
+*.dll
+*.pck
+*.zip
+*.7z
+.godot/
+__pycache__/

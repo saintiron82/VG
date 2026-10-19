@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "verified_terrain_faces": 1397505,
+  "verified_native_ids": 5838,
+  "verified_contract_faces": 90901,
+  "verified_boxes": 223,
+  "deep_source_parity": true
+}

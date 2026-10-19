@@ -1,0 +1,134 @@
+{
+  "schema": "riverstone.voxel.transform_animation.v1",
+  "id": "blink",
+  "source_id": "lily_original_r01__lily_original",
+  "master_hash": "7abfe6232efddc920f58b93fef6ad9ae10078cf6746f05d6b2c30b9cedaa607f",
+  "duration": 4.2,
+  "loop": true,
+  "tracks": [
+    {
+      "id": "eyelid_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "eyelid_left"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            -0.1472
+          ]
+        },
+        {
+          "time": 3.8,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            -0.1472
+          ]
+        },
+        {
+          "time": 3.9,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            -0.0725,
+            0.0
+          ]
+        },
+        {
+          "time": 4.03,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            -0.1472
+          ]
+        },
+        {
+          "time": 4.2,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            -0.1472
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eyelid_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "eyelid_right"
+      },
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            -0.1472
+          ]
+        },
+        {
+          "time": 3.8,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            -0.1472
+          ]
+        },
+        {
+          "time": 3.9,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            -0.0725,
+            0.0
+          ]
+        },
+        {
+          "time": 4.03,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            -0.1472
+          ]
+        },
+        {
+          "time": 4.2,
+          "rotation_degrees": 0,
+          "translation": [
+            0.0,
+            0.0,
+            -0.1472
+          ]
+        }
+      ]
+    }
+  ]
+}

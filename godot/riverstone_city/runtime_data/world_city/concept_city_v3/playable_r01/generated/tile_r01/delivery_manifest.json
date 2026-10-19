@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "test_count": 17,
+  "test_failures": 0,
+  "deep_source_parity": {
+    "status": "PASS",
+    "verified_terrain_faces": 1397505,
+    "verified_native_ids": 5838,
+    "verified_contract_faces": 90901,
+    "verified_boxes": 223,
+    "deep_source_parity": true
+  },
+  "files": {
+    "world_city/concept_city_v3/playable_r01/generated/tile_r01/index.json": {
+      "sha256": "645cc185d07712165ea5915bf7a02ce54be8217e1f452901e46b14b88d2dfa97",
+      "bytes": 2823696
+    },
+    "world_city/concept_city_v3/playable_r01/generated/tile_r01/coverage_audit.json": {
+      "sha256": "4ffee80d65f09cd62b1032c4dd42c6a75197bce123c5c5b35598b3fff0b82f80",
+      "bytes": 16454
+    },
+    "world_city/concept_city_v3/playable_r01/generated/tile_r01/tests.log": {
+      "sha256": "e3e1577a9b1c56a55cacaf696bce8915d17fcc9b48f3ec87f4e5efeb8e68d654",
+      "bytes": 2123
+    },
+    "world_city/concept_city_v3/playable_r01/generated/tile_r01/deep_verification.json": {
+      "sha256": "9fcb12666e932f13f1b0a8f6c94c095fe8e9c6bc238668b91e02b60104be4d4d",
+      "bytes": 182
+    },
+    "world_city/concept_city_v3/playable_r01/generated/tile_r01/SCHEMA.md": {
+      "sha256": "51d6c7caa69831684f51e7126fc4d5909b956e94988d8ae3f2a34d6379e0d7c5",
+      "bytes": 4499
+    },
+    "world_city/concept_city_v3/playable_r01/tools/build_city_tiles.py": {
+      "sha256": "db5d2b462a73aa7131c67c794703e13e849c76a22f2292e4bf0b8b48176f36dc",
+      "bytes": 34813
+    },
+    "world_city/concept_city_v3/playable_r01/tools/tests_tile_data.py": {
+      "sha256": "098c356a110744520c19d02aeb0b0b0f30aa12be1358687e2dfdbe264d7f2358",
+      "bytes": 8783
+    }
+  },
+  "generated_bytes": 143666393,
+  "source_mutations": 0,
+  "voxel_recompilations": 0
+}

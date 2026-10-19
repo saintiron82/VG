@@ -1,0 +1,185 @@
+{
+  "schema": "riverstone.voxel.transform_animation.v1",
+  "id": "focused",
+  "source_id": "lily_original_r01__lily_original",
+  "master_hash": "7abfe6232efddc920f58b93fef6ad9ae10078cf6746f05d6b2c30b9cedaa607f",
+  "duration": 1,
+  "loop": false,
+  "tracks": [
+    {
+      "id": "brow_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "brow_left"
+      },
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 5.6000000000000005,
+          "translation": [
+            0.0,
+            -0.0032,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 5.6000000000000005,
+          "translation": [
+            0.0,
+            -0.0032,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mouth_corner_left",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "mouth_corner_left"
+      },
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0.0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0.0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brow_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "brow_right"
+      },
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": -5.6000000000000005,
+          "translation": [
+            0.0,
+            -0.0032,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": -5.6000000000000005,
+          "translation": [
+            0.0,
+            -0.0032,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mouth_corner_right",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "mouth_corner_right"
+      },
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0.0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0.0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mouth",
+      "type": "rigid_transform",
+      "selector": {
+        "instance": "lily",
+        "part": "mouth"
+      },
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "space": "part",
+      "interpolation": "smoothstep",
+      "keys": [
+        {
+          "time": 0.0,
+          "rotation_degrees": 0.0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "time": 1.0,
+          "rotation_degrees": 0.0,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ]
+}
